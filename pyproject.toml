@@ -13,4 +13,5 @@ dependencies = [
     "python-dotenv>=1.2.1",
     "python-frontmatter>=1.1.0",
     "requests>=2.32.5",
+    "sentence-transformers>=5.2.2",
 ]
