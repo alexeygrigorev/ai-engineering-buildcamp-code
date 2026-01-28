@@ -16,6 +16,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "gitsource" },
+    { name = "jaxn" },
     { name = "jupyter" },
     { name = "minsearch" },
     { name = "openai" },
@@ -27,6 +28,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "gitsource", specifier = ">=0.0.4" },
+    { name = "jaxn", specifier = "==0.0.4" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "minsearch", specifier = ">=0.0.7" },
     { name = "openai", specifier = ">=2.15.0" },
@@ -513,6 +515,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/7c/1a/3c8edc664e06e6bd06cce40c6b22da5f1429aa4224d0c590f3be21c91ead/isoduration-20.11.0.tar.gz", hash = "sha256:ac2f9015137935279eac671f94f89eb00584f940f5dc49462a0c4ee692ba1bd9", size = 11649, upload-time = "2020-11-01T11:00:00.312Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7b/55/e5326141505c5d5e34c5e0935d2908a74e4561eca44108fbfb9c13d2911a/isoduration-20.11.0-py3-none-any.whl", hash = "sha256:b2904c2a4228c3d44f409c8ae8e2370eb21a26f7ac2ec5446df141dde3452042", size = 11321, upload-time = "2020-11-01T10:59:58.02Z" },
+]
+
+[[package]]
+name = "jaxn"
+version = "0.0.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/4b/c3/ba5d49a4a0f16d4e265b94cd87540e9d925e397a538feeee7960395cf1e3/jaxn-0.0.4.tar.gz", hash = "sha256:08774b4cb1af694449bd605161bb56c6ee50806819a81faca71e3cc7e7b71bcb", size = 72120, upload-time = "2026-01-28T10:27:42.38Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/08/0a/2bce0552f5f13c5ec3be0928564c9b81a415ace8d3bea2f547de1dc8d7cd/jaxn-0.0.4-py3-none-any.whl", hash = "sha256:906a6ae690d5bfceb9390799a022e80dea680bd9dc5ff5d64a173b011daa892d", size = 10053, upload-time = "2026-01-28T10:27:40.863Z" },
 ]
 
 [[package]]
