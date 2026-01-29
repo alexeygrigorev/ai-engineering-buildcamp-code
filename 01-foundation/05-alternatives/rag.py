@@ -63,12 +63,13 @@ RAG_PROMPT_TEMPLATE = """
 
 class RAG:
 
-    def __init__(self, index, llm_client):
+    def __init__(self, index, llm_client, model_name='gpt-4o-mini'):
         self.index = index
         self.llm_client = llm_client
 
         self.output_type = RAGResponse
         self.rag_instructions = RAG_INSTRUCTIONS
+        self.model_name = model_name
 
     def search(self, query):
         results = self.index.search(
@@ -84,14 +85,14 @@ class RAG:
             context=context
         )
 
-    def llm(self, user_prompt, model="gpt-4o-mini"):
+    def llm(self, user_prompt):
         messages = [
             {"role": "system", "content": self.rag_instructions},
             {"role": "user", "content": user_prompt}
         ]
 
         response = self.llm_client.responses.parse(
-            model=model,
+            model=self.model_name,
             input=messages,
             text_format=self.output_type
         )
