@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "anthropic>=0.76.0",
+    "awscli>=1.44.28",
+    "boto3>=1.42.37",
     "gitsource>=0.0.4",
     "jaxn==0.0.4",
     "jupyter>=1.1.1",
