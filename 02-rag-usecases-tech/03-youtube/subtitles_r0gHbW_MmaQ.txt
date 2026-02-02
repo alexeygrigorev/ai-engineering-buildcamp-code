@@ -1,0 +1,1309 @@
+00:00 Hi everyone, welcome to the second
+00:02 iteration of AI engineering boot camp.
+00:05 So I renamed the course recently. It
+00:08 used to be called AI boot camp but there
+00:10 are so many boot camps and AI boot camps
+00:12 these days. So I was thinking if there's
+00:15 a way to somehow be different from these
+00:17 courses and uh maybe you know me by uh
+00:21 from courses u from free courses from
+00:24 data talks club which are called zoom
+00:26 camps and u I thought okay like there we
+00:30 have zoom camp how about I have some
+00:32 other camp which is not a boot camp and
+00:35 this idea of a built camp came uh came
+00:38 up um I thought yeah I I really like uh
+00:41 how it sounds cuz The focus in this
+00:44 course is going to be on building. We
+00:46 are going to do to program a lot to
+00:49 build many things. So the focus is on
+00:52 building and it's not just AI, it's AI
+00:55 engineering. So we are going to build
+00:57 systems around AI and we're going to
+01:02 how do you call it? So we're going to
+01:04 use this engineering mindset that
+01:06 everything should be testable. We're
+01:08 going to use built best.
+01:10 We're going to use best practices for
+01:13 everything. So, hence the name AI
+01:15 engineering build up. So, um the plan
+01:19 for today is um I'm going to share my
+01:22 screen
+01:24 and the plan for today uh is I want to
+01:27 show you around this platform
+01:30 um and uh together with you I want to go
+01:33 over this uh first section of week
+01:36 number one which is course overview and
+01:38 preparation. So we'll go over it and
+01:41 then at the end I'll be happy to answer
+01:43 any questions you want. Um so yeah
+01:46 that's the plan for today. Uh and
+01:50 I guess uh we will just start with it.
+01:54 So this is the
+01:56 student portal. I think this is how it's
+01:58 called and this is the URL. So it's /2
+02:01 the second cohort and when you join you
+02:04 should see some you should see something
+02:06 like this. So our class is here. This
+02:09 our first first session and then this is
+02:12 the content. Um I can I think yeah you
+02:16 need to click home. So there is also sub
+02:19 channels. Most of the interaction like
+02:22 the interactions will not really happen
+02:24 here. Uh it will happen in Slack. I'll
+02:26 talk more about this. But here of course
+02:29 you can write me and I will see your
+02:30 message if you write me. Um but it's
+02:33 better to hang out in Slack where uh
+02:36 people from the previous cohort are also
+02:38 there so they can um perhaps um share
+02:42 some of their
+02:44 some of the things. Anyways, so this is
+02:47 the home window and here we see things
+02:51 um like split by week, week one, week
+02:53 two and so on. And since I re-recorded
+02:58 um compared to cohort number one, I
+03:01 rearranged the the curriculum curriculum
+03:04 of the course. And you can see that some
+03:07 of the things, some of the sections are
+03:09 marked as old. So all the old content is
+03:12 kept for now. So if you're interested,
+03:15 you can go through this too. Um but
+03:17 yeah, it's clearly indicated as old and
+03:20 the new content doesn't have this. But
+03:23 this is how you navigate. So you just
+03:25 okay we're interested in course overview
+03:26 and preparation. You click on this and
+03:29 then you go through the content.
+03:32 Another important thing is I want to
+03:34 make this course more focused and I want
+03:37 it to clearly split into what is
+03:40 optional, what is the core or sorry what
+03:42 is optional, what is not optional. So
+03:44 what is the core part and what are the
+03:46 nice to have parts. So all the optional
+03:49 things are marked with a star here. So
+03:52 you see like search bonus materials
+03:53 alternatives to open AAI these are the
+03:56 optional sections of week number one but
+03:59 course overview and preparation uh
+04:01 foundation and structured output they
+04:03 are not optional they are core content.
+04:06 So um you should go through this core
+04:09 content but optional is if you have time
+04:12 then you go through this
+04:14 and uh what we will also do during
+04:16 office hours is um you can tell me okay
+04:19 I'm working on this project and I can
+04:21 tell you then you should check this
+04:23 optional material but for now so this is
+04:26 how it looks like in the maven platform
+04:29 what I want to do is I want to go
+04:31 through uh these things here so I think
+04:34 I did a short course overview. No, I
+04:37 showed only the platform, but probably
+04:40 you saw this page, right? So, this page
+04:42 tells you the overview of the things
+04:44 we're going to cover. Um, I'll probably
+04:48 give you a a little bit more detailed
+04:50 overview. So, here this is the updated
+04:53 curriculum. This is not something you
+04:55 see, but I just want to use this as a
+05:00 for me as a guideline to explain what we
+05:02 are going to cover. What? So this is
+05:04 currently the state the most upto-date
+05:08 state of the curriculum of our syllabus
+05:10 right now on the platform. If we go here
+05:16 um yeah I still need to update it. Um
+05:19 it's only one week update is updated
+05:21 anyways. So we I already told you about
+05:24 the week number one but in the second
+05:26 week. So the second week in the first
+05:28 week we are going to actually only told
+05:31 you what is um core part and what is not
+05:35 core part. Maybe now I actually tell you
+05:37 what is what we are going to cover in
+05:39 each of the parts.
+05:41 So course overview is what we are doing
+05:43 right now and after that uh we will
+05:47 learn about the foundation for the
+05:50 entire course. So we will learn what
+05:52 LLMs are, how to interact with them. So
+05:54 we will use OpenAI but OpenAI is while I
+05:58 use it for most of the videos, you can
+06:01 easily switch it with some other LLM
+06:04 provider. I will also show you how to do
+06:06 this. And here we will see how to use
+06:08 OpenAI and how to build our rack
+06:12 application. rack is the
+06:15 uh most used application of AI and this
+06:19 is a way of adding some uh information
+06:22 to LLM that it doesn't know adding some
+06:24 context. So we are going to do this in
+06:28 the first week um this week and yeah the
+06:32 focus will be on rack and on preparing
+06:34 data to be used in rack
+06:39 right so here we will talk about things
+06:42 like search and we will talk about
+06:44 things like communicating with uh an LLM
+06:46 and another core part of this is
+06:48 structured output so this is when you
+06:50 force an LM to produce output that uh
+06:54 that follows certain and structure
+06:56 certain format which is pretty important
+06:58 in many applications of AI that's why
+07:01 we're going to cover it today too and
+07:03 then uh the next week is going to be a
+07:06 buffer buffer week uh what I mean by
+07:08 buffer is right now you are preparing
+07:11 the environment you are trying to get
+07:13 familiar with the course some of you
+07:15 might be might be um might be joining a
+07:18 bit late a few days late like I don't
+07:20 know Wednesday and Thursday who knows so
+07:23 then uh the purpose of Second week is to
+07:25 give you enough time to make sure that
+07:28 you not only you set up the environment
+07:30 but you also manage to go through the
+07:32 core content of
+07:34 uh week number one. So week number two
+07:37 has only optional materials and what we
+07:40 are going to do in week number two is
+07:42 for those who have more time who didn't
+07:44 have any problems with setting up the
+07:46 environment is we're going to cover
+07:49 extra use cases. So in week number one
+07:51 we will introduce the running example.
+07:54 The running example will be using
+07:59 the documentation from this evidently.
+08:03 So this is the library we're going to um
+08:06 this is the data set we're going to use.
+08:08 So this is um this is documentation from
+08:11 an open source library that is used for
+08:14 evaluating LLM applications evaluating
+08:16 agents and we are going to build rack
+08:19 for this content right and this is going
+08:23 to be our running example the example we
+08:25 are going to use throughout the course
+08:26 but in week number two I will introduce
+08:28 other examples so if you're interested
+08:30 in learning more about rack so then you
+08:33 will do this in uh week number two so
+08:36 we'll talk about FAQ assistant
+08:38 We'll talk about uh a a system that is
+08:42 answering questions about YouTube videos
+08:45 and we will also talk about search with
+08:47 elastic search and search with quadrant.
+08:49 So this is something we're going to
+08:51 cover on week number two. I don't as I
+08:53 said all this material is not core
+08:55 material. If you don't do any of these
+08:58 videos uh you will still learn quite a
+09:00 lot but if you have extra time um you
+09:04 should check these videos too. So this
+09:06 is what will happen uh during second
+09:08 week. Um every week week we'll have
+09:12 homework. So week number one we'll have
+09:14 I still need to publish it. Um but
+09:17 starting from week number one starting
+09:19 from today we will already start
+09:22 thinking about projects. So and the goal
+09:26 of the homework is not only solidify
+09:28 what you learned and try to to redo some
+09:30 of the things. So you will do some mini
+09:32 projects but also you will need to start
+09:34 thinking about your capstone project. So
+09:37 first you'll just think about the idea
+09:39 what exactly I want to have at hand.
+09:41 It's fine if you don't know yet now
+09:43 because you're here to learn, right? But
+09:46 some of you came here with a clear idea
+09:48 what you want to implement or maybe not
+09:50 clear idea but way idea some ideas of
+09:53 what you possibly can do at the end of
+09:54 the course by the end of the course.
+09:56 Right? So now we will also start
+09:58 thinking about this and we continue
+10:00 thinking about this on week number two.
+10:02 Right? And again it's okay if you don't
+10:05 have
+10:07 any idea of what you want to implement
+10:08 at the end. Um but in this case you
+10:13 should tell uh us about that in Slack
+10:17 and u we can come up with some idea that
+10:20 might be interesting for you right and
+10:23 then once we are done with the
+10:25 foundation once we learn how to
+10:26 communicate with uh an LLM provider once
+10:30 we know what track is and how to
+10:32 implement it we will start talking about
+10:34 agents so week number three is devoted
+10:37 to agents so we will what is the
+10:40 difference between uh traditional rack
+10:42 and agentic rock and what agents uh what
+10:46 is an agent. So we are going to cover it
+10:49 here. Um we're I'm also going to
+10:52 introduce one main framework that we are
+10:54 going to use as uh throughout the
+10:57 course. The framework is called pentki.
+11:01 Um but in addition to that as bonus
+11:04 materials as optional materials I will
+11:06 show you other frameworks. So last
+11:09 cohort we had two frameworks as like
+11:12 main frameworks open AAI agents SDK and
+11:15 Pentic AI and um I found it confusing at
+11:19 the end. So one of them became optional
+11:21 but also in addition to open agent SDK
+11:24 I'm going to cover other frameworks like
+11:26 lchain crew AI and Google ADK right so
+11:30 then uh for you you can choose whatever
+11:32 you want so the majority of the examples
+11:36 um most of the examples in this course
+11:39 are going to be in pidenti but since we
+11:42 are going to start with implementing
+11:44 things ourselves and then switch to the
+11:46 framework you will understand what the
+11:48 framework is actually doing under the
+11:50 hood. So then it doesn't really matter
+11:52 at the end which framework you use
+11:54 because at the end inside they implement
+11:58 very similar things.
+12:00 And then we also in week three we'll
+12:02 talk about um MCP
+12:06 and we'll build a small agent. This is
+12:09 optional material. Uh MCP is optional
+12:11 material and this is also optional
+12:13 material. We're going to build a small
+12:15 agent that can use uh a search engine, a
+12:18 real search engine from the web and
+12:20 fetch data from YouTube and then answer
+12:22 questions uh answer your questions based
+12:25 on that. And then we also as a part of
+12:27 homework we build a mini project and
+12:30 then we uh continue thinking about our
+12:33 project our capstone project.
+12:37 Uh in week four we do a very important
+12:40 thing. So now in week three we learn how
+12:43 to implement agents but then um we don't
+12:47 know if our agents are reliable. So in
+12:50 week number four the focus is on testing
+12:52 these agents and making sure these
+12:54 agents actually do what we want them to
+12:56 do. So we're going to cover them with
+12:58 tests. um different type of test unit
+13:01 test, judge test, judge
+13:04 judge test are when we use an LLM to
+13:06 evaluate to test another LLM, right? To
+13:09 test our agent and then as a bonus um we
+13:13 will also talk about multi- aent
+13:14 systems. I made it as a bonus section
+13:17 because I think in many cases you don't
+13:19 actually need a multi- aent uh system.
+13:22 It just complicates things. But it's
+13:24 still nice to know that these things
+13:26 exist and when it time comes and when
+13:30 your agent one agent does not can no
+13:33 longer handle many tasks that you wanted
+13:35 to handle then you will need to split
+13:38 your agent into multiple. So whether
+13:41 during the course or maybe after the
+13:43 course when you realize that you need to
+13:46 know how to do this you can come back to
+13:48 these materials and learn how to
+13:50 implement multi- aent systems right and
+13:53 homework again small mini project based
+13:55 on the week's material and then continue
+13:58 thinking and doing some little things
+14:01 for your capstone. Then um in week
+14:04 number four the focus is on testing and
+14:08 week number five is about monitoring. So
+14:11 we implemented the agent, we tested the
+14:13 agent, we deployed the agent and now we
+14:16 start collecting the logs. Now we start
+14:18 collecting real interactions, real user
+14:20 interactions. So in this week we will
+14:23 talk about setting this up making it
+14:26 possible to collect all these logs to
+14:27 collect all these interactions of the
+14:29 user with the our system
+14:32 and uh yeah we'll talk about systems
+14:34 like uh we'll talk about protocols like
+14:37 open telemetry and systems like pentic
+14:39 clock fire for doing this right and in
+14:42 addition to that um as optional material
+14:44 but I highly highly encourage you if you
+14:47 have time to take uh this section two
+14:51 which is do it yourself login and
+14:52 monitoring where we will see where I
+14:56 will show you how to implement a login
+14:58 system from scratch and collect logs um
+15:02 in some sort of block collecting system
+15:04 and then put them into posgress
+15:09 and build the graphana dashboard right
+15:12 so here the setup is pretty simple so
+15:14 this one is more advanced so if you have
+15:16 time uh check this out and then we will
+15:19 check other observability platform forms
+15:20 like evidently and language both of them
+15:22 are open source there are also some
+15:25 closed source libraries um there are
+15:28 many of them um yeah and at the end they
+15:31 are quite similar so I think if I cover
+15:33 just these two should be enough for you
+15:35 to figure out how any other system works
+15:38 homework again little project to
+15:41 understand what the week was about and
+15:43 then continue working on your capstone
+15:47 and then week number six is uh I think
+15:50 it's going to be our final week where we
+15:55 learn some things and it's going to be
+15:57 about evaluation. So we um implemented
+16:02 our agent, we tested our agent um but we
+16:05 want to understand how our agent
+16:07 performs in general, right? Let's say
+16:12 we
+16:14 interact with the system 1,00 times and
+16:16 we want to make sure that all these
+16:18 10,000 times uh the interaction is what
+16:21 we expect. Right? So we talk about
+16:25 creating the gold standard data set with
+16:27 our evalation data evaluating this agent
+16:29 and building this data set the gold
+16:31 standard data set from the interaction
+16:33 with the interactions with the user that
+16:35 we set up in the previous week. So we're
+16:37 going to talk about this. We're also
+16:39 going to talk about imple evaluating not
+16:42 only evaluating agents but also
+16:43 evaluating our search uh as a part of um
+16:47 our rack
+16:50 and that's the core material. So this is
+16:52 what we are going to focus on uh during
+16:56 these six weeks or I'd say five weeks
+16:59 because second week is also kind of
+17:00 bonus. So this is the core uh theory and
+17:04 practical part right and starting from
+17:07 week seven we are going to focus on
+17:10 projects right so if before we were just
+17:13 thinking about project getting some
+17:15 ideas making little steps here the goal
+17:18 is to focus completely on the project
+17:20 right and um
+17:24 here uh I will also give a complete
+17:27 project example you will not actually
+17:29 need to reproduce it if you want you
+17:31 But here the idea is to give you an
+17:34 example of an end toend project capstone
+17:37 project that you can implement too.
+17:38 Right? So here the example is I have a
+17:41 system with to-do list and uh I want to
+17:45 interact with this to-do list through an
+17:47 agent. Right? So this is could be
+17:49 similar to what you want to build as a
+17:51 part of your capstone project. Right? So
+17:53 the goal here is to show that an end to-
+17:56 end process from uh setting everything
+17:59 up, creating tools, configuring agent to
+18:03 actually uh deploying, evaluating and
+18:05 monitoring it. Right? So this would be
+18:08 an example uh for your capstone project
+18:11 that you can reproduce to. And then I
+18:14 added a few uh sections, extra sections
+18:17 here about guardrails. Um, guard rails
+18:21 are things that check input and output
+18:22 of your systems. So, if this is
+18:25 something important for you, you can
+18:26 check it. Otherwise, it's not the core
+18:28 content. It's not um a must have for uh
+18:32 completing your capstone and starting uh
+18:35 working with agents. But this is an
+18:37 important thing. Um so, if you have time
+18:40 and if you need this, then you check it
+18:43 during the week number seven earlier or
+18:46 later, right? So later a few months
+18:48 after you finish the course you realize
+18:50 that this is what you need. You just
+18:52 come back and check the videos uh from
+18:55 what I understood all the materials from
+18:57 the this cohort will be available for
+18:59 you forever. So at any point of time you
+19:01 can come back and check these materials
+19:04 and then I also want to cover
+19:06 deployment. So this is not something we
+19:08 had in the previous module but in the
+19:11 previous edition of the course but
+19:13 course participants students were asking
+19:15 uh for this. So I also want to include a
+19:18 module about deployment which could be
+19:20 like very simple like just deploying
+19:22 your streaml application. Um most
+19:26 students figure this out u themselves
+19:28 cuz it's pretty simple. I still want to
+19:30 record a video showing you how to do
+19:32 this, but then we'll take a look at more
+19:35 at other platforms for doing this.
+19:37 Right? Then uh so you start working on
+19:40 your project on week number seven, you
+19:41 continue working on week number eight
+19:44 and in week number eight u again the
+19:47 focus is on the project but also there
+19:50 are some uh use cases that I want to
+19:53 cover. Again up to you if you want to
+19:54 implement them or not. Maybe you just
+19:56 want to watch, maybe you just want to
+19:58 read uh to go through um the written
+20:01 part. Up to you. Or like if you don't
+20:03 have a time at all, just focus on the
+20:04 project and come back to these materials
+20:06 later after the course. And these use
+20:08 cases that I want to cover are building
+20:11 a coding agent. So something like uh
+20:14 clot code or lovable or github copilot,
+20:18 an agent that can analyze your code. So
+20:21 you give it a source code um some
+20:24 archive with source code and you ask a
+20:27 question about this and it can answer
+20:29 questions about that and deep research
+20:32 agent an agent that can do some research
+20:36 in our case uh I'm going to use uh the
+20:40 all the transcripts from the data talks
+20:42 club podcast and based on uh this data
+20:45 set we can ask things about career
+20:48 development learning something and
+20:51 things like that. Right? So this is
+20:53 going to be one use case and then I'm
+20:55 going to have a use cases library which
+20:59 are short videos about uh some things uh
+21:02 that I have uh um implemented or came
+21:07 across
+21:09 or somehow contributed to that uh could
+21:12 be interesting for you and inspiring not
+21:14 just for your capstone projects but in
+21:16 general if you want to implement some
+21:18 authentic stuff. Um and then last
+21:21 section
+21:23 is examples of other um from other
+21:27 students either from the first cohort or
+21:29 from some other open courses that uh
+21:31 data do club has right and then week
+21:34 number nine is demo where you're
+21:37 presenting everything you built. So this
+21:40 is going to be an open presentation.
+21:43 Um so you get uh a chance to uh show
+21:47 what you built, what you learned to
+21:49 everyone who wants to join. So I will uh
+21:53 promote it across like on my social
+21:55 media uh on Maven. So everyone who is
+21:58 not necessarily part of this cohort can
+22:00 join this demo. Right? And then um at
+22:04 this point of time you have a project,
+22:06 right? So you present it and then it's
+22:08 just final week where we are going to do
+22:10 peer review. So peer review is uh the
+22:12 process where um last two weeks before
+22:17 this you worked on your projects and
+22:19 actually like starting from today you
+22:21 need to start thinking about your
+22:22 project right but last week after you
+22:24 demo you still have a bit of time. Uh
+22:27 this time you'll take to learn from your
+22:29 peers. So every one of you will be
+22:32 assigned to uh two three uh peer reviews
+22:37 to evaluate three projects from other uh
+22:39 from other course participants. The goal
+22:42 here not only to evaluate and to see how
+22:46 good they project is but the main focus
+22:48 here is to learn from your peers to
+22:50 understand what they built, what the
+22:52 problem they were solving, what kind of
+22:54 tools they use for that. uh when it
+22:57 comes to agents, what kind of uh tools
+22:59 this agent has, what kind of frameworks
+23:01 they use, how did they evaluate, how did
+23:03 they go about testing. So here the goal
+23:06 is to learn as much as possible from uh
+23:08 other course participants, but also you
+23:11 want to uh evaluate to see how well they
+23:15 did the project. And then if you do
+23:18 this, if you build your project and if
+23:20 you do peer review, then you get a
+23:23 certificate at the end.
+23:25 And then um the official part of the
+23:27 course is over after week nine after we
+23:29 do the demo after we do peer review
+23:31 after you get the certificates it's
+23:33 over. But if you want to stick around a
+23:35 bit longer there is a chance to uh build
+23:38 something uh not necessarily with what
+23:40 you learn in the course could be any AI
+23:43 application could be another portfolio
+23:46 project. So we are going to have a two
+23:49 weeks two week long hackathon where you
+23:52 can work on anything you want. Uh we
+23:54 have some ideas. Uh these ideas are
+23:56 coming from data talks club mostly what
+23:59 you can do but you uh should feel free
+24:02 to if you want to take part you should
+24:04 feel free to bring your ideas find team
+24:07 members you can work solo you can work
+24:09 with others doesn't really matter. So
+24:12 the goal here is if you want to build if
+24:14 you want to continue building something
+24:16 then there are two weeks more
+24:19 um even though they are not really
+24:21 official. So on Maven uh it will be
+24:24 marked as complete after week nine but
+24:27 you can stick around and build some cool
+24:29 stuff with um your pierce. Right. So
+24:32 that's the overview of the course. So
+24:35 this is what we are going to do. So it's
+24:37 going to be um a lot of fun and I think
+24:40 I should not have stopped sharing my
+24:43 screen cuz I want to do to show you some
+24:46 other things. Right. So basically what I
+24:49 did right now is I covered this course
+24:51 overview right so all the things we're
+24:54 going to cover uh in any uh in all the
+24:58 weeks all the technologies we used and
+25:00 so on right
+25:02 then all the interactions uh so that's
+25:04 another thing I want to talk about
+25:06 communication um and our slack community
+25:11 um so communication about the course so
+25:14 yes there is this uh platform the
+25:16 student portal that we have in Maven. Uh
+25:20 but we should use u datadox club lab for
+25:24 uh communicating. So in order to sign up
+25:27 if you don't have an account yet so you
+25:29 go to this link put your email here
+25:32 click join and you should receive an
+25:34 email with a link. If you don't for some
+25:36 reasons, just send me a message and I
+25:40 will add you to this platform uh to this
+25:42 slack and then I will stop sharing for a
+25:46 second cuz I want to make sure that my
+25:48 slack um so cuz I want to show you my
+25:51 slack. I don't want to accidentally show
+25:54 any anything sensitive. Okay, I think it
+25:57 should be fine.
+25:59 So this is how our slack looks like,
+26:02 right? And then this is our course
+26:03 course AI build camp. You might not have
+26:06 it at the beginning when you join. Uh
+26:09 and you certainly will have a lot less
+26:12 channels. Um where is it? There should
+26:16 be the button
+26:18 here. Channels. You see this uh
+26:25 trying to find
+26:28 a join channel. Did they move it?
+26:33 Okay. Anyways, um join Slack channel.
+26:40 So, here we have the instructions how to
+26:42 join a channel. Um yeah, if you have
+26:46 problems finding the channel, but
+26:48 actually uh I don't know why this click
+26:51 this link is not clickable. This should
+26:54 be clickable. So, I'll fix it. So what
+26:56 you can do once you're in Slack you just
+26:57 click on this link and you'll uh see the
+27:00 channel right and what we do in this
+27:03 channel you can ask any question you
+27:04 want um um like if you get stuck if you
+27:08 have any generic question um so yeah use
+27:13 this for asking for help a few rules um
+27:18 so most of these rules you can find here
+27:21 if you go uh here our community
+27:23 guidelines but uh Please use threads.
+27:26 Threads help to make the interaction in
+27:30 Slack more organized.
+27:32 And uh yeah, there is some code of
+27:34 conduct. You can read through this if
+27:37 you're interested. And uh this Slack is
+27:40 not just for this course. There are many
+27:42 many things happen. So don't post things
+27:45 related to the course in general. Please
+27:47 find the this channel first, the course
+27:49 channel and then ask um ask your
+27:53 question there. So this link is going to
+27:54 be quite useful. So this is
+27:56 documentation of which channels are
+27:59 there.
+28:01 Okay. So that's uh slack.
+28:05 Um
+28:07 then as we go through the course
+28:10 and you saw when I was talking about uh
+28:13 course overview week by week uh things
+28:16 we were I mentioned homework right all
+28:19 this homework uh when you work on the
+28:22 homework uh so first of all you commit
+28:24 your code to your GitHub repo but then
+28:28 you will need to also submit this
+28:30 homework and in order to submit we will
+28:33 use this um course management platform,
+28:37 right? So this is how it looked like
+28:39 last year.
+28:41 Um yeah, we cannot see it here but
+28:44 basically for each homework there was
+28:46 this um homework form, right? You would
+28:50 go there and you would provide your
+28:52 answer to this homework form and then
+28:56 you submit, right? So this is how you do
+28:58 this. Um there is also a leaderboard.
+29:01 You can see how everyone is cuz everyone
+29:04 is um like some people ask answer
+29:08 questions correctly, some people are
+29:09 answer question incorrectly. Um then
+29:12 also I want to learn uh to I want to
+29:14 talk about learning in public what it is
+29:16 but also you get some extra points for
+29:18 that. So I don't need to talk a lot
+29:21 about this. So there is this PL course
+29:24 management platform guide that you can
+29:28 use to go through and understand like
+29:30 what kind of things are there. We're
+29:32 going to use it for uh project
+29:34 submission for peer uh review and things
+29:37 like that. So this is the platform I
+29:40 developed for our open courses for Zoom
+29:43 camps and I'm just reusing it for uh our
+29:46 courses here and our course is actually
+29:50 hidden from here. You can only access it
+29:53 using the direct link and direct link
+29:56 for you cohort number two is this one.
+29:59 So right now there's nothing uh once uh
+30:03 there will be homework I will make an
+30:05 announcement and you can submit it right
+30:10 okay learning in public I mentioned um
+30:12 that you're getting some points for
+30:14 learning in public so what is learning
+30:15 in public so learning in public is a
+30:18 concept where you don't learn in private
+30:22 so learning in private is okay I learn
+30:24 something and I keep it to myself I
+30:26 don't tell anyone about that learning in
+30:29 public is the opposite of that. So you
+30:30 learn something and then you share with
+30:33 others what you learn. Typically it is
+30:36 just making a post on social media that
+30:38 today I learned this right could be also
+30:41 writing a blog post about what you
+30:42 learned and again sharing it on social
+30:44 media. Um the main advantage of that is
+30:49 um
+30:51 you kind of try to teach others right.
+30:53 So when you take these notes you show
+30:55 the okay I learned this and this is how
+30:57 you can or you explain these things and
+31:00 when you explain these things that you
+31:02 learned uh or you summarize the things
+31:04 you learned uh it forces you to um
+31:09 understand to focus on understanding the
+31:11 material better right you don't want to
+31:12 post something that is not correct so
+31:15 you double check yourself you um
+31:20 invest more time into learning this
+31:22 thing that's one benefit of is and
+31:24 another benefit is you get noticed,
+31:26 right? I don't know why you're taking
+31:28 this course. Maybe it's for upskilling
+31:30 and doing a project at work, but maybe
+31:32 you're looking for a new job. I don't
+31:34 know. But if you're looking for a new
+31:36 job, then it's especially important for
+31:38 you to learn in public, right? To share
+31:40 what you do cuz you get visibility.
+31:44 So people will see that you share this
+31:46 thing and they will know that you know
+31:50 this thing, right? Even though yes you
+31:52 are sharing it from the kind of learner
+31:55 learner perspective still people notice
+31:58 um and then it may lead to many good
+32:01 opportunities so if you don't believe me
+32:03 there is an article that I wrote on my
+32:06 substack the benefits of learning in
+32:08 public I'm not going to go through the
+32:10 entire uh article here it's for you to
+32:13 learn but in data docs club uh I host
+32:17 podcasts regularly and many people uh in
+32:21 this podcast the guests they shared how
+32:24 learning in public was beneficial for
+32:26 their career and here is just a summary
+32:29 of a few talks of that right so you can
+32:32 go through this and if you don't believe
+32:35 me maybe you will believe um this but I
+32:38 strongly encourage you not just for this
+32:41 course but in general to learn what you
+32:44 uh to share what you learn because of
+32:46 all the benefits I just described and
+32:48 plus there are more things. So, please
+32:51 check it out. I know it could be
+32:53 difficult to start at first, but then uh
+32:57 you will definitely not regret it.
+33:00 Okay. So, here's some materials about
+33:02 that office hours. So, what we have
+33:05 right now I call office hours. So, these
+33:07 are live sessions that we have where we
+33:10 get together um and typically I answer
+33:14 your questions. So the first office hour
+33:16 session is uh different because I give
+33:19 you an overview of the course but in
+33:21 general the you watch the videos you do
+33:24 some things and then you have questions
+33:26 and this is the time when we have some
+33:28 sort of reverse classroom I think this
+33:30 is how it's called where you come to me
+33:34 with questions and I answer these
+33:35 questions. So this is the time for you
+33:37 to uh clarify some things about the
+33:40 content of the course. Of course, you
+33:41 can use the Slack for that, but for some
+33:43 discussions, um, real time interaction
+33:46 is better than just asking fix and
+33:48 slack, right? Um, plus some important
+33:51 things. Plus, we're going to talk about
+33:53 your projects, we're going to talk about
+33:55 your homeworks.
+33:57 And typically, when you have some ideas
+33:59 and you're not sure how to approach
+34:02 these ideas, ideas for your capstone
+34:03 project, approach, ideas for your mini
+34:05 projects, I don't know, for boot for um,
+34:09 hackathon at the end. So here we can do
+34:12 some sort of brainstorming like you have
+34:14 this idea how exactly you should go
+34:16 about implementing this idea. So this is
+34:18 the time when we talk about these
+34:20 things. So it starts at 5:00 p.m. Berlin
+34:23 time. So the time it started today. Um
+34:26 here you have some I converted it to
+34:30 different time zones. The important
+34:33 thing though is to keep in mind that we
+34:35 have this daylight saving adjustments.
+34:37 very annoying thing you ask if you ask
+34:39 me and what is all even more annoying
+34:43 about it is that in Europe and in the
+34:47 states it happens at different times. So
+34:49 what can happen that states uh go the
+34:54 United States of America
+34:56 adjust they do this daylight saving
+34:59 switch in March 8 and we in Europe only
+35:03 do this uh two three three weeks later
+35:06 right which means that uh during this
+35:09 time when uh the US is already in the
+35:12 new time zone and we're still in the old
+35:14 time zone the time will be different
+35:16 right so this is something you need to
+35:17 keep in mind that If at some point the
+35:22 Zoom meeting doesn't start when it was
+35:24 supposed to start and it's March, then
+35:26 probably it's because of that, right? So
+35:28 this is something to keep in mind.
+35:31 And um so this is this happens live but
+35:35 you can ask your questions offline. So
+35:39 uh there is a slider link which yeah
+35:41 here submit questions for slido. So you
+35:43 can lo use this link to submit your
+35:45 questions here and uh you can submit you
+35:49 can use this link to submit your
+35:50 question anytime you want and then every
+35:53 time we start the office hours I will
+35:56 first open this and see if there are
+35:58 questions there right also some
+36:00 questions slack if they require longer
+36:02 time to answer I will um
+36:06 yeah I will also take my time uh and
+36:09 answer uh this in um in office hours,
+36:13 right? And then um everything that we
+36:16 say is like everything that we discuss
+36:18 in this office hours is recorded
+36:21 and then I share a written summary.
+36:24 Right? So first of all there is a video.
+36:27 Right? So u this is a video that you can
+36:30 go through and check
+36:32 um right so this is from the previous
+36:35 cohort.
+36:36 Um first of all there is a video but if
+36:39 you don't feel like watching video and
+36:41 you'd rather have um just a recap a text
+36:43 recap we also
+36:46 uh prepare a summary right so here is
+36:48 summary uh the way this summary is
+36:50 generated I don't think it will be a
+36:52 surprise to you it's just we dump the
+36:54 transcript to judge and say ask it to
+36:56 structure it and then this is the result
+36:58 but you can go through this there are
+37:00 time stamps time codes and then you can
+37:02 think okay like actually I want to check
+37:04 what they we're talking about here on
+37:06 this time stamp. So you go to the video
+37:08 and check. So you will have a summary
+37:10 like that for every
+37:13 uh every office like every live session,
+37:17 right? And um so this is what I showed
+37:19 you was cohort number one, previous
+37:22 cohort. This one is cohort number two.
+37:24 Right now it's empty because we did not
+37:27 have any uh office hours so far, any
+37:30 sessions, but this is where they are
+37:32 going to be, right?
+37:36 I see that there are some questions. Let
+37:37 me quickly check.
+37:40 Uh
+37:43 building in public in our cases can help
+37:45 can help get HR attention. By HR you
+37:48 probably mean recruiters, right? That's
+37:50 correct. Paulo,
+37:52 uh can can we for example pin Google
+37:55 calendar, event, Zoom, uh etc. and let
+37:58 them handle time zones?
+38:00 Yes, I think this is what um happens. So
+38:05 Maven creates calendar and sends to
+38:07 everyone.
+38:09 Um and technically they should handle
+38:13 this but in what happened in practice
+38:15 what happened last year is I got
+38:17 messages hey like why didn't we start
+38:19 the course at their usual time. Yeah. So
+38:23 there's um
+38:26 yeah so it's not ideal. You may forget
+38:29 about things. In my case, for some
+38:31 reasons, Maven uh these Maven meetings
+38:35 did not end up in my calendar. So, I
+38:37 have to have a reminder that I said I'm
+38:39 in my personal calendar that this
+38:41 meeting start, right? So, perhaps um
+38:45 yeah, if you just go here, home,
+38:48 and I think you just click here, join,
+38:50 then it should be fine, right? And as
+38:52 far as I can see, this already shows it
+38:55 in the in your time zone. Well, at least
+38:58 for me it shows mine. Um, I hope for you
+39:01 it also shows uh it in your demog.
+39:06 Okay, that was office hours.
+39:09 So the next two videos is about
+39:11 preparing the environment. So these
+39:14 videos are already recorded. You can
+39:15 just go through this. There are two
+39:17 videos. The first one is uh GitHub code
+39:21 spaces which is remote environment for
+39:23 course and the second one is local
+39:25 environment preparation which is in my
+39:27 case is Windows but it should work for
+39:29 Mac OS and Linux too. So the core
+39:32 difference between these two is uh
+39:34 GitHub code spaces is a remote
+39:36 environment and it already has docker it
+39:38 already has Python. You don't need to
+39:40 install anything except uh well you you
+39:43 need to have a GitHub account and you
+39:45 need to have um Visual Studio Code
+39:47 Desktop. That's it. Uh even the set
+39:50 second one the Visual Studio Code
+39:52 Desktop is kind of optional cuz you do
+39:56 you can do the everything from the
+39:57 browser which I don't really like. I
+40:00 prefer to have um Visual Studio Code
+40:02 Desktop.
+40:04 So the advantages of that is um no
+40:07 matter which computer you use, you
+40:09 always have access to your files, right?
+40:11 The disadvantage of that is
+40:14 while they have a very generous uh free
+40:16 tier, at some point you may accidentally
+40:18 hit the free quarter limit and either
+40:21 you have to pay or you cannot use it.
+40:24 Right? That's why I suggest that you
+40:26 always have even if you use code spaces
+40:29 as your main environment always have
+40:32 have local environment prepared because
+40:35 this is what happened to me last month.
+40:37 I run out of quarter. So I had to
+40:39 reconfigure everything to run locally,
+40:42 right? So this is not always ideal. Um
+40:44 so please have two environments and then
+40:47 it's up to you which one to choose or
+40:50 actually you don't have to have two,
+40:52 right? So you can only have local. It's
+40:54 alo totally fine. So here I showed how
+40:56 to do this on Windows. Uh on Windows I
+40:59 just needed to do one extra step which
+41:01 is installing git bash for Windows which
+41:03 has bash. But if you're on Linux or Mac
+41:06 OS, you don't need to do this. You
+41:07 already have Bash.
+41:11 Okay. A few things before we finish the
+41:14 with the overview
+41:16 is AI system development.
+41:18 So AI assisted development is all these
+41:21 tools like we have here examples right
+41:25 CH GPT, GitHub copilot, cursor, cloud
+41:28 code and so on.
+41:30 it's completely okay and I encourage you
+41:33 to use these tools. Right? So to me I
+41:35 don't see any problem in uh using these
+41:39 tools if they really help you learn if
+41:41 they help you be more productive if you
+41:44 can achieve more using these tools with
+41:47 these tools than without these tools. I
+41:48 personally I am a big fan of these
+41:51 tools. I've been using AI for code for
+41:55 assisting me with code for more than two
+41:57 years. Ever since um GPT4 was released.
+42:01 I was trying to use it when GPT3.5 was
+42:04 there. It wasn't ideal. But uh like even
+42:08 then it was producing some code but like
+42:10 I've been using it for quite some time
+42:12 and my productivity has increased. I can
+42:15 do more with less time. So I strongly
+42:18 recommend if you don't use this yet I
+42:22 recommend using it. That said um don't
+42:25 just copy paste the homework blindly
+42:29 like and say hey solve me this homework
+42:32 cuz this way you will not learn much. So
+42:34 I would encourage you to even if you do
+42:36 this if you just say hey solve this
+42:38 homework
+42:39 which is fine by me right? So at the end
+42:41 it's um you who who is learning not me
+42:44 right? try to make sure that you
+42:47 understand everything that this this
+42:49 code uh assistants produce right in some
+42:52 cases it doesn't really matter as long
+42:54 as it's working right but in some cases
+42:56 you really want to understand what is
+42:57 happening inside and for this course um
+43:01 there are cases like that right so when
+43:03 you implement something especially when
+43:05 it comes to AI things you want to
+43:07 understand what is happening under the
+43:08 hood right so in some cases when we
+43:11 implement UI in streaml maybe it's less
+43:14 important it works works then it's fine
+43:16 don't touch it right uh but in some
+43:18 cases when we implement a system for
+43:20 storing logs from our agent then maybe
+43:24 you want to understand how it works
+43:25 right so
+43:27 uh I so what I want to say is I
+43:30 encourage you to use these tools but um
+43:33 handle them with care don't just blindly
+43:36 use them as code generators
+43:38 use them as learning tools as uh your
+43:42 performance uh how to say improver
+43:45 enhancer right
+43:48 um yeah so also we are going to use in
+43:52 some of the lessons I'm going to
+43:54 generate some code right so while I have
+43:58 all of well I cancelled my cursor
+44:00 subscription but I can pretty much use
+44:03 so my favorite one is GitHub copilot and
+44:06 then since I have a charg subscription I
+44:08 also have uh codex I have subscription
+44:11 to cloud code um so technically I could
+44:15 use all of them, but we're going to use
+44:17 anti-gravity for the simple reason that
+44:21 it's free, right? Everyone with a Google
+44:23 account can use it. So then um if you
+44:26 don't have any of the subscriptions, you
+44:28 just download antigravity, which is an
+44:30 AI uh assistant from Google.
+44:33 You just download anti-gravity and the
+44:35 free tier should be enough to do the
+44:37 things we need for this course, right?
+44:40 uh and at the end I will also share all
+44:43 the code we create during the uh
+44:45 lessons. So then you can just copy paste
+44:47 this code, right? You don't even have to
+44:49 have it. But I strongly encourage you to
+44:51 try some of the things. You can start
+44:52 with anti-gravity because it's free. Uh
+44:54 then GitHub copilot has a one month free
+44:57 trial. You can try it too. Um cursor is
+45:01 called but uh cool but I I cancel it
+45:03 because I have all the other things. Uh
+45:06 this one as I said if you have JPT plus
+45:08 subscription or how it's called you have
+45:11 it too, right? So I if you are not using
+45:15 them uh I would encourage you to use it.
+45:18 If you're using them uh feel free to use
+45:20 them in the course.
+45:23 Okay. So I think we have last two things
+45:27 libraries. So in the course as we go
+45:30 through the content you will see a few
+45:31 libraries that I implemented myself.
+45:34 Right? So these libraries you can see
+45:35 the list here. Um the reason I included
+45:39 them in the course is either I think
+45:41 because they are u beneficial for
+45:44 learning purposes. They are lightweight
+45:47 alternatives of heavier libraries that
+45:50 uh make it more complex. Right? Or
+45:52 sometimes there is simply no available
+45:55 alternative and I had to implement some
+45:56 things myself. Right? So you in this
+45:59 page what you will see is all these
+46:02 libraries that I implemented that we are
+46:04 going to use in the course. I describe
+46:06 what this library is doing, what it is
+46:08 for, why I implemented this, how it
+46:11 works, and what are the alternatives,
+46:13 right? Because I understand that u I'm
+46:16 just um how to say a solar developer.
+46:19 There is no company behind these things.
+46:21 So, they might not be necessarily
+46:23 production ready. Although some things
+46:25 are like minarch, you can use it in
+46:27 production use cases. It's fine. uh I
+46:30 tested it in many applications outside
+46:32 of uh the classroom environment too,
+46:36 right? But still like there are
+46:38 libraries that are way more mature.
+46:40 There are a lot more people behind them.
+46:43 So I suggest
+46:45 the list of alternatives in case you
+46:47 want to be more certain that this
+46:50 library that if you're going to
+46:52 implement this agents at work, you want
+46:54 to be more certain that this library
+46:56 works as you expect, right? So um some
+47:00 in some cases the library is only for
+47:02 learning purposes like this to AI kit
+47:05 and just for learning concepts and then
+47:06 we switch to another library. So you can
+47:10 check it here. I just wanted to add this
+47:12 as a disclaimer. So I don't claim these
+47:14 libraries to be like production ready
+47:16 and I don't necessarily
+47:19 want you to use this libraries but I
+47:21 found uh that using these libraries were
+47:24 quite helpful in teaching some of the
+47:27 concepts and showing some of the
+47:28 concepts that's why we have these
+47:30 libraries here but uh I will also
+47:33 clearly show I want to clearly indicate
+47:35 okay these are my libraries and these
+47:37 are alternatives if you for some reasons
+47:39 don't want to use these libraries
+47:42 And this week overview is um I think I
+47:45 gave it I told you at the beginning. So
+47:48 during the week number one we're going
+47:51 to build our documentation agent uh or
+47:55 sorry documentation rack system agent
+47:58 it's going to become an agent in week
+48:00 three but now it's just a rack system uh
+48:03 for answering questions about this
+48:05 evidently AI library.
+48:08 So that's it. Uh
+48:14 going to go back
+48:16 and now um I think we don't have a lot
+48:19 of time left but I want to stop sharing
+48:22 my screen
+48:23 and I want to ask you to like if you
+48:26 have any questions um you can use um
+48:30 slider link or I think for you it's
+48:33 easier just if you just use live chat or
+48:37 what you can do is you can just unmute
+48:38 yourself and ask your questions.
+48:49 If you don't have questions, I have
+48:50 questions for you. That's fine.
+48:52 >> Uh I have one. Uh considering Hi.
+48:55 Considering the amount of like um
+48:57 material uh would you recommend some um
+49:01 offline like local um
+49:05 second brain I system or um how how to
+49:09 store our own data like use local rack
+49:12 for ourselves.
+49:14 >> Okay. Okay. Um so the way I do the way I
+49:19 do this the way I approach it when I
+49:21 learn something is I use this gold
+49:26 good old notes. So I just I watch a
+49:28 video and I take notes with my hands
+49:33 right with just with a pen. For me it
+49:36 works cuz I have to uh pause the video
+49:40 or lesson or whatever. I really have to
+49:43 focus on learning it right and then I
+49:46 also involve my um how is it called I
+49:51 don't remember there are different types
+49:52 of memories and u when you watch it's
+49:56 one type of memory but when you do
+49:57 something for example write or create an
+50:00 illustration that's another type of
+50:01 memory right so that's why I do this cuz
+50:03 it engages multiple types of memory for
+50:05 me and then um sometimes I don't do
+50:09 anything with this sometimes I
+50:11 digitalize it. So I turn it into a small
+50:13 article for that. I just have a file
+50:17 system project. It's um I think it's
+50:19 called obsidian the the system.
+50:22 >> Yeah, I was going to ask you if
+50:25 >> I don't I don't use obsidian but the
+50:27 ideas from there, right? So the idea
+50:29 there is you have some folder with raw
+50:32 idea coming in. Uh then you have some
+50:35 folder there with ideas that are already
+50:37 polished. And this is what I use for um
+50:41 when I learn something when I try new
+50:43 things I try to document what I learn
+50:47 and uh based on this documentation then
+50:49 I publish this and I publish I turn this
+50:51 into articles that I publish right you
+50:54 don't have to publish so I write for a
+50:57 newsletter I write on social media um so
+51:01 this is where I have my second brain
+51:03 right and um GitHub is my second brain
+51:06 but for you it can be just a folder in
+51:09 your file system that I I would
+51:11 recommend to actually uh use version
+51:13 control, put it to GitHub, too. But it's
+51:16 up to you, right? That's basically it.
+51:18 Take notes, then turn notes into uh
+51:21 markdown documents and do whatever you
+51:24 want with this. Another thing I do, and
+51:26 this is fairly recent, is I implemented
+51:29 a bot um that can turn my uh waste
+51:33 nodes. So I have a chat in telegram a
+51:36 bot and this bot when I send it a voice
+51:39 note it turns this voice note it
+51:41 transcribes it and then it uses a
+51:44 similar system to obsidian
+51:47 uh it puts them into / row and then I
+51:50 have an agent that uh looks at all these
+51:53 row files and turns them into
+51:56 articles right so you can try to
+51:58 implement something like that I'm still
+52:00 in process of implementing this thing I
+52:03 still need to describe how this thing
+52:04 works. Uh but this can actually be an
+52:08 interesting idea for your capstone
+52:10 project if you are interested in these
+52:14 sort of things. But yeah, this is what I
+52:16 do right now. Uh cuz uh for my
+52:18 newsletter, I need to constantly produce
+52:19 new content and I'm looking for ways to
+52:22 optimize to spend less time doing this.
+52:25 So right now the flow I found is I just
+52:28 dictate my ideas. I dictate what I do.
+52:32 uh and then I let agent to turn this uh
+52:35 brain dump into something
+52:38 editable. I edit this and I publish it.
+52:43 So yeah, but don't forget to like if
+52:47 it's just a file system, don't forget to
+52:48 put it into Git.
+52:52 Yes, thanks. For now, I'm using Obsidian
+52:55 with backup across multiple devices and
+52:58 uh that's cool. Google Drive.
+53:02 >> Okay.
+53:04 >> Yeah. Also, I used Notion, but now I run
+53:06 out of free cells in notion. I cannot
+53:08 edit. I cannot add more stuff to my
+53:11 notion. So, I need to find an
+53:13 alternative.
+53:14 >> Maybe I should take a look at Obsidian.
+53:17 >> Notion is famous now for being deleting
+53:21 content on their own decision. So, if
+53:23 it's prohibit their politics, they can
+53:25 wipe entirely your collection.
+53:29 Yeah, I shoot my gra.
+53:44 Um, okay. So, I have a question for you
+53:46 like if you're interested in answering.
+53:49 I am just wondering um if you already
+53:53 have some ideas of what you want to do
+53:55 after the course like when you joined
+53:58 the course you wanted to probably build
+54:01 something right do you already have some
+54:04 concrete ideas of what that might be and
+54:07 if yes I would be really interested in
+54:09 learning about that.
+54:18 I mean I have one but uh it's it started
+54:21 as swipe coded application and now uh I
+54:24 need to move from base 44 it's like
+54:26 lovable analog to fully controlled with
+54:29 fast API and uh
+54:32 local uh agents like for preparing to
+54:37 more scalable. So it's basically from uh
+54:40 inspired by a bit my wife needs. Uh we
+54:44 have like a lot of uh different uh
+54:48 tastes in family and uh some of us has
+54:51 allergy. So uh it's kind of optimizer
+54:55 for uh minimum time for cooking uh
+55:00 minimum time for committing to grocery
+55:02 shops and uh within uh the same time it
+55:06 should maintain the most um healthy like
+55:10 nutrients rich uh for different family
+55:13 members is different task either it's
+55:16 like weight loss or it's like actively
+55:19 growing kid like I I just take my own
+55:22 task my family and trying to to work on
+55:24 it.
+55:26 >> Okay, that's pretty interesting. Thanks
+55:28 for sharing.
+55:30 >> Can I share my thoughts about this?
+55:33 >> Yeah, of course.
+55:34 uh uh you know uh as a data scientist um
+55:38 I've been working in forecasting time
+55:41 series forecasting for a while and
+55:44 hopefully we reached to a point that we
+55:46 can just uh create a software and just
+55:51 uh using within different businesses. So
+55:56 my dream is to just create an AI agent
+56:00 beside this software to just
+56:02 specifically be used for any type of
+56:05 business individuals or other
+56:07 practitioners to get some insight to
+56:09 just um simplify things understanding
+56:13 analyze the data or make it some
+56:16 adaptive to the new environments and
+56:19 people. I hope uh this actually targets
+56:23 some goal could be achieved through this
+56:26 course. I try to do my best to uh fully
+56:31 learn this course and I I I definitely
+56:34 know that you would very good supportive
+56:37 in this case and uh yes that's from
+56:40 myself.
+56:41 >> Yeah, that's pretty cool. Uh yeah, we
+56:43 run out of time. So maybe we can
+56:45 continue this discussion uh next time.
+56:49 But um I wanted to ask you something. So
+56:52 I wanted to take a picture of us. Um and
+56:56 if you would be fine with that, uh can
+56:59 you please turn on your camera? Right?
+57:01 If you don't want and you don't need to
+57:03 do this, but I just want to to take a
+57:05 picture of uh all of us uh and then I
+57:08 will share it on social media. So, of
+57:11 course, if you are you don't like that,
+57:13 uh don't turn on your camera. Well, I
+57:17 see a lot of uh friendly faces. Hi,
+57:19 everyone. Very nice to see you. And I'm
+57:23 going to
+57:25 uh guess Mitri and Galo. Don't want to
+57:29 do this one. It's fine. So, I'm going to
+57:31 count to three.
+57:32 >> Sorry, I'm just in a dark room. It's
+57:34 going to be really like a shitty
+57:36 picture.
+57:37 >> That's fine.
+57:38 >> But I'm mentally with you.
+57:40 Okay, thank you. Okay. Uh, so I'm going
+57:43 to count to three and then I'm going to
+57:45 take a picture. So, one, two, three.
+57:54 Okay,
+57:58 amazing. So, thanks everyone. It was
+58:01 really cool to have you all here today.
+58:04 Um, I hope you enjoyed this. uh and I'm
+58:08 really excited about um this session uh
+58:12 this cohort. So um right now not all the
+58:16 materials are recorded. I'm actively
+58:18 working on that but feel free to check
+58:20 old stuff. The text content is in many
+58:23 cases is already there and once I add a
+58:27 bunch of new videos I'm going to use
+58:28 announcements so you will know that okay
+58:31 now videos for these lessons are
+58:32 available you can go and check. Okay
+58:35 thanks a lot. Thanks everyone and um
+58:37 happy to see you all here and um yeah
+58:41 see you next week and have fun this week
+58:43 learning new stuff. So bye everyone. See
+58:46 you. Thanks. See you.
