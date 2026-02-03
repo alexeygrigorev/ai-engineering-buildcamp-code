@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 138,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $I_{a}^{4} = I_{a}^{4} + C$, $\\frac{d}{dx}(I_{a}^{4} + C) = \\frac{d}{dx}C = 0$ (C being independent of x)."
+      },
+      {
+        "type": "text",
+        "text": "Cf. Example 5, p. 12; the constant in that case being 83."
+      },
+      {
+        "type": "text",
+        "text": "It is therefore advisable to add the constant in all examples on the assumption that constant terms should be included in an integral feature, and therefore its omission would invalidate the results obtained."
+      },
+      {
+        "type": "text",
+        "text": "In the list of a few of the simpler standard integrals collected together for purposes of reference and by way of revision the constant is denoted by $C$."
+      },
+      {
+        "type": "equation",
+        "latex": "I = x + C",
+        "description": "Integral of a function x with respect to x, with constant C."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\frac{1}{2}x^{2} + C",
+        "description": "Integral of function x squared with respect to x, with constant C."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\frac{1}{3}x^{3} + C",
+        "description": "Integral of function x cubed with respect to x, with constant C."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\sec^{2}(ax+b) + C",
+        "description": "Integral of the secant squared function."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\tan(ax+b) + C",
+        "description": "Integral of the tangent function."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\sec(ax+b) + C",
+        "description": "Integral of the secant function."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\cos^{2}(ax+b) + C",
+        "description": "Integral of the cosine squared function."
+      }
+    ]
+  },
+  "cost": 0.0008420999999999999
+}

@@ -1,0 +1,83 @@
+{
+  "page": {
+    "page_number": 353,
+    "header": "HARMONIC ANALYSIS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "the height of the true base line is $29$ or $145$ unit. This base line can now be put in, and is indicated as the true base line."
+      },
+      {
+        "type": "text",
+        "text": "By division into $3$ and $4$ equal parts and superposition the curves $3$ and $4$ respectively are obtained."
+      },
+      {
+        "type": "text",
+        "text": "(a), the base line for $x=0$ is at a height of $3$; this figure divided by $3$, yields $1$, which agrees with our former result."
+      },
+      {
+        "type": "text",
+        "text": "The curve A reapproximates this curve to the small double amplitude; for curve C, the procedure differs from our previous curves primarily in conception from the corresponding ordinates to the original curve."
+      },
+      {
+        "type": "text",
+        "text": "Originality can be striven for: the definition of the fundamental curve, which we have noted, is Curve A, which represents the fundamental."
+      },
+      {
+        "type": "text",
+        "text": "Letting $A_1$ and $C_1$ be defined as follows:"
+      },
+      {
+        "type": "text",
+        "text": "When $\\theta=0$, $y = A_1 \\sin (\\theta + \\varepsilon)$"
+      },
+      {
+        "type": "text",
+        "text": "(measured from the true base line to Curve A)."
+      },
+      {
+        "type": "text",
+        "text": "Let $A_1 = 1$ and $C_1 = 1$."
+      },
+      {
+        "type": "text",
+        "text": "Then: $\\varepsilon=2$ (for $\\theta=0$)."
+      },
+      {
+        "type": "text",
+        "text": "The mean of $1$ is $2$ and $2$ is $1$."
+      },
+      {
+        "type": "text",
+        "text": "Thus, we have:"
+      },
+      {
+        "type": "equation",
+        "latex": "y=\\frac{1}{2}(3\\sin(\\theta)+2\\sin(2\\theta))",
+        "description": "This equation expresses the relationship between the variables in the model."
+      },
+      {
+        "type": "text",
+        "text": "To find A and C, we apply the equation on an interval of $0<\\theta<2\\pi$."
+      },
+      {
+        "type": "text",
+        "text": "The period of the curve is $2\\pi$."
+      },
+      {
+        "type": "equation",
+        "latex": "2\\pi = \\frac{1}{2}",
+        "description": "This equation helps in finding the period of the curve."
+      },
+      {
+        "type": "text",
+        "text": "We see that curve $3$ and curve $4$ are adequately small."
+      },
+      {
+        "type": "text",
+        "text": "This method of superposition is to be recommended in cases of A.C. work, as one can readily tell by its action which harmonics are present. If the actual constants in the equation are regarded as before as negative, the method can be processed according to method (a) or method (b)."
+      }
+    ]
+  },
+  "cost": 0.0009578999999999998
+}

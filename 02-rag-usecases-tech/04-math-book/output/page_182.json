@@ -1,0 +1,52 @@
+{
+  "page": {
+    "page_number": 165,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{\\frac{\\pi}{2}} \\sin^{2} \\theta d\\theta = \\frac{1}{2} \\int_{0}^{\\frac{\\pi}{2}} (1 - \\cos 2\\theta) d\\theta = \\frac{1}{2} \\left( \\frac{\\pi}{2} - 0 \\right) - \\frac{1}{2} \\int_{0}^{\\frac{\\pi}{2}} \\cos 2\\theta d\\theta ",
+        "description": "This equation shows the evaluation of the integral of \\( \\sin^2 \\theta \\) using trigonometric identities."
+      },
+      {
+        "type": "text",
+        "text": "Now let us say, i.e., we wish to evaluate \\( \\int \\sin^{2} \\theta d\\theta \\) "
+      },
+      {
+        "type": "text",
+        "text": "u being written for \\( \\cos 0 \\) and \\( du = -\\sin 0 d\\theta \\) , since \\( d\\theta = -\\frac{du}{\\sin 0} \\)."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin^{2} \\theta d\\theta = -\\frac{1}{2} \\left( \\int u^{2} du \\right) + C",
+        "description": "This equation presents the integral of \\( \\sin^2 \\theta \\) expressed in terms of \\( u \\)."
+      },
+      {
+        "type": "text",
+        "text": "Thus"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin^{2} \\theta d\\theta = -\\frac{1}{2} \\left( \\frac{u^{3}}{3} \\right) + C = -\\frac{1}{6} u^{3} + C",
+        "description": "This shows the integration result of \\( \\sin^2 \\theta \\) after substituting for \\( u \\)."
+      },
+      {
+        "type": "text",
+        "text": "and if we note that the result may be expressed in the form \\( \\int \\sin^{2} \\theta d\\theta = -\\frac{1}{6} \\cos ^{3} \\theta + C \\), wtih \\( n \\) being and equation."
+      },
+      {
+        "type": "text",
+        "text": "Let \\( n = 4 \\), then \\( \\int \\sin^{4} \\theta d\\theta \\) is required."
+      },
+      {
+        "type": "text",
+        "text": "Now \\( \\int \\sin^{4} \\theta d\\theta = \\int (1 - \\cos^{2} \\theta )^{2} d\\theta \\) , where \\( u = \\cos 0 ."
+      }
+    ]
+  },
+  "cost": 0.0009501
+}

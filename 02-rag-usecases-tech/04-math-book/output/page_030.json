@@ -1,0 +1,52 @@
+{
+  "page": {
+    "page_number": 13,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let $m$, or the average slope of the primitive from $a$ to $b$, with reasonable accuracy."
+      },
+      {
+        "type": "text",
+        "text": "Continue the process by drawing $P$ parallel to $bl$ and $Ms$ horizontal to meet the mid-ordinate of the second strip in $s$; then $s$ is a portion of the slope or derived curve."
+      },
+      {
+        "type": "text",
+        "text": "Repeat the operations for all the strips and draw the smooth curve through the points $c, e, s$; then this curve is the curve of slopes."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 2.—Graphic Differentiation, Method 1.",
+        "description": "This figure illustrates the relationship between the primitive curve and the slope curve, indicating how the average slope is derived through the indicated steps.",
+        "figure_number": 2
+      },
+      {
+        "type": "text",
+        "text": "Indicate a slope of slope along a convenient vertical axis and the diagram is complete: the scale of slope being the old vertical side divided by the polar distance expressed in terms of the horizontal units."
+      },
+      {
+        "type": "text",
+        "text": "Let $b_e$, if the new vertical scale is $x' = 40 \text{ ft.},$ and the horizontal scale is $x = 20 \text{ ft.}$; then, if the polar distance $p$ is taken as $z', e$, as $20$ horizontal units,"
+      },
+      {
+        "type": "text",
+        "text": "the new vertical scale, or scale of slope, is $m = \frac{p}{20 \text{ ft.}}$."
+      },
+      {
+        "type": "text",
+        "text": "Proof of the construction—"
+      },
+      {
+        "type": "text",
+        "text": "The slope of the primitive curve at $m$ is $m = \frac{OA}{CA}$."
+      },
+      {
+        "type": "equation",
+        "latex": "m = \\frac{dy}{dx}",
+        "description": "This equation represents the derivative, or slope, of the function."
+      }
+    ]
+  },
+  "cost": 0.0008462999999999999
+}

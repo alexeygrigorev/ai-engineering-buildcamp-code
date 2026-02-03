@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 37,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "9.  $\\frac{dy}{dx} = 5y$."
+      },
+      {
+        "type": "text",
+        "text": "10.  $\\frac{dy}{dx} = 8$."
+      },
+      {
+        "type": "text",
+        "text": "11.  $\\frac{d}{dx} (x^2 + 3x + 5)$."
+      },
+      {
+        "type": "text",
+        "text": "12.  Find the value of   $\\frac{d}{dx} \\left( \\sin^2 x \\right)$."
+      },
+      {
+        "type": "text",
+        "text": "13.  Find the rate of change of $y = 4t^4 + t^2 - \\cos(\\theta)$ with respect to $\\theta$."
+      },
+      {
+        "type": "text",
+        "text": "14.  Find the derivative of  $\\sqrt{1 + x^2} + \\ln(x)$."
+      },
+      {
+        "type": "text",
+        "text": "15.  If $y = \\frac{1}{x^2 + 1}$, then find $\\frac{dy}{dx}$."
+      },
+      {
+        "type": "text",
+        "text": "16.  Find the value of $\\frac{df}{dr}$ when $f = e^{x^2} \\cos(\\theta)$."
+      },
+      {
+        "type": "text",
+        "text": "17.  If $y = \\ln(3x + 5)$, calculate $\\frac{dy}{dx}$."
+      },
+      {
+        "type": "text",
+        "text": "18.  $f(x) = \\sqrt{x}$, find $f'(x)$."
+      },
+      {
+        "type": "text",
+        "text": "19.  Find the differential of $y = \\sin(x^3)$."
+      },
+      {
+        "type": "text",
+        "text": "20.  Find the rate of discharge $Q$ of air through an orifice from a tank (the pressure being 55 lb/in$^2$ from the following data):"
+      }
+    ]
+  },
+  "cost": 0.0008402999999999999
+}

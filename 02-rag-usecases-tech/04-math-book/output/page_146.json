@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 129,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Now, we may write the integral of } (ax+b)^{n} dx  = \\frac{(ax+b)^{n+1}}{(n+1)a} + C, \\quad \\text{ for } n \\neq -1."
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of a constant term gives us zero, but the integration gives us that constant multiplied by the variable."
+      },
+      {
+        "type": "text",
+        "text": "This relation will be apparent if we consider the derivative equation for a straight line, and their slope is zero (i.e., \\frac{d}{dx} C = 0); but the area under the curve of the area of a rectangle, as base height = b \\cdot h = b."
+      },
+      {
+        "type": "text",
+        "text": "Exponential Functions—We have already proved that if \\frac{dy}{dx} = e^{x}, then by transposition we get that $ y = e^{x} + C $ and since $ e^{x} $ corresponds to $ \\int e^{x} dx $, we may write this as"
+      }
+    ]
+  },
+  "cost": 0.0007400999999999999
+}

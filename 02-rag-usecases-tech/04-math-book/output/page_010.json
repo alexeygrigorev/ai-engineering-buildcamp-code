@@ -1,0 +1,33 @@
+{
+  "page": {
+    "page_number": 1,
+    "header": "AUTHOR'S PREFACE",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "CONCERNING the aim and scope of this work nothing need be added here to the statements made in the Preface to the former volume. It is there asserted that the subject-matter has been so chosen, and then through the examples, so applied to practical problems, that the two volumes embody all the mathematical knowledge which an engineer requires in their practice, and especially in all branches of engineering science."
+      },
+      {
+        "type": "text",
+        "text": "As with the first volume, much has been done in the second to avoid all rules and processes of academic formality, but the fact of the importance and necessity of logical reasoning has not been overlooked."
+      },
+      {
+        "type": "text",
+        "text": "They are here elucidated, with the most recent methods, leaving to the teacher the opportunity of explaining them to the student."
+      },
+      {
+        "type": "text",
+        "text": "This chapter also involves the consideration of the simple and direct methods of graphic presentation, one of the important features of educational discussions."
+      },
+      {
+        "type": "text",
+        "text": "Nevertheless, in the case of graphical methods it is better to extend the subject both beyond the limit of individual explanation, and to provide an example in which some of the important aspects of the development of the subject can be seen."
+      },
+      {
+        "type": "text",
+        "text": "The conception of \"limiting values,\" mentioned briefly in Part I, further discussed in Chapter 1, is familiar enough from Dynamics; being chosen as the illustration: in this chapter also two methods of graphic presentation are given; the second of which, and the less familiar, being the simpler to apply."
+      }
+    ]
+  },
+  "cost": 0.0007941
+}

@@ -1,0 +1,85 @@
+{
+  "page": {
+    "page_number": 178,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "∫ sin⁡(m−1) cos⁡(n−3) dx  \n= (m−1)(n−3)  . . . 2  \nif m is even and n is odd."
+      },
+      {
+        "type": "text",
+        "text": "∫ (y dx + x dy)  = C log⁡(y)  \n= a log⁡(a) + b log⁡(b) ."
+      },
+      {
+        "type": "text",
+        "text": "∫ tan⁡x dx = − log⁡\n|cos⁡x| + C."
+      },
+      {
+        "type": "text",
+        "text": "∫ (x² − 2ax)dx =  \n= (⅓)x³ − ax² + C."
+      },
+      {
+        "type": "text",
+        "text": "∫ (a²x² + b² y²) dx = \n= a² log⁡(a²x² + b²)  + C."
+      },
+      {
+        "type": "text",
+        "text": "∫ sin(2x)dx =  -\frac{1}{2}cos(2x) + C."
+      },
+      {
+        "type": "text",
+        "text": "∫ cos(θ) dθ = sin(θ) + C."
+      },
+      {
+        "type": "text",
+        "text": "∫ 3 cos⁡x dx = 3 sin⁡x + C."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 15. – On Further Integration."
+      },
+      {
+        "type": "text",
+        "text": "Evaluate the integrals in Nos. 10 to 18."
+      },
+      {
+        "type": "text",
+        "text": "1. ∫ 2  \n  x² + 3x  dx."
+      },
+      {
+        "type": "text",
+        "text": "3. ∫ (x³ + x²)  \n= (  a²x²  +  a )  dx"
+      },
+      {
+        "type": "text",
+        "text": "5. I  = 95.5  \n= (  2  –  k)h, referring to the time for emptying a tank."
+      },
+      {
+        "type": "text",
+        "text": "11. ∫ 4 tan⁡x dx."
+      },
+      {
+        "type": "text",
+        "text": "15. ∫ (y cos⁡x − y⁴ x²) dx."
+      },
+      {
+        "type": "text",
+        "text": "17. cos⁡(h) + sin⁡(x)  = k relating to the flow through a pipe of uniformly varying diameter,  \ndiameter at distance x from the small end being a small end dia."
+      },
+      {
+        "type": "text",
+        "text": "18. ∫  \n\frac{W}{R} = cos⁡θ."
+      },
+      {
+        "type": "text",
+        "text": "√  3  ∫ x  dx."
+      },
+      {
+        "type": "text",
+        "text": "5. f 1 sin 2."
+      }
+    ]
+  },
+  "cost": 0.00130755
+}

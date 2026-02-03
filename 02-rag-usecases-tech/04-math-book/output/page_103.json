@@ -1,0 +1,77 @@
+{
+  "page": {
+    "page_number": 86,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "[As an exercise, the reader should work this according to the following plan. Write $y = 12x^2 + 5x - 28$, and then use the rule for the differentiation of a quotient.]"
+      },
+      {
+        "type": "text",
+        "text": "It is with examples in which powers of factors occur that this method is most useful."
+      },
+      {
+        "type": "text",
+        "text": "Example 21—Find  dy  when  y =  (z + 2)(z - 5) ."
+      },
+      {
+        "type": "text",
+        "text": "Taking logs throughout—"
+      },
+      {
+        "type": "text",
+        "text": "$\\log y = \\log (z + 2) + \\log (z - 5)$."
+      },
+      {
+        "type": "text",
+        "text": "Then:  $\\frac{dy}{y} = \\frac{1}{z + 2}\\frac{dz}{dy} + \\frac{1}{z - 5}\\frac{dz}{dy}$."
+      },
+      {
+        "type": "text",
+        "text": "Multiplying through by  $y = (z + 2)(z - 5)$, yields"
+      },
+      {
+        "type": "text",
+        "text": "$dy = \\frac{(z - 5)dz}{z + 2} + \\frac{(z + 2)dz}{z - 5}$."
+      },
+      {
+        "type": "text",
+        "text": "$=\\frac{[3z - 3]dz}{(z - 5)(z + 2)}$."
+      },
+      {
+        "type": "text",
+        "text": "Next, differentiating:  $ \\frac{dy}{dz} = \\frac{3}{(z - 5)(z + 2)}$."
+      },
+      {
+        "type": "text",
+        "text": "Thus, $ \\frac{dy}{dz}(z + 2)(z - 5) = 3$."
+      },
+      {
+        "type": "text",
+        "text": "Now substituting:  $ dy = 3 + 2 \\cdots (z - 5)$."
+      },
+      {
+        "type": "text",
+        "text": "Thus,  \\begin{align*} \\text{Given that }  x = \\log  \\left( \\frac{3}{\\sigma} \\right)  ,  \\text{ the derivatives partial }  .\\end{align*}"
+      },
+      {
+        "type": "text",
+        "text": "1. $\\frac{dz}{\\sigma^2}\\left[ \\frac{dy}{(\\sigma - 3)} \\div 4\\right] , d( \\sigma )\\equiv d(y)$."
+      },
+      {
+        "type": "text",
+        "text": "Exercise 9—On Partial Differentiation and Logarithmic Differentiation."
+      },
+      {
+        "type": "text",
+        "text": "1.  Measuring the sides of a circle, the probable errors in the sides are  $r_1$ and  $r_2$. If at a given radius  $r$, we find the area given by: $A= \\pi r^2$ , show that  $\\frac{dA}{dr} = 2\\pi r$."
+      },
+      {
+        "type": "text",
+        "text": "2. For  $(1 - a)(1 + a) \\equiv$  show that  $\\frac{\\partial A}{\\partial a} = \\frac{2x}{x + 2}$."
+      }
+    ]
+  },
+  "cost": 0.0010149
+}

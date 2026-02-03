@@ -1,0 +1,58 @@
+{
+  "page": {
+    "page_number": 307,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Examples relating to Loaded Beams"
+      },
+      {
+        "type": "text",
+        "text": "Example 9—Prove the most important rule\n$$ M = \\frac{E I}{R} $$\napplied to a loaded beam; M and I having their usual meanings, and R being the radius of curvature of the bent beam."
+      },
+      {
+        "type": "text",
+        "text": "Assuming the beam to be originally straight, take a section of length l along the neutral lamina, and let l + \\ell be the strained length at distance y (Fig. 108)."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 108—Problem on Loaded Beam.",
+        "description": "The figure illustrates a beam under load, showing the original and strained lengths, as well as the distance y and how it relates to the radius of curvature R.",
+        "figure_number": 108
+      },
+      {
+        "type": "text",
+        "text": "Then, if R = radius of curvature,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{1}{R} = \\frac{1}{R - y} - \\frac{1}{R + y}",
+        "description": "This formula expresses the relationship of radius of curvature to the straight length after deformation."
+      },
+      {
+        "type": "text",
+        "text": "whence"
+      },
+      {
+        "type": "equation",
+        "latex": "R = \\frac{R^2 - y^2}{2y}",
+        "description": "This equation shows how to calculate radius R using the lengths involved."
+      },
+      {
+        "type": "text",
+        "text": "And E = stress / strain (where stress is given by the load per unit area, and strain is the change in length divided by the original length), but it has already been proved (see p. 239) that"
+      },
+      {
+        "type": "equation",
+        "latex": "E = \\frac{M}{I}",
+        "description": "An equation linking the modulus of elasticity to moment M and area moment of inertia I."
+      },
+      {
+        "type": "text",
+        "text": "Hence."
+      }
+    ]
+  },
+  "cost": 0.0008402999999999999
+}

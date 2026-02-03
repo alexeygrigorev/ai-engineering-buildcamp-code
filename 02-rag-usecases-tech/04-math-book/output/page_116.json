@@ -1,0 +1,46 @@
+{
+  "page": {
+    "page_number": 99,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let the breadth of the section be $b$ and the depth $d$, then by hypothesis\n\n$$bd = A, \text{ where } b = \\frac{A}{d}$$\n\nand\n\n$$W = 2\\sqrt{b}\\cdot d = 2\\sqrt{\\frac{A}{d}} \\cdot d = 2\\sqrt{A} \\cdot d^{-1/2}.$$"
+      },
+      {
+        "type": "text",
+        "text": "Q will be a maximum when, considering $Q = \\frac{2\\sqrt{A}}{\\sqrt{d}}$, we shall find the value of $d$ for which $Q$ is a maximum."
+      },
+      {
+        "type": "text",
+        "text": "Also $Q$ is a maximum when the denominator of this fraction is a minimum."
+      },
+      {
+        "type": "text",
+        "text": "Let this denominator be denoted by $D$ then\n\n$$D = d + \\frac{A}{d}$$\n\nand\n\n$$\\frac{dD}{dd} = 1 - \\frac{A}{d^{2}}.$$"
+      },
+      {
+        "type": "text",
+        "text": "Now ... the dimensions would be ... depth $d$ and breadth $= \\sqrt{A}$."
+      },
+      {
+        "type": "text",
+        "text": "Example 10: For a certain steam engine the expression for $W$, the brake energy per cu. ft. of steam, is given in terms of $r$, the ratio of expansion, as follows."
+      },
+      {
+        "type": "equation",
+        "latex": "W = 120\\left(1+\\log r\\right) - 27r",
+        "description": "An expression for the brake energy per cubic foot of steam in terms of the ratio of expansion."
+      },
+      {
+        "type": "text",
+        "text": "Find the value of $r$ that makes $W$ a maximum."
+      },
+      {
+        "type": "text",
+        "text": "Before proceeding to differentiate, we can put the expression in a somewhat simpler form ...\n\n$$W = \\text{quotient } W \\text{ where } W = 120(1+\\log r) - 27r.$$"
+      }
+    ]
+  },
+  "cost": 0.0008714999999999999
+}

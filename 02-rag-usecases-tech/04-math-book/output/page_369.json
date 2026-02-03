@@ -1,0 +1,47 @@
+{
+  "page": {
+    "page_number": 352,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The constants, if $A_0$ is already found."
+      },
+      {
+        "type": "text",
+        "text": "Select two convenient values of the current and work the ordinates of the curve to find $A_1$ and $A_2$; proceed similarly using the two curves to find $A_3$."
+      },
+      {
+        "type": "text",
+        "text": "Note that in alternating current work only terms of the order of $6$, $5$, $6$ etc., so that the curve would need to be divided into $3$, $2$, etc., as in the parts suppressed. There is thus no reason to mention it, and the constant values of $A_0$ must be more."
+      },
+      {
+        "type": "text",
+        "text": "The curve ABCD, Fig. 132, gives by its ordinates the displacement of the liquid curve as obtained by a Goodkin Motion."
+      },
+      {
+        "type": "text",
+        "text": "It is required to find the constants in the equation $y = A_0 + A_1 \text{sin}(x) + A_2 \text{sin}(2x) + A_3 \text{sin}(3x)$."
+      },
+      {
+        "type": "text",
+        "text": "The origin is divided into two parts, the curve is divided above the first, with the result that Curve 2 is obtained."
+      },
+      {
+        "type": "text",
+        "text": "The estimated line before this is $B_1$, the height of $B_0$ above the original base line being $29$. "
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 132",
+        "description": "The figure illustrates the curve of liquid displacement resulting from a sinusoidal input, highlighting the relationship between current and the resulting wave forms.",
+        "figure_number": 132
+      },
+      {
+        "type": "text",
+        "text": "The resultant curve is approximately a sine curve symmetrical about the true base line."
+      }
+    ]
+  },
+  "cost": 0.0008312999999999999
+}

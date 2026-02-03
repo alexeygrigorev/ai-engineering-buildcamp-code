@@ -1,0 +1,51 @@
+{
+  "page": {
+    "page_number": 383,
+    "header": "MATHEMATICAL PROBABILITY",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "also  $  n = \\frac{2 \\times 2}{\\sqrt{367.358 - 1.38}}$"
+      },
+      {
+        "type": "text",
+        "text": "\n\nExample 2.— In a chain survey four measurements of a base line $ 867.35, 867.41, 867.62$ and $ 867.43$ are taken. Find the best length and the probable error."
+      },
+      {
+        "type": "text",
+        "text": "\n\nThe best result is the A.M. of these."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{A.M.} = \\frac{867.35 + 867.41 + 867.62 + 867.43}{4} = 867.485",
+        "description": "The arithmetic mean (A.M.) of the four measurements."
+      },
+      {
+        "type": "text",
+        "text": "\n\nThe total links $ 867.41 $ yields a probable error."
+      },
+      {
+        "type": "text",
+        "text": "Probable error in A.M. is:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{P.E.} = \\frac{1.253}{\\sqrt{n}} = \\frac{1.253}{\\sqrt{4}} = \\frac{1.253}{2} = 0.6265",
+        "description": "Calculating the probable error based on the number of observations."
+      },
+      {
+        "type": "text",
+        "text": "\n\n\n\n\n\n\n\n\n\n675.5  \\pm  0.6265 =  674.875  \n\nso that the base line measurement $ 867.41 $ is subject to an error of 0.157 inch, and this result could not be bettered it would be derived from the existing | data, (Cf. ‘repetition,’ when working with the mean)."
+      },
+      {
+        "type": "text",
+        "text": "\n\n\nThis gives $ 670.48 \\pm  0.273."
+      },
+      {
+        "type": "text",
+        "text": "\n\nExample 3.— The mean values of the three angles of a spherical triangle are calculated to five actual observables to be $ 25^\\circ 46', 39^\\circ 47',  3^\\circ 41' $ and each of these values was subject to probable errors $ 2^\\circ 5',  1^\\circ 17' $ respectively. From a knowledge "
+      }
+    ]
+  },
+  "cost": 0.0009068999999999999
+}

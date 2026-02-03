@@ -1,0 +1,75 @@
+{
+  "page": {
+    "page_number": 74,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "MATHEMATICS FOR ENGINEERS"
+      },
+      {
+        "type": "text",
+        "text": "When $h$ becomes very small, $\frac{dy}{dx}$ and $\frac{dy}{dx}$ approach the values $\frac{d^2 y}{dx^2}$ and $\frac{dy}{dx}$ respectively, whilst $u + v$ becomes indistinguishable from."
+      },
+      {
+        "type": "text",
+        "text": "Hence in the limit"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{du}{dx} = \\lim_{h \\to 0} \\frac{u(x+h) - u(x)}{h}.",
+        "description": "This represents the derivative of $u$ with respect to $x$."
+      },
+      {
+        "type": "text",
+        "text": "(b) Using the rules for a product and a function of a function."
+      },
+      {
+        "type": "text",
+        "text": "Then"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = (uv)' = u'v + uv',",
+        "description": "This is the product rule for differentiation."
+      },
+      {
+        "type": "text",
+        "text": "where"
+      },
+      {
+        "type": "equation",
+        "latex": "u = (x^2 + 1),",
+        "description": "Definition of $u$."
+      },
+      {
+        "type": "text",
+        "text": "and let"
+      },
+      {
+        "type": "equation",
+        "latex": "v = 12x+7,",
+        "description": "Definition of $v$."
+      },
+      {
+        "type": "text",
+        "text": "Then"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx} (uv) = (12)(x^2 + 1) + (2x)(12x + 7) = 15\\sin(3 + t).",
+        "description": "This shows the derivative with respect to $x$."
+      },
+      {
+        "type": "equation",
+        "latex": "5 \\cos \\left( 3 + t \\right)",
+        "description": "This expression shows a cosine function in relation to the derivatives."
+      },
+      {
+        "type": "text",
+        "text": "Example 11.—Differentiate, with regard to $s$, the expression $4s^4 + 7$."
+      }
+    ]
+  },
+  "cost": 0.0008571
+}

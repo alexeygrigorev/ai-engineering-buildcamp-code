@@ -1,0 +1,29 @@
+{
+  "page": {
+    "page_number": 216,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus the centroid vertical, or the line PG is fixed. We need now to find the centroid horizontal, i.e., $y$ must be determined.\n\n\n   \\[ y = \\frac{\\int y dA}{A} \\]  \n   where $Y$ in this case is the area of \\( ABCD \\)  , therefore  \n   so that the following table must be compiled—"
+      },
+      {
+        "type": "table",
+        "caption": "Area of the figures",
+        "columns": [
+          "Area of ABCD",
+          "Area of ARCD",
+          "Area of ARBD"
+        ],
+        "rows": [
+          [
+            "1698",
+            "202",
+            "292"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0006860999999999999
+}

@@ -1,0 +1,33 @@
+{
+  "page": {
+    "page_number": 88,
+    "header": "CHAPTER IV",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "APPLICATIONS OF DIFFERENTIATION"
+      },
+      {
+        "type": "text",
+        "text": "The following rules for the differentiation of the various functions, exponential and trigonometric, are now in a position to apply these rules to the solution of practical problems. By far the most important and interesting direction in which differentiation proves of great service is in the solution of problems concerned with maximum and minimum values; and with these problems we shall now deal."
+      },
+      {
+        "type": "text",
+        "text": "Maximum and Minimum Values. Numerous cases present themselves, both in engineering theory and practice, where it is desired to find such and other quantity, one of which is the first has the desired value."
+      },
+      {
+        "type": "text",
+        "text": "E.g., it is sometimes required to arrange a number of electric resistance coils in such a way as to minimize the resistance from them, knowing that the current is to be divided among them in such a way that all the coils carry the same current. If the total resistance of the arrangement is \\( R \\), then the current will divide in inverse ratio to the individual resistances and the use of the notation \\( R_{1}, R_{2}, \\ldots R_{n} \\) will represent the individual resistances."
+      },
+      {
+        "type": "text",
+        "text": "In such an instance if the necessary value of a hydraulic system is required to determine the resistance, the potential difference between the extreme ends of the line is applied and the flow on the main is treated at normal effective almost equivalent to the maximum length of the particular system that results."
+      },
+      {
+        "type": "text",
+        "text": "However, and unless the greatest properties can be seen in a large scale in the neighbourhood of the turning points, the results obtained are usually good approximations only. In consequence of these failings."
+      }
+    ]
+  },
+  "cost": 0.0008186999999999999
+}

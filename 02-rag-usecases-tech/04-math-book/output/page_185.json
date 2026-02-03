@@ -1,0 +1,70 @@
+{
+  "page": {
+    "page_number": 168,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Then since $\\int_{0}^{1} \\sin x \\, dx = -\\cos x \\big|_{0}^{1} = -\\cos 1 + \\cos 0 = 1 - \\cos 1$ and when $n = 1$ "
+      },
+      {
+        "type": "text",
+        "text": "Again, when $n = 2$,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{1} \\sin^2 x \\, dx = \\int_{0}^{1} \\frac{1 - \\cos 2x}{2} \\, dx = \\frac{1}{2}\\int_{0}^{1} (1 - \\cos 2x) \\, dx = \\frac{1}{2} \\left[ x - \\frac{\\sin 2x}{2} \\right]_{0}^{1} = \\frac{1}{2} \\left[ 1 - 0 \\right] = \\frac{1}{2}.",
+        "description": "This equation shows the integration of the square of the sine function over the interval from 0 to 1."
+      },
+      {
+        "type": "text",
+        "text": "Hence..."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{1} \\sin^3 x \\, dx = \\frac{3}{4} - \\frac{3}{8}\\sin 2 = \\frac{3}{8} (1 - \\cos 2x) \\, dx = 1\\cdots(1)",
+        "description": "This equation represents the integral of the cube of the sine function."
+      },
+      {
+        "type": "text",
+        "text": "We can now direct our attention to the determination of the value of $\\int_{0}^{\\frac{\\pi}{2}} \\sin^n \\theta \\cos^n \\theta \\, d\\theta$, where $m$ and $n$ are positive integers."
+      },
+      {
+        "type": "text",
+        "text": "It is convenient to discuss a simple case first, viz... "
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin^n \\theta \\cos^n \\theta \\, d\\theta,",
+        "description": "This introduces the integration of sine and cosine raised to the power of integers."
+      },
+      {
+        "type": "text",
+        "text": "Let $u = \\sin^n \\theta$ so that $du = n\\sin^{n-1}\\theta \\cos \\theta \\, d\\theta$."
+      },
+      {
+        "type": "text",
+        "text": "Then, by integrating by parts..."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int u \\, dv = uv - \\int v \\, du",
+        "description": "This is the integration by parts formula."
+      },
+      {
+        "type": "text",
+        "text": "Now we have..."
+      },
+      {
+        "type": "equation",
+        "latex": "u = \\sin^n \\theta \\rightarrow v = -\\frac{1}{n+1}\\cos^{n+1} \\theta",
+        "description": "An expression representing the integration result."
+      },
+      {
+        "type": "text",
+        "text": "and I might be written as ..."
+      }
+    ]
+  },
+  "cost": 0.0009824999999999999
+}

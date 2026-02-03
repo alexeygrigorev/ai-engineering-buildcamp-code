@@ -1,0 +1,30 @@
+{
+  "page": {
+    "page_number": 338,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 36—Forced Vortex"
+      },
+      {
+        "type": "text",
+        "text": "Let the rotation be at $ R.P.S $.\nConsider an element at P (Fig. 128).\nThen—\n\n\\[ dF = -\\frac{dF}{d\\theta} d\\theta \\]  \n\nand  \n\n\\[ \\tan \\phi = \\frac{\\text{weight of particle}}{\\text{horizontal force}} = \\frac{dF}{dF_{c}} \\]  \n\nRepresenting the variables  \n\n\\[ \\frac{dF}{dF_{c}} = \\frac{dF}{\\rho g\\text{radius}} = \\frac{\\rho v^{2}}{g}\\cdot \\frac{r}{\\rho v}\\cdot \\frac{dr}{\\rho g} \\]  \n\nwhere $ \\rho $ is a constant, and thus this is the equation of a parabolic arc revolving."
+      },
+      {
+        "type": "section_heading",
+        "title": "An Example from Surveying."
+      },
+      {
+        "type": "text",
+        "text": "Example 37—Prove that a cubic parabola is a suitable \"transition\" curve.\n\nIn order that the full curvature of a railway curve may be passed gradually, a curve known as a transition curve is used to join the straight and the curve. It must be noted that the radius of curvature varies inversely as the distance from the starting point of the straight, where the radius is infinite;  \n\nor more exactly  \n\n\\[ y = \\frac{x^{3}}{3\\left(\\frac{d^{2}y}{dx^{2}}\\right)_{0}} + C \\] "
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{x^{3}}{3\\left(\\frac{d^{2}y}{dx^{2}}\\right)_{0}} + C",
+        "description": "This equation represents the cubic parabola in context of transition curves."
+      }
+    ]
+  },
+  "cost": 0.0008642999999999999
+}

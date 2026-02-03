@@ -1,0 +1,33 @@
+{
+  "page": {
+    "page_number": 351,
+    "header": "HARMONIC ANALYSIS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In the example just discussed, the angular intervals were taken as $45^{\text{o}}$, this choice being made as a matter of great convenience, since cos $45^{\text{o}} = \text{sin} \\, 45^{\text{o}}$ and projections may thus be made on either a horizontal or a vertical axis."
+      },
+      {
+        "type": "text",
+        "text": "Method (c): Analysis: by Superposition—This method is employed to solve the equations for the problems of which it was previously stated that the method of projection was not sufficient. In some cases, it is the only effective method. It may be stated, although proof of the method is long and complex, as requiring to be treated here separately."
+      },
+      {
+        "type": "text",
+        "text": "The rules of procedure are here set out in a detailed explanation."
+      },
+      {
+        "type": "text",
+        "text": "1) For each of the three cases of superposition being considered, take the average of the heights of the ordinates for the combined form in order to obtain the equivalent curve."
+      },
+      {
+        "type": "text",
+        "text": "2) Take the average of the values of $\theta_{2}$ (the height of the base line) from the original base curve and subtract the resulting value from the original; this is noted as $A_{2}$."
+      },
+      {
+        "type": "text",
+        "text": "3) Subtract corresponding ordinates of the $z_2$ curve (divided by $2$) and the $z_3$ curve (divided by $3$), paying attention to the resulting scales."
+      }
+    ]
+  },
+  "cost": 0.0007982999999999999
+}

@@ -1,0 +1,44 @@
+{
+  "page": {
+    "page_number": 79,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "1. Assuming the results for \\( d(\\cosh x) = \\sinh x \\) and \\( d(\\sinh x) = \\cosh x \\), the derivative of \\( \\log \\tan x \\ \\) is given by the equation."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx}(\\log \\tan x) = \\frac{1}{\\tan x} \\cdot \\sec^2 x = \\frac{1}{\\sin x \\cos x} = \\frac{2}{\\sin(2x)}.",
+        "description": "Derivative of the logarithm of the tangent function expressed in terms of sine and cosine."
+      },
+      {
+        "type": "text",
+        "text": "2. Given that \\( U = 13x^2 \\) (pulling on a balloon), find the velocity when \\( v = \\frac{dU}{dt} \\) and express it in terms of \\( x \\)."
+      },
+      {
+        "type": "text",
+        "text": "3. If \\( v = \\frac{U}{x} \\) and \\( x = 1 + \\frac{1}{x} \\), find the acceleration \\( a = \\frac{dv}{dt} \\)."
+      },
+      {
+        "type": "equation",
+        "latex": "a = \\frac{d(v)}{dt} = \\frac{d}{dt}( U ).",
+        "description": "Acceleration in terms of the derivative of velocity."
+      },
+      {
+        "type": "text",
+        "text": "4. If \\( v \\) is velocity, find \\( \\ldots \\) and also the angular velocity of a connecting rod."
+      },
+      {
+        "type": "text",
+        "text": "5. Find \\( M \\) when \\( M = w(\\ell - 2) \\), with \\( M \\) being a function of the length of a beam. Then, \\( r = \\frac{w}{C} \\) and find the quotient \\( \\frac{dM}{dt} \\) when it is noted."
+      },
+      {
+        "type": "equation",
+        "latex": "P = C \\cdot r.",
+        "description": "Relationship between P, C, and r."
+      }
+    ]
+  },
+  "cost": 0.0008762999999999999
+}

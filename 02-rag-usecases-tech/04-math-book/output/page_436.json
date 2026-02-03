@@ -1,0 +1,137 @@
+{
+  "page": {
+    "page_number": 419,
+    "header": "INDEX",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Oblate spheroid, volume of, 200"
+      },
+      {
+        "type": "text",
+        "text": "Parallel axis theorem, 200"
+      },
+      {
+        "type": "text",
+        "text": "Partial differentiation, 199"
+      },
+      {
+        "type": "text",
+        "text": "Permittivity, electromagnetic, 214"
+      },
+      {
+        "type": "text",
+        "text": "Point of inflection, 95"
+      },
+      {
+        "type": "text",
+        "text": "Polar coordinates, 90"
+      },
+      {
+        "type": "text",
+        "text": "Probability of error, 201"
+      },
+      {
+        "type": "text",
+        "text": "Probability, inverse of arithmetic mean, 201"
+      },
+      {
+        "type": "text",
+        "text": "Radius of gyration, 260"
+      },
+      {
+        "type": "text",
+        "text": "Radius of curvature, 164; of solid, 210"
+      },
+      {
+        "type": "text",
+        "text": "Root mean square, 188; of an equation, 321"
+      },
+      {
+        "type": "text",
+        "text": "Phle method for, Fleming's graph"
+      },
+      {
+        "type": "text",
+        "text": "Strength of materials, examples on, 321 at end"
+      },
+      {
+        "type": "text",
+        "text": "Struts, spherical shells, 202"
+      },
+      {
+        "type": "text",
+        "text": "Sub-tonal length, of arc, 166"
+      },
+      {
+        "type": "text",
+        "text": "Surface curve, 200"
+      },
+      {
+        "type": "text",
+        "text": "Surface of solid of revolution, 208"
+      },
+      {
+        "type": "text",
+        "text": "Swing radius, 103"
+      },
+      {
+        "type": "text",
+        "text": "Taylor's theorem, 205"
+      },
+      {
+        "type": "text",
+        "text": "Tension, 240; differing, 213; theory of, 360"
+      },
+      {
+        "type": "text",
+        "text": "Thermodynamics, temperature, 303"
+      },
+      {
+        "type": "text",
+        "text": "Tilt, axial, 240"
+      },
+      {
+        "type": "text",
+        "text": "Tractrix, 431"
+      },
+      {
+        "type": "text",
+        "text": "Transmittance, 302; measurement of"
+      },
+      {
+        "type": "text",
+        "text": "Triangular basic measurements, differentiation, 329"
+      },
+      {
+        "type": "text",
+        "text": "Values, mean, 50; of fixed point, 333"
+      },
+      {
+        "type": "text",
+        "text": "Vertical component of gravity, 333"
+      },
+      {
+        "type": "text",
+        "text": "Weighted mean, 353"
+      },
+      {
+        "type": "text",
+        "text": "Weight of an object, friction on, 333"
+      },
+      {
+        "type": "text",
+        "text": "Work done in complete theoretical cycle, 302"
+      },
+      {
+        "type": "text",
+        "text": "Zenith, 366"
+      },
+      {
+        "type": "text",
+        "text": "Zone of sphere, volume of, 102"
+      }
+    ]
+  },
+  "cost": 0.0008918999999999999
+}

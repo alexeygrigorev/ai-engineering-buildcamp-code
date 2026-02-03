@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 152,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "By an extension of this result such an integral as $\\int \\frac{dx}{(x+a)^{2}}$ may be evaluated; for let $x+a=t$; then $dx=dt$, and we have: \n\n\\[ \\int \\frac{dx}{(x+a)^{2}}=\\int \\frac{dt}{t^{2}}=-\\frac{1}{t}+C=-\\frac{1}{x+a}+C. \\]\n\nAlso, \n\n\\[ \\int \\\\left(\\frac{a}{a+bx}\\right)^{n}dx=\\frac{a}{b} \\int \\frac{du}{(1+u)^{n}},\\quad (u=\\frac{bx}{a+bx}). \\]"
+      },
+      {
+        "type": "text",
+        "text": "The following examples are illustrative of algebraic substitution or transformation."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 11."
+      },
+      {
+        "type": "text",
+        "text": "– To find the value of $\\int \\frac{dx}{\\sqrt{2ax-x^{2}}$."
+      },
+      {
+        "type": "text",
+        "text": "Our plan in this case is so to arrange the integral that the method of a previous example may be applied.\n\n\\[ \\int \\frac{dx}{\\sqrt{2ax-x^{2}}} = \\int \\frac{dx}{\\sqrt{a^{2}-\\left(x-a\\right)^{2}}}. \\]"
+      },
+      {
+        "type": "text",
+        "text": "The change from $dx$ to $d\\sqrt{\\text{change}}$ being legitimate, since by Example 2, p. 150, the value of the integral is seen to be:\n\n\\[ \\int \\frac{dx}{\\sqrt{2ax-x^{2}}}=\\frac{1}{2}\\cdot\\sin^{-1}\\left(\\frac{x}{a}\\right)+C. \\]"
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 12."
+      },
+      {
+        "type": "text",
+        "text": "– To find $\\int \\frac{dx}{(x^{2}+a^{2})}$. \n\nIn this case the substitution is entirely algebraic.\n\nLet \n\n$\\begin{aligned} & (x^{2}+a^{2}) \\text{ is the variable } u. \n\\end{aligned}$\n"
+      }
+    ]
+  },
+  "cost": 0.0009104999999999999
+}

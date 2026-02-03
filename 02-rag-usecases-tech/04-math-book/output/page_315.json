@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 298,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "24. An equation occurring when considering the motion of the piston of an internal combustion engine is given by\n\n$\\displaystyle x = A + B \\cos(\\omega t + \\phi)$, where $A$, $B$, $\\omega$, and $\\phi$ are constants."
+      },
+      {
+        "type": "text",
+        "text": "25. To solve this equation for $x$, find $r$ in terms of $y$, and $g$ being constant."
+      },
+      {
+        "type": "text",
+        "text": "26. To find the time of the recoil of a gun, it was necessary to solve the equation\n\n$\\displaystyle 47t = 37$ and the limits for $x$ are 0 and 57.5, find $t$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\displaystyle x = 200 = 7.85 + 5x + 2x^2.",
+        "description": "This equation represents the bending of the struts."
+      },
+      {
+        "type": "text",
+        "text": "27. If $\\dot{H}$ is the amount of heat given to a gas, its pressure and its volume may be related as follows:\n\n\\[\\dot{H} = \\frac{dQ}{dt} = \\frac{dU}{dt} + P\\frac{dV}{dt}.\\] Assuming that there is a change of heat (i.e., the expansion is adiabatic) and that the volume remains constant during this expansion."
+      },
+      {
+        "type": "text",
+        "text": "31. Newton's law of cooling may be expressed by the equation\n\n$\\displaystyle \\frac{dT}{dt} = -k(T - T_{a}),$ where $k$ is a constant, and $T_a$ is the temperature of the air."
+      },
+      {
+        "type": "equation",
+        "latex": "T = T_{a} + (T_{0} - T_{a}) e^{-kt},",
+        "description": "This equation shows the relationship of temperature over time."
+      },
+      {
+        "type": "text",
+        "text": "32. The equation for an inclined plane $d$ table is given by the relation of an inclined angle $\\theta$, the angle of incidence of the main planes."
+      },
+      {
+        "type": "equation",
+        "latex": "x = d \\tan(\\theta),",
+        "description": "This equation relates the distance along the plane to the angle of inclination."
+      },
+      {
+        "type": "text",
+        "text": "If $\\theta = 0$ when $d = 0$, find an expression for $d$. "
+      },
+      {
+        "type": "equation",
+        "latex": "d = \\frac{\\theta}{k},",
+        "description": "This equation expresses the relationship between displacement and the angle."
+      }
+    ]
+  },
+  "cost": 0.0009350999999999999
+}

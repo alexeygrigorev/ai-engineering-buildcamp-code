@@ -1,0 +1,36 @@
+{
+  "page": {
+    "page_number": 302,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Then\n\nH = internal + external energy\n\ni.e.,\n\nH = T - P V\n\nwhere H is the enthalpy. Then,\n\nH = (PV) - (PAV + PBV)\n\nFrom Example 1, replacing y by the constant gas laws:\n\nT = 1028.3°F, \n\nhence we want to raise the temperature t:\n\nt = T - 32\n\nNow the specific heat to raise the temperature t:\n\nc = T - H\n\nand hence\n\nif  $y$ is greater than 305, $i$ is a negative quantity.\n\nE.g., if:\n\n2y = 2C - 305 - 305 + 76'F = 767°F.\n\n$E.g.:$ i = 305 - 345 - 88."
+      },
+      {
+        "type": "section_heading",
+        "title": "Work Done in the Expansion of a Gas."
+      },
+      {
+        "type": "text",
+        "text": "Example 3 - Find the work done in the expansion of a gas from volume $V_1$ to volume $V_2$. \n\nThere are two distinct cases, which must be treated separately; but for both cases the volume done in the expansion is measured by the area ABCD = areas of strips like MN (Fig. 1)."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 1: Work Done in Gas Expansion.",
+        "description": "This figure illustrates the work done during the expansion of a gas, represented by the shaded area under the curve in a volume-pressure diagram.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Case (a), for which the law of the expansion is $p = C$. \n\nWork done = $W = \frac{p}{\rho} = C \\log \\frac{V_2}{V_1}$. \n\nThus the work done = $p \\log \\frac{V_2}{V_1}$. "
+      },
+      {
+        "type": "equation",
+        "latex": "W = p \\log \\frac{V_2}{V_1}",
+        "description": "This equation represents the work done during the expansion of a gas, where $p$ is the pressure and the logarithm term accounts for the volume change."
+      }
+    ]
+  },
+  "cost": 0.0008948999999999999
+}

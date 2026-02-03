@@ -1,0 +1,55 @@
+{
+  "page": {
+    "page_number": 308,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The total curvature of an arc of a curve is the angle through which the tangent turns as its point of contact moves from one end of the arc to the other; and the mean curvature is given by the total curvature divided by the length of arc."
+      },
+      {
+        "type": "equation",
+        "latex": "\n\\text{In Fig. 108, } \\kappa_s \\text{ is total curvature for the arc } s, \\text{ and the mean curvature is} \\kappa = \\frac{B}{s}.\n\n\n\\kappa = \\frac{B}{s}.\n\n\n\\text{We know that the slope of the tangent is given by }  \\frac{dy}{dx} = \\tan \\theta.",
+        "description": "An explanation of total curvature and mean curvature along with an equation relating them."
+      },
+      {
+        "type": "text",
+        "text": "Now"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{ds}\\left(\\tan \\theta\\right) = \\sec^2 \\theta \\cdot \\frac{d\\theta}{ds}.",
+        "description": "An expression for the derivative of the tangent function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{ds}\\left(\\tan \\theta\\right) = \\frac{\\sec^2 \\theta \\cdot \\frac{d\\theta}{ds}}{\\cos^2 \\theta}.\n\n",
+        "description": "A reformulation of the derivative that relies on trigonometric identities."
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan \\theta = \\frac{\\frac{dy}{dx}}{1}, \\text{ hence substituting that into } \\frac{d}{ds}\\left(\\tan \\theta\\right) = \\sec^2 \\theta . \n\n",
+        "description": "Using the variable change to express the tangent in terms of dy/dx."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} \\cdot \\cos^2 \\theta = \\tan \\theta + \\left(\\tan \\theta \\cdot \\frac{d}{ds} \\left(\\tan \\theta \\right)\\right).\n\n",
+        "description": "Combining previous equations to derive a relationship involving curvature."
+      },
+      {
+        "type": "text",
+        "text": "Now, for a beam, \\text{if } s \\text{ is very small, } \\kappa \n\\text{ may be neglected in comparison with } \\tan \\theta."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{This result may be arrived at more briefly, but approximately, in the following manner:}\n\\kappa_s \\approx \\frac{dy}{ds} = \\frac{d}{ds} \\text{ ratio of change of the tangent (for PM and PQ are sensibly alike).}",
+        "description": "A final approximation relating curvature to the change in tangent."
+      }
+    ]
+  },
+  "cost": 0.0009746999999999999
+}

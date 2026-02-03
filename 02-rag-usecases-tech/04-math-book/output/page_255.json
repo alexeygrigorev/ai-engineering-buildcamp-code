@@ -1,0 +1,32 @@
+{
+  "page": {
+    "page_number": 238,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "(b) That the stress varies as the strain, and that the Young's modulus for the material is the same for tension as for compression.\n(c) That the original radius of curvature of the beam is exceedingly great compared with the dimensions of the cross section of the beam.\n\nThe surface of the beam which is neither compressed nor stretched is known as the neutral surface, and the line in which this neutral surface lies is known as the neutral line.\n\nReferring to Fig. 77, let NN be the neutral axis, and let be"
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 77",
+        "description": "This figure illustrates the cross-section of a beam under load, showing the neutral axis (NN) and how force acts on the cross-section.",
+        "figure_number": 77
+      },
+      {
+        "type": "text",
+        "text": "the stress at unit distance from NN, i.e., dy, the stress at a distance y from NN.\n\nThus, the forces act on the beam as:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^{y} \\sigma dy = \\int_0^{x} b_{xy} x y  \\\\ \n\\text{but} \\\\ \n\\sigma \\cdot dy = \\int b_{xy} y dy = \\int b_{xy} x y + \\sigma = 0  \\\\ \n\\Rightarrow \\text{moment of the forces between the neutral axis} NN.",
+        "description": "Balancing the forces acting on the beam leads to equations involving the stress and the geometry of the beam."
+      },
+      {
+        "type": "text",
+        "text": "Where:\n- \\( \\sigma \\) = stress,\n- \\( b_{xy} \\) = bending stress,\n- x = distance from the neutral axis,\n- y = distance from the neutral axis to a fiber."
+      }
+    ]
+  },
+  "cost": 0.0008366999999999999
+}

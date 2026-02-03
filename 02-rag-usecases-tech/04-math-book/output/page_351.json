@@ -1,0 +1,70 @@
+{
+  "page": {
+    "page_number": 334,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Examples on Hydraulics."
+      },
+      {
+        "type": "text",
+        "text": "Example 30.—To find the time to empty a tank, of area $A$ sq. ft., through an orifice of area $a$ sq. ft., the coefficient of discharge being $C_{d}$."
+      },
+      {
+        "type": "text",
+        "text": "If the height of the water above the orifice at any time is $h$, the velocity of discharge w is given by"
+      },
+      {
+        "type": "equation",
+        "latex": "w = C_{d} \\sqrt{2gh}.",
+        "description": "This equation expresses the velocity of water discharge through an orifice based on the height of the water above the orifice."
+      },
+      {
+        "type": "text",
+        "text": "The quantity escaping in time $dt$ is $A \\cdot w \\cdot dt = A \\cdot C_{d} \\sqrt{2gh} \\cdot dt$."
+      },
+      {
+        "type": "text",
+        "text": "This will result in a lowering of the level in the tank by an amount $dh$, so that the volume $V = A_{t}h$ in time $dt$ is given by $V = A_{t}(h - dh)$."
+      },
+      {
+        "type": "text",
+        "text": "Here we have a single differential equation to solve, separating the variables and integrating:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dh}{\\sqrt{h}} = -\\frac{2aC_{d}}{A} \\sqrt{2g} dt",
+        "description": "A differential equation relating the change in height of water to time."
+      },
+      {
+        "type": "text",
+        "text": "Solving this gives the final height $h$ in terms of the initial height."
+      },
+      {
+        "type": "text",
+        "text": "If $h_{0}$ is the height, then the time to completely empty the tank is:"
+      },
+      {
+        "type": "equation",
+        "latex": "t = \\frac{2A}{C_{d}a}\\sqrt{\\frac{h_{0}}{2g}}",
+        "description": "This equation provides the total time to empty the tank based on initial height, areas, and discharge coefficient."
+      },
+      {
+        "type": "text",
+        "text": "Example 31.—To gauge the flow of water by measurements with a triangular notch."
+      },
+      {
+        "type": "text",
+        "text": "Let the height at the notch be $H$, and consider a small element of width $b$, thickness $h$, and depth $H - h$, where $\\theta = \\angle$ the notch of the notch."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 126.—Triangular Notch",
+        "description": "A diagram of a triangular notch used for measuring water flow.",
+        "figure_number": 126
+      }
+    ]
+  },
+  "cost": 0.0009356999999999999
+}

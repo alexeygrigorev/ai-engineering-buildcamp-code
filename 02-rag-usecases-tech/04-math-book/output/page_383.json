@@ -1,0 +1,31 @@
+{
+  "page": {
+    "page_number": 366,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "figure",
+        "caption": "Fig. 138. Determination of altitude.",
+        "description": "This figure illustrates the geometric relationship between the celestial equator, the zenith, and other observed points in the sky. It shows angles and the setup for calculating altitudes related to celestial navigation.",
+        "figure_number": 138
+      },
+      {
+        "type": "text",
+        "text": "and CA representing the co-latitude of the place, i.e., (90° − latitude), (90° − declination and (90° − altitude) respectively; whilst the angles A, B and C measure respectively the angle between the horizon and the parallelic angle."
+      },
+      {
+        "type": "text",
+        "text": "The terms just mentioned are defined as follows:"
+      },
+      {
+        "type": "text",
+        "text": " RDT is the celestial equator, C is the zenith, Z is the parallel of the point of observation O, and S is the point on the celestial sphere directly above O."
+      },
+      {
+        "type": "text",
+        "text": "DS is defined as the distance from the zenith to the horizon."
+      }
+    ]
+  },
+  "cost": 0.0007292999999999999
+}

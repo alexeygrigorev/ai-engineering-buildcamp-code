@@ -1,0 +1,55 @@
+{
+  "page": {
+    "page_number": 314,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To satisfy condition (2), taking moments about AP,"
+      },
+      {
+        "type": "equation",
+        "latex": "Moment \\; of \\; ABG = 5 \\times 5 \\times 25 \\times 3 = 427",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "Moment \\; of \\; BGH = 5 \\times 5 \\times 25 \\times 3 = 427",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "Moment \\; of \\; DCH = 5 \\times 5 \\times 25 \\times 3 = 427",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "i.e., the total moment of ABCD about AP gives the results thus"
+      },
+      {
+        "type": "equation",
+        "latex": "Moment \\; of \\; DPQ = 5 \\times 5 \\times 25 \\times 3 = 427",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "The solution of equation (8) gives the bearing stress diagram, AP being equal to 447.4 and DP equal to 31.5."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 114—To find an expression for the maximum intensity of shearing stress in beams."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 114—Shearing Stress in Beams.",
+        "description": "The figure illustrates the relationship between the shear force and the maximum shearing stress at a given section of a beam, indicating the manner in which shear forces affect the internal stress distribution.",
+        "figure_number": 114
+      },
+      {
+        "type": "text",
+        "text": "The maximum shear stress at a point in a vertical section of a beam is always accompanied by shearing stresses due to external loading. If the resultant force acting on the point is denoted as $D=\\text{M}^2=4M$, then the total pushing forces on DP = total pushing forces on CE, the difference being the tangential forces on CE."
+      }
+    ]
+  },
+  "cost": 0.0009242999999999999
+}

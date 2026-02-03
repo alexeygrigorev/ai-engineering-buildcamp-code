@@ -1,0 +1,42 @@
+{
+  "page": {
+    "page_number": 159,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The sum curve for AB is the curve CD, the last ordinate of which, measured according to the figure, passes through $x = 1$ and $x = 2$, and the base line touches $y = 025$; and hence the full under the curve AB = $-0095$-area of a rectangle $025 \times 1$, if $-0095$ or $0345.$ \n\nThus,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{1}^{2} \\left( \\frac{4x^{2}}{x^{2}+4x+8} \\right) \\; dx = 5 \\cdot 0345 - 1725.",
+        "description": "This integral calculates the area under the sum curve between $x = 1$ and $x = 2$."
+      },
+      {
+        "type": "text",
+        "text": "$y$ is given as the sum curve polar distance = $- \frac{1}{2} \\log \\left( \\frac{x^{2}+4}{x+3} \\right)$."
+      },
+      {
+        "type": "equation",
+        "latex": "dx = \\frac{d}{dx}\\left( 2 \\log \\left( \\frac{x^{2}+4}{x+3} \\right) \\right) = \\frac{4x}{x^{2}+4} - \\frac{2}{x+3}",
+        "description": "This derivative is found using the logarithmic differentiation method."
+      },
+      {
+        "type": "text",
+        "text": "Example 22.—Find the value of $\\int \\frac{dx}{x^{2}+2x+3}$."
+      },
+      {
+        "type": "equation",
+        "latex": "dx = \\frac{1}{(x+1)^{2}+2} \\; dx =  \\tan^{-1}(x+1) + C.",
+        "description": "This is the resulting integral of the function."
+      },
+      {
+        "type": "figure",
+        "caption": "Graphical Integration of Example 21",
+        "description": "The graph shows the curve AB, indicating the area computed under the sum curve and demonstrating integration through geometrical interpretation.",
+        "figure_number": 21
+      }
+    ]
+  },
+  "cost": 0.0008690999999999999
+}

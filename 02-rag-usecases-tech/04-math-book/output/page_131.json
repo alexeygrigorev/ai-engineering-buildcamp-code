@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 114,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "find the possible errors in the co-ordinates of the distant end of the line.  \n\n(c) coordinates are length x cos (bearing) and length x sin (bearing)."
+      },
+      {
+        "type": "text",
+        "text": "8. Find by the methods of this chapter a series for $c^{2}$."
+      },
+      {
+        "type": "text",
+        "text": "9. Using the figures given in Example 18, p. 112, calculate very exactly the pressure $p$ at 135° C."
+      },
+      {
+        "type": "text",
+        "text": "10. The equation $4x^{3} - 5x - 5 = 0$ occurred when finding the sag of a cable. A rough plotting gives the solution to be in the neighbourhood of $5$; find a more exact root."
+      }
+    ]
+  },
+  "cost": 0.0007040999999999999
+}

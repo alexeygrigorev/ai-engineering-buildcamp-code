@@ -1,0 +1,35 @@
+{
+  "page": {
+    "page_number": 8,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "a glance at the table of values of $s$ and $t$ confirms this law; thus, when $t$ is given, we have:"
+      },
+      {
+        "type": "text",
+        "text": "For the first interval, at the end of the first second we must calculate the average velocities over small intervals of time in the neighbourhood of $t = 1$, as follows:"
+      },
+      {
+        "type": "equation",
+        "latex": "v = \\frac{s}{t} = \\frac{16}{1} = 16 \\mathrm{ft/sec}.",
+        "description": "Average velocity for the first interval."
+      },
+      {
+        "type": "text",
+        "text": "Now, for $t = 2$ sec, we have:"
+      },
+      {
+        "type": "equation",
+        "latex": "v = \\frac{s}{t} = \\frac{33.8}{2} = 16.9 \\mathrm{ft/sec}.",
+        "description": "Average velocity for the second interval."
+      },
+      {
+        "type": "text",
+        "text": "(average) = $\\frac{16 + 16.9}{2} = 16.45$"
+      }
+    ]
+  },
+  "cost": 0.0007388999999999999
+}

@@ -1,0 +1,35 @@
+{
+  "page": {
+    "page_number": 87,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "6. If $y = x^2(7 + 7x + 2x^2)$, find $\\frac{dy}{dx}$. "
+      },
+      {
+        "type": "text",
+        "text": "7. Differentiate, with respect to $x$, $\\frac{x^3}{\\sqrt{4 + 3x^5}}$. "
+      },
+      {
+        "type": "text",
+        "text": "8. Find the rate of change $\\frac{dm}{dt}$ of a closed reservoir when $m = \\pi r^2 h$, $r$, $h$ and $t$ all being variables."
+      },
+      {
+        "type": "text",
+        "text": "9. If $r - \\cos 0$, $y = r \\sin 0$, and $u$ is a function of both $x$ and $y$, prove that:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d(u)}{dx} = \\cos 0 \\frac{d(u)}{dy} + \\frac{dy}{dx} \\cos 0 \\frac{d(u)}{d(\\theta)}",
+        "description": "This equation shows the relationship between the derivative of a function $u$ with respect to $x$ and $y$, factoring in the relationship between the variables."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\sin 0 \\left( \\frac{d(\\theta)}{dx} \\right) + \\frac{1}{\\cos 0} \\frac{d(\\theta)}{dy}",
+        "description": "This equation describes the derivative of $y$ in terms of the angle $\\theta$ and its derivatives with respect to $x$ and $y$."
+      }
+    ]
+  },
+  "cost": 0.0008228999999999999
+}

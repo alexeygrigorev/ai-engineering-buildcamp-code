@@ -1,0 +1,43 @@
+{
+  "page": {
+    "page_number": 257,
+    "header": "CHAPTER VIII",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Polar Co-ordinates"
+      },
+      {
+        "type": "text",
+        "text": "A point on a plane may be fixed by its distances from two fixed axes, or by its distance along a line which makes a given fixed angle with the axes. In the present case we are concerned with rectangular co-ordinates and the point is written as the point (x, y); whilst in the latter case the co-ordinates are polar and the point is denoted by (r, θ), r being the length along the ray inclined at an angle θ to the fixed axes."
+      },
+      {
+        "type": "text",
+        "text": "It is readily immaterial to what line is taken as the fixed axis: in many cases the horizontal (or ray OA) is taken in order to avoid confusion in the measurement of angles (see Part I, Chapter VI) where it was pointed out that angles are measured in the way that the trigonometric functions are typically defined, i.e., regarded in algebra as positive with respect to the fixed ray."
+      },
+      {
+        "type": "text",
+        "text": "In this case it is important to remember that OY as the distance from the fixed point O to the ray must always be drawn in the direction of the fixed ray (r) and not towards the direction which would support this polar sense."
+      },
+      {
+        "type": "equation",
+        "latex": "r = \\sqrt{(x^2+y^2)}",
+        "description": "This equation relates the polar coordinate r as the distance from the origin to the point (x, y)."
+      },
+      {
+        "type": "text",
+        "text": "The method of plotting is that the distance OY as the absolute length of the ray OY is expressed in rectangular coordinates (r, θ): "
+      },
+      {
+        "type": "equation",
+        "latex": "x = r \\cos(θ), \\quad y = r \\sin(θ)",
+        "description": "These equations express the conversion from polar coordinates to rectangular coordinates."
+      },
+      {
+        "type": "text",
+        "text": "If we are dealing with a distance (r) along the ray, we can express: (2; 3) as yielding distance of A, while R is denoted as: R = point (r; 7° 29′); whilst R is stated as: R = point (7; −120°)."
+      }
+    ]
+  },
+  "cost": 0.0008762999999999999
+}

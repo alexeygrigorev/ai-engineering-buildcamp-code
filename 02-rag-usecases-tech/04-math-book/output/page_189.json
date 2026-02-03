@@ -1,0 +1,88 @@
+{
+  "page": {
+    "page_number": 172,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "(b)  m and n both odd."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^{n} \\cos^{m} 0 = (m-n) \\times (m-n-1) \\times \\cdots \\times 1 \\times 0^{n} \\quad \\text{if } n \\geq 1.",
+        "description": "The relationship for reducing the power of sine and cosine functions when both m and n are odd."
+      },
+      {
+        "type": "text",
+        "text": "Hence,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^{n} \\cos^{m} 0 = 0.",
+        "description": "Concludes that the expression evaluates to zero due to the presence of the term involving zero."
+      },
+      {
+        "type": "text",
+        "text": "(c)  even and odd."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^{n} \\cos^{m} 0 = 0.",
+        "description": "Confirms that the expression evaluates to zero as well."
+      },
+      {
+        "type": "text",
+        "text": "Example 32—Evaluate \\sin^{n} \\cos^{m} 0."
+      },
+      {
+        "type": "text",
+        "text": "This is case (a), if n = 0, then m even."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^{0} \\cos^{m} 0 = 1 \\cdot \\cos^{m} 0 = 0.",
+        "description": "Shows the evaluation when n is 0 and m is even."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^{0} \\cos^{m} 0 = 0.",
+        "description": "Concludes that the expression evaluates to zero."
+      },
+      {
+        "type": "text",
+        "text": "Example 33—Find the value of \\sin^{0} \\cos^{m} 0."
+      },
+      {
+        "type": "text",
+        "text": "This is case (b), if n = 0, with both m and n odd."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^{m} \\cos^{0} 0 = 0.",
+        "description": "Shows the evaluation when both m and n are odd."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^{1} \\cos^{0} 0 = 1.",
+        "description": "Indicates the result of the evaluation."
+      },
+      {
+        "type": "text",
+        "text": "Example 34—Find the value of \\sin^{2} \\cos^{m} 0."
+      },
+      {
+        "type": "text",
+        "text": "The value of the foregoing formula is found in their employ."
+      }
+    ]
+  },
+  "cost": 0.0009260999999999999
+}

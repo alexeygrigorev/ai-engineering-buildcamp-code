@@ -1,0 +1,79 @@
+{
+  "page": {
+    "page_number": 96,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 5—Find the dimensions of the greatest cylinder that can be inscribed in a right circular cone of height 6 ins. and base 10 ins. diameter."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 24.",
+        "description": "The figure shows a right circular cone with a cylinder inscribed within it, illustrating the relationship between the cone and the cylinder dimensions.",
+        "figure_number": 24
+      },
+      {
+        "type": "text",
+        "text": "Assume that the radius of the base of the cylinder = r ins. (Fig. 24) and the height of the cylinder = y ins."
+      },
+      {
+        "type": "text",
+        "text": "In this example, we obtain an expression for y in terms of r before differentiating with regard to r."
+      },
+      {
+        "type": "text",
+        "text": "From the figure, by similar triangles, taking the triangles ADC and EDC:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{r}{y} = \\frac{5}{6}",
+        "description": "This equation relates the radius of the cylinder to its height using the dimensions of the cone."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{6}{5} r",
+        "description": "This equation expresses the height of the cylinder in terms of its radius."
+      },
+      {
+        "type": "text",
+        "text": "Therefore, the volume of the cylinder is given by"
+      },
+      {
+        "type": "equation",
+        "latex": "V = \\pi r^{2} y = \\pi r^{2} \\left(\\frac{6}{5} r\\right) = \\frac{6\\pi}{5} r^{3}",
+        "description": "This equation provides the formula for the volume of the cylinder."
+      },
+      {
+        "type": "text",
+        "text": "Now, substituting \\( r = 5(1 - 3s) \\) into the equation, we find the maximum volume."
+      },
+      {
+        "type": "text",
+        "text": "If we let \\( r = \\frac{5}{3} \\), we find the maximum volume, V = 8\\cdot8 ins."
+      },
+      {
+        "type": "text",
+        "text": "Example 6.—The total running cost in pounds sterling per hour of a certain journey is given by"
+      },
+      {
+        "type": "equation",
+        "latex": "C = 4.5 + 2t",
+        "description": "This formula represents the total cost depending on time."
+      },
+      {
+        "type": "text",
+        "text": "(a) The cost per hour."
+      },
+      {
+        "type": "text",
+        "text": "(b) The number of hours taken over the journey."
+      }
+    ]
+  },
+  "cost": 0.0009128999999999999
+}

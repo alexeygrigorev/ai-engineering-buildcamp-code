@@ -1,0 +1,54 @@
+{
+  "page": {
+    "page_number": 134,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Find the values of the following—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = 12x^{11} - 15x^{2} + 22, \\quad y = 5x^{12} - 5x^{3} + 22x + 7, \\quad y = \\frac{4}{3}x^{4} - 6x^{3} + 5x^{2} - 2.",
+        "description": "Differentiate the given functions with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "(a) \\( y \\) when \\( x = 1 \\) and \\( x = -1 \\) ."
+      },
+      {
+        "type": "text",
+        "text": "(b) \\( y = \\sin x \\) when \\( x = 0 \\) ."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{\\sin x}{\\cos x} \\: dx = \\ln |\\sec x + \\tan x| + C.",
+        "description": "Integral of the tangent function."
+      },
+      {
+        "type": "text",
+        "text": "Trigonometric Functions—"
+      },
+      {
+        "type": "text",
+        "text": "We have previously seen that the derived curve of either the sine curve or the cosine curve is the primitive of itself, provided we consider the one-quarter of the period. Conversely, then, we may state that the sum of the area under the entire curve of a function defines the sum over all curves, when that sum or integral is taken. Thus, we find—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\cos x,\\quad \\frac{dz}{dx} = -\\sin x",
+        "description": "The derivatives of sine and cosine are repeated here."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\cos x \\: dx = \\sin x + C",
+        "description": "Integral of the cosine function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin x \\: dx = -\\cos x + C",
+        "description": "Integral of the sine function."
+      }
+    ]
+  },
+  "cost": 0.0008625
+}

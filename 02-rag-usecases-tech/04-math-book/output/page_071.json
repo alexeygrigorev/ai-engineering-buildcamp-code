@@ -1,0 +1,63 @@
+{
+  "page": {
+    "page_number": 54,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Differentiation of the Hyperbolic Functions, sinh x and cosh x. - Expressing the hyperbolic functions in terms of exponential functions"
+      },
+      {
+        "type": "equation",
+        "latex": "sinh x = \\frac{e^x - e^{-x}}{2}",
+        "description": "Definition of the hyperbolic sine function."
+      },
+      {
+        "type": "text",
+        "text": "Thus to differentiate sinh x we may differentiate"
+      },
+      {
+        "type": "equation",
+        "latex": "d \\left( sinh x \\right) = \\frac{d}{dx} \\left( \\frac{e^x - e^{-x}}{2} \\right) = \\frac{1}{2} \\left( e^x + e^{-x} \\right) = cosh x",
+        "description": "The derivative of sinh x."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "d cosh x = \\frac{d}{dx}\\left( \\frac{e^x + e^{-x}}{2} \\right) = \\frac{1}{2} \\left( e^x - e^{-x} \\right) = sinh x",
+        "description": "The derivative of cosh x."
+      },
+      {
+        "type": "text",
+        "text": "Example 22. Find the inclination to the horizontal of a cable weighing 1 lb. per ft. and stretched to a tension of 30 lbs. weight, at the end of its span of 50 ft."
+      },
+      {
+        "type": "equation",
+        "latex": "T = \\left( e^{\\frac{y}{x}} - e^{-\\frac{y}{x}} \\right) = 30 \\\\\n\\text{where } e^{\\frac{y}{x}} = \\text{horizontal tension}\\, \\text{and } y = \\text{weight per foot}",
+        "description": "Equation relating tension, weight, and the variables involved."
+      },
+      {
+        "type": "text",
+        "text": "We require the slope of the curve when x = 25, this being given by the equation"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = cosh x = cosh \\left( \\frac{25}{50} \\right)",
+        "description": "The slope of the curve at a specific point."
+      },
+      {
+        "type": "equation",
+        "latex": "x = 25 \\Rightarrow \\frac{dy}{dx} = cosh \\left( 0.5 \\right) = 1.467",
+        "description": "Calculation of the derivative at x = 25."
+      },
+      {
+        "type": "text",
+        "text": "This value is that of the tangent of the angle of inclination to the horizontal; which is thus tan^{-1}(1.467) or 23° 13′."
+      }
+    ]
+  },
+  "cost": 0.0009422999999999999
+}

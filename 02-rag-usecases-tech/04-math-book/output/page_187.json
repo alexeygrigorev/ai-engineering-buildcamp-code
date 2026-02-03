@@ -1,0 +1,55 @@
+{
+  "page": {
+    "page_number": 170,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "thus\n∫ (sin²θ) (cos 0) dθ = -866 ∫ 0 (−4 sin 0) (−2165) + 433 (sin²θ) − 0 + (−1)433 (0 − 1)(−866 − 0)\n= 15 × 00321 − 432 − 875 − 9000."
+      },
+      {
+        "type": "text",
+        "text": "Dealing now with the denominator:"
+      },
+      {
+        "type": "text",
+        "text": "∫ (cos 0) dθ = (0)=866 (0) − 1 − 0 − 1 − 5434 ∫ 0 dθ"
+      },
+      {
+        "type": "text",
+        "text": "Hence H = 15 × 00321 − 432 − 875 − 9000."
+      },
+      {
+        "type": "text",
+        "text": "Carrying the investigation a step further, let us discuss the case of ∫ (sin²θ cos²θ) dθ\n= ∫ (sin²θ) cos²θ dθ."
+      },
+      {
+        "type": "text",
+        "text": "from the previous result this value = \n= 4. 3 7 1."
+      },
+      {
+        "type": "text",
+        "text": "This result might be regarded as obtained by first reducing the power m by 2, and then noting that cos²θ = \n= \frac{1}{2} (1 − cos 2θ)."
+      },
+      {
+        "type": "text",
+        "text": "Thus for the first step:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int (sin^2\\theta) cos^2\\theta d\\theta = \\frac{1}{2} \\int sin^2\\theta (1 − cos 2\\theta) d\\theta \n= 2 − \\frac{2}{n − m − 2} − π − n.",
+        "description": "The equation shows a relation for the integral of the product of sine squared and cosine squared, reducing powers involved."
+      },
+      {
+        "type": "text",
+        "text": "and for the second step:"
+      },
+      {
+        "type": "equation",
+        "latex": "m \\text{ for the second integral being zero}",
+        "description": "This notation indicates that the variable m represents a parameter in evaluation, which is zero for this integral."
+      }
+    ]
+  },
+  "cost": 0.0008846999999999999
+}

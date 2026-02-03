@@ -1,0 +1,33 @@
+{
+  "page": {
+    "page_number": 244,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 38"
+      },
+      {
+        "type": "text",
+        "text": "To find the moments of inertia of a rectangle about various axes."
+      },
+      {
+        "type": "text",
+        "text": "(a) To find $I_{xx}$ and $I_{yy}$, take $A$ to be the area of the section."
+      },
+      {
+        "type": "text",
+        "text": "Dealing with the small strip of thickness $dx$,"
+      },
+      {
+        "type": "text",
+        "text": "$$I_{xx} = \bar{y}^2 A,$$ where $\bar{y}$ is the distance to the neutral axis."
+      },
+      {
+        "type": "text",
+        "text": "Hence the total"
+      }
+    ]
+  },
+  "cost": 0.0006842999999999999
+}

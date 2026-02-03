@@ -1,0 +1,71 @@
+{
+  "page": {
+    "page_number": 109,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let $f(x)$ stand for the function of $x$ considered, and let $f^{(n)}(x) = 0$, to be true for all values of $x$."
+      },
+      {
+        "type": "text",
+        "text": "We assume that the differentiation of the right-hand side term by term gives the derivative of $f(x)$."
+      },
+      {
+        "type": "text",
+        "text": "Then—"
+      },
+      {
+        "type": "text",
+        "text": "This must be true for all values of $x$; hence, we have $f^{(n+1)}(x) = -b_{n-1}x^{n-1} + c_n + 3d^2x + ...$."
+      },
+      {
+        "type": "text",
+        "text": "$= 0 \text{ for } n = 0$."
+      },
+      {
+        "type": "text",
+        "text": "implying that $f^{(n)}(0)$ is first found and then the value $u$ substituted for $x$ throughout."
+      },
+      {
+        "type": "text",
+        "text": "Differentiating again, we find that $f^{(m)}(x) = 2c + 3d^2 + ...$."
+      },
+      {
+        "type": "text",
+        "text": "Similarly, $f^{(n)}(x) = 64 - 7x^{n-2} + ...$ where"
+      },
+      {
+        "type": "text",
+        "text": "$f^{(m)}(x) = 0$ for cases coming up in every case."
+      },
+      {
+        "type": "text",
+        "text": "Accordingly, we write the Taylor series as:"
+      },
+      {
+        "type": "text",
+        "text": "This is Maclaurin's Theorem. By a similar investigation we might obtain Taylor's Theorem, which may be regarded as a more general extension of the foregoing."
+      },
+      {
+        "type": "text",
+        "text": "Taylor's Theorem: In the expansion for $f(x + h)$ and not for $h$."
+      },
+      {
+        "type": "equation",
+        "latex": "f(x + h) = f(x) + \\left( f'(x) \\right) h + \\frac{f''(x)}{2!}h^2 + \\frac{f'''(x)}{3!}h^3 + \\ldots",
+        "description": "This equation expresses a function as a series expansion in terms of its derivatives at a point."
+      },
+      {
+        "type": "text",
+        "text": "or, as it is sometimes written, to give an expansion for $f(x)$:"
+      },
+      {
+        "type": "equation",
+        "latex": "f(x) = f(h) + \\left( f'(h) \\right)(x - h) + \\frac{f''(h)}{2!}(x - h)^2 + \\frac{f'''(h)}{3!}(x - h)^3 + \\ldots",
+        "description": "This equation represents the function as an expansion around the point $h$."
+      }
+    ]
+  },
+  "cost": 0.0009597
+}

@@ -1,0 +1,82 @@
+{
+  "page": {
+    "page_number": 68,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 6—If a curve of velocity be plotted to a base of space, prove that the sub-normal of this curve represents the acceleration."
+      },
+      {
+        "type": "text",
+        "text": "The sub-normal of a curve $y = f(x)$ is given by the formula"
+      },
+      {
+        "type": "equation",
+        "latex": "s = \\frac{dy}{dx}.",
+        "description": "Sub-normal formula in terms of the derivative."
+      },
+      {
+        "type": "text",
+        "text": "In this case, since $v$ is plotted along the vertical axis and $s$ along the horizontal axis:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{ds}{dt} = v,",
+        "description": "Expression relating distance to time with velocity."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2s}{dt^2} = a.",
+        "description": "Formula representing acceleration."
+      },
+      {
+        "type": "text",
+        "text": "As a further example of this rule, consider the case of motion due to gravity. In this instance, if we put $a = g$, the velocity space curve is a parabola. Hence we find that the sub-normal must be a constant, i.e., the acceleration must be constant."
+      },
+      {
+        "type": "text",
+        "text": "The sub-normal is:"
+      },
+      {
+        "type": "equation",
+        "latex": "s = \\frac{1}{g}",
+        "description": "Expression for the sub-normal in terms of gravity."
+      },
+      {
+        "type": "text",
+        "text": "the sub-normal or the acceleration is:"
+      },
+      {
+        "type": "equation",
+        "latex": "s = \\frac{v^2}{2g}",
+        "description": "Expression connecting sub-normal and acceleration."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 6."
+      },
+      {
+        "type": "text",
+        "text": "1. Find $x = 6$."
+      },
+      {
+        "type": "text",
+        "text": "2. Differentiate the function $f(x) = 2\\cos^2 x$."
+      },
+      {
+        "type": "text",
+        "text": "3. Differentiate the function $y = 3t^2 + 7t - 2$."
+      },
+      {
+        "type": "text",
+        "text": "4. Differentiate the function $x = \\sin(2t) + 3\\cos(t)$."
+      },
+      {
+        "type": "text",
+        "text": "5. Differentiate $y = \\log x.$"
+      }
+    ]
+  },
+  "cost": 0.0008835
+}

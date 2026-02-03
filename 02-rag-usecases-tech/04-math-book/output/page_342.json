@@ -1,0 +1,53 @@
+{
+  "page": {
+    "page_number": 325,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "This equation is of the type dealt with in Case (3), p. 283, and the solution is  $A = \text{sin } \theta$."
+      },
+      {
+        "type": "text",
+        "text": "The period of this function is $2\text{π}$; also the couple for angular displacement (denoted by $l$) is given by."
+      },
+      {
+        "type": "equation",
+        "latex": "M = \frac{g}{\theta} ,  r = \frac{l}{g}",
+        "description": "Calculating angular displacement in terms of gravitational acceleration and length."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "r = 2\text{π} l  \\text{ engineers' units are used.}",
+        "description": "The relationship of radius to angular displacement."
+      },
+      {
+        "type": "text",
+        "text": "This might be written in the easily remembered form."
+      },
+      {
+        "type": "equation",
+        "latex": "\text{If } k = \\frac{3}{4} , \\text{ where } M = \\text{ mass and } C = \\text{ modulus of rigidity, } d = di.  \\text{ Hence, } d = 3l.",
+        "description": "Describing the relation between mass, modulus of rigidity, and a distance factor."
+      },
+      {
+        "type": "equation",
+        "latex": "d = \\frac{2}{3} l + g + q",
+        "description": "A relationship involving variables to determine displacement."
+      },
+      {
+        "type": "text",
+        "text": "As regards the units, if $l = $ ft, $M = $ lbs.  ft in secs, and $r = $ in."
+      },
+      {
+        "type": "text",
+        "text": "If $M = \\text{text.} \text{ lbs.}\text{ ft. } .\\text{ sec.} , d = \\text{ lbs. per sq. foot.}$"
+      }
+    ]
+  },
+  "cost": 0.0008391
+}

@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 376,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let $l$ be the length in ins. and $W$ the load at the free end. Consider a section at distance $D$ from the end; then the diam. here is $D_{n} = D - D_{1}$."
+      },
+      {
+        "type": "text",
+        "text": "Then: \n\n$$D_{1} = \\frac{W \\cdot D}{4} (\\frac{l}{D})^{2} = \\frac{W D^{2}}{4l^{2}}$$"
+      },
+      {
+        "type": "text",
+        "text": "Hence the skin stress is given by:\n\n$$\\tau = \\frac{D}{D_{n}} \\cdot 64$$"
+      },
+      {
+        "type": "text",
+        "text": "Where we have used $I_{1} = \\frac{W D^{3}}{K}$, where $K = 32 W$ (a constant), and"
+      },
+      {
+        "type": "text",
+        "text": "If $f$ is maximum when the denominator is a minimum."
+      },
+      {
+        "type": "text",
+        "text": "Let $N = D_{1} + D_{2} + D_{3}.$"
+      },
+      {
+        "type": "text",
+        "text": "Thus the stress is maximum at a section distant $D_{1} \\text{ ins. from the free end.}$"
+      },
+      {
+        "type": "text",
+        "text": "Example 1.7—To find the deflection of the muzzle of a gun."
+      }
+    ]
+  },
+  "cost": 0.0007820999999999999
+}

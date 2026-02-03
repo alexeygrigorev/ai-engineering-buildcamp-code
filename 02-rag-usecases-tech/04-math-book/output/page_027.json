@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 10,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The complete table of the values of the velocity and the acceleration reads..."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 1"
+      },
+      {
+        "type": "text",
+        "text": "Experiments made with the rolling of a ball down an inclined plane give the following results"
+      },
+      {
+        "type": "table",
+        "caption": "Table of experimental results",
+        "columns": [
+          "Time (secs.)",
+          "Velocity (ft/sec)",
+          "Acceleration (ft/sec²)"
+        ],
+        "rows": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "8",
+            "8"
+          ],
+          [
+            "2",
+            "16",
+            "8"
+          ],
+          [
+            "3",
+            "24",
+            "8"
+          ],
+          [
+            "4",
+            "32",
+            "8"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0006806999999999999
+}

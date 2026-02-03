@@ -1,0 +1,89 @@
+{
+  "page": {
+    "page_number": 276,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Multiplying through by \\( \\varepsilon \\) the equation becomes"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} + ay = \\varepsilon (x)",
+        "description": "A first-order linear ordinary differential equation with a non-homogeneous term."
+      },
+      {
+        "type": "text",
+        "text": "which can be written as \\( \\frac{dy}{dx} + a y = \\varepsilon \\) (where \\( \\varepsilon = \\varepsilon (x) \\) and thus \\( \\varepsilon \\) is an arbitrary function)."
+      },
+      {
+        "type": "text",
+        "text": "Accordingly"
+      },
+      {
+        "type": "equation",
+        "latex": "y = C e^{-ax} + e^{-ax} \\int e^{ax} \\varepsilon (x) \\,dx",
+        "description": "The general solution to the first-order linear ordinary differential equation."
+      },
+      {
+        "type": "text",
+        "text": "Extending to the case in which \\( b \\) is not zero, whilst \\( a \\) remains a constant, i.e., the equation is"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} + ay = \\varepsilon (x) + b y",
+        "description": "A modified first-order linear ordinary differential equation."
+      },
+      {
+        "type": "text",
+        "text": "we find that after multiplying through by \\( \\varepsilon \\) the result arrived at is"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dy}{dx} = \\int \\left( \\varepsilon \\beta + b \\beta y + C \\right) dx",
+        "description": "An integral form of the equation solution."
+      },
+      {
+        "type": "text",
+        "text": "Integrating both sides with regard to \\( x \\),"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{\\beta}{b} \\left[ \\beta + C \\right]",
+        "description": "Transformed solution to the previous integral."
+      },
+      {
+        "type": "text",
+        "text": "This may be evaluated if the product of \\( b \\) and \\( \\varepsilon \\) can be integrated."
+      },
+      {
+        "type": "text",
+        "text": "For the general case, that in which \\( a \\) and \\( b \\) are functions of \\( x \\), the multiplier is integrating factor is called, for after multiplication by this equation reads"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx} \\left( e^{\\int a \\,dx} y \\right) = e^{\\int a \\,dx} \\varepsilon (x)",
+        "description": "A reformulated differential equation after applying the integrating factor."
+      },
+      {
+        "type": "text",
+        "text": "and this may be written as"
+      },
+      {
+        "type": "equation",
+        "latex": "y \\left( e^{\\int a \\,dx} \\right) = \\int \\varepsilon (x) e^{\\int a \\,dx} \\,dx + C",
+        "description": "Solution format after integrating."
+      },
+      {
+        "type": "text",
+        "text": "where by integration we find that"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{1}{e^{\\int a \\,dx}} \\left[ \\int \\varepsilon (x) e^{\\int a \\,dx} \\,dx + C \\right]",
+        "description": "Final expression giving y in terms of the integrals and constants."
+      }
+    ]
+  },
+  "cost": 0.0010160999999999998
+}

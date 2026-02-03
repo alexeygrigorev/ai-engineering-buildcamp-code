@@ -1,0 +1,48 @@
+{
+  "page": {
+    "page_number": 207,
+    "header": "LENGTH OF ARC",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 20. A barrier before a ticket office in a works was constructed out of sheet metal, which was bent to the form of an ellipse of major axis a = 15 in. and minor axis b = 9 in. The metal sheet required if the height of the barrier is 6 ft."
+      },
+      {
+        "type": "equation",
+        "latex": "h = 6\\text{ ft} = 72\\text{ in.} \\quad K = 944.",
+        "description": "The height of the barrier is converted from feet to inches, and a constant K is introduced."
+      },
+      {
+        "type": "text",
+        "text": "The table for the plotting reads:"
+      },
+      {
+        "type": "table",
+        "caption": "Table of values for the ellipse dimensions",
+        "columns": [
+          "Parameter",
+          "Value"
+        ],
+        "rows": [
+          [
+            "a",
+            "15 ins."
+          ],
+          [
+            "b",
+            "9 ins."
+          ],
+          [
+            "K",
+            "944."
+          ],
+          [
+            "h",
+            "72 in."
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007160999999999999
+}

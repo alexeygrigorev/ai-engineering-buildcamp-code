@@ -1,0 +1,27 @@
+{
+  "page": {
+    "page_number": 359,
+    "header": "THE SOLUTION OF SPHERICAL TRIANGLES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Also"
+      },
+      {
+        "type": "equation",
+        "latex": "A = \\cos^{-1}(a \\cos b \\cos c)",
+        "description": "Cosine formula for spherical triangles."
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos A = \\cos B \\cos C + \\sin B \\sin C \\cos a",
+        "description": "Cosine rule for angles in spherical triangles."
+      },
+      {
+        "type": "text",
+        "text": "from (10)"
+      }
+    ]
+  },
+  "cost": 0.0006608999999999999
+}

@@ -1,0 +1,33 @@
+{
+  "page": {
+    "page_number": 290,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The solution of \n\\[ \\frac{d^2 y}{dx^2} + 4y = 0 \\] \n\nis  \n\\[ y = C_1 \\cos(2x) + C_2 \\sin(2x) \\] \n\n(from p. 283)."
+      },
+      {
+        "type": "text",
+        "text": "To find the particular integral: \n\\[ D^2 y + 4y = \\frac{1}{s} \\] \n\nwhere \\( D = \\frac{d}{dx} \\) and \\( y = \\sin(2x). \\]"
+      },
+      {
+        "type": "text",
+        "text": "Note that \\( D^2 = -4 \\), but \\( D \\neq -2 \\). \nWe must thus eliminate \\( D \\) from the denominator; to do this, multiply both numerator and denominator by \\( D + 4. \\)"
+      },
+      {
+        "type": "text",
+        "text": "Then  \n\\[ D \\sin(2x) = 5(\\tan^{-1}(x) - 7) \\] \n\n\\[ D^2 \\sin(2x) = -5 \\sin(2x) + 49 \\sin(2x) \\]"
+      },
+      {
+        "type": "text",
+        "text": "Hence the complete solution is  \n\\[ y = (A + B)x - 5 \\sin(2x) + 49 \\sin(2x) \\]"
+      },
+      {
+        "type": "text",
+        "text": "The particular integral previously found in a more direct method using the idea of Theorem 2, p. 288."
+      }
+    ]
+  },
+  "cost": 0.0008144999999999999
+}

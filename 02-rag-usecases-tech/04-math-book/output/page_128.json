@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 3,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To find a series for sin x. Let\n\n$f'(x) = \frac{d}{dx}(\text{sin}\text{x}) = \text{cos}\text{x}$,\n\nthen $f(0) = \text{sin}(0) = 0$,\n\n$f'(0) = \text{cos}(0) = 1$,\n\nand the first two terms of the expansion only:\n\n$$f(x) = f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \frac{f'''(0)}{3!}x^3 + \frac{f^{(4)}(0)}{4!}x^4 + \text{...}$$\n\nThe next term for sin x is odd; hence,\n\nagain by iterating, we have:\n\n$$f(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \text{...}$$\n\nNow - cos x + sin x (the series is cos x and has been found in Example 15).\n\nUse the method of Taylor's Theorem to determine a correct solution to an equation when an approximate solution is known; for, taking the first two terms of the expansion only:\n\n$$f(x + h) = f(x) + f'(x)h + \frac{f''(x)}{2!}h^2 + \frac{f'''(x)}{3!}h^3 + \text{...}$$\n\nor interchanging x and h, as a matter of convenience,\n\n$$f(x + h) = f(x) + f'(x)h + \frac{f''(x)}{2!}h^2 + \frac{f'''(x)}{3!}h^3 + \text{...}$$\n\nIf h is small compared with x, the assumption that two terms of the series may be taken to represent the expansion is very nearly true.\n\nSuppose that a root has been approximated for the root has been found by trial and error; denote this by x. Let the true solution be x + h; by substitution in the above equation the value of c can be found, and thence that of x + h."
+      }
+    ]
+  },
+  "cost": 0.0009308999999999999
+}

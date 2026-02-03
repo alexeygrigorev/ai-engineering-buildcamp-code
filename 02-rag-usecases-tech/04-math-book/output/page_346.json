@@ -1,0 +1,33 @@
+{
+  "page": {
+    "page_number": 329,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Bending moment at Q = M − Py\n\nIE = \u0001I_E = \u0001M − Py\n\nLet\n\nT = \u0001T = \u0001E\n\ndx\n\ndy = 0\nso that\n\ndy = A sin (α + B).\n"
+      },
+      {
+        "type": "equation",
+        "latex": "dy = A \\sin(\\alpha + B).",
+        "description": "The differential equation relating dy to the amplitude A and angle (α + B)."
+      },
+      {
+        "type": "figure",
+        "caption": "[UNRECOGNIZED TEXT]",
+        "description": "The figure illustrates various configurations of bending moments labeled (a), (b), and (c) and how they relate to the overall problem.",
+        "figure_number": 123
+      },
+      {
+        "type": "text",
+        "text": "The various conditions of end fixing give rise to the following solutions—\n\nCase of ends rounded.—When S = 0 and A = 0,\nso that\n\n0 = A sin(α + B)\n\nObviously, Y is the amplitude, f.e., A = Y.\n\nThus we may write\n\nP = Y sin(α + B) = YL\n\nwhere\n\nand\n\nP = \u0001P = \u0001"
+      },
+      {
+        "type": "equation",
+        "latex": "P = Y \\sin(\\alpha + B) = YL.",
+        "description": "This equation relates the force P to the amplitude Y and sine functions."
+      }
+    ]
+  },
+  "cost": 0.0008348999999999999
+}

@@ -1,0 +1,64 @@
+{
+  "page": {
+    "page_number": 5,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To find the values of the \" space rate of change of velocity \" for three separate space intervals."
+      },
+      {
+        "type": "text",
+        "text": "Considering the displacement from 14 to 10 ft, the change in the velocity corresponding to this change of position is 14 - 10, i.e., 4 ft per sec."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{change of velocity} = 14 - 10 = 4 \\text{ ft, per sec.}",
+        "description": "This shows the calculation for the change in velocity in terms of feet per second."
+      },
+      {
+        "type": "text",
+        "text": "Hence—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{change of position} = 5 - 8 = -3 \\text{ ft}",
+        "description": "This equation calculates the change in position in feet."
+      },
+      {
+        "type": "text",
+        "text": "or, the change of velocity thus found for change of position = 5 - 8, per sec. and rate of change of velocity (for this period) = -8 ft per sec."
+      },
+      {
+        "type": "text",
+        "text": "Again, if space changes from 0 to 12, the change in the velocity; for this period is 12 - 0 = 12 ft per sec."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Similarly, the rate of change of y, whilst 5 remains constant is} \\frac{\\Delta v}{\\Delta s} = 7 \\text{ ft, per foot.}",
+        "description": "This demonstrates the rate of change of velocity with respect to the change in space."
+      },
+      {
+        "type": "equation",
+        "latex": "(a) \\text{ As } s \\text{ changes from 0 to 12, } \\Delta v = 12 - 0 = 12",
+        "description": "This shows the change in velocity as space changes from 0 to 12."
+      },
+      {
+        "type": "equation",
+        "latex": "(b) \\text{ As } s \\text{ changes from 0 to 5, } \\Delta v = 8 - 5 = 3",
+        "description": "This equation computes the change in velocity for the space change from 0 to 5."
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta v = 8 \\text{ as } s = 5, [UNRECOGNIZED TEXT] 5",
+        "description": "This states the expression for change in velocity, but some text is unrecognized."
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta v = 12, 8 = 5 \\to 12 - 5 = 7 \\to 12 = 417",
+        "description": "This appears to summarize the change in velocity under certain conditions but contains unrecognized text."
+      }
+    ]
+  },
+  "cost": 0.0009429
+}

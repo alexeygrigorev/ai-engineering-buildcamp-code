@@ -1,0 +1,46 @@
+{
+  "page": {
+    "page_number": 221,
+    "header": "CENTROIDS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Area of web = \\( \\frac{38}{53} \\times 135 \\) sq. ins."
+      },
+      {
+        "type": "text",
+        "text": "From considerations of symmetry we see that the centroid of the section must lie on the line \\( G_{zg} \\) at G."
+      },
+      {
+        "type": "text",
+        "text": "Treat \\( G_{z} \\) of length \\( 16 \\) in., \\( z_{x} = 2 \\) as a bar loaded with \\( 64 \\) lbs."
+      },
+      {
+        "type": "text",
+        "text": "Let \\( G_{G} = x \\); then the upward force at G = \\( \\frac{64}{3} \\) lbs."
+      },
+      {
+        "type": "text",
+        "text": "Taking moments about \\( G_{z} \\):"
+      },
+      {
+        "type": "equation",
+        "latex": "375 \\times x = 64 \\times 2.75 \\cdots (1)\\\\",
+        "description": "Moment calculation gives the relationship of forces and distances."
+      },
+      {
+        "type": "text",
+        "text": "Hence the distance of the centroid from the outside of the flange is \\( \\frac{64}{62} + 72'' = L0'2 \\)."
+      },
+      {
+        "type": "text",
+        "text": "Example 26—Determine the position of the centroid of the section shown at (a), Fig. 66."
+      },
+      {
+        "type": "text",
+        "text": "This example presents rather more difficulty than the one immediately preceding it. The plan of procedure is, for cases such as this,"
+      }
+    ]
+  },
+  "cost": 0.0007916999999999999
+}

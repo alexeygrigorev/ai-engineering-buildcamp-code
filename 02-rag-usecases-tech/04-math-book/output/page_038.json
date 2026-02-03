@@ -1,0 +1,31 @@
+{
+  "page": {
+    "page_number": 27,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "the effect being very marked for the plates exposed to the light; and for these conditions the slope curve II suggests that the corrosive action is a very serious matter, since it appears that the rate of loss must increase rapidly."
+      },
+      {
+        "type": "text",
+        "text": "A further extremely interesting branch of the value of slope curves is found in connection with the cooling curves of metals. In the early days of the research in this branch of science, the value of slope was plotted, viz, temperatures plotted to a base of."
+      },
+      {
+        "type": "figure",
+        "caption": "Cooling curve for a metal plate.",
+        "description": "The figure illustrates the inverse relationship between temperature and time during the cooling process. As time progresses, the temperature decreases non-linearly, indicating that cooling rate slows over time.",
+        "figure_number": 6
+      },
+      {
+        "type": "text",
+        "text": "(a) Temperature (°C) - (b) time (0) horizontal and 0 vertical."
+      },
+      {
+        "type": "text",
+        "text": "Inverse curve relates to: (a) horizontal and 0 vertical. To obtain this curve from curve (a), the points must be very carefully calculated, and it must be remembered that these values are the measures of the inclination to the vertical axis and not to the horizontal, thus, e.g., values of \\(d\\text{t}\\) and not \\(d\\text{u}\\)."
+      }
+    ]
+  },
+  "cost": 0.0007736999999999999
+}

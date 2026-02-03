@@ -1,0 +1,43 @@
+{
+  "page": {
+    "page_number": 71,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "whereby $\nby$ = $y' = (u + v)' = (u + v)(v' + u')$."
+      },
+      {
+        "type": "text",
+        "text": "Dividing through by $x$."
+      },
+      {
+        "type": "text",
+        "text": "As $x$ is decreased without limit, $u$ and $v$ approach the values $u$ \n and $v$ respectively, and the term $B$ becomes negligible; so that in the limit -"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{du}{dx} + \\frac{dv}{dx}.",
+        "description": "This equation represents the derivative of the sum of two functions, showing that the derivative can be computed by summing the individual derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The rule may be extended to apply to the case of a product of more than two functions $x$. Thus if $u$ and $v$ are each functions of $x$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d(uv)}{dx} = u \\frac{dv}{dx} + v \\frac{du}{dx}",
+        "description": "This equation expresses the derivative of the product of two functions, indicating how to compute it using the derivatives of each function."
+      },
+      {
+        "type": "text",
+        "text": "Example 1.  Suppose $y = x^2 \\cdot \\log x$. \nThen let $u = x^2$ so that $u' = 2x$ and let $v = \\log x$ so that $v' = \\frac{1}{x}$."
+      },
+      {
+        "type": "text",
+        "text": "Then"
+      }
+    ]
+  },
+  "cost": 0.0008162999999999998
+}

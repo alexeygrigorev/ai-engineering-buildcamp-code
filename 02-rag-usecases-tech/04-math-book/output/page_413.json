@@ -1,0 +1,42 @@
+{
+  "page": {
+    "page_number": 396,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Exercises 23"
+      },
+      {
+        "type": "text",
+        "text": "1. 703 ex. 1: if coefficient of discharge is taken as .62\n2. 283 ch. 4, 6.95 ; 9.55: (Draw the \"simply supported\" bending moment diagram and your Geometric plan, see page 373.)\n3. Find the time to lower to level of support (note 18, sec. 3). With both orifices open: then the time for the further lowering of its fit, through the one orifice (180 secs). Note that total time = 393 secs. See next."
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 24"
+      },
+      {
+        "type": "equation",
+        "latex": "\n\\frac{12}{1.7} = 7.1",
+        "description": "The equation relates two quantities, which may indicate a ratio or relationship in a mathematical context."
+      },
+      {
+        "type": "text",
+        "text": "8. 5500 lbs. at 7.17 ft. below S.W.L.\n9. 14,100 lbs. ; 6.65' below S.W.L.\n10. 761' 11\"  and grav. 0.925 (Hint, let x = ...)\n11. 12.5\"; 1.25\" ; 27.5\"; 20' 7\" 08 31\" 31."
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 25"
+      },
+      {
+        "type": "text",
+        "text": "1. and set better than 1st sit in = 8 ft.: 6 in. 434\"- 16.00.\n2. Just under 1. 43.8 – 300\";  1' 6\" 307\"."
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 26"
+      }
+    ]
+  },
+  "cost": 0.0008372999999999999
+}

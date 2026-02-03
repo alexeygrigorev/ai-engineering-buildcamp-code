@@ -1,0 +1,59 @@
+{
+  "page": {
+    "page_number": 203,
+    "header": "LENGTH OF ARC",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The equation of the curve is in reality\n\n$y^2 = 4ax$ \n\nby setting in place of $L$ and in place of $D.$"
+      },
+      {
+        "type": "text",
+        "text": "Thus\n\n$$\n\\frac{dy}{dx} = \\frac{4a}{4a} = 1,\n$$"
+      },
+      {
+        "type": "text",
+        "text": "so that\n\n$$\n\\sqrt{1 + \\left( \\frac{dy}{dx} \\right)^2} = \\sqrt{1 + (1)^2} = \\sqrt{2}.\n$$"
+      },
+      {
+        "type": "text",
+        "text": "or\n\nwhen\n\n$$\n\\sqrt{1 + \\left( \\frac{dy}{dx} \\right)^2} = \\sqrt{1 + (1)^2}.\n$$"
+      },
+      {
+        "type": "text",
+        "text": "Thus\n\n$$\nL = \\int_{}^{} \\sqrt{1 + \\left( \\frac{dy}{dx} \\right)^2} \\, dy = \\int_{}^{} \\sqrt{2} \\, dy.\n$$"
+      },
+      {
+        "type": "text",
+        "text": "Hence\n\n$$\ns = 2 \\int_0^{} \\sqrt{2} \\, dy = 2 \\sqrt{2} y + C,\n$$"
+      },
+      {
+        "type": "text",
+        "text": "where $C$ is constant."
+      },
+      {
+        "type": "text",
+        "text": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 51",
+        "description": "A graphical representation of the curve defined by the equation, showing relevant points and the segment for which the length is determined.",
+        "figure_number": 51
+      },
+      {
+        "type": "text",
+        "text": "Example 18—Find the length of the circumference of a circle of radius $r$."
+      },
+      {
+        "type": "text",
+        "text": "The equation of the circle is $x^2 + y^2 = r^2.$"
+      },
+      {
+        "type": "text",
+        "text": "Thus\n\n$$\n\\frac{dy}{dx} = -\\frac{x}{y} \\, \\text{(differentiating with regard to } x\\text{)}."
+      }
+    ]
+  },
+  "cost": 0.0008774999999999999
+}

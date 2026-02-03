@@ -1,0 +1,35 @@
+{
+  "page": {
+    "page_number": 270,
+    "header": "CHAPTER IX",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "SIMPLE DIFFERENTIAL EQUATIONS"
+      },
+      {
+        "type": "text",
+        "text": "Differential Equations—An equation containing one or more derived functions is called a \"differential equation.\" \n\nThus a very simple form of differential equation is"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = y \\\\ \\text{and} \\\\ \\frac{d^2y}{dx^2} + \\frac{dy}{dx} - 5y = 0  \\\\ \\text{and} \\\\ \\frac{dy}{dx} + y = 0 ",
+        "description": "Examples of simple differential equations."
+      },
+      {
+        "type": "text",
+        "text": "are more complex forms.\n\nDifferential equations are classified according to \"order\" or \"degree\"; thereby referring to that of the highest differential coefficient occurring in them. Thus, $\\frac{dy}{dx}$ is of the first order, and so on.\n\nHence $2y + 3y' = 5$ is an equation of the first order and\n$y'' + y' - 7 = 16$ is an equation of the fourth order.\n\nThe \"degree\" of an equation is defined by that of the highest derivative occurring in it, while the equation is free from radicals and fractions."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dx^2} = c \\text{ is of the second order and of the first degree} \\\\ whilst \\; \\frac{d^3y}{dx^3} - 7 = 1 \\text{ is of the second order and of the second degree.}",
+        "description": "Illustrates examples of degrees within differential equations."
+      },
+      {
+        "type": "text",
+        "text": "Much has been written concerning the solution of the many types of differential equations, but it is only possible here to treat"
+      }
+    ]
+  },
+  "cost": 0.0008414999999999999
+}

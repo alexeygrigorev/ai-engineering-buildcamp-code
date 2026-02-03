@@ -1,0 +1,80 @@
+{
+  "page": {
+    "page_number": 269,
+    "header": "POLAR CO-ORDINATES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "9. Draw the polar curve to represent the illuminating power of a U.S. standard searchlight from the following figures :"
+      },
+      {
+        "type": "table",
+        "caption": null,
+        "columns": [
+          "Angle (degrees) (vertical)",
+          "Candle Power",
+          "Angle (degrees) (horizontal)"
+        ],
+        "rows": [
+          [
+            "0",
+            "1000",
+            "0"
+          ],
+          [
+            "10",
+            "2000",
+            "3000"
+          ],
+          [
+            "20",
+            "4500",
+            "5000"
+          ],
+          [
+            "30",
+            "6500",
+            "7000"
+          ],
+          [
+            "40",
+            "8000",
+            "9000"
+          ],
+          [
+            "50",
+            "10000",
+            "11000"
+          ],
+          [
+            "60",
+            "14000",
+            "15000"
+          ],
+          [
+            "70",
+            "18000",
+            "20000"
+          ],
+          [
+            "80",
+            "22000",
+            "24000"
+          ],
+          [
+            "90",
+            "30000",
+            "32000"
+          ]
+        ]
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 102",
+        "description": "The figure shows the center of pressure (C) and two points A and B representing the illuminating power at different angles.",
+        "figure_number": 102
+      }
+    ]
+  },
+  "cost": 0.0007748999999999999
+}

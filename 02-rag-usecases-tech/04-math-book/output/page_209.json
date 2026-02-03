@@ -1,0 +1,54 @@
+{
+  "page": {
+    "page_number": 192,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Taking the latter range -"
+      },
+      {
+        "type": "text",
+        "text": "Mean of the squares  :  M.S. =  ∫ C^{2} 0  C_{1}  sin^{2} θ  dθ"
+      },
+      {
+        "type": "text",
+        "text": "R.M.S. = √(M.S.)"
+      },
+      {
+        "type": "text",
+        "text": "i.e., R.M.S. value = √(1/π ∫ 0^{π} C_{1}^{2} sin^{2} θ  dθ) =  √(C_{1}^{2}/2) = C_{1}/√2."
+      },
+      {
+        "type": "text",
+        "text": "If a meter registers no amplitude, the maximum current is 2C_{1} = 1/√2, 1/4, 1/14 amps., or there is a variation between 1/2 and 1/14."
+      },
+      {
+        "type": "text",
+        "text": "In the evaluation of the integral ∫(1 - cos 2θ) dθ, it should be noted that it can be written as ∫ 0^{2π} 1 dθ - ∫ 0^{2π} cos 2θ dθ."
+      },
+      {
+        "type": "text",
+        "text": "The value of the second term is zero, because it is the area under a cosine curve taken over its full period. Hence the integral reduces to ∫ 0^{2π} 1 dθ, and there is no need to say anything further about the second term."
+      },
+      {
+        "type": "text",
+        "text": "Example 1:  Find the R.M.S. value of a sin 4t."
+      },
+      {
+        "type": "text",
+        "text": "For this function the period = 2π/4. Then S = ∫(a sin 4t)^{2} dt = ∫_{0}^{2π/4} a^{2} sin^{2} 4t dt."
+      },
+      {
+        "type": "text",
+        "text": "Hence S = (a^{2}/2)(t - (1/4) sin 8t) | 0 to (π/2) = (a^{2}/2)(π/2 - 0 - 0) = (a^{2}/2)(π/2) - (a^{2}/2)(0 - 0) = (a^{2}/2)( π/2)."
+      },
+      {
+        "type": "equation",
+        "latex": "R.M.S. = √(S/T) = √((a^{2}/2)(π/2) / (π/4)) = a/√2.",
+        "description": "The equation calculates the R.M.S. value based on the period and mean square of the function."
+      }
+    ]
+  },
+  "cost": 0.0009417
+}

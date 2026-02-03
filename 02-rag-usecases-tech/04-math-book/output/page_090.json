@@ -1,0 +1,93 @@
+{
+  "page": {
+    "page_number": 73,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Exercises 7.—On the Differentiation of a Product."
+      },
+      {
+        "type": "text",
+        "text": "Differentiate, with respect to x:"
+      },
+      {
+        "type": "text",
+        "text": "1.  x^3 sin x."
+      },
+      {
+        "type": "text",
+        "text": "2.  log x sin 2x."
+      },
+      {
+        "type": "text",
+        "text": "3.  x^2 sin 3x."
+      },
+      {
+        "type": "text",
+        "text": "4.  y = (3x + 2)(4x - 1)."
+      },
+      {
+        "type": "text",
+        "text": "5.  x^2 + 3x + 1."
+      },
+      {
+        "type": "text",
+        "text": "6.  (2x + 3)(x - 5)."
+      },
+      {
+        "type": "text",
+        "text": "7.  y = (x^2 + 3)(x^3 + 5x)."
+      },
+      {
+        "type": "text",
+        "text": "8.  y = 2x^2 + 5x + 1."
+      },
+      {
+        "type": "text",
+        "text": "9.  Find the value of 2(a + b), if a = 3x + 1 and b = 4."
+      },
+      {
+        "type": "text",
+        "text": "10.  Find the value of 2(a + b) if a = 3(x + 1) and b = x."
+      },
+      {
+        "type": "text",
+        "text": "11.  y = (A + B)(C + D)."
+      },
+      {
+        "type": "text",
+        "text": "12.  y = (M - N)(R + S)."
+      },
+      {
+        "type": "text",
+        "text": "13.  If W = 2x^3 - 4x - 116, find dW/dt at x = 2."
+      },
+      {
+        "type": "text",
+        "text": "14.  Differentiate with respect to t the function 15x^2 (4 - 8t)."
+      },
+      {
+        "type": "text",
+        "text": "15.  Find the value of dA/dt."
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of a Quotient.—If u and v are both functions of x, and y = u/v, then:"
+      },
+      {
+        "type": "text",
+        "text": "Proof."
+      },
+      {
+        "type": "text",
+        "text": "If u changes by du in u, and v changes by dv in v, so that the new values are uu + du, and vv + dv, then:"
+      },
+      {
+        "type": "text",
+        "text": "and, dividing through by v^2."
+      }
+    ]
+  },
+  "cost": 0.0009080999999999999
+}

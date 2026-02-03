@@ -1,0 +1,59 @@
+{
+  "page": {
+    "page_number": 224,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The vertex is at $A$ and the ordinate at $B$, viz., $BC = w^2$ where loading being in units per foot and $l$ being the span."
+      },
+      {
+        "type": "text",
+        "text": "We wish to determine the position of the centroid of the figure $ABC$ so that we may find the moment of the area $ABC$ about $AD$ and finally the deflection at $A$."
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{4ax}{w^2}",
+        "description": "An equation representing the relationship between the variables in the context of the parabola."
+      },
+      {
+        "type": "text",
+        "text": "The distance of the centroid from $AD = \\frac{1}{2} h$ where $h$ is the height of the triangle."
+      },
+      {
+        "type": "text",
+        "text": "Area of $ABCD = 3$ of surrounding rectangle = $\\frac{1}{2} x \\times \\frac{w}{2} = \\frac{1}{4} x w$."
+      },
+      {
+        "type": "text",
+        "text": "Now the centroid may be supposed to be concentrated at its centroid, and hence the moment of $ABC$ about $AD = \\frac{4}{3} \\times \\frac{x^3}{2} \\times \\frac{w}{2} = \\frac{4}{3} \\times \\frac{x^4}{4} = \\frac{x^4}{3}.$"
+      },
+      {
+        "type": "text",
+        "text": "Now the deflection at $A$ is a moment of the bending moment diagram about the vertical."
+      },
+      {
+        "type": "text",
+        "text": "[UNRECOGNIZED TEXT]"
+      },
+      {
+        "type": "text",
+        "text": "Example 20. – Find the position of the centroid of a quadrant of a circle."
+      },
+      {
+        "type": "equation",
+        "latex": "x^2 + y^2 = r^2",
+        "description": "Equation of the circle that is $x^2 + y^2 = r^2$."
+      },
+      {
+        "type": "text",
+        "text": "Thus $y = \\sqrt{r^2 - x^2}$."
+      },
+      {
+        "type": "text",
+        "text": "Therefore $x = y \\times \\sqrt{r^2 - y^2}.$"
+      }
+    ]
+  },
+  "cost": 0.0009567
+}

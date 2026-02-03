@@ -1,0 +1,71 @@
+{
+  "page": {
+    "page_number": 64,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "It will be observed that on the right-hand side of the equation we have dy as the first numerator and dx as the last denominator (these giving in conjunction the left-hand side of the equation); and we must treat the numerators and denominators as neutralising one another. The simple arithmetic analogy may help to impress the rule upon the memory: thus"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{4}{\\cos 4\\Theta} + \\frac{2}{\\sin 2x}\\cos 4\\Theta \n = \\frac{5}{2}\\sin 2x\\cos 4\\Theta.",
+        "description": "This equation defines the relationship between the differential changes in variables y and x."
+      },
+      {
+        "type": "text",
+        "text": "Example 1: If y = \\sin 2x, then we have"
+      },
+      {
+        "type": "equation",
+        "latex": "dy = 2\\cos 2x \\cdot dx",
+        "description": "This shows how to differentiate y in terms of x."
+      },
+      {
+        "type": "text",
+        "text": "Since we are a function of x, we can differentiate with regard to u, whereas it is impossible to differentiate with regard to x directly."
+      },
+      {
+        "type": "text",
+        "text": "Then, since"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = 2\\cos 2x \\cdot \\cos 4\\Theta.",
+        "description": "This equation connects the derivative of y with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "Example 2: Find the value of \\frac{d}{dx}(x^2\\sin 2x)."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dt}(x^2\\sin 2x) = 2x\\sin 2x + x^2 \\cdot 2\\cos 2x",
+        "description": "This computes the derivative of the product of the functions x^2 and sin(2x) using the product rule."
+      },
+      {
+        "type": "text",
+        "text": "Then at x = 1, we have"
+      },
+      {
+        "type": "equation",
+        "latex": "= 2\\sin 2 + \\cos 2",
+        "description": "This gives a specific evaluation of the derivative at x = 1."
+      },
+      {
+        "type": "text",
+        "text": "If r = radius, then \\frac{dr}{dt} = rate of change of the radius, and is in this case equal to -2."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Rate of change of the radius = } -2.",
+        "description": "This states the rate at which the radius is decreasing."
+      },
+      {
+        "type": "text",
+        "text": "The radius of a sphere is being decreased at the rate of 2 units. At what rate is the surface area, (b) the weight, varying, when the radius is 15 ins. and the material weighs 18 lb. per cu. ft."
+      }
+    ]
+  },
+  "cost": 0.0009656999999999999
+}

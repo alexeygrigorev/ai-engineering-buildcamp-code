@@ -1,0 +1,23 @@
+{
+  "page": {
+    "page_number": 66,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Again, $a = \\sqrt{1 - \\sin^{2} \\theta}$.  If the connecting rod is long compared with the crank, $r$ is small and $\\sin^{2} \\theta$ still smaller, so that our method of approximation can be applied to the expansion of the bracket, if we note that \\[ \\cos \\theta = 1 - \\frac{1}{2} \\sin^{2} \\theta, \\text{ very nearly.} \\]"
+      },
+      {
+        "type": "figure",
+        "caption": "Velocity and Acceleration of Piston",
+        "description": "The figure illustrates the motion of a piston, showing the displacement and position relations involved. This is important for understanding how angular movement translates to linear displacement.",
+        "figure_number": 16
+      },
+      {
+        "type": "text",
+        "text": "Let $AB = $ displacement of the piston from its in-dead-centre position = $AE - AE'$ = $AD - BD - OD.$ We cannot differentiate this expression, so we write \\[ \\frac{dAB}{dt} = \\frac{d}{dt}(AD - BD - OD) = \\frac{dAD}{dt} - \\frac{dBD}{dt} - \\frac{dOD}{dt}. \\] Hence \\[ \\frac{dAB}{dt} = r \\frac{d\\theta}{dt} \\cos \\theta - 0 - 0 = r \\frac{d\\theta}{dt} \\cos \\theta. \\] or \\[ v = \\frac{dAB}{dt} = r \\frac{d\\theta}{dt} \\cos \\theta = \\frac{2\\pi r}{T} \\cos \\theta, \\text{ where } T = \\text{ period of rotation.} \\]"
+      }
+    ]
+  },
+  "cost": 0.0008276999999999999
+}

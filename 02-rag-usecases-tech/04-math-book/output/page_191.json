@@ -1,0 +1,70 @@
+{
+  "page": {
+    "page_number": 174,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let $u = \\ln(x) \\text{ and } du = \\frac{1}{x} dx$ so that $dx = x \\, du$."
+      },
+      {
+        "type": "text",
+        "text": "Then"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int u e^{u} \\, du = e^{u} (u-1) + C = e^{\\ln(x)} \\left( \\ln(x) - 1 \\right) + C.",
+        "description": "Integral of $u e^u$ in terms of $u$."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\ln(x) \\, dx = x \\left( \\ln(x) - 1 \\right) + C.",
+        "description": "Final expression for the integral of ln(x)."
+      },
+      {
+        "type": "text",
+        "text": "In like manner it could be shown that $\\Gamma(n) = (n-1)!$. And if $n$ is an integer it will be seen that we finally reduce to $\\Gamma(1) = 0$, the value of which is $1$."
+      },
+      {
+        "type": "text",
+        "text": "Thus the last result will not hold, however, if $n$ is not an integer, but the general method of attack holds good; and tables may be consulted for defining the values of $\\Gamma(n)$ for many values of $n$, whether $n$ be an integer or not. Thus if an integral can be reduced to a Gamma function or a combination of Gamma functions, its numerical evaluation may be effectively be performed as in the last example."
+      },
+      {
+        "type": "text",
+        "text": "Example 36. Evaluate the probability integral $\\int_{0}^{\\infty} e^{-x} dx$ by aid of the Gamma function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{\\infty} e^{-x} dx = \\lim_{t \\to \\infty} \\int_{0}^{t} e^{-x} dx",
+        "description": "Setup of the integral to evaluate."
+      },
+      {
+        "type": "text",
+        "text": "so that"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{t} e^{-x} dx = -e^{-x} \\bigg|_{0}^{t} = -(e^{-t} - 1) = 1 - e^{-t}.",
+        "description": "Evaluation of the integral from 0 to t."
+      },
+      {
+        "type": "text",
+        "text": "As we take the limit $t \\to \\infty$, we find that"
+      },
+      {
+        "type": "equation",
+        "latex": "\\lim_{t \\to \\infty} (1 - e^{-t}) = 1.",
+        "description": "Limit of the evaluated integral."
+      },
+      {
+        "type": "text",
+        "text": "and the value of $\\int_{0}^{\\infty} e^{-x} dx = 1$."
+      }
+    ]
+  },
+  "cost": 0.0009639
+}

@@ -1,0 +1,93 @@
+{
+  "page": {
+    "page_number": 354,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Exercises 24—On Harmonic Analysis."
+      },
+      {
+        "type": "text",
+        "text": "1. Show how to analyse approximately the displacement of a point in a mechanism on the assumption that it may be represented by a limited series of sine and cosine terms, and obtain general expressions for the values of the constants in the series."
+      },
+      {
+        "type": "text",
+        "text": "Let $x$ and $y$ be the angular displacement of an actuating crank and its corresponding uniformly varying mechanism. Apply your results to obtain the values of the angular displacement $A$ of a point in a mechanism for the corresponding angular displacement of a uniformly revolving crank."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Angular displacement } A = \\sin(\\alpha + \\beta) + B \\cos 30^\\circ.",
+        "description": "Angular displacement in relation to crank angle and constants."
+      },
+      {
+        "type": "text",
+        "text": "2. A part of a machine has an oscillating motion. The displacement is given by the equation:"
+      },
+      {
+        "type": "equation",
+        "latex": "x = A \\sin(\\omega t + \\phi) - 6",
+        "description": "Displacement equation of the oscillating machine."
+      },
+      {
+        "type": "text",
+        "text": "Find the constants in the equation when the following values are plotted."
+      },
+      {
+        "type": "table",
+        "caption": "Values of displacement vs time",
+        "columns": [
+          "Time (t)",
+          "Displacement (x)"
+        ],
+        "rows": [
+          [
+            "0",
+            "-6"
+          ],
+          [
+            "1",
+            "-1"
+          ],
+          [
+            "2",
+            "0"
+          ],
+          [
+            "3",
+            "3"
+          ],
+          [
+            "4",
+            "4"
+          ],
+          [
+            "5",
+            "3"
+          ],
+          [
+            "6",
+            "0"
+          ],
+          [
+            "7",
+            "-1"
+          ],
+          [
+            "8",
+            "-3"
+          ],
+          [
+            "9",
+            "-5"
+          ],
+          [
+            "10",
+            "-6"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0008174999999999999
+}

@@ -1,0 +1,68 @@
+{
+  "page": {
+    "page_number": 382,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Then"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dp}{dx} = K e^{\\frac{-n}{h}(\\frac{d}{dx} - nK h)}(1 + \\frac{\\beta}{\\nu})(\\frac{K e^{-h}}{\\nu})^{\\frac{(\\frac{K e^{-h}}{\\nu})^2}{\\mu}}\\quad(1)\\,,",
+        "description": "An equation related to the change of pressure with respect to distance."
+      },
+      {
+        "type": "text",
+        "text": "or"
+      },
+      {
+        "type": "equation",
+        "latex": "h = \\frac{\\frac{1}{K} \\cdot \\sqrt{\\frac{2}{\u0002}}}{\\xi} \\quad \\text{if,} \\; i.e., \\; h = \\frac{2\\times\\xi}{\\sqrt{\\frac{1}{K}}} \\quad(2)\\,,",
+        "description": "Another equation related to the hydraulic head."
+      },
+      {
+        "type": "text",
+        "text": "Now it has already been proved that for a certain number of observations are taken."
+      },
+      {
+        "type": "equation",
+        "latex": "\\nu = 4796\\sqrt{6h} \\Rightarrow \\text{so that }",
+        "description": "A derived expression to estimate a value based on observations."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sum{X_i^2} = 6745\\div 5 = 1349.0 \\quad(3)",
+        "description": "A calculation of the average based on the sum of squared observations."
+      },
+      {
+        "type": "text",
+        "text": "Also we have previously stated that the sum of the squares of the actual errors differs very little from the sum of the residual errors; this being true if a great number of observations are taken. Therefore the difference in the two sums may be expressed rather more accurately by the relation."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sum{(residual \\, error)^2} = n - 1 = 5 - 1 = 4 \\text{ (residual error)} \\quad(4)",
+        "description": "An equation for calculating residual errors."
+      },
+      {
+        "type": "text",
+        "text": "Hence if \\( \\sum{(residual \\, error)}^2 \\) we write."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sqrt{\\overline{\\xi}} = \\frac{6745}{7 \\cdot 4} = 2475 \\quad(5)",
+        "description": "A derived average value based on residual calculations."
+      },
+      {
+        "type": "text",
+        "text": "And applying these results to Example 1 on p. 377."
+      },
+      {
+        "type": "equation",
+        "latex": "n = \\frac{erv}{\\sqrt{7}} = 574 \\quad(6)",
+        "description": "Final equation related to the example."
+      }
+    ]
+  },
+  "cost": 0.0009626999999999999
+}

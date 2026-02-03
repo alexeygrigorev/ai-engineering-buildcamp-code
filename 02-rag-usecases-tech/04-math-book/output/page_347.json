@@ -1,0 +1,39 @@
+{
+  "page": {
+    "page_number": 330,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Case of both ends fixed. - The form taken by the column is as at (b) Fig. 122. The half-period of the curve is evidently $\frac{L}{2}$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{But the period} = 2L = \\frac{2\\pi}{\\omega} \\Rightarrow \\omega = \\frac{\\pi}{L}.",
+        "description": "Relates the period of the curve to its length."
+      },
+      {
+        "type": "text",
+        "text": "Case of one end fixed. - The form taken by the column is as at (c) Fig. 122. The half-period in this case is $l$, but as before proved, the period is 2l."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Hence} \\quad T = \\frac{F}{g} \\Rightarrow \\text{Now} \\quad F = \\frac{\\pi^{2}EI}{L^{2}}.",
+        "description": "Relates tension in the belt to the other parameters."
+      },
+      {
+        "type": "text",
+        "text": "Tension in Belt passing round a Pulley."
+      },
+      {
+        "type": "text",
+        "text": "Example 27. - To compare the tensions $T_1$ and $T_2$ at the ends of a belt passing round a pulley; the coefficient of friction between the belt and pulley being $\\mu$ and the angle of lap being $\\theta$ radians."
+      },
+      {
+        "type": "text",
+        "text": "Consider a small element of belt subtending an angle of $d\\theta$ at the centre of the pulley (see Fig. 123); then the tensions at the ends are respectively $T_1$ and $T_2$."
+      }
+    ]
+  },
+  "cost": 0.0008211
+}

@@ -1,0 +1,48 @@
+{
+  "page": {
+    "page_number": 225,
+    "header": "CENTRE OF GRAVITY",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus \\( \\bar{x} \\) (and consequently \\( \\bar{y} \\) )"
+      },
+      {
+        "type": "text",
+        "text": "The value of the denominator is \\( I = \\int_{A} dA \\) for the area of the quadrant. (This integral would be evaluated as shown on p. 149.)"
+      },
+      {
+        "type": "text",
+        "text": "To evaluate the numerator, let us take the area element as follows:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{A} x dA = \\int_{0}^{r} \\int_{0}^{\\frac{\\pi}{2}} r^{2} \\cos(\\theta) r \\, d\\theta dr = \\int_{0}^{r} \\cos(\\theta)\\, d\\theta\\, dr = \\left(\\frac{1}{2} r^{2} \\right) \\cdot \\frac{\\pi}{2} = \\frac{\\pi r^{3}}{4}.",
+        "description": "Calculates the moment about the x-axis for the area of the quadrant."
+      },
+      {
+        "type": "text",
+        "text": "Therefore, the overall coordinates \\( \\bar{x} \\) and \\( \\bar{y} \\) are obtained as:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\bar{x} = \\frac{1}{A} \\int_{A} x \\, dA \\quad \\text{and} \\quad \\bar{y} = \\frac{1}{A} \\int_{A} y \\, dA.",
+        "description": "Defines the center of gravity coordinates based on area integrals."
+      },
+      {
+        "type": "text",
+        "text": "Center of Gravity of Irregular Solids. - The methods given for the determination of the centroids of irregular areas apply equally well for solids. For if A is the area of the cross section of a solid at any length, distant x, from one end, and the volume is increased by small amount dV (which will be negligible in the value of A), then the increase in the volume is given as \\( dV = A \\, dx \\) where the weight is given as \\( W = \\rho g \\, dV \\) ."
+      },
+      {
+        "type": "equation",
+        "latex": "W = \\rho A \\int_{x} dx",
+        "description": "Defines the total weight of the solid in terms of density and volume."
+      },
+      {
+        "type": "text",
+        "text": "so that \\( \\bar{x} = \\frac{\\int{\\rho A x \\, dx}}{\\int{\\rho A \\, dx}}. \\)"
+      }
+    ]
+  },
+  "cost": 0.0009314999999999998
+}

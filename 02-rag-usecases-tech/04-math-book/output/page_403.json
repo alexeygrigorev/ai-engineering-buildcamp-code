@@ -1,0 +1,17 @@
+{
+  "page": {
+    "page_number": 386,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "2. Plot the probability curve $y = \\frac{1}{\\sqrt{2 \\pi}} e^{-\\frac{x^2}{2}}$ at the value of $\\sigma = 1.414$, and find the probability that an error lies within the limits -4 and 6."
+      },
+      {
+        "type": "text",
+        "text": "3. The following are the results of the determinations of the maximum of Allen from Sears, Texas, the results of a U.S. Coast and Geodetic Survey; the values of the seconds only being stated after the first reading:  \\n  6.167, 6.428, 6.424, 6.435, 6.727, 6.453, 6.430, 6.450, 6.343 and 6.000.  Find the AM, the probable error of a single observation and the probable error of the mean."
+      }
+    ]
+  },
+  "cost": 0.0007232999999999999
+}

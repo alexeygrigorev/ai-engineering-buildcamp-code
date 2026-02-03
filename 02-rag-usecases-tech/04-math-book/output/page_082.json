@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 65,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The surface  = 4πr², and thus the rate of change of surface is"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dS}{dr} = 8\\pi r",
+        "description": "The rate of change of surface area with respect to radius."
+      },
+      {
+        "type": "text",
+        "text": "Hence when r = 15,\\quad \\frac{dS}{dr} = 8 \\times 15 = 120\\pi = 376.99\\text{ sq. in. per min.}"
+      },
+      {
+        "type": "text",
+        "text": "So that the rate of change of volume ="
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dV}{dr} = \\frac{d}{dr}\\left(\\frac{4}{3}\\pi r^3\\right) = 4\\pi r^2",
+        "description": "The rate of change of volume with respect to radius."
+      },
+      {
+        "type": "text",
+        "text": "And the rate of change of the weight of volume ="
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dW}{dr} = 14\\pi r^2 \\cdot 225 = 3150\\text{ lbs. per min.}",
+        "description": "The rate of change of weight with respect to radius."
+      },
+      {
+        "type": "text",
+        "text": "When r = 15,\\quad\\frac{dW}{dr} = 14\\pi \\cdot 225 = 3150\\text{ lbs. per min.}"
+      },
+      {
+        "type": "text",
+        "text": "Example 4 — Find expressions for the velocity and acceleration of the piston of a horizontal steam engine when the crank makes r revolutions per second."
+      },
+      {
+        "type": "text",
+        "text": "In each turn the angle can be expressed as 2r radians."
+      },
+      {
+        "type": "text",
+        "text": "Hence in 1 second 2r radians are swept out, i.e., the angular velocity is 2r."
+      },
+      {
+        "type": "text",
+        "text": "Thus"
+      }
+    ]
+  },
+  "cost": 0.0008516999999999999
+}

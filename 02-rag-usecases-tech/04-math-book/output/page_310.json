@@ -1,0 +1,75 @@
+{
+  "page": {
+    "page_number": 293,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The following example combines the methods of solution employed in Examples 17, 18, and 20."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 23—Solve the equation"
+      },
+      {
+        "type": "text",
+        "text": "\n\\[ \\frac{d^2y}{dx^2} + \\frac{1}{12} \\frac{dy}{dx} - \\frac{1}{12}y = \\frac{1}{12} \\sin 60x \\]"
+      },
+      {
+        "type": "text",
+        "text": "The solution of"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dx^2} + \\frac{1}{12} \\frac{dy}{dx} - \\frac{1}{12}y = \\frac{1}{12} \\sin 60x",
+        "description": "A second-order linear ordinary differential equation with a sinusoidal forcing function."
+      },
+      {
+        "type": "text",
+        "text": "is"
+      },
+      {
+        "type": "equation",
+        "latex": "y = A e^{\\frac{-x}{12}} + B e^{\\frac{-x}{12}} + \\frac{1}{12} \\left( A_1 \\sin 60x + A_2 \\cos 60x \\right)",
+        "description": "The general solution, combining the homogeneous and particular solutions."
+      },
+      {
+        "type": "text",
+        "text": "The particular integral for"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{1}{25 + 1} \\left( -1 \\right) = -\\frac{1}{26}",
+        "description": "A specific solution derived from the driving function of the differential equation."
+      },
+      {
+        "type": "text",
+        "text": "To find the particular integral for"
+      },
+      {
+        "type": "equation",
+        "latex": "D^2 y = D^2 \\left( -\\frac{1}{12} \\sin 60x \\right)",
+        "description": "The process of finding the particular integral using differential operators."
+      },
+      {
+        "type": "equation",
+        "latex": "p = \\frac{D^2 y}{D^2} - \\sin 60(60 - 30)",
+        "description": "Expression involving derivatives with respect to the variable."
+      },
+      {
+        "type": "text",
+        "text": "So, \n\\[ \\sqrt{4 + 364} = \\sqrt{V + 900} \\]"
+      },
+      {
+        "type": "text",
+        "text": "Hence the complete solution is the sum of those in (a), (b), (c) and (d), (vi):"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{A e^{\\frac{-x}{12}} + B e^{\\frac{-x}{12}}\\ }{20(1 + 900)(1 + 36)}",
+        "description": "The final expression for the solution that integrates all components."
+      }
+    ]
+  },
+  "cost": 0.0009470999999999999
+}

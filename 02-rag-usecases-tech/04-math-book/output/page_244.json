@@ -1,0 +1,64 @@
+{
+  "page": {
+    "page_number": 227,
+    "header": "CENTRE OF GRAVITY",
+    "blocks": [
+      {
+        "type": "figure",
+        "caption": "Figure representing the area under the curve for the calculation of center of gravity.",
+        "description": "The figure here is a reproduction of the original drawing to show the area under the curve for the moment calculations. It visually represents the relationship between the curves and volumes involved in finding the center of gravity.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "In the original drawing, the areas were represented as: 'if vertically = 2 sq. ft. and horizontally = 1 ft., the area represented = 2 sq. ft.' The area under the curve EAB was found, by means of the plamneter, to be 13.96 sq. ins., and the volume was 190.64 cu. ins."
+      },
+      {
+        "type": "text",
+        "text": "The curve BCD has a moment about the volumes of Ar as ordinates, the table for the volume of Ar is as follows:"
+      },
+      {
+        "type": "table",
+        "caption": "Table of areas and moments for the calculation of center of gravity.",
+        "columns": [
+          "Distance (x)",
+          "Area (A)",
+          "Moment (MA)"
+        ],
+        "rows": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "2",
+            "2"
+          ],
+          [
+            "2",
+            "4",
+            "8"
+          ],
+          [
+            "3",
+            "6",
+            "18"
+          ],
+          [
+            "4",
+            "8",
+            "32"
+          ],
+          [
+            "5",
+            "10",
+            "50"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007652999999999999
+}

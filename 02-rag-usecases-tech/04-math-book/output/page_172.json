@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 155,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 16.—To find the value of $\\int \\frac{dx}{\\sin^2 x}$."
+      },
+      {
+        "type": "text",
+        "text": "Since $\\sin^2 A = 2 \\sin A \\cos A$, then we have:\n\n$\\int \\frac{dx}{\\sin^2 x} = \\int \\frac{dx}{2 \\sin x \\cos x} = \\frac{1}{2} \\int \\frac{dx}{\\sin x \\cos x}$."
+      },
+      {
+        "type": "text",
+        "text": "Hence,\n\n$\\int \\frac{dx}{\\sin^2 x} = -\\cot x + C$."
+      },
+      {
+        "type": "text",
+        "text": "Now let:\n\n$u = \\tan x$."
+      },
+      {
+        "type": "text",
+        "text": "Then $du = \\sec^2 x \\, dx$ or $dx = \\frac{du}{\\sec^2 x}$."
+      },
+      {
+        "type": "text",
+        "text": "If this equation be integrated throughout, with respect to $x$,\n\nor, transposing,\n\n$\\int \\frac{du}{1 + u^2}$."
+      },
+      {
+        "type": "text",
+        "text": "Integration by Parts.—When differentiating a product, use is made of the rule:\n\n$\\frac{d}{dx}(uv) = u \\frac{dv}{dx} + v \\frac{du}{dx}.$"
+      },
+      {
+        "type": "text",
+        "text": "[Refer p. 0]."
+      },
+      {
+        "type": "text",
+        "text": "Many products may be integrated by the use of this rule."
+      }
+    ]
+  },
+  "cost": 0.0008072999999999999
+}

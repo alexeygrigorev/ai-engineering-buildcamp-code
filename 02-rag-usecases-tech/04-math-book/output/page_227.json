@@ -1,0 +1,17 @@
+{
+  "page": {
+    "page_number": 210,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "7. The Weight of Stone Pillar.\nThe weight of the stone pillar shown in Fig. 57. The\nfigures are cylindrical, which the radius of the body at any section\nis determined by the rule, radius = \\( \\sqrt{3} \\) where \\( r \\) is the distance of\nthe section from the fixed point \\( O \\)."
+      },
+      {
+        "type": "text",
+        "text": "8. The curve \\( y = \\frac{1}{2} x^2 \\) revolves about the axis of \\( x \\). The density of the solid thus generated, the bounding planes being those for which \\( y = 0 \\), is bounded above by such a plane as \\( y = 12 - \\frac{1}{2} x^2 \\) and the volume is given as:\n\\[ V = \\int_{0}^{12} \\pi y^2 dx  \\]"
+      }
+    ]
+  },
+  "cost": 0.0007256999999999999
+}

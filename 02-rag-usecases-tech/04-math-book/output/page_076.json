@@ -1,0 +1,36 @@
+{
+  "page": {
+    "page_number": 59,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx} \\sin(x) = \\cos(x) \n\\quad and, in like manner- \n\\frac{d}{dx} \\cos(x) = -\\sin(x). \n\nAgain, \\quad \\frac{d}{dx} \\sin(5x) = 5 \\cos(5x) \n\\quad since 5 multiplies the I.V. in the original function. \nThen in general,",
+        "description": "Derivatives of sine and cosine functions and their multiples."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx}(Bx + C) = AB \\cdot (B + C) \n\\quad = A \\cdot (B + C) \n",
+        "description": "Application of differentiation rules in a linear function."
+      },
+      {
+        "type": "text",
+        "text": "To differentiate \\( \\tan x \\) with regard to \\( x \\). \nLet \\( y = \\tan x \\) and \\( y - y(1 + 8x) \\) then \\(\\tan(1 + 8x)\\). \n\n\\begin{align*}\n\\frac{dy}{dx} &= \\frac{\\sin((1 + 8x) \\cdot \\cos((1 + 8x))}{\\cos^2(8x) \\\\ \n&= \\frac{\\sin(8x) \\cdot \\cos((1 + 8x))}{\\cos^2(8x)}\n\\end{align*}\n"
+      },
+      {
+        "type": "text",
+        "text": "Dividing through by \\( \\cos(8x) \\): \n\\frac{dy}{dx} = \\frac{\\sin(8x) }{\\cos^2(8x)} \n\\quad as \\( x \\to 0 \\): \\quad x \\to 0 \\quad = \\sec^2 x \n"
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan x = \\sec^2 x",
+        "description": "The differentiation of tangent and its relationship to secant."
+      }
+    ]
+  },
+  "cost": 0.0008804999999999999
+}

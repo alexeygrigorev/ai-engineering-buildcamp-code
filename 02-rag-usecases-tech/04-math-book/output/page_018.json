@@ -1,0 +1,65 @@
+{
+  "page": {
+    "page_number": 1,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "INTRODUCTORY"
+      },
+      {
+        "type": "text",
+        "text": "The subject matter of this volume presents greater difficulty than that of Part I. Many of the processes described herein depend upon rules explained in the former volume; and accordingly it is suggested that, before commencing to read this work, special attention should first be paid to Part I, pp. 452-460, 463-467, 469-472, and pp. 273-299; whilst a knowledge of the forms of the curves plotted in Chapter IX should certainly prove of great assistance."
+      },
+      {
+        "type": "text",
+        "text": "The abbreviations detailed below will be adopted throughout."
+      },
+      {
+        "type": "text",
+        "text": "stands for \"approaches.\""
+      },
+      {
+        "type": "text",
+        "text": "\"equals\" or \"is equal to.\""
+      },
+      {
+        "type": "text",
+        "text": "\"divided by.\""
+      },
+      {
+        "type": "text",
+        "text": "\"plus or minus.\""
+      },
+      {
+        "type": "text",
+        "text": "\"divided into.\""
+      },
+      {
+        "type": "text",
+        "text": "\"circumference.\""
+      },
+      {
+        "type": "text",
+        "text": "\"angle.\""
+      },
+      {
+        "type": "text",
+        "text": "\"triangle\" or \"area of triangle.\""
+      },
+      {
+        "type": "text",
+        "text": "\"factorial four\"; the value being that of the expression 1 \u001134 or 2! = 2."
+      },
+      {
+        "type": "text",
+        "text": "The number of permutations of $n$ things taken two at a time."
+      },
+      {
+        "type": "text",
+        "text": "$n$ = (n - 1)."
+      }
+    ]
+  },
+  "cost": 0.0007910999999999999
+}

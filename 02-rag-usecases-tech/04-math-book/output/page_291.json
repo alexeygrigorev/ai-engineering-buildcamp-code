@@ -1,0 +1,34 @@
+{
+  "page": {
+    "page_number": 274,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $x = 1$, then $y = y$, i.e., the rate of change of $y$ with regard to $x$."
+      },
+      {
+        "type": "text",
+        "text": "For any variable $y$, its actual value at that particular value of $x$ is equal to the value of $y$ for that specific value of $x$, which is only when $y$."
+      },
+      {
+        "type": "text",
+        "text": "If $h$ has some value such that $y$ is proportional to $y$; actually, if $y = 0$, then $y = 0$ would be one solution for this."
+      },
+      {
+        "type": "text",
+        "text": "Then the equation $dy = ay$ is solved as:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{1}{y} dy = \\int a dx",
+        "description": "This shows the integration of the function with respect to $y$ and $x$."
+      },
+      {
+        "type": "text",
+        "text": "Example 6. Find the equation to prove the sub-normal is constant and equal to $\\frac{p}{3}$. (See p. 43)"
+      }
+    ]
+  },
+  "cost": 0.0007478999999999999
+}

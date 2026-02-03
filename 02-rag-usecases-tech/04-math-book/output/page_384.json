@@ -1,0 +1,31 @@
+{
+  "page": {
+    "page_number": 367,
+    "header": "THE SOLUTION OF SPHERICAL TRIANGLES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The altitude of a heavenly body is the angle between the meridian plane through the point of observation and the vertical plane passing through the body. It can be compared with the bearing of plane trigonometry. In Fig. 138, the angle PZS is the azimuth of S."
+      },
+      {
+        "type": "text",
+        "text": "In this figure, P is the pole, and PDS is the great circle passing through P and S; this is known as the ‘declination circle.’ Then ZPS is the angle at the earth, Z is the latitude of S, and its declination is expressed in terms of the latitude in degrees, etc."
+      },
+      {
+        "type": "text",
+        "text": "The declination of a heavenly body is the arc of the declination circle intercepted between the celestial equator and the heavenly body. This is the distance to the body from the equator measured along the declination circle."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 139",
+        "description": "This figure illustrates the concept of declination in spherical triangles. It visualizes the declination angle and its relationship with the celestial equator and the latitude of the observer.",
+        "figure_number": 139
+      },
+      {
+        "type": "text",
+        "text": "Example:  At a certain time at a place latitude 12° 13′ N, the declination of the Sun was found to be 48° 19′ N and the azimuth was 15° 41′ N. As explained before, the declination triangle can be constructed with sides as follows: A – declination = 48° 19′ – B – latitude = 12° 13′, then the angle A is the azimuth (Fig. 139)."
+      }
+    ]
+  },
+  "cost": 0.0008156999999999999
+}

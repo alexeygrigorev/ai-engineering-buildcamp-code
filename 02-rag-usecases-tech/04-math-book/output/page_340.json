@@ -1,0 +1,23 @@
+{
+  "page": {
+    "page_number": 323,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Dividing through by $c$: \n$$ c e^t + e^{-t} = (y+c),$$ \nthat is, \n$$ e^{2t} = (y+c)^2 - (c^2 + e^{-2t}). $$ \n\nIf now the axis of $y$ be shifted downwards a distance $c$, then the new ordinate $Y = y+c$ and $Y = \frac{(y+c)^2 - (c^2 + e^{-2t})}{e^{-t}} = \frac{z + c}{e^{-t}}$."
+      },
+      {
+        "type": "figure",
+        "caption": null,
+        "description": "The figure illustrates a parabolic curve representing the form of a cable under the influence of gravity. The axes labeled 'True Scale' and 'Construct Scale' show the relationship between the vertical and horizontal distances, with points marked to indicate specific values along the cable's curve.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Again, since $Y=y+c$ \n$$ \frac{dY}{dx} = \frac{(y+c) + c}{c \text{h} x} $$ \nand also \n$$ \frac{dY}{dx} = \frac{(y+c) + c}{\text{s} h x \text{s} h}},$$ \nThen \n$$ \frac{d^{2}Y}{dx^{2}} = \frac{dY}{dx} $$ \nhence \n$$ \frac{z}{c} = \text{s}h x or s = \frac{c}{\text{s}h x}.$$"
+      }
+    ]
+  },
+  "cost": 0.0008169
+}

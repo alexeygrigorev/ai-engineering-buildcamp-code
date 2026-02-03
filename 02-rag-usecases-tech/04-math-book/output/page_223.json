@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 206,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "figure",
+        "caption": "Fig. 53—Perimeter of Ellipse",
+        "description": "A graphical representation of the perimeter of an ellipse with varying eccentricity.",
+        "figure_number": 53
+      },
+      {
+        "type": "text",
+        "text": "Perimeter of Ellipse of eccentricity $K = 2 \\times \\text{major axis} \\times \\text{ordinate}$"
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 54",
+        "description": "[DESCRIPTION NOT AVAILABLE]",
+        "figure_number": 54
+      }
+    ]
+  },
+  "cost": 0.0006926999999999999
+}

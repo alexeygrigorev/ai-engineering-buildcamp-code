@@ -1,0 +1,85 @@
+{
+  "page": {
+    "page_number": 320,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 21"
+      },
+      {
+        "type": "text",
+        "text": "To find expressions for the potential and the current at any points along a long uniform conductor."
+      },
+      {
+        "type": "text",
+        "text": "At a distance from the \"home\" end let the steady current be $I$ and the steady current be $E$."
+      },
+      {
+        "type": "text",
+        "text": "Let the resistance of 1 unit of length of the conductor = $r$ and let the leakage of 1 unit of length of the insulation = $l$. Consider a small length of conductor $h$."
+      },
+      {
+        "type": "equation",
+        "latex": "R = r h  \\, \\text{and} \\quad L = l h",
+        "description": "The total resistance and leakage of a small length of conductor."
+      },
+      {
+        "type": "text",
+        "text": "Writing (3) and (4) in their limiting forms:"
+      },
+      {
+        "type": "equation",
+        "latex": "dE = -rI \\, dh",
+        "description": "The differential form representing the change in potential."
+      },
+      {
+        "type": "equation",
+        "latex": "dI = -E \\, dh",
+        "description": "The differential form representing the change in current."
+      },
+      {
+        "type": "text",
+        "text": "Differentiating, we have:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dE}{dh} = -rI",
+        "description": "Differentiating the equation for potential."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dI}{dh} = -E",
+        "description": "Differentiating the equation for current."
+      },
+      {
+        "type": "text",
+        "text": "Now solve these equations, let"
+      },
+      {
+        "type": "equation",
+        "latex": "D = \\sqrt{r} \\quad \\text{and} \\quad E = \\sqrt{r}I",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Separating the variables, we have:"
+      },
+      {
+        "type": "equation",
+        "latex": "E = \\sqrt{r}I \\quad \\text{or} \\quad E = A cosh \\left( \\frac{r}{D} h \\right)",
+        "description": "The expression for the potential in terms of hyperbolic cosine."
+      },
+      {
+        "type": "text",
+        "text": "Integrating,"
+      },
+      {
+        "type": "equation",
+        "latex": "E = A \\cosh \\left( \\frac{r}{D} h \\right) + B",
+        "description": "Expression after integration."
+      }
+    ]
+  },
+  "cost": 0.0010172999999999998
+}

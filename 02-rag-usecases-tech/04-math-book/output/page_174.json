@@ -1,0 +1,67 @@
+{
+  "page": {
+    "page_number": 157,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "By developing this second integral along similar lines we arrive at the value"
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\int I_0 \\cos (bt) \\text{d}t \\cdots (2)",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "This can be a pair of simultaneous equations to solve. Multiplying (1) by a and transposing:"
+      },
+      {
+        "type": "equation",
+        "latex": "M = aI_0\\sin(b t) + M'",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Subtracting:"
+      },
+      {
+        "type": "equation",
+        "latex": "B = aI_0\\sin(bt) + B'",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "where"
+      },
+      {
+        "type": "equation",
+        "latex": "M' = -\\frac{A}{b} \\sin(bt) + \\frac{A}{b}\\cos(bt)",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "and, by substitution, we can write this as"
+      },
+      {
+        "type": "equation",
+        "latex": "I = A \\left[ \\sin(bt) + \\cos(bt) \\right]",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Example 20. An electric current I whose value at any time t is given by the relation I = I_0 sin(bt) is passed through a wattmeter; the resistances of the two coils being R_1 and R_2 respectively. In the following evaluation we find it necessary to evaluate the integral."
+      },
+      {
+        "type": "equation",
+        "latex": "Q = \\int \\left[ P \\sin(bt) + (P + C) \\right] \\text{d}t",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "and in this form it is possible to leave it, since in a numerical application it is not very easy to evaluate P, and arrive at before substituting into this result."
+      }
+    ]
+  },
+  "cost": 0.0009362999999999999
+}

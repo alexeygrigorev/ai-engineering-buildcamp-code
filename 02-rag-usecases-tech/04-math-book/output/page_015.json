@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 12,
+    "header": "CONTENTS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "CHAPTER V"
+      },
+      {
+        "type": "text",
+        "text": "INTEGRATION"
+      },
+      {
+        "type": "text",
+        "text": "Meaning of integration—Graphic integration—Application of integration to \" beam problems\"—Coral integration—Rules for integration of simpler functions—Integration of powers of functions—Integration of exponential functions—Integration of trigonometric functions—Indefinite and definite integrals—Method of determining the values of integrals—Proof of Simpson's rule."
+      },
+      {
+        "type": "section_heading",
+        "title": "CHAPTER VI"
+      },
+      {
+        "type": "text",
+        "text": "FURTHER METHODS OF INTEGRATION"
+      },
+      {
+        "type": "text",
+        "text": "Integration by the method of undetermined coefficients—Integration of the product into a sum—Integration by the substitution of variables—Integration by parts—Integration—Gamma function—List of integrals."
+      },
+      {
+        "type": "section_heading",
+        "title": "CHAPTER VII"
+      },
+      {
+        "type": "text",
+        "text": "MEAN VALUES, ETC."
+      },
+      {
+        "type": "text",
+        "text": "Determination of mean values—Root mean square values—Description of mean values—Determination of 'weight' of integral—Centre of gravity and centroid—Application of mean values to geometrical problems—Degrees of freedom—Moments of inertia."
+      },
+      {
+        "type": "section_heading",
+        "title": "CHAPTER VIII"
+      },
+      {
+        "type": "text",
+        "text": "POLAR CO-ORDINATES"
+      },
+      {
+        "type": "text",
+        "text": "Polar co-ordinates—Spheres—Connection between rectangular and polar co-ordinates—Use of polar co-ordinates for the determination of R.M.S. values—Theory of the Ansler planar meter."
+      }
+    ]
+  },
+  "cost": 0.0007934999999999999
+}

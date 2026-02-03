@@ -1,0 +1,55 @@
+{
+  "page": {
+    "page_number": 240,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 37. A disc revolves at 𝑛 revs. per sec., find an expression for its energy of rotation, or its kinetic energy."
+      },
+      {
+        "type": "text",
+        "text": "If the total mass is 𝑚, let a small element 𝑑𝑚 of mass be considered, distant 𝑟 from the axis of rotation (Fig. 78)."
+      },
+      {
+        "type": "text",
+        "text": "Then the linear velocity at the element is 𝑉 = 𝑛𝑟 and the angular velocity is 𝜔 = 2𝜋𝑛."
+      },
+      {
+        "type": "text",
+        "text": "Thus: 𝑉 = 2𝜋𝑛𝑟."
+      },
+      {
+        "type": "text",
+        "text": "Thus as 𝜔 is constant throughout, while 𝑉 depends on the radius."
+      },
+      {
+        "type": "text",
+        "text": "Kinetic Energy of mass 𝑏𝑑𝑚:"
+      },
+      {
+        "type": "equation",
+        "latex": "T.E. = \\frac{1}{2} \\times (bdm) \\times (V^{2}) = \\frac{1}{2} b dm \\times (2\\pi n r)^{2} = 2\\pi^{2} n^{2}  b r^{2} dm.",
+        "description": "The kinetic energy of a small mass element for a rotating disc."
+      },
+      {
+        "type": "text",
+        "text": "Hence the total K.E. of the disc is:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{K.E.} = \\int_{0}^{R} 2\\pi^{2} n^{2} b r^{2} dm.",
+        "description": "Integral for calculating the total kinetic energy of the disc."
+      },
+      {
+        "type": "text",
+        "text": "Thus the K.E. = I 𝜔 ². Comparing this form with the corresponding one for linear motion, viz., I.E. = 1/2 mv², we see that when changing from linear to angular momentum, I takes the place of m and the place of v."
+      },
+      {
+        "type": "text",
+        "text": "If I is the moment of inertia of mass 𝑚 (as usually denoted by 𝑚), then it is the effective radius as regards all questions of rotation."
+      }
+    ]
+  },
+  "cost": 0.0008948999999999999
+}

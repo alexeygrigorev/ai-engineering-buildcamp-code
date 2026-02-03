@@ -1,0 +1,73 @@
+{
+  "page": {
+    "page_number": 365,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "THE SOLUTION OF SPHERICAL TRIANGLES"
+      },
+      {
+        "type": "text",
+        "text": "60 nautical miles to find the latitude of B, and if it is desired to travel one nautical mile from B as to meet the side C of the parallel at C, find the angle A bc at which one must sail and also the distance BC."
+      },
+      {
+        "type": "text",
+        "text": "In Fig. 137 let A be the point on latitude 50° N and let B be the latitude of B to be found from A. Let NB be the meridian through B, and that through A."
+      },
+      {
+        "type": "text",
+        "text": "These lines AB and BN are straight lines; they exist because they are parts of great circles."
+      },
+      {
+        "type": "text",
+        "text": "The side C is represented by the arc AB (its value being 60 for 1 nautical mile) and the sides A and B are represented by NB."
+      },
+      {
+        "type": "text",
+        "text": "We know that:\n\n$\\text{latitude}_ A = 50°$"
+      },
+      {
+        "type": "text",
+        "text": "And the latitude of B is:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{lat } B = \\text{lat } A - 38° = 50° - 38° = 12°.",
+        "description": "Calculation of the latitude of point B based on the latitude of point A."
+      },
+      {
+        "type": "text",
+        "text": "Now let us take the latitude as side C = 63 nautical miles."
+      },
+      {
+        "type": "text",
+        "text": "To find the angle A: C must be solved as the angle between A and B."
+      },
+      {
+        "type": "equation",
+        "latex": "\\angle A = \\text{sin}^{-1}\\left(\\frac{AB}{C}\\right) = \\text{sin}^{-1}\\left(\\frac{60}{63}\\right)= 74.88°",
+        "description": "Calculation for angle A based on the sine inverse of the ratio of sides."
+      },
+      {
+        "type": "text",
+        "text": "Similarly, the angle B can be calculated as follows."
+      },
+      {
+        "type": "equation",
+        "latex": "\\angle B = 180° - \\angle A - \\angle C = 180° - 74.88° - 38° = 67.12°",
+        "description": "Finding angle B using the angle sum property of triangles."
+      },
+      {
+        "type": "text",
+        "text": "Finally, the angle ABC can be calculated as follows."
+      },
+      {
+        "type": "equation",
+        "latex": "\\angle ABC = 88° 45'",
+        "description": "Final calculation of angle ABC in the triangle."
+      }
+    ]
+  },
+  "cost": 0.0009176999999999998
+}

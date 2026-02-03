@@ -1,0 +1,51 @@
+{
+  "page": {
+    "page_number": 335,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Note. - When differentiating the cosine the minus sign appears in the result; when integrating the sine the minus sign appears; it is important to get a good grip of these statements, and the consideration of them from the graphic aspect is a great help in this respect."
+      },
+      {
+        "type": "text",
+        "text": "To extend the foregoing rules:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\cos(ax+b) \\; dx = \\frac{1}{a} \\sin(ax+b) + C.",
+        "description": "Integral of cosine function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin(ax+b) \\; dx = -\\frac{1}{a} \\cos(ax+b) + C.",
+        "description": "Integral of sine function."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 34.",
+        "description": "Graph showing the relationship between the sine and cosine functions, illustrating their periodic nature and variations based on the transformations applied (such as phase shifts and amplitude adjustments). It includes two curves: one representing $y = \\sin x$ and the other representing $y = \\cos x$.",
+        "figure_number": 34
+      },
+      {
+        "type": "text",
+        "text": "The basic rule remains the same after integration just as it would after differentiation, but the constant multiplier $a$ of the I.V. becomes a divisor."
+      },
+      {
+        "type": "text",
+        "text": "To integrate $\\sec x$ with regard to $x$, we can remind the differentiation of tan x, viz., $\\frac{d}{dx} \\tan x = \\sec^2 x$. Accordingly,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sec x \\; dx = \\ln |\\sec x + \\tan x| + C.",
+        "description": "Integral of secant function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sec(ax+b) \\; dx = \\frac{1}{a} \\ln |\\sec(ax+b) + \\tan(ax+b)| + C.",
+        "description": "Integral of secant function with transformation."
+      }
+    ]
+  },
+  "cost": 0.0008510999999999998
+}

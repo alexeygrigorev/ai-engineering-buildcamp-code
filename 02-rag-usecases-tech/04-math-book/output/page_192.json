@@ -1,0 +1,65 @@
+{
+  "page": {
+    "page_number": 175,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "On comparing with Example 27, p. 162, we see the great saving effected by the use of the Gamma function."
+      },
+      {
+        "type": "section_heading",
+        "title": "LIST OF INTEGRALS LIKELY TO BE OF SERVICE"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int e^{ax + b} \\; dx = \\frac{1}{a} e^{ax + b} + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\sin(ax + b) \\; dx = -\\frac{1}{a} \\cos(ax + b) + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\cos(ax + b) \\; dx = \\frac{1}{a} \\sin(ax + b) + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\log(ax + b) \\; dx = \\frac{1}{a} \\left( (ax + b)\\log(ax + b) - ax \\right) + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\sec^{2}(x) \\, dx = \\tan{x} + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\sec(x) \\, dx = \\log |\\sec{x} + \\tan{x}| + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\csc^{2}(x) \\, dx = -\\cot{x} + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\csc(x) \\, dx = \\log |\\csc{x} - \\cot{x}| + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\sinh(x) \\, dx = \\cosh{x} + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\cosh(x) \\, dx = \\sinh{x} + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\tanh(x) \\, dx = \\log |\\sech{x}| + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\coth(x) \\, dx = \\log |\\sinh{x}| + C \\]"
+      }
+    ]
+  },
+  "cost": 0.0008901
+}

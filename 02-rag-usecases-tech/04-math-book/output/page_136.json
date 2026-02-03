@@ -1,0 +1,43 @@
+{
+  "page": {
+    "page_number": 119,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "corresponding strips so that a continuous curve results, known as the Sum Curve. Thus $ab$ parallel to $PB'$ is drawn from $m$ across the second strip, and so on."
+      },
+      {
+        "type": "text",
+        "text": "The ordinate to the sum curve through any point in the base gives the area under the original or primitive curve from $a$ up to the point considered."
+      },
+      {
+        "type": "text",
+        "text": "Referring to Fig. 28—"
+      },
+      {
+        "type": "table",
+        "caption": "Area of strip $abba'$ as $ab \times AB$",
+        "columns": [
+          "Area",
+          "Description"
+        ],
+        "rows": [
+          [
+            "$B'a b$ or $$ab \times AB$$",
+            "Area of strip"
+          ],
+          [
+            "$b$ or $b \times x$",
+            "area of strip"
+          ],
+          [
+            "$m$",
+            "$m$ measures the area of the first strip to a particular scale, which depends entirely on the value of $h$."
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007202999999999999
+}

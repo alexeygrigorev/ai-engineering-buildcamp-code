@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 304,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Note that, \n\n    \\( \\frac{n}{R} = \\frac{17}{16} \\)  \n\nwork done  \n\nIf the expansion is adiabatic, and it is calculated according to Zeuner's rule (being the initial dryness \\( \\phi_i \\)), then:  \n\n    \\( w = n R T_1 \\left( \\frac{p_2}{p_1} \\right)^{\\frac{1 - \\gamma}{\\gamma}} - n R T_1 \\left( \\frac{p_1}{p_1} \\right)^{\\frac{1 - \\gamma}{\\gamma}} \\)  \n\nwhere \\( T_2 = \\frac{n}{R} =  305.5 - 1.5 \\times 7 \\)°C  \n\nTo Find the Entropy of Water at Absolute Temperature \\( T_r \\)  \nWhen a substance takes or rejects heat (at temperature \\( T_r \\)), the change in entropy \\( s \\) (as heat taken in) is given by:  \n\n    \\( ds = \\frac{dQ}{T} \\)  \n\nChange in entropy from 0 to \\( T_r \\):  \n\n    \\( s = \\int_0^{T_r} \\frac{dQ}{T} \\)  \n\nFor steam, the heat taken in at \\( L \\) (i.e., in the change from liquid to the gas)  \n\nHence the change of entropy:  \n\nEfficiency of an Engine working on the Rankine Cycle.  \nExample 6.1: Find the efficiency of an engine working on the Rankine cycle; using the \\( T_r \\) diagram for the calculation.  \n\n1. Draw the area of ABCD (Fig. 106).  \n2. ABCK - ADMN - DKMN  \n\nThen \\( DK = (T_r - T_1) \\frac{h_{v1} - h_{v2}}{T_{h_r} - T_{h_1}} \\)  \n\nNow \\( DK = \\frac{T_r}{T_1} - L \\) as proved above."
+      }
+    ]
+  },
+  "cost": 0.0009086999999999999
+}

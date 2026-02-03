@@ -1,0 +1,63 @@
+{
+  "page": {
+    "page_number": 336,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 33."
+      },
+      {
+        "type": "text",
+        "text": "To establish a general rule for determining the depth of the Centre of pressure of a section below the W.S.L. (water surface level)."
+      },
+      {
+        "type": "text",
+        "text": "Suppose the plate (representing a section) is placed as shown in Fig. 127. \n\nLet: \n\n$h = $ distance of the C.G. of the section from OY, \n\n$y = $ distance of the centre of pressure from OY, \n\nand let $h$ and $y$ be the corresponding vertical distances. \n\nLet $k = $ swing radius about OY, \n\n$w = $ weight of 1 ft. of water."
+      },
+      {
+        "type": "figure",
+        "caption": "Centre of Pressure",
+        "description": "The figure illustrates the relationship between the plate’s center of gravity and the center of pressure, demonstrating how the distances from OY influence the pressure.",
+        "figure_number": 127
+      },
+      {
+        "type": "text",
+        "text": "The whole pressure on the element \n\n= intensity of pressure $\times$ area \n\n= $p_a \times \text{(area)} = p_a \times b \times \text{(length of the strip)}$.\n\nWhole pressure on surface = $ \text{area} \times p_a \times \text{(height)} = p_a \times b \times h$.\n\nLet the pressure on this surface = $p_a = \rho gh$ (where $\rho$ is the density of water)."
+      },
+      {
+        "type": "equation",
+        "latex": "\text{Whole pressure} = \rho g h b h.",
+        "description": "This equation represents the whole pressure acting on the submerged surface."
+      },
+      {
+        "type": "text",
+        "text": "Now to find the position of the C.G., take moments about OY."
+      },
+      {
+        "type": "equation",
+        "latex": "\text{Moment about OY} = \frac{1}{2} \times \text{(height)} \times \text{pressure} \times \text{width} = \frac{1}{2}h \times p_a} .",
+        "description": "This equation calculates the moment about OY by considering the height, pressure, and width."
+      },
+      {
+        "type": "text",
+        "text": "The moment due to the pressure on the elements \n\n= $p_a \times b \times \frac{1}{2} h^2$."
+      },
+      {
+        "type": "equation",
+        "latex": "\text{Moment} = \rho g \frac{1}{2}h^2 b.",
+        "description": "This equation illustrates the moment due to the pressure on the elements based on the submerged height."
+      },
+      {
+        "type": "text",
+        "text": "Therefore:"
+      },
+      {
+        "type": "equation",
+        "latex": "p_a \times b \times h = p_a \times \frac{1}{3}h^2.",
+        "description": "This equation relates the total pressure with the elements based on the height."
+      }
+    ]
+  },
+  "cost": 0.0009777
+}

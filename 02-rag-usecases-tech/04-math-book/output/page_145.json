@@ -1,0 +1,62 @@
+{
+  "page": {
+    "page_number": 128,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In taking the integration form, we transpose $d^n$ to the '1' on the one side becomes $f$ on the other side, to indicate the change differing to summing, and the 'd' occurs on the top line of the different equation."
+      },
+      {
+        "type": "equation",
+        "latex": "d^n = f^n x^{n-1} + C",
+        "description": "This equation expresses the relationship between the differential and the function being integrated."
+      },
+      {
+        "type": "text",
+        "text": "and the reason for the presence of the constant term C being explained later."
+      },
+      {
+        "type": "text",
+        "text": "It is a trifle simpler to write in $d$ than in $n$, and therefore note that"
+      },
+      {
+        "type": "equation",
+        "latex": "dx^n = \\frac{dx^n}{n}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Whereas, when differentiating a power of the I.V., the power reduces by 1 in the process of differentiation; when integrating, the power is increased by 1."
+      },
+      {
+        "type": "equation",
+        "latex": "d^n = \\frac{5}{4}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "A special case for which the above rule does not apply: for, let $n = 1$, then $\\frac{dx}{1} = $ the value just given, be $0$, but the equation does not have a definite meaning can be assigned."
+      },
+      {
+        "type": "equation",
+        "latex": "d \\log x = \\frac{dx}{x} + C",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "A constant multiplier before integration means as such; after,"
+      },
+      {
+        "type": "equation",
+        "latex": "A \\times \\int = \\log x + C.",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "And an expression composed of terms can be integrated term by term, and the results added."
+      }
+    ]
+  },
+  "cost": 0.0009284999999999999
+}

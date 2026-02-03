@@ -1,0 +1,71 @@
+{
+  "page": {
+    "page_number": 358,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "It is of interest to compare these with the corresponding rules in connection with plane triangles, which are"
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin A = \\frac{a}{(b\\sin B + c\\sin C)}",
+        "description": "Sine Rule for angle A in plane triangles."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin B = \\frac{b}{(a\\sin A + c\\sin C)}",
+        "description": "Sine Rule for angle B in plane triangles."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin C = \\frac{c}{(a\\sin A + b\\sin B)}",
+        "description": "Sine Rule for angle C in plane triangles."
+      },
+      {
+        "type": "text",
+        "text": "It will be seen that, as in the previous case, sides occurring in the formula of plane trigonometry are replaced by their sines in the corresponding formula of spherical trigonometry. Other rules are :"
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos A = \\frac{b^2 + c^2 - a^2}{2bc} \\quad (5)",
+        "description": "Cosine rule for angle A."
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos B = \\frac{a^2 + c^2 - b^2}{2ac} \\quad (6)",
+        "description": "Cosine rule for angle B."
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos C = \\frac{a^2 + b^2 - c^2}{2ab} \\quad (7)",
+        "description": "Cosine rule for angle C."
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan (A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B} \\quad (8)",
+        "description": "Tangent sum formula for angles A and B."
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan A = \\frac{a}{(b \\sin B)} \\quad (9)",
+        "description": "Tangent relation for angle A."
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan B = \\frac{b}{(a \\sin A)} \\quad (10)",
+        "description": "Tangent relation for angle B."
+      },
+      {
+        "type": "text",
+        "text": "Solution of Right Angled Spherical Triangles. In the case of a right angled spherical triangle the relations can be put into somewhat simpler form. Assume that a = g°; \\quad \\cos C = 0, and \\sin C = 1."
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos c = \\cos a \\cos b",
+        "description": "Relation for the cosine of side c in a right-angled spherical triangle."
+      }
+    ]
+  },
+  "cost": 0.0009398999999999999
+}

@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 171,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In a similar fashion we might reduce \\( \\int \\sin^m \\theta \\cos^n \\theta d\\theta \\) as follows:\n\nFirst reduce by \\( \\sin \\theta \\):"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin^{m-1} \\theta \\cos^n \\theta d\\theta = -\\frac{1}{m} \\sin^{m} \\theta \\cos^n \\theta + \\frac{n}{m} \\int \\sin^{m} \\theta \\cos^{n-1} \\theta d\\theta",
+        "description": "Reduces the integral by one power of \\( \\sin \\theta \\) and introduces another integral."
+      },
+      {
+        "type": "text",
+        "text": "Next reduce the power of \\( \\cos \\) again by \\( 2 \\):"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin^{m} \\theta \\cos^{n-1} \\theta d\\theta = \\frac{1}{n} \\sin^{m} \\theta \\cos^{n} \\theta - \\frac{m}{n} \\int \\sin^{m-1} \\theta \\cos^{n} \\theta d\\theta",
+        "description": "Reduces the integral by one power of \\( \\cos \\theta \\) and introduces another integral."
+      },
+      {
+        "type": "text",
+        "text": "Now reduce the power of \\( \u0003 \\) by \\( 2 \\), and remember that \\( m \\) is even or odd."
+      },
+      {
+        "type": "equation",
+        "latex": "m = 0 \\Rightarrow \\int \\cos^{0} \\theta d\\theta = \\sin \\theta \\cos \\theta",
+        "description": "The integral evaluates to a simple function when \\( m = 0 \\)."
+      },
+      {
+        "type": "equation",
+        "latex": "m \\text{ and } n \\text{ both even:} \\quad \\int \\sin^m \\theta \\cos^n \\theta d\\theta = \\frac{1}{2} \\int \\sin^{m} \\theta d\\theta",
+        "description": "Describes the case when both \\( m \\) and \\( n \\) are even."
+      },
+      {
+        "type": "equation",
+        "latex": "m \\text{ even and } n \\text{ odd:} \\quad \\int \\sin^{0} \\cos^{m} \\theta d\\theta = \\int \\cos^{m} \\theta d\\theta",
+        "description": "Describes the case when \\( m \\) is even and \\( n \\) is odd."
+      },
+      {
+        "type": "equation",
+        "latex": "m \\text{ odd and } n \\text{ even:} \\quad \\int \\sin^{m} \\theta d\\theta",
+        "description": "Describes the case when \\( m \\) is odd and \\( n \\) is even."
+      },
+      {
+        "type": "text",
+        "text": "The results for the three cases can thus stated —"
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^m \\theta (x)(X-2)\\cdots\\cdots",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      }
+    ]
+  },
+  "cost": 0.0009969
+}

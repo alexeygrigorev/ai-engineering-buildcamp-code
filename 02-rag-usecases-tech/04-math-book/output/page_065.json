@@ -1,0 +1,38 @@
+{
+  "page": {
+    "page_number": 48,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The derivative of $y$ with respect to $x$ is given by: $$\\frac{dy}{dx} = r_i, \\text{ i.e., the sub-tangent is constant and equal to unity.$$"
+      },
+      {
+        "type": "text",
+        "text": "The curve $y = e^x$ may be usefully perceived as a gauge template for testing slopes of lines; the curve being drawn on drafting-paper and moved over the line to be tested until the curve and line meet at the intended angle, and the ordinate of the curve then being read, any necessary change of scales being afterwards made."
+      },
+      {
+        "type": "text",
+        "text": "The work may be carried a stage further, so that the interpretation of $y$ may be found."
+      },
+      {
+        "type": "text",
+        "text": "Referring to Fig. P, 354, we see that if the curve $y = e^x$ is indicated by the equation $y = e^x$, and the numbers marked along the horizontal scale to the right are $x$, while the vertical distance is denoted by $y$ and is divided by $h$, the slope of the curve is, if measured, we can obtain from the slope of the curve $y = e^x$ by multiplying the slope by $h$, since vertical distances are unmarked, with historial distances for $y$ corresponding horizontal distances for $x$."
+      },
+      {
+        "type": "text",
+        "text": "Hence the slope of the curve $y = e^x$ is $\\frac{dy}{dx} = e^x$."
+      },
+      {
+        "type": "text",
+        "text": "It should be noticed that the behavior of the function remains the same after differentiation, but the multiplier of the I.V. becomes relevant for the differential of this function. Therefore, the incremental ratio must be set as both: 1 as the slope, or as some divisor of the $I.V.$ in the function evaluated at some multiplier given by."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = 5x + 2",
+        "description": "The derivative of a function, exemplifying the relationship between the increment of the function's output concerning its input variable."
+      }
+    ]
+  },
+  "cost": 0.0008732999999999999
+}

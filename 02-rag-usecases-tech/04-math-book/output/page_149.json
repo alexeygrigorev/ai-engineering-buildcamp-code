@@ -1,0 +1,104 @@
+{
+  "page": {
+    "page_number": 132,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "1. An acceleration diagram on a time base has a range of 4.7 s. The base of the diagram is 2.5 in. and it represents 25 sec. The acceleration scale is 1 in. = 1.5 ft/sec². If the velocity at the beginning is 2 ft/sec, find the velocity in ft/sec at the end of 4.7 s."
+      },
+      {
+        "type": "text",
+        "text": "2. A rectangular bar is loaded symmetrically in still water. The curve of loading is shown in figure 1, and the curve of buoyancy is shown in figure 2. Draw diagrams of shearing force and bending moment for this system."
+      },
+      {
+        "type": "figure",
+        "caption": "Loading and buoyancy curves for the rectangular bar",
+        "description": "The figure illustrates two curves: one representing the load on a rectangular bar submerged in water and the other representing the buoyant force acting on it. This relationship helps in understanding the forces that induce shear and bending moment in the structure.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Distance from O to Q (in ft)                  Load (tons)\n\n   0            133           166           200           250\n   1            120           150           170           200\n   2            105           140           180           220\n   3            92            129           155           190\n   4            80            120           140           180\n   5            70            100           130           160\n"
+      },
+      {
+        "type": "table",
+        "caption": "Pressure and volume data for the cyinder and expansion of water",
+        "columns": [
+          "Volume (ft³)",
+          "Pressure (psi)",
+          "12",
+          "10",
+          "8",
+          "6",
+          "4",
+          "2",
+          "0"
+        ],
+        "rows": [
+          [
+            "0",
+            "none",
+            "25",
+            "20",
+            "15",
+            "10",
+            "5",
+            "0"
+          ],
+          [
+            "1",
+            "10",
+            "13",
+            "12",
+            "11",
+            "10",
+            "2",
+            "0"
+          ],
+          [
+            "2",
+            "20",
+            "23",
+            "22",
+            "21",
+            "20",
+            "4",
+            "0"
+          ],
+          [
+            "3",
+            "30",
+            "33",
+            "32",
+            "31",
+            "30",
+            "6",
+            "0"
+          ],
+          [
+            "4",
+            "40",
+            "43",
+            "42",
+            "41",
+            "40",
+            "8",
+            "0"
+          ],
+          [
+            "5",
+            "50",
+            "53",
+            "52",
+            "51",
+            "50",
+            "10",
+            "0"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0009224999999999999
+}

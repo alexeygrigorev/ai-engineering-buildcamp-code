@@ -1,0 +1,21 @@
+{
+  "page": {
+    "page_number": 78,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 15—Find the value of $d \\cosh a$"
+      },
+      {
+        "type": "text",
+        "text": "Let  \n$y = \\cosh a$"
+      },
+      {
+        "type": "text",
+        "text": "Then  \n\\begin{align*}\n  \\frac{dy}{da} &= \\frac{d}{da}(\\cosh a) \\\\\n  &= \\sinh a \\\\\n\\end{align*}"
+      }
+    ]
+  },
+  "cost": 0.0006632999999999999
+}

@@ -1,0 +1,59 @@
+{
+  "page": {
+    "page_number": 176,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dx}{\\sin(bx + d)} = \\frac{1}{b} \\log(bx + d) + C.",
+        "description": "Integral of the cosecant function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dx}{\\tan(bx + d)} = \\frac{1}{b} \\log(\\sin(bx + d)) + C.",
+        "description": "Integral of the tangent function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dx}{\\cot(bx + d)} = \\frac{1}{b} \\log(\\tan(bx + d)) + C.",
+        "description": "Integral of the cotangent function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dx}{\\sec(ax + b)} = \\frac{1}{a} \\log |\\sec(ax + b) + \\tan(ax + b)| + C.",
+        "description": "Integral of the secant function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dx}{\\csc(ax + b)} = -\\frac{1}{a} \\log |\\csc(ax + b) + \\cot(ax + b)| + C.",
+        "description": "Integral of the cosecant function."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sqrt{a^2 + x^2} \\, dx = \\frac{x}{2}\\sqrt{a^2+x^2} + \\frac{a^2}{2} \\log | x + \\sqrt{a^2 + x^2}| + C.",
+        "description": "Integral involving the square root of the sum of a square and x squared."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sqrt{x^2 + a^2} \\, dx = \\frac{x}{2}\\sqrt{x^2 + a^2} + \\frac{a^2}{2} \\log | x + \\sqrt{x^2 + a^2}| + C.",
+        "description": "Integral involving the square root of the sum of x squared and a square."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\, dx = x + C.",
+        "description": "Integral of 1."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\, dx = x + C.",
+        "description": "Integral of 1."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sqrt{a^2 - x^2} \\, dx = \\frac{1}{2} \\left( x \\sqrt{a^2 - x^2} + a^2 \\log | x + \\sqrt{a^2 - x^2}| \\right) + C.",
+        "description": "Integral involving the square root of the difference of a square and x squared."
+      }
+    ]
+  },
+  "cost": 0.0009524999999999999
+}

@@ -1,0 +1,63 @@
+{
+  "page": {
+    "page_number": 414,
+    "header": "CONTENTS",
+    "blocks": [
+      {
+        "type": "table",
+        "caption": "Tables",
+        "columns": [
+          "Topic",
+          "Page"
+        ],
+        "rows": [
+          [
+            "Trigonometrical ratios",
+            "397"
+          ],
+          [
+            "Logarithms",
+            "398"
+          ],
+          [
+            "Antilogarithms",
+            "401"
+          ],
+          [
+            "Natural logarithms",
+            "402"
+          ],
+          [
+            "Natural sines",
+            "404"
+          ],
+          [
+            "Natural cosines",
+            "406"
+          ],
+          [
+            "Natural tangents",
+            "408"
+          ],
+          [
+            "Logarithmic sines",
+            "410"
+          ],
+          [
+            "Logarithmic cosines",
+            "412"
+          ],
+          [
+            "Logarithmic tangents",
+            "414"
+          ],
+          [
+            "Exponential and hyperbolic functions",
+            "416"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0006662999999999999
+}

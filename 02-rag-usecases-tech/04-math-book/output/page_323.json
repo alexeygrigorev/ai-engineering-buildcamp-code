@@ -1,0 +1,50 @@
+{
+  "page": {
+    "page_number": 306,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "from which \\( H_i = a \\log \\frac{T_2 - t_i}{T_2 - t_f} \\)"
+      },
+      {
+        "type": "text",
+        "text": "Now the total heat received = \\( H_i + H_f = a \\log \\frac{T_2 - t_i}{T_2 - t_f} + a \\log \\frac{T_1 - t_i}{T_1 - t_f} \\)"
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\psi = a \\log \\frac{T_2 - t_i}{T_2 - t_f} + a \\log \\frac{T_1 - t_i}{T_1 - t_f} = a \\log \\left(\\frac{(T_2 - t_i)(T_1 - t_i)}{(T_2 - t_f)(T_1 - t_f)}\\right)\\text{ [where } a = 1437 \\text{ and } b = R\\text{]   }.",
+        "description": "This equation relates the heat received to the temperature variables and constants involved."
+      },
+      {
+        "type": "text",
+        "text": "Example 8 ... to prove that the equation for adiabatic expansion of air is \\( v = \\frac{C}{P} \\), where ... specific heat at constant pressure \\( K_c \\), specific heat at constant volume \\( K_v \\)."
+      },
+      {
+        "type": "text",
+        "text": "Dealing throughout with the whole air, let the air expand under constant pressure from conditions: \\( p_1, v_1 \\) to \\( p_2, v_2 \\) ."
+      },
+      {
+        "type": "text",
+        "text": "Then the heat added =  \\( K_c (t_f - t_i) \\) = \\( K_c (r_f - r_i) \\)"
+      },
+      {
+        "type": "text",
+        "text": "Now keep the volume constant at  \\( v \\) and subtract as much heat as was previously added - then the pressure falls to \\( p_a \\) and the temperature to \\( t_a \\) ."
+      },
+      {
+        "type": "text",
+        "text": "The heat subtracted =  \\( K_f (r_f - r_i) \\) =  \\( K_f \\cdot (v - ... ) \\)"
+      },
+      {
+        "type": "text",
+        "text": "i.e., \\( \\frac{p}{v} = C. \\)"
+      }
+    ]
+  },
+  "cost": 0.0009134999999999999
+}

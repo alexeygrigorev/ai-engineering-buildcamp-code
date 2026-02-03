@@ -1,0 +1,17 @@
+{
+  "page": {
+    "page_number": 341,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "12. Taking the friction of a brass surface in a fluid as \\(12\\, \\text{lb. per sq. ft.}\\), for a velocity of \\(10\\, \\text{ft. per sec.}\\) and proportional to \\(v^2\\), find the horse power lost in friction on two sides of a brass disc 30° external and 15° internal dam, running at 500 r.p.m."
+      },
+      {
+        "type": "text",
+        "text": "A rectangular plate \\(2\\, \\text{ft.}\\) wide by \\(5\\, \\text{ft.}\\) deep is immersed in water at an inclination of \\(40°\\) to the vertical. Find the depth of the centre of pressure, if the top of the plate is 6 ft. below the level of the water."
+      }
+    ]
+  },
+  "cost": 0.0007094999999999998
+}

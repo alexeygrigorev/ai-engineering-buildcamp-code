@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 380,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus\n\n$\\hat{r} = 476\\text{g or } 476.9$.\n\n[UNRECOGNIZED TEXT]\n\nIf solved to a greater degree of accuracy, the value of $\\hat{r}$ is found to be $476.961$, and this figure will be used in the work that follows.\n\nAgain, if $n$ equally good measurements have been made, then what is termed a weight of number, i.e., none is better or worse than any other, and when working towards the result to be deduced from the measurements, equal consideration must be paid to each measurement; also, the relative weight of $n$ on the average $\text{observations of equal weight}$ must be made to give a result as true as the A.M.\n\nKnowing that\n\n$w = \\text{probable error of } n$  \n\nand $\\text{probable error of any observation}$  \n\nand $\\text{weight of } A.M.$  \n\n$w = \\text{weight of one observation}$\n\nwhich we can write as\n\n$\\frac{1}{w}$ and $r = \\frac{1}{w}$,\n\nand the weights inversely proportional to the probable error.\n\nThus, the weights would be,\n\n$\\text{weights} = \\frac{1}{w_1} + \\frac{1}{w_2} + ... + \\frac{1}{w_n}$.\n\nwhere $w_1, w_2, ..., w_n$ are the respective weights for the observations to be balanced as follows:\n\n$494, 471, 429$."
+      }
+    ]
+  },
+  "cost": 0.0008402999999999999
+}

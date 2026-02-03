@@ -1,0 +1,44 @@
+{
+  "page": {
+    "page_number": 164,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "MATHEMATICS FOR ENGINEERS"
+      },
+      {
+        "type": "text",
+        "text": "We desire to evaluate the integrals"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin^{m} \\theta \\cos^{n} \\theta \\, d\\theta, \\quad \\text{ where } m \\text{ and } n \\text{ have any positive integral values.} \n\nTaking the case in which m = n = 0, we have the results reducing to the form \n\\int 1 \\, d\\theta, \\text{ the value of which we know to be  \\theta.  ",
+        "description": "Introductory text on evaluating integrals."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\sin 0 \\cos 0 \\, d\\theta = \\theta \\text{  (since  } 0 \\text{  and  } 0 \\text{  are only positive values)}.",
+        "description": "The integral of sine and cosine at zero."
+      },
+      {
+        "type": "text",
+        "text": "from which the pair of results will express the result of great usefulness."
+      },
+      {
+        "type": "text",
+        "text": "Also"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{2}{3} \\cos^{2} \\theta \\, d\\theta = \\frac{2}{3} \\left( \\frac{2}{3} \\cos \\theta \\right) + c = \\frac{4}{9} \\cos \\theta + c",
+        "description": "An example of integrating a cosine function."
+      },
+      {
+        "type": "text",
+        "text": "By the process of reduction of powers we may express the integral to be evaluated in such a way that it depends on results (2), (3) or (5)."
+      }
+    ]
+  },
+  "cost": 0.0008211
+}

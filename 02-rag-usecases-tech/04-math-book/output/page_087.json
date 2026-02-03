@@ -1,0 +1,70 @@
+{
+  "page": {
+    "page_number": 70,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "1. Find the value of $A \\left( \\tan 2\\theta + 15 \\right)$.  \n2. If $P = ERA$, find $ \\frac{dP}{dA} $."
+      },
+      {
+        "type": "text",
+        "text": "[This question has reference to stress in a redundant frame.]"
+      },
+      {
+        "type": "text",
+        "text": "3. Find the angle which the tangent to the equation $y = x^3 - 25$ at the point $(2, 3)$ makes with the X-axis."
+      },
+      {
+        "type": "equation",
+        "latex": "y = x^3 - 25",
+        "description": "The equation describing the curve."
+      },
+      {
+        "type": "text",
+        "text": "4. The angle of elevation of the top of a vertical tower from a point $\text{A}$, which is 100 m away from its base, is $45^{\\circ}$.  \nIf $h$ is the height of the tower, find the value of $h$."
+      },
+      {
+        "type": "equation",
+        "latex": "h = 100 \\tan 45^{\\circ}",
+        "description": "Using trigonometry to find the height of the tower."
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of a Product of functions $x$."
+      },
+      {
+        "type": "text",
+        "text": "It has already been shown that when we differentiate the product of two functions, we can apply the product rule."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = u \\frac{dv}{dx} + v \\frac{du}{dx}",
+        "description": "The product rule for differentiation."
+      },
+      {
+        "type": "text",
+        "text": "The rule is expressed as follows: If $u$ and $v$ are both functions of $x$, then their product"
+      },
+      {
+        "type": "equation",
+        "latex": "y = u \\cdot v",
+        "description": "The product of two functions."
+      },
+      {
+        "type": "text",
+        "text": "Proof: Let $u$ increase by an amount $h$, since both $u$ and $v$ are dependent on $x$, changes to a new value of $u$, which can be written as."
+      },
+      {
+        "type": "equation",
+        "latex": "y + \\Delta y = (u + h)(v + k)",
+        "description": "Expression representing the change in product."
+      },
+      {
+        "type": "text",
+        "text": "We can expand this to get:  \n$y + \\Delta y = uv + (uh + vk + hk)$."
+      }
+    ]
+  },
+  "cost": 0.0009098999999999999
+}

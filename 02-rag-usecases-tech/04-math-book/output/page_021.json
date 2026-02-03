@@ -1,0 +1,59 @@
+{
+  "page": {
+    "page_number": 4,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The Calculus was further developed by Euler, Bernoulli, Legendre and many others, but until a very recent date it remained merely - a classified collection of rules*; its true meaning and the wide field of its application were for long unknown.\n\nThis revolution of thought has been brought about entirely by the engineer, as a vital part of his mental equipment: its rules have been so modified as to become no serious tax on the memory, and the true significance of the process has been presented in so clear a light that the student of the calculus meets few difficulties even to the ultra-practical end."
+      },
+      {
+        "type": "text",
+        "text": "This method of reasoning is not confined to the calculus. \"The engineer's course\" is best illustrated by taking first a small example and working through the applications, and showing the methods involved."
+      },
+      {
+        "type": "text",
+        "text": "The velocity of a moving body was measured at various distances from its starting point and the results were tabulated, thus:"
+      },
+      {
+        "type": "table",
+        "caption": "Velocity of a moving body at various distances.",
+        "columns": [
+          "s (distance in feet)",
+          "v (velocity in feet per sec.)"
+        ],
+        "rows": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "2",
+            "10"
+          ],
+          [
+            "4",
+            "14"
+          ],
+          [
+            "5",
+            "15"
+          ],
+          [
+            "6",
+            "19"
+          ],
+          [
+            "8",
+            "20"
+          ],
+          [
+            "10",
+            "21"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007754999999999999
+}

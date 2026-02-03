@@ -1,0 +1,71 @@
+{
+  "page": {
+    "page_number": 327,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence $\\frac{dp}{p + q} = -qdr$"
+      },
+      {
+        "type": "text",
+        "text": "i.e., $\\int{\\frac{dp}{p + q}} = -\\int{qdr}$"
+      },
+      {
+        "type": "text",
+        "text": "Separating the variables and integrating,"
+      },
+      {
+        "type": "text",
+        "text": "we have $\\log (A - p) = -\\int{qdr} + B$"
+      },
+      {
+        "type": "text",
+        "text": "where $p + q = A - e^{-\\int{qdr}}$."
+      },
+      {
+        "type": "text",
+        "text": "The constants A and B are found from the conditions stated in any example."
+      },
+      {
+        "type": "text",
+        "text": "Method 2. According to this scheme $g$ is taken as a tensile stress."
+      },
+      {
+        "type": "text",
+        "text": "By the thin cylinder theory, we obtain the equilibrium of the hollow cylinder of unit length [Fig. 120]."
+      },
+      {
+        "type": "text",
+        "text": "Then $p$ is written for $p + q$ and for $p + q$ as in Method 1."
+      },
+      {
+        "type": "text",
+        "text": "Example 25. To ascertain the stress as before expected for the stresses in Thick Spherical Shells."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 121",
+        "description": "This figure illustrates the stresses within a thick spherical shell, highlighting the relationship between radius and pressure.",
+        "figure_number": 121
+      },
+      {
+        "type": "text",
+        "text": "To find the radial pressure, $r$ the hoop tension."
+      },
+      {
+        "type": "text",
+        "text": "Take an elementary shell at radius $r$, the thickness being $\\delta r$ (Fig. 121)."
+      },
+      {
+        "type": "text",
+        "text": "When $r$ is very small this equation reduces"
+      },
+      {
+        "type": "text",
+        "text": "and hence $2q = \\frac{p}{r}$."
+      }
+    ]
+  },
+  "cost": 0.0008348999999999999
+}

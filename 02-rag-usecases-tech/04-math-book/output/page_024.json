@@ -1,0 +1,67 @@
+{
+  "page": {
+    "page_number": 7,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Another example can now be considered to demonstrate clearly the distinction between an average and an actual rate of change."
+      },
+      {
+        "type": "text",
+        "text": "For a body falling freely under the influence of gravity the values of the distances covered to the end of the 1st, 2nd and 3rd seconds of motion are as in the table:"
+      },
+      {
+        "type": "table",
+        "caption": "Values of distances for seconds of motion",
+        "columns": [
+          "Time (s)",
+          "Distance (feet)"
+        ],
+        "rows": [
+          [
+            "1",
+            "16.1"
+          ],
+          [
+            "2",
+            "64.4"
+          ],
+          [
+            "3",
+            "144.9"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Find the average velocities at the ends of the test, and the actual velocities at the ends of the test, and the results are tabulated thus,"
+      },
+      {
+        "type": "text",
+        "text": "The average velocities are found in the manner described before, i.e., by the comparison of differences of space and time, and the results are tabulated thus."
+      },
+      {
+        "type": "text",
+        "text": "The average velocities, the values in this column are written for the cases where the times have been taken to be enough for the averages for the following distances."
+      },
+      {
+        "type": "text",
+        "text": "It is perfectly correct to state that the actual velocities are in such a way that the average for $1$ s, $2$ s and $3$ s respectively are $16.1$, $64.4$, and $144.9$ per sec."
+      },
+      {
+        "type": "text",
+        "text": "Now that we have found the actual velocities at the end seconds, let us think about the distances at the end of 1st, 2nd and 3rd seconds."
+      },
+      {
+        "type": "text",
+        "text": "The estimation of these velocities introduces a most important process, namely the vital elements of differentiation, and in consequence we will return to this general field."
+      },
+      {
+        "type": "text",
+        "text": "The student of Dynamics knows that the law connecting space and time, in the case of a falling body, is $s = \\frac{1}{2}gt^{2}$, where $g = 32 \\text{ ft/s}^{2}$."
+      }
+    ]
+  },
+  "cost": 0.0008684999999999999
+}

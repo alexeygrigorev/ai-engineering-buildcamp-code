@@ -1,0 +1,48 @@
+{
+  "page": {
+    "page_number": 375,
+    "header": "MATHEMATICAL PROBABILITY",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "will be the probability of an error of magnitude $x$ multiplied by the range $x, e_1, e_2$."
+      },
+      {
+        "type": "equation",
+        "latex": "P = 8Kx^2",
+        "description": "Expression for the probability of an error."
+      },
+      {
+        "type": "text",
+        "text": "Now $x_i$ etc. are quite independent, so that the probability of all the errors falling within the range $x$ will be the product of the separate probabilities."
+      },
+      {
+        "type": "equation",
+        "latex": "P = P_X P_{e_1} P_{e_2}",
+        "description": "Combined probability of separate errors."
+      },
+      {
+        "type": "text",
+        "text": "Hence we have obtained an expression which gives us the probability of a certain error falling within a range.  We might say that if the errors were kept within the range $x$, the calculated result would be a nearer approximation to truth than if the range were greater."
+      },
+      {
+        "type": "text",
+        "text": "Our object then is to find when the probability of a small error ($x$ may be reduced as we please) is greater, i.e., to find when $P$ is a maximum."
+      },
+      {
+        "type": "equation",
+        "latex": "P = K e^{-Kx^2}",
+        "description": "Expression for the probability as a function of errors."
+      },
+      {
+        "type": "text",
+        "text": "and the smaller the denominator is made, the larger will $P$ become. But the only variable in the denominator is $x^2$ and hence, under the condition that $P$ may have its maximum value, $x$ must be the least possible. Hence the most probable value of the quantity to be determined is that which makes the sum of the squares of the errors minimal."
+      },
+      {
+        "type": "text",
+        "text": "The fact can now be established that the arithmetic mean of the observed values is the most probable value of the quantity."
+      }
+    ]
+  },
+  "cost": 0.0008384999999999998
+}

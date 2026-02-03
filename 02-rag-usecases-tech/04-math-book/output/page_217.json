@@ -1,0 +1,39 @@
+{
+  "page": {
+    "page_number": 200,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The general equation of an ellipse is $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ (cf. Part I, p. 344)."
+      },
+      {
+        "type": "text",
+        "text": "Let $a > b$, the major axis is horizontal."
+      },
+      {
+        "type": "text",
+        "text": "For a prolate spheroid the revolution is about the major axis, and the volume = $\\int_0^{2\\pi} \\pi y^2 \\frac{dx}{dy} dy = \\int_0^{2\\pi} \\pi \\left( b^2 + \\frac{(a^2-b^2)(y^2)}{b^2} \\right) dy = \\frac{4}{3} \\pi a^2 b$."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 48",
+        "description": "This figure illustrates the volume of a sphere and its relationship to the oblate spheroid.",
+        "figure_number": 48
+      },
+      {
+        "type": "text",
+        "text": "In like manner, the volume of an oblate spheroid is $\\frac{4}{3} \\pi a b^2$ and it should be noted that if $a = b$, the spheroid becomes a sphere and its volume is $\\frac{4}{3} \\pi a^3$."
+      },
+      {
+        "type": "text",
+        "text": "Example 15—Find the volume of a zone of a sphere of radius $r$, the bounding planes being those through $y = a$ and $y = b$."
+      },
+      {
+        "type": "text",
+        "text": "The equation of the circle is $x^2 + (y - b)^2 = r^2$. The volume of a zone = $V = \\int_a^b \\pi (r^2 - (y - b)^2) dy = \\int_a^b \\pi [r^2 - (y^2 - 2by + b^2)] dy = \\pi \\left[ (r^2 - b^2)(b - a) + b(a^2 - 2ab + b^2) \\right]."
+      }
+    ]
+  },
+  "cost": 0.0008751
+}

@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 267,
+    "header": "POLAR CO-ORDINATES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "From $A'$ to $A$. In the form of these movements the recording unit may be the length of one line from $P$ to $P'$. \n\nHence for the whole area,\n$$\\text{Area swept out} = \\text{S} \\times \\text{AB}$$"
+      }
+    ]
+  },
+  "cost": 0.0006482999999999999
+}

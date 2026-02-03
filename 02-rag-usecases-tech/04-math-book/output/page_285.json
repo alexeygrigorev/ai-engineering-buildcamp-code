@@ -1,0 +1,59 @@
+{
+  "page": {
+    "page_number": 268,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Exercises 31.1"
+      },
+      {
+        "type": "text",
+        "text": "1. Plot a polar curve of Cartesian coordinates for the following case, the connecting rod being infinitely thin."
+      },
+      {
+        "type": "text",
+        "text": "Crank Effort (lbs):"
+      },
+      {
+        "type": "text",
+        "text": "2. As for Question 1, but evaluating the connecting rod as finite."
+      },
+      {
+        "type": "text",
+        "text": "3. A.C. is given by $C = \\frac{V}{R}$, where the polar curve to represent this is the variation in C and hence finds its R.M.S. value."
+      },
+      {
+        "type": "text",
+        "text": "4. What is the relation (to Cartesian coordinates, i.e., rectangular axes) in the circle the polar curve represents?"
+      },
+      {
+        "type": "text",
+        "text": "5. Plot the polar diagram for the angle $\\theta = \\frac{\\pi}{2}$."
+      },
+      {
+        "type": "section_heading",
+        "title": "Candle Power"
+      },
+      {
+        "type": "text",
+        "text": "6. The Rousseau diagram for the angle in Question 5 is shown on the M.S.C.F. of the lamps."
+      },
+      {
+        "type": "text",
+        "text": "7. A.C. has the following values at equal intervals of time: 1m at 5s; 1.5m at 10s; 2m at 15s; 2.5m at 20s; 3m at 25s; 3.5m at 30s."
+      },
+      {
+        "type": "text",
+        "text": "8. A.C. experiments on the position of the center of pressure for a fluid moving through air at various inclinations gave the following."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 31.1",
+        "description": "Plot a polar diagram to represent the variation of this ratio.",
+        "figure_number": 31
+      }
+    ]
+  },
+  "cost": 0.00106515
+}

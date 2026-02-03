@@ -1,0 +1,77 @@
+{
+  "page": {
+    "page_number": 84,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "$i$ increases by $MP'$"
+      },
+      {
+        "type": "text",
+        "text": "and $MP'$ = PM $\times$ tan $M$"
+      },
+      {
+        "type": "equation",
+        "latex": "b = x \\text{ mean value of } b.",
+        "description": "This equation expresses the mean value of the variable $b$."
+      },
+      {
+        "type": "text",
+        "text": "If $B$, $P$ and $Q$ are taken to be close to one another, the mean of average slopes become the actual slopes and the relationship is $dK = MP' + NQ$."
+      },
+      {
+        "type": "text",
+        "text": "Example 18—If Kinetic Energy $K$ = $\\frac{1}{2}mv^{2}$, find the change in the energy as $m$ changes from $150$ to $159$. "
+      },
+      {
+        "type": "text",
+        "text": "From the above rule, the change in $K = 8K$"
+      },
+      {
+        "type": "text",
+        "text": "Now"
+      },
+      {
+        "type": "equation",
+        "latex": "8K = 49.5 \\frac{1}{2} \\left( 159^{2} - 150^{2} \\right) = 49.5 \\frac{1}{2} \\left( 25281 - 22500 \\right)",
+        "description": "This equation calculates the change in kinetic energy using the difference of squares."
+      },
+      {
+        "type": "text",
+        "text": "Also, 1) $dK$ = $k$ = (being constant), thus"
+      },
+      {
+        "type": "equation",
+        "latex": "dK = \\frac{\\partial K}{\\partial t} \\times \\Delta v + \\frac{\\partial K}{\\partial m} \\times \\Delta m = 8K \\xrightarrow{=}(49 \\times -10) + (\\Delta m)(1) = -\\left(\\frac{5}{8}\\right) \\times 159 \\times 49 \\times 10",
+        "description": "This equation represents the total differential of kinetic energy with respect to mass and velocity."
+      },
+      {
+        "type": "text",
+        "text": "= -8 \\times 150 \\times 49 \\times 5 along with its measured units."
+      },
+      {
+        "type": "text",
+        "text": "Example 19—A quantity of water $V$ is measured by $Q = D \\cdot V$."
+      },
+      {
+        "type": "text",
+        "text": "If $I$, the probable error of $D$, a diametric $I$, = the probable error of $R$, and $R$ = the probable error of $L$."
+      },
+      {
+        "type": "equation",
+        "latex": "R = A \\cdot C \\times ( \\sqrt{E} + D\\cdot H )",
+        "description": "This equation expresses the relationship involving errors in diametric measures."
+      },
+      {
+        "type": "text",
+        "text": "where $A$ and $C$ are partial derivatives."
+      },
+      {
+        "type": "text",
+        "text": "Find an expression for $R$."
+      }
+    ]
+  },
+  "cost": 0.0009693
+}

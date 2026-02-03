@@ -1,0 +1,50 @@
+{
+  "page": {
+    "page_number": 335,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Now the area of the element = $dA$ and the velocity of water at the element is $v = \\sqrt{2gH}$. Hence the actual quantity flowing = $C_{2} \\times (H-h) \\times \\frac{1}{2} \\sqrt{2gH}$ and the total quantity flowing for the height $H$."
+      },
+      {
+        "type": "text",
+        "text": "If $\\theta = 90^{\\circ}$ (a common case), then and the discharge = $C_{2} \\times \\frac{1}{2} \\times 2gH = 2gH$."
+      },
+      {
+        "type": "text",
+        "text": "Example 32. — To estimate the friction on a wheel disc revolving in a fluid."
+      },
+      {
+        "type": "text",
+        "text": "Let the friction per sq. ft. = $F = \\mu w$ and let the disc of inside radius $R_{1}$ and outside radius $R_{2}$ revolve at $r$ revs. per sec."
+      },
+      {
+        "type": "text",
+        "text": "The velocity of annulus at radius $r$ on the annulus."
+      },
+      {
+        "type": "text",
+        "text": "Hence the moment of the friction force on the disc = $F \\times 2\\pi r \\times \\frac{R_{2}^{2} - R_{1}^{2}}{2}$."
+      },
+      {
+        "type": "text",
+        "text": "The total moment of the friction force on the disc is $M = \\mu w \\int_{R_{1}}^{R_{2}} r \\times 2\\pi r \\times \\frac{R_{2}^{2} - R_{1}^{2}}{2} dr$."
+      },
+      {
+        "type": "text",
+        "text": "And H.P. lost in friction = $\\frac{M}{550}$."
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\int_{R_{1}}^{R_{2}} \\left( 2\\pi r \\times \\mu w \\times 2\\pi r \\right) dr = \\frac{1}{2} \\mu w (R_{2}^{2} - R_{1}^{2})",
+        "description": "Total moment of the friction force on the disc."
+      },
+      {
+        "type": "text",
+        "text": "II"
+      }
+    ]
+  },
+  "cost": 0.0008877
+}

@@ -1,0 +1,149 @@
+{
+  "page": {
+    "page_number": 390,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "equation",
+        "latex": "11. \\; 56^{3} = 1111^{2} + 72^{2} - 14^{2} \\; \\left( (g^{2} + 4)^{3} \\right) = \\frac{1}{2} (72 - 7)^{3} = \\ldots \\; \\;  \\, \\,  \\, \\,",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "12. \\; \\mathrm{sech} \\; a = \\frac{2}{1 + e^{a}}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "13. \\; 66 = 2(\\cos a + 1) + 3(\\sin a - 1) \\; so \\; a = \\cdots",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "14. \\; 66.5 = (1 - \\cos z) \\; \\text{and} \\; \\sin z(1 - \\cos z) = (1 - \\cos z)^{2}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "15. \\; x = [\\cos 5^o + (\\sin 4^o)(x \\sin 8^{\\circ} - 1)]",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "16. \\; \\left( 750 \\right) \\; \\left( 72^2 + 28^2 \\right) \\; \\leq \\; ...\\; \\leq \\; \\frac{5777}{128} W.",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "17. \\; \\text{maximum at A}(2^{4} - 1) + 8 \\; \\text{and minimum at B}(3.5)",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "18. \\; \\text{maximum at} \\, \\left( 1 - \\frac{1}{x} \\right) \\; , \\; \\text{minimum at} \\, \\left( 2 + \\frac{1}{y} \\right)",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "19. \\; V(x) = \\sqrt{l^{3} + \\mathrm{height} \\cdots}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "20. \\; x_{1} = k_{3} \\; \\text{and} \\; 2 - 2 - \\frac{2(\\text{breadth})}{3!x} + z = 2 ",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "21. \\; 750 = \\frac{750}{2} - 28.5 ",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "22. \\; \\text{find the maximum and minimum at} \\; xy = (a - b)",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "23. \\; L = \\sqrt{13^2 + z} - 12^2 - 100(\\text{height})",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "24. \\; 2x = 6 - 5 + (1.5)x + 2y - 3z^{2} - 1 , \\text{ if } \\; x = 4 ",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "25. \\; 2 \\cdots x + 3 \\cdots = 8 - 2y + 2",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "26. \\; y = -12.375 + 63.4f + 68",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "27. \\; \\frac{1}{3} \\cdot 3! = (28) - 100",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "28. \\; h = 634.1 , h = 72.68 , h = 84.25",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "29. \\; a = \\sin 30 - \\sin 60",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "30. \\; \\text{find} \\; x = \\sin A \\; \\text{if minimum and maximum take place} \\; 5z. \\text{minimum} = \"questions \"",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "31. \\; 7 = \"we belong to this family\" (\\text{let me win}) + \"mn\",",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "32. \\; \\mathrm{must} \\mathrm{show} \\mathrm{equations} \\mathrm{for} \\mathrm{the} \\mathrm{maximum} \\mathrm{or} \\mathrm{minimum}.",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "Exercises \\; 9: \\;  \\text{Complete the following calculations}.",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "1. \\; 750 \\; \\text{.} \\; 725 = 25 ; \\; \\text{minimum} \\; 25 ; \\; \\text{maximum} \\; 30 \\;",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "2. \\; \\max (a, b). \\; 1\\text{.} 5b \\; ; \\max + \\left( {a} \\right) = x = 50",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "3. \\; \\text{a maximum of} \\; 18 \\to \\frac{15.192}{8.6258} \\; \\text{and minimum of} \\; 5.5-4",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "4. \\; \\frac{9}{10} \\to \\text{plus} 8 \\; \\text{and minus} 2 \\to \\text{maximum}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "5 \\cdotsy \\cdots \\text{given} \\; e \\; = \\; “\\; ... “ \\; \\{ \\; \\text{operations} ... \\} \\ ... ; . \\cdot max",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      }
+    ]
+  },
+  "cost": 0.0014865
+}

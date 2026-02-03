@@ -1,0 +1,37 @@
+{
+  "page": {
+    "page_number": 94,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "and continuous; but the bending moment is zero when $\\frac{d^2 y}{dx^2}$ is zero, since $M = EI \\frac{d^2 y}{dx^2}$."
+      },
+      {
+        "type": "text",
+        "text": "Now the bending moment $M$ at a distance $x$ from the end is given by:\n$$M = EI \\frac{d^2 y}{dx^2} = -\\frac{EI l^2}{2} + \\frac{EI x^2}{2}$$\n\nand\n$$M = -\\frac{E I}{l} \\left( l - x \\right) \\left( x - \\frac{l}{2} \\right)$$"
+      },
+      {
+        "type": "text",
+        "text": "or \n$$M = \\frac{E I}{l}\bigg( \\frac{l^2}{4} -x^2 \\bigg).$$"
+      },
+      {
+        "type": "text",
+        "text": "Hence the points of inflexion occur at points distant $\\frac{l}{2}$ from the length from the ends."
+      },
+      {
+        "type": "text",
+        "text": "Example 3—A line, $y = ax^{3}+bx^{2}+cx+d$, is to be divided into two parts such that the square of the length of one part together with the length of the cube of the length of the other is a minimum. Find the position of the point of section.\n\nLet $x = \\text{length of one part}$, then $l - x = \\text{length of the other part}.$"
+      },
+      {
+        "type": "text",
+        "text": "Then\n$$dy = \\sqrt{(1 + 2ax^2 + 2b x)^2}."
+      },
+      {
+        "type": "text",
+        "text": "If $dy = 0 if x = 1$ (the latter root implying external cutting)."
+      }
+    ]
+  },
+  "cost": 0.0010939500000000002
+}

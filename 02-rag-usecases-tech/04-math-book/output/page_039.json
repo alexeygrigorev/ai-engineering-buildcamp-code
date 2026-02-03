@@ -1,0 +1,179 @@
+{
+  "page": {
+    "page_number": 22,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Exercises 1 – On Rates of Change and Derived Curves"
+      },
+      {
+        "type": "text",
+        "text": "(a) What do the fractions $\\frac{ds}{dt}$ and $\\frac{dM}{dt}$ actually represent (s being a displacement, and t time)? Please state some figures to illustrate your answer."
+      },
+      {
+        "type": "text",
+        "text": "(b) When an armature rewinds in a magnetic field the E.M.F. produced depends on the rate at which flux is changing."
+      },
+      {
+        "type": "text",
+        "text": "4. For a non-stationary electric current the voltage $V$ is equal to the instantaneous rate of change of the current $I$ multiplied by the resistance $R$. Express this in the form of a differential equation."
+      },
+      {
+        "type": "text",
+        "text": "5. At a certain distance from a body is 45.3 cms whilst the body is at a fixed point. $W$ is the weight measuring the distance from the body. Evaluate this using the average mass if M is toms."
+      },
+      {
+        "type": "text",
+        "text": "If $P = 500 + 10t$, for the following cases, the graphs are expressed above."
+      },
+      {
+        "type": "table",
+        "caption": "Sample calculation of distance and speed",
+        "columns": [
+          "t (s)",
+          "P (distance in kms)",
+          "Q (speed in km/s)"
+        ],
+        "rows": [
+          [
+            "0",
+            "520",
+            "0"
+          ],
+          [
+            "1",
+            "708",
+            "80"
+          ],
+          [
+            "2",
+            "790",
+            "70"
+          ],
+          [
+            "3",
+            "900",
+            "90"
+          ],
+          [
+            "4",
+            "950",
+            "85"
+          ],
+          [
+            "5",
+            "1000",
+            "95"
+          ],
+          [
+            "6",
+            "1050",
+            "105"
+          ],
+          [
+            "7",
+            "1100",
+            "110"
+          ],
+          [
+            "8",
+            "1250",
+            "112"
+          ],
+          [
+            "9",
+            "1510",
+            "125"
+          ],
+          [
+            "10",
+            "1550",
+            "135"
+          ],
+          [
+            "11",
+            "1650",
+            "135"
+          ],
+          [
+            "12",
+            "1750",
+            "100"
+          ],
+          [
+            "13",
+            "1800",
+            "95"
+          ],
+          [
+            "14",
+            "1900",
+            "85"
+          ],
+          [
+            "15",
+            "2000",
+            "60"
+          ],
+          [
+            "16",
+            "2500",
+            "39"
+          ],
+          [
+            "17",
+            "3000",
+            "30"
+          ],
+          [
+            "18",
+            "4500",
+            "20"
+          ],
+          [
+            "19",
+            "6500",
+            "15"
+          ],
+          [
+            "20",
+            "7800",
+            "10"
+          ],
+          [
+            "21",
+            "8900",
+            "9"
+          ],
+          [
+            "22",
+            "10000",
+            "8"
+          ],
+          [
+            "23",
+            "12000",
+            "7"
+          ],
+          [
+            "24",
+            "15000",
+            "5"
+          ],
+          [
+            "25",
+            "18000",
+            "4"
+          ],
+          [
+            "26",
+            "20000",
+            "3"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0009350999999999999
+}

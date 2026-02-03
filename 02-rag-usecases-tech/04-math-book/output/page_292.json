@@ -1,0 +1,21 @@
+{
+  "page": {
+    "page_number": 275,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "From equations (1) and (2) we have:\n\n\\[ p_n = 510 - 0.0035h \\] \n\nand substituting for $p_n$ in (3), we get:\n\n\\[ \\frac{dp}{dh} = -0.0035 \\] \n\nSeparating the variables gives:\n\n\\[ \\int dp = -0.0035 \\int dh \\] \n\nIntegrating, the limits to be taken are $p_0$ and $p_n$, and those to $h$ are $0$ and $h$:\n\n\\[ \\log(p_n - 286) - \\log(p_0 - 286) = -0.0035h \\] \n\nwhich may be further simplified by substituting for $p_0$ and $C$."
+      },
+      {
+        "type": "section_heading",
+        "title": "General Linear Equations of the First Order, i.e., equations of the type"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\frac{dy}{dx} + ay = b \\] \n\nwhere $a$ and $b$ can either be constants or functions.\n\nThe solution of this equation may be written as\n\n\\[ y = e^{-\\int a \\, dx} \\left( \\int b e^{\\int a \\, dx} \\, dx + C \\right) \\] \n\nThe proof of this result depends on the rule for differentiating a product, viz., \\( u \\frac{dv}{dx} + v \\frac{du}{dx} \\); the reasoning being as follows:\n\nLet us consider the simplest case in which the equation becomes"
+      }
+    ]
+  },
+  "cost": 0.0008234999999999999
+}

@@ -1,0 +1,46 @@
+{
+  "page": {
+    "page_number": 75,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 12—If $ y = g(t) = 4x + 4x^{2} \\cdot 1929  \\cdot 2 + \\ldots \n\nLet $ u = \\frac{ du}{dx} = 4 + 8x $."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx} = 4 \\cdot (4 + 8x) = \\ldots \n\nHence:\n\n$ \\frac{dy}{dx} = (4 \\cdot 1928 + 8x \\cdot 1928) e^{4y}$.",
+        "description": "This equation relates the derivative of y with respect to x through the chain rule."
+      },
+      {
+        "type": "text",
+        "text": "Example 13—For a spring loaded governor (see Fig. 19).   \n$ W = T + Q(V - \\sqrt{R}) .$"
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 19—Spring loaded Governor.",
+        "description": "This figure illustrates a spring loaded governor, displaying the relationship between weight (W), tension (T), and other variables.",
+        "figure_number": 19
+      },
+      {
+        "type": "text",
+        "text": "Where $ W $ = force to elang the spring in unit, $ T $ = tension in spring, $ W $ = weight of I ball, $ I $ = angular velocity, $ R $ = radius of path of balls, $ I = \\frac{2}{3} \\cdot 32 \\cdot \\frac{d}{dt}( . -0625) $."
+      },
+      {
+        "type": "equation",
+        "latex": "W = T + Q \\left( V - \\sqrt{R} \\right) \n\nIf $ W $ and $ Q $ are the two unknowns, we must form two equations. By simple substitution.",
+        "description": "This equation sets up a system relating the forces and tensions in the context of the spring governor."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dT}{dt} = \\frac{0.0625}{s}} .",
+        "description": "This equation represents the derivative of tension with respect to time."
+      },
+      {
+        "type": "text",
+        "text": "We are told that $ dT = dQ $. We find that:\n\n$ \\frac{2}{3} \\cdot 32 \\cdot (4 + 2.64) \\cdot (dT) = Q \\cdots (W - \\sqrt{R}) $."
+      }
+    ]
+  },
+  "cost": 0.0009296999999999999
+}

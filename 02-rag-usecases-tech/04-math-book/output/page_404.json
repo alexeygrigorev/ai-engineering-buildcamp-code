@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 387,
+    "header": "ANSWERS TO EXERCISES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "1.  $\\frac{dZ}{dt} = E - RC + L \\frac{dC}{dt}$"
+      },
+      {
+        "type": "text",
+        "text": "2.  $E = constant \\approx 12$"
+      },
+      {
+        "type": "text",
+        "text": "3.  $L = 5$"
+      },
+      {
+        "type": "text",
+        "text": "4.  $V = RC + L \\frac{dC}{dt}$"
+      },
+      {
+        "type": "text",
+        "text": "5.  $x = 12$"
+      },
+      {
+        "type": "text",
+        "text": "6.  Middle of May : middle of October"
+      },
+      {
+        "type": "text",
+        "text": "7.  Loading is $\\frac{1}{2}$ ton per foot run"
+      },
+      {
+        "type": "text",
+        "text": "8.  $1.2$ ton per foot"
+      }
+    ]
+  },
+  "cost": 0.0007053
+}

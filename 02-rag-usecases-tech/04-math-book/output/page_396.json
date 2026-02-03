@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 379,
+    "header": "MATHEMATICAL PROBABILITY",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "application of the integral, however, $X$ is a small quantity, and a sufficiently correct result is obtained by expanding in a series and calculating from a few terms in this series."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sqrt{X} = \\frac{2}{\\sqrt{\\int_{0}^{x} 6x^4 + 2x^2 + 6x \\: dX}}",
+        "description": "This equation represents the relationship involving the variable $X$, derived from a definite integral."
+      },
+      {
+        "type": "text",
+        "text": "Thus"
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "V = \\frac{2}{\\sqrt{2}(43 - \\frac{2}{42})^h}",
+        "description": "This equation shows the rewritten form of the earlier equation involving the variable $V$."
+      },
+      {
+        "type": "text",
+        "text": "or if for $X$ we again write $X = 443 - 2 \\times \\frac{43}{42} + \\ldots$ terms which are very small."
+      },
+      {
+        "type": "text",
+        "text": "By selecting values of $X$ and plotting, the solution of this equation is found, the final plot being represented in Fig. 141, where it is seen that the solution is $X = -4769$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 141",
+        "description": "The figure depicts the graphical representation of the solution to the equation for varying values of $X$.",
+        "figure_number": 141
+      }
+    ]
+  },
+  "cost": 0.0007934999999999999
+}

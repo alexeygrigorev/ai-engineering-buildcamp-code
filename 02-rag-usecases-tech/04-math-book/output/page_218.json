@@ -1,0 +1,51 @@
+{
+  "page": {
+    "page_number": 201,
+    "header": "LENGTH OF ARC",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "This can be put in the form given on p. 120, Part I, if for (b – a) we write L, and for BE and DF their respective values r_1 and r_2."
+      },
+      {
+        "type": "text",
+        "text": "Thus h_n = r_1 - r_2 = ρ_1 - ρ_2."
+      },
+      {
+        "type": "text",
+        "text": "So that the volume of the zone = π (r_1^2 - r_2^2)."
+      },
+      {
+        "type": "text",
+        "text": "Length of Arc. - Consider a small portion of a curve, PQ in Fig. 49, P and Q being points near to one another."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 49",
+        "description": "The diagram illustrates the small length of arc PQ, the relationship between the length and coordinates, and the calculus involved in determining the change in these lengths.",
+        "figure_number": 49
+      },
+      {
+        "type": "text",
+        "text": "The small length of arc PQ is denoted by ds, so that a complete arc would be denoted by ∫ ds."
+      },
+      {
+        "type": "text",
+        "text": "Let PM = x, and QM = y."
+      },
+      {
+        "type": "text",
+        "text": "Then the arc PQ = (chord PQ) = (8y)(8x) = 8s."
+      },
+      {
+        "type": "text",
+        "text": "Hence when ∆x becomes infinitely small, ds becomes ds."
+      },
+      {
+        "type": "text",
+        "text": "We can write:  \n   ds = √(dx^2 + dy^2)  \nor  \n   \frac{dy}{dx} = \frac{8y}{8x}."
+      }
+    ]
+  },
+  "cost": 0.0008114999999999999
+}

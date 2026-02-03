@@ -1,0 +1,48 @@
+{
+  "page": {
+    "page_number": 321,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In like manner,  $A = L \\, cosh \\, \frac{v}{A} + D \\, sinh \\, \frac{v}{A}$. When\n\n$A = L \\, cosh \\, \frac{L}{\\sqrt{v}}$ .  When\n\n$A = A$ and hence the constants can be found."
+      },
+      {
+        "type": "section_heading",
+        "title": "Examples on Strengths of Materials"
+      },
+      {
+        "type": "text",
+        "text": "Example 22 — To find the shape assumed by a chain loaded with its own weight; the weight per foot being $w$.  To find also expressions for the length of arc and the tension at any point."
+      },
+      {
+        "type": "text",
+        "text": "Let $y$ = the height of the arc $AB$ (Fig. 116)  then the weight of this portion = $ws$."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 116: Shape of the chain under load",
+        "description": "The figure illustrates a chain suspended between two points, showing the angles of tension and the arc it forms under the influence of its own weight. The forces acting on the chain, including tension $T_1$ and $T_2$, are depicted.",
+        "figure_number": 116
+      },
+      {
+        "type": "text",
+        "text": "Draw the triangle of forces for the three forces $T_1$ and $T_2$. Let it be assumed that $T_e$ (the horizontal tension) = $c$ if we compare."
+      },
+      {
+        "type": "text",
+        "text": "Then, from Fig. 116, we get:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{ds}{dx} = tan \\theta = \\frac{y}{c} \\quad (1)",
+        "description": "This equation relates the slope of the arched chain to the vertical height $y$ and the horizontal tension $c$."
+      },
+      {
+        "type": "text",
+        "text": "Now, as proved on p. 207."
+      }
+    ]
+  },
+  "cost": 0.0008492999999999999
+}

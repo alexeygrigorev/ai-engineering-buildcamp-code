@@ -1,0 +1,87 @@
+{
+  "page": {
+    "page_number": 95,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To test for the nature of the turning value, we need to determine the expression \ndy/dx = 24 + 2t."
+      },
+      {
+        "type": "text",
+        "text": "When "
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{24}{x^2} + 2x",
+        "description": "This equation represents a function where y decreases as x increases."
+      },
+      {
+        "type": "text",
+        "text": "Therefore y is a minimum when "
+      },
+      {
+        "type": "equation",
+        "latex": "x = 3",
+        "description": "This indicates the point at which the function y reaches its minimum value."
+      },
+      {
+        "type": "text",
+        "text": "Example 4.1. Let K be a detrimental source of aerial service = area of plants."
+      },
+      {
+        "type": "text",
+        "text": "Let C = lifting efficiency."
+      },
+      {
+        "type": "text",
+        "text": "Then, if the ' fineness ' is obtained from the formula "
+      },
+      {
+        "type": "equation",
+        "latex": "F = \\frac{KS}{C}",
+        "description": "This formula expresses the relationship between fineness, source K, area S, and lifting efficiency C."
+      },
+      {
+        "type": "text",
+        "text": "The next step is to find the angle of inclination of the plane (expressed in radians)."
+      },
+      {
+        "type": "text",
+        "text": "Taking S = 225 and K = 24, find the angle of coincidence for the case in which least thrust is required."
+      },
+      {
+        "type": "text",
+        "text": "For the thrust T = C \\left( \\frac{d^2y}{dx^2} \\right), and since t is the only variable in this expression, we must differentiate with regard to t."
+      },
+      {
+        "type": "equation",
+        "latex": "T = C \\left( \\frac{d}{dt}(24 + 2t) \\right) = C(2) = 0",
+        "description": "This indicates that the thrust T is constant."
+      },
+      {
+        "type": "text",
+        "text": "or the thrust required is either a maximum or minimum when the \ndiscrimination is positive!"
+      },
+      {
+        "type": "text",
+        "text": "To test whether the angle value is a maximum or a minimum, let us find the thrust evaluations."
+      },
+      {
+        "type": "equation",
+        "latex": "T = C(0 + t)",
+        "description": "This expression shows the relationship of thrust T with respect to variable t."
+      },
+      {
+        "type": "text",
+        "text": "Finally, if t = -0.85, that must be positive, and hence T has its minimum value when "
+      },
+      {
+        "type": "equation",
+        "latex": "t = -0.85",
+        "description": "This specifies the condition under which the minimum value of T is achieved."
+      }
+    ]
+  },
+  "cost": 0.0009249
+}

@@ -1,0 +1,39 @@
+{
+  "page": {
+    "page_number": 16,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To draw the slope curve we first divide the base in such a way that the points of the curve constructed are as nearly as possible in the same inclination to the vertical, or such that the curve and the curve are approximately straight lines. Thus, in the figure, there is no need to draw the slope between a and b, or c and d. There is no need to draw the curve in the points of section where the slope changes; thus the intersections with the primitive curve are all that is required. Next a point B is chosen, an horizontal unit to the left. And through the line B I draw parallel to the points of section A. A horizontal B I is cut in r at the point of curve a and b, and is a point on the slope of curve OAB."
+      },
+      {
+        "type": "text",
+        "text": "The point of origin is the original vertical scale: in this case, h = 1 unit; and this is indicated on the to the left."
+      },
+      {
+        "type": "equation",
+        "latex": "y = a\\,x + r + k",
+        "description": "This equation represents the relationship between the variables in the slope curve."
+      },
+      {
+        "type": "text",
+        "text": "The values for the coordinates for the curve M to obtain the derived curve are: "
+      },
+      {
+        "type": "equation",
+        "latex": "M = 5t - 2.5t^{2} + k",
+        "description": "This equation represents the curve M derived from the original curve."
+      },
+      {
+        "type": "text",
+        "text": "and the plotting of the slope curve OAB is shown. By shifting the curve CG results first forward this amount, and the curve CG results between the curves. The curve then moves out from zero as indicated. As CB becomes vertical, it is the point of the curve OAB is given in reference to the ordinate of the curve M."
+      },
+      {
+        "type": "text",
+        "text": "By shifting the curve CG, the true slope curve ODE is obtained : this is a: -5t + 2.5."
+      }
+    ]
+  },
+  "cost": 0.0008510999999999998
+}

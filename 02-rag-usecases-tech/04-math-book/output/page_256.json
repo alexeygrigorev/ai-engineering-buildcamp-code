@@ -1,0 +1,78 @@
+{
+  "page": {
+    "page_number": 239,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "[UNRECOGNIZED TEXT]"
+      },
+      {
+        "type": "text",
+        "text": "Let $I$ denote the moment of resistance of the internal forces"
+      },
+      {
+        "type": "text",
+        "text": "$I = \\int_{Y_1}^{Y_2} b y \\sigma_x \\, dy \\ , \\ i.e. \\ , \\ e = \\frac{I}{A \\text{(distance)}}$"
+      },
+      {
+        "type": "text",
+        "text": "$e = \\frac{I}{A}$, where $e$ is the eccentricity of the moment about NN"
+      },
+      {
+        "type": "text",
+        "text": "Also if $f_1 = \\text{maximum tensile stress} = \\sigma_Y$"
+      },
+      {
+        "type": "text",
+        "text": "$f_2 = \\text{maximum compressive stress} = \\sigma_2$"
+      },
+      {
+        "type": "text",
+        "text": "Hence, considering the strength of a little bending moment, it is necessary to know the moment of inertia of this section; knowing this and the bending moment, we can calculate the maximum skin stress."
+      },
+      {
+        "type": "text",
+        "text": "Let us understand the importance of I in engineering formulae but let us do it in a different way: If a magnet is allowed to swing in a field, the time T of a complete oscillation is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "T = 2\\pi \\sqrt{\\frac{I}{mH}}",
+        "description": "This formula relates the time period of oscillation T to the moment of inertia I, mass m, and magnetic field strength H."
+      },
+      {
+        "type": "text",
+        "text": "Where:"
+      },
+      {
+        "type": "text",
+        "text": "$I = \\text{moment of inertia of the magnet}$"
+      },
+      {
+        "type": "text",
+        "text": "$m = \\text{mass of the magnet}$"
+      },
+      {
+        "type": "text",
+        "text": "$H = \\text{strength of the magnetic field}$"
+      },
+      {
+        "type": "text",
+        "text": "Note that the choice of a cubical section is required; and it will be seen that no matter how much we increase the thickness."
+      },
+      {
+        "type": "text",
+        "text": "The resultant inertia also depends on the position of the centroid and the angular velocity. There is a very important factor, I, which is dimensionless. For example, for a mass of 1 lb. swinging at the end of a meter."
+      },
+      {
+        "type": "text",
+        "text": "The accurate velocity in the two cases were the same."
+      },
+      {
+        "type": "text",
+        "text": "The reason for the presence of I in formulae concerning the energy of inertia must be better understood if the next Example is carefully studied."
+      }
+    ]
+  },
+  "cost": 0.0009224999999999999
+}

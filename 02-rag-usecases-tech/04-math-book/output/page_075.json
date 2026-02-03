@@ -1,0 +1,29 @@
+{
+  "page": {
+    "page_number": 58,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Much trouble is caused by the presence of the minus sign in the relation $y = a - \text{sin } \theta$, it being rather difficult to remember where the minus sign occurs when differentiating or integrating the function $y = a - \text{sin } x$ or $y = a - \text{cos } x$. If we take the curve to be a sine curve, it has a maximum at the origin and then curves downward in the first half of the period (see Fig. 14). But the two curves are otherwise identical. Treating $y = \text{sin } x$ as the positive sine curve, when $x = 0$, we have $y = 0$ and the slope of the curve there is 1; as expected."
+      },
+      {
+        "type": "text",
+        "text": "Now consider the curve where $a = 1$. The ordinate of the cosine curve when $x = 0$ is unity, and the slope there is now $-1$. Note that we have two curves at $x = 0$. The slope of the sine curve is positive and the slope of the cosine curve is negative. The two terms, thus differentiated, have different signs. Thus the minus sign is generally a sign of how it is related to the sine and cosine curves."
+      },
+      {
+        "type": "text",
+        "text": "Now regard the cosine curve as the reference. At $x = 0$, the slope remains horizontal and the two curves cross, but the slope remains negative as we progress to $x = \frac{\text{π}}{2}$ where the cosine reaches the origin. At this point, the ordinates attain their values such that the slope of the sine curve is equal to the slope of the cosine curve at the same point."
+      },
+      {
+        "type": "text",
+        "text": "From this we can say that the derivative for the sine curve at $x = 0$ gives the value of 1, while at the cosine's peak the derivative is negative, thus revealing that the cosine curve must travel $x = 1 \text{ when }(a = 0)$."
+      },
+      {
+        "type": "text",
+        "text": "This can easily be shown as the sine curve travels back along the horizontal axis as one ascends to the value of $b$, the amplitude and period being unaltered."
+      }
+    ]
+  },
+  "cost": 0.0008918999999999999
+}

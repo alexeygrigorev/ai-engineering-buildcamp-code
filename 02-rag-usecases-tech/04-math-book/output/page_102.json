@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 85,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Logarithmic Differentiation.  Occasionally it is necessary to differentiate an expression which can be resolved into a number of factors; and in such a case, a good refinement of the rules for the differentiation of products and quotients may be to first take logarithms throughout, and then differentiate, making use of the rules for the differentiation of a function of a function. By the judicious use of this article much labor can often be saved."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 20.—Find the value of $\frac{d}{dx} \big( (3x+4)(4x-7) \big)$"
+      },
+      {
+        "type": "text",
+        "text": "Let:"
+      },
+      {
+        "type": "text",
+        "text": "\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t  y = (3x + 4)(4x - 7)\n\t\t\t\t\t\t\t\t\t\t\t"
+      },
+      {
+        "type": "text",
+        "text": "Then:"
+      },
+      {
+        "type": "text",
+        "text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t  \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\tlog \big( y \big) = log \big( (3x + 4)(4x - 7) \big)  \n\t\t\t\t\t\t = log \big( 3x + 4 \big) + log \big( 4x - 7 \big) \n\n\t\t\t\t\t\t\t\t\t\t\t\t \n\t"
+      },
+      {
+        "type": "text",
+        "text": "so that:"
+      },
+      {
+        "type": "text",
+        "text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\frac{dy}{dx} = \frac{1}{y} \big( \frac{d \big( (3x + 4)(4x - 7) \big)}{dx}\big) \n\t\frac{dy}{dx} = \frac{1}{(3x + 4)(4x - 7)} \big( 3(4x - 7) + (3x + 4)(4) \big)."
+      },
+      {
+        "type": "text",
+        "text": "\nThis results in:\n\t\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t  \n\t\frac{dy}{dx} = \frac{(3(4x-7) + 4(3x + 4))}{(3x + 4)(4x - 7)}."
+      },
+      {
+        "type": "text",
+        "text": "Now changing this into a simpler form leads to:\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\frac{dy}{dx} = \frac{3(4x - 7) + 4(3x + 4)}{(3x + 4)(4x - 7)} = \frac{12x - 21 + 12x + 16}{(3x + 4)(4x - 7)} = \frac{24x - 5}{(3x + 4)(4x - 7)}."
+      },
+      {
+        "type": "text",
+        "text": "Substituting back, we have:\n\t\frac{d}{dx} \big( (3x + 4)(4x - 7) \big) = \frac{24x - 5}{(3x + 4)(4x - 7)}."
+      },
+      {
+        "type": "text",
+        "text": "\n\nAlternatively:\n\t\frac{d}{dx}(3x + 4)(4x - 7) = (3)(4x - 7) + (3x + 4)(4)}."
+      }
+    ]
+  },
+  "cost": 0.0011642999999999998
+}

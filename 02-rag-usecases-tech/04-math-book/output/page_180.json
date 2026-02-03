@@ -1,0 +1,67 @@
+{
+  "page": {
+    "page_number": 163,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Multiply all through by $2$:  \n\nThen $I^1 = 2 \\int_0^a x e^{x} \\, dx$  and integrate throughout with regard to $a$; thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "I^1 = 2 \\int_0^a x e^{x} \\, dx",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "The value of the double integral on the right-hand side will be found by integrating first with regard to $a$ and then with regard to $x$.  \n\nDealing with the \"inner\" integral:"
+      },
+      {
+        "type": "equation",
+        "latex": "I^1 = \\int_0^a \\int_0^{1 + x} e^{x}\\, adx \\, da",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "let $a = \\int (1+x) \\, da$ and let M represent $1+x$."
+      },
+      {
+        "type": "equation",
+        "latex": "I^1 = \\frac{2}{2M} \\int_0^M e^{M} \\, dA",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Referring to equation (1) and substituting this value for $M$:"
+      },
+      {
+        "type": "equation",
+        "latex": "I^1 = \\frac{2}{2M} \\int_0^M e^{M} \\, dA",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Thus:  \n\n$= \\frac{2}{2M\\, 2M} = \\frac{1}{M}$  \n\nExample 10, p. 151"
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\frac{1}{2 \\sqrt{M}}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "As an extension of this result it could be proved that:"
+      },
+      {
+        "type": "equation",
+        "latex": "I^1 = \\frac{1}{2 \\sqrt{E}}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Reduction Formula.—Many of the exceedingly difficult integrals arise in advanced problems of thermodynamics,"
+      }
+    ]
+  },
+  "cost": 0.0009824999999999999
+}

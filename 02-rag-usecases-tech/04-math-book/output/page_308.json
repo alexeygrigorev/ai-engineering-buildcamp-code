@@ -1,0 +1,44 @@
+{
+  "page": {
+    "page_number": 291,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The two results do not appear at first sight to be the same, but the can be reconciled in the following manner."
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan^{-1} 48 = \\tan^{-1} 62.23 = 31^{\\circ} 54^{\\prime}",
+        "description": "The inverse tangent of 48 equals the inverse tangent of 62.23, resulting in 31 degrees and 54 minutes."
+      },
+      {
+        "type": "text",
+        "text": "Thus – $\\tan(\\tan^{-1} 48 – \\tan^{-1} 62.23)$"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\sin(\\tan^{-1} 48 – \\tan^{-1} 62.23) = \\sin(\\tan^{-1} 48 - 148^{\\circ})",
+        "description": "Shows the sine of the difference of two inverse tangents."
+      },
+      {
+        "type": "text",
+        "text": "Also $\\sin(\\tan^{-1} 48 – \\tan^{-1} 62.23) = \\sin(\\theta - 148^{\\circ})$"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dt} = E + F y + B \\cos(\\theta)",
+        "description": "A differential equation representing the relationship between variables."
+      },
+      {
+        "type": "text",
+        "text": "Example 21. – The equation $\\frac{d^{2}y}{dt^{2}} + F y + B \\cos(\\theta) = 0$ occurs in Mechanics; $\\theta$ is the angle of a rod of length L, and b it the end load."
+      },
+      {
+        "type": "text",
+        "text": "Reverting to form (1)"
+      }
+    ]
+  },
+  "cost": 0.0010489499999999999
+}

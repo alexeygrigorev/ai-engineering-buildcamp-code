@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 300,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Examples in Thermodynamics"
+      },
+      {
+        "type": "text",
+        "text": "Example 1. To prove that $\\left(V - w_{br}\\right) = L_{br}$, an equation occurring in Thermodynamics."
+      },
+      {
+        "type": "text",
+        "text": "Let $V$ = vol. of 1 lb. of steam at absolute temperature $t_r$."
+      },
+      {
+        "type": "text",
+        "text": "Let $w_{br}$ = vol. of 1 lb. of water at $t_r$."
+      },
+      {
+        "type": "text",
+        "text": "A quantity $q$ of heat taken in at $r - b_r$ and discharged at $r$, will, according to the Carnot cycle, give out work equivalent to $\\frac{q}{t_r} - \\frac{q}{t_b}$."
+      },
+      {
+        "type": "text",
+        "text": "Hence for 1 lb. of steam at the boiling temperature,"
+      },
+      {
+        "type": "equation",
+        "latex": "work = \\frac{V - w_{br}}{t_r - t_b}.",
+        "description": "This equation expresses the work done in terms of the volumes of steam in the cylinder and the change in pressure."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "V - w_{br} = L_{br} = t_r  \\cdot work,",
+        "description": "This equation indicates a relationship where the volume difference correlates with work and temperature."
+      },
+      {
+        "type": "text",
+        "text": "and as $r$ becomes infinitely small,"
+      },
+      {
+        "type": "equation",
+        "latex": "V - w_{br} = \\frac{L_{br}}{t_r^2} \\cdot dp,",
+        "description": "This modifies the previous equation considering an infinitesimal change."
+      },
+      {
+        "type": "text",
+        "text": "Now $dp$ is the slope of the pressure temperature curve (plotted from [UNRECOGNIZED TEXT])."
+      }
+    ]
+  },
+  "cost": 0.0008396999999999999
+}

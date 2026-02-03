@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 295,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 26."
+      },
+      {
+        "type": "text",
+        "text": "Solve the equation \n\\[ \\frac{d^2y}{dx^2} + 4y = 24 \\]"
+      },
+      {
+        "type": "text",
+        "text": "The equation may be written \n\\[ (D^2 - D^2 + 4) y = 24 \\] \n or \n\\[ y = A e^{\\alpha x} + B e^{-\\alpha x} + \\frac{24}{4} \\]"
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 27."
+      },
+      {
+        "type": "text",
+        "text": "The equation \n\\[ D^2y = my \\] covers in the discussion of  \nthe whirling of shafts. Solve this equation."
+      },
+      {
+        "type": "text",
+        "text": "Hence But"
+      },
+      {
+        "type": "text",
+        "text": "where \n\\[ D = m + \\beta \\] and \n\\[ y = A \\cosh(nr) + B \\sinh(nr) \\] where \n\\[ n = \\sqrt{\\frac{m}{r}} \\]"
+      },
+      {
+        "type": "text",
+        "text": "If we have the constants A, B, C and D are formed by considering of \nthe conditions; four equations must be formed, these being found by  \nthe successive derivatives and by substituting for $y$ and its derivatives."
+      },
+      {
+        "type": "text",
+        "text": "Exercises — On the Solution of Differential Equations."
+      },
+      {
+        "type": "text",
+        "text": "1. Given that $y = 2x^3 - 2x^2 + 4$, find $y$ in terms of x."
+      },
+      {
+        "type": "text",
+        "text": "2. Given that $\\frac{dy}{dx} = 1 - 17$ and $r = 9$, when $x = 2$."
+      },
+      {
+        "type": "text",
+        "text": "3. Find \\[ \\frac{dy}{dx} + 5, \\] find an expression for $y$."
+      }
+    ]
+  },
+  "cost": 0.0008582999999999999
+}

@@ -1,0 +1,101 @@
+{
+  "page": {
+    "page_number": 62,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "This last question might be treated rather differently by first expressing $4\\sin (4t)-12\\cos (4t)$ in the form $A\\sin (\\theta + \\phi)$ (see Part I, p. 27) and then differentiating. This method indicates that a S.H.M. may be composed of two simple harmonic motions differing in phase and amplitude."
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 5—On the Differentiation of Trigonometric Functions."
+      },
+      {
+        "type": "text",
+        "text": "Differentiate with respect to the functions in Nos. 1 to 16."
+      },
+      {
+        "type": "text",
+        "text": "1. $y=3\\cdot 2\\cos (15t)$."
+      },
+      {
+        "type": "text",
+        "text": "2. $y=\\sin (12t-5)$."
+      },
+      {
+        "type": "text",
+        "text": "3. $y=\\tan (t^2)$."
+      },
+      {
+        "type": "text",
+        "text": "4. $y=\\sec (3+4t)$."
+      },
+      {
+        "type": "text",
+        "text": "5. $y=\\csc (x^2)$."
+      },
+      {
+        "type": "text",
+        "text": "6. $y=\\cot (5-2\\sin t)$."
+      },
+      {
+        "type": "text",
+        "text": "7. $y=\\sin (4\\sin t)$."
+      },
+      {
+        "type": "text",
+        "text": "8. $y=\\sin (x)\\cos (x)$."
+      },
+      {
+        "type": "text",
+        "text": "9. $y=\\sin (x^3)$."
+      },
+      {
+        "type": "text",
+        "text": "10. $y=2\\tan (12t)$."
+      },
+      {
+        "type": "text",
+        "text": "11. $y=\\sin (5-\\tan (2))$."
+      },
+      {
+        "type": "text",
+        "text": "12. $y=\\sin^{-1} (x)$."
+      },
+      {
+        "type": "text",
+        "text": "13. $y=\\cos^{-1} (5x)$."
+      },
+      {
+        "type": "text",
+        "text": "14. $y=\\tan^{-1} (x^2)$."
+      },
+      {
+        "type": "text",
+        "text": "15. $y=\\ln (5t)$."
+      },
+      {
+        "type": "text",
+        "text": "16. $y=\\log (x^2)$."
+      },
+      {
+        "type": "text",
+        "text": "17. The primary E.M.F. of a center-tapped transformer was given by the expression $E=E_{0}\\sin (\\omega t)$. \n18. A displacement is given by $s=1\\sin 3t-4.2\\cos 2t+28\\cos 3t$."
+      },
+      {
+        "type": "section_heading",
+        "title": "Show that the acceleration = 25 sin 12t - 169."
+      },
+      {
+        "type": "text",
+        "text": "20. The line of action of $E_{y}$ and $E_{x}$, with $R$ being the only variables."
+      },
+      {
+        "type": "text",
+        "text": "21. The line of action of $E_{x}$ can be given by $E_{x} = \\sqrt{E_{0}\\sin \\omega t}$. \n22. The line of action of $E_{y}$ is given by $E_{y}=E_{0}\\sin (\\omega t)$. \n23. Show that the acceleration is given by the expression: $25\\sin 12t-169$. \n24. The equation is given by $E=\\sqrt{F^2} - 4$. \n25. $E_r=\\sqrt{E_{x}^2+E_{y}^2}$."
+      }
+    ]
+  },
+  "cost": 0.0010586999999999999
+}

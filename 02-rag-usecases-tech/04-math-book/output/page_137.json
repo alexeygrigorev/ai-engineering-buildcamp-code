@@ -1,0 +1,86 @@
+{
+  "page": {
+    "page_number": 120,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "and the construction $m'$ and $b$ are related, so that—"
+      },
+      {
+        "type": "text",
+        "text": "or area of first and second strips"
+      },
+      {
+        "type": "text",
+        "text": "Thus, summing for the whole area"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Area of } aa' = \\frac{1}{2} \\times \\text{base} \\times \\text{height}",
+        "description": "This equation gives the area of triangle formed by the vertical distance."
+      },
+      {
+        "type": "text",
+        "text": "Now the scale of area is the vertical scale multiplied by the polar distance;  and accordingly the polar distance should be selected in terms of a new constant for multiplication."
+      },
+      {
+        "type": "text",
+        "text": "E. g., if the original scales are"
+      },
+      {
+        "type": "text",
+        "text": "$I' = 25$ units vertical; "
+      },
+      {
+        "type": "text",
+        "text": "and"
+      },
+      {
+        "type": "text",
+        "text": "$II' = 25$ horizontal units; "
+      },
+      {
+        "type": "text",
+        "text": "then the new vertical scale is:"
+      },
+      {
+        "type": "text",
+        "text": "Old vertical scale\\textbf{'} = $\\frac{I' \\times 50}{25}$"
+      },
+      {
+        "type": "text",
+        "text": "If the original scales are given and a particular scale is desired for the new system, then the polar distance must be recalculated as follows:"
+      },
+      {
+        "type": "text",
+        "text": "Polar distance in horizontal units ——— old vertical scale"
+      },
+      {
+        "type": "text",
+        "text": "$v_{d'} = \\frac{v_{d' \\text{ primitive curve }}}{\\text{ velocity-time curve }}$"
+      },
+      {
+        "type": "text",
+        "text": "E.g., if the primitive curve is $v = \\text{velocity-time curve}$ plotted to the axes, $t$ is the ordinary dimensionless quantity."
+      },
+      {
+        "type": "text",
+        "text": "(for example, $\\text{displacement-time}$ curve plotted to axes)."
+      },
+      {
+        "type": "text",
+        "text": "Also, note that the scales related to areas are only; but they can also be related to volumes."
+      },
+      {
+        "type": "text",
+        "text": "Therefore, the distance graph should still behave as the figure as plotted on the paper, $v = f(x),$ where $x$ is the independent variable, and $a$ can represent many different situations."
+      },
+      {
+        "type": "text",
+        "text": "Thus, suppose a curve is plotted to represent the expansion of "
+      }
+    ]
+  },
+  "cost": 0.0009038999999999998
+}

@@ -1,0 +1,33 @@
+{
+  "page": {
+    "page_number": 8,
+    "header": "AUTHOR'S PREFACE",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The various rules for the differentiation of both algebraic and trigonometric functions are explained in detail in Chapter II; and Chapter III, containing the rules for the differentiation of a function, a product of functions, etc., together with an introduction to partial differentiation, is here regarded as complementary to Chapter II."
+      },
+      {
+        "type": "text",
+        "text": "From the actual reasoning required for comprehension of such ideas as that of \"limiting values\", the practical mind is often relieved to the applications of differentiation involved in Chapter IV, wherein the legislative of maximum and minimum values making the efficient use of a form. In view of this kind of problem, a special chapter is presented, in which the scope of method of solution has been indicated."
+      },
+      {
+        "type": "text",
+        "text": "Chapters V and VI contain the results to the integration of functions occurring in engineering and related fields, making clear the connection between differentiation and integration. The chance of solving mistakes is avoided, and the combination of graphs allows students to understand the geometric implications."
+      },
+      {
+        "type": "text",
+        "text": "In addition to the reduction formula, observed increases in value ranges are explored, which leads to multiple diagrammatic applications."
+      },
+      {
+        "type": "text",
+        "text": "Differential equations occur so frequently that the methods of solution demand special study. Chapter IX presents the most recent results, and the selection of examples based upon these, both worked out and theoretical, is deemed necessary for a proper appreciation of the method of solution."
+      },
+      {
+        "type": "text",
+        "text": "Chapter X, with its applications of the Calculus to problems encountered in the study of Thermodynamics, Strength of Materials,"
+      }
+    ]
+  },
+  "cost": 0.0007989
+}

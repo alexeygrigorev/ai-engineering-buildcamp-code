@@ -1,0 +1,64 @@
+{
+  "page": {
+    "page_number": 18,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "happening, whilst the slope curve carries us further and tells us what is likely to happen. In fact, the rate at which a quantity is changing is very often of far greater importance than the actual value of that quantity; and as illustrations of this statement the following examples present the case clearly."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 4—"
+      },
+      {
+        "type": "text",
+        "text": "The following table gives the values of the displacement of a certain battleship and the values of the offensive and defensive factors, viz. armament, armor and protection. From these figures"
+      },
+      {
+        "type": "equation",
+        "latex": "\n\\text{Figure 5. – Displacement and Armament of Battleship.}\n",
+        "description": "The figure shows a graph plotting values of displacement against armament for a battleship."
+      },
+      {
+        "type": "text",
+        "text": "calculate values of Q (ratio of armament, etc. to displacement) and q (ratio of increase of armament, etc. with regard to displacement). Find also the values of Q′."
+      },
+      {
+        "type": "table",
+        "caption": "Displacement and Armament, etc.",
+        "columns": [
+          "Displacement",
+          "Armament, etc."
+        ],
+        "rows": [
+          [
+            "22000",
+            "6880"
+          ],
+          [
+            "22000",
+            "7800"
+          ],
+          [
+            "22000",
+            "8530"
+          ],
+          [
+            "22000",
+            "9820"
+          ],
+          [
+            "22000",
+            "10810"
+          ],
+          [
+            "22000",
+            "12845"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007772999999999999
+}

@@ -1,0 +1,67 @@
+{
+  "page": {
+    "page_number": 233,
+    "header": "CENTRE OF PRESSURE",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "which the total pressure may be supposed to act is known as the centre of pressure (C. of P.)."
+      },
+      {
+        "type": "text",
+        "text": "To find positions of centres of pressure we are, in effect, finding centres of gravity of solids whose density is proportional to the distance from some fixed axis."
+      },
+      {
+        "type": "text",
+        "text": "The C. of G. found in the example last worked is in reality the same as the centre of pressure, provided we consider it for a liquid, with \u0018 dy as the height and \u0018 as the area."
+      },
+      {
+        "type": "text",
+        "text": "Also when considering the stability of solids in water, we have supposed the whole mass to be concentrated at the C. of G., so now, when we should effect the deductions, the total pressure may be assumed to act at this same point."
+      },
+      {
+        "type": "text",
+        "text": "To find the positions of the C. of P. for various sections and solids we must start from first principles, along the lines indicated in the example below."
+      },
+      {
+        "type": "text",
+        "text": "Example 36: Find the pressure on one side of a rectangular area ABCD in which the pressure is acting horizontally and is equal to the total depth of the water (which we shall designate by the term water level or S.W.S.L). Find also depth of the centre of pressure."
+      },
+      {
+        "type": "text",
+        "text": "Let a strip of the area be dA and H be level S.W.S.L. (Fig. 74)."
+      },
+      {
+        "type": "text",
+        "text": "The area of strip is 3 ft. x 8 ft."
+      },
+      {
+        "type": "text",
+        "text": "According to the theory of hydraulics, the weight of a fluid at the depth h is given by the equation, W = \u0018^\u0018 cu. ft. = weight of the fluid."
+      },
+      {
+        "type": "text",
+        "text": "Thus the total 1st moment about AB is given by."
+      },
+      {
+        "type": "equation",
+        "latex": "\u0018 H \\times A = \\text{total weight}.",
+        "description": "The total weight is found by multiplying the height by the area."
+      },
+      {
+        "type": "text",
+        "text": "1100 lbs. x 523 tons."
+      },
+      {
+        "type": "text",
+        "text": "Again, the total 1st moment about AB is."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int 187\\times 2  \\times A = 64\\times  2375.",
+        "description": "This integrates the product of depth and area."
+      }
+    ]
+  },
+  "cost": 0.0009158999999999999
+}

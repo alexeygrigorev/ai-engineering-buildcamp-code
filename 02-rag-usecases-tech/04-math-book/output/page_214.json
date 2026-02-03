@@ -1,0 +1,55 @@
+{
+  "page": {
+    "page_number": 197,
+    "header": "VOLUMES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Values of $y^2$ must first be calculated, since the volume = $\\int_{a}^{b} \\pi y^2 \\, dx$."
+      },
+      {
+        "type": "text",
+        "text": "Hence the table for plotting reads:"
+      },
+      {
+        "type": "table",
+        "caption": "Table of Values for $y^2$",
+        "columns": [
+          "$x$",
+          "$y^2$"
+        ],
+        "rows": [
+          [
+            "1936",
+            "1936"
+          ],
+          [
+            "1936",
+            "2136"
+          ],
+          [
+            "1936",
+            "2980"
+          ],
+          [
+            "1936",
+            "4096"
+          ],
+          [
+            "1936",
+            "6400"
+          ],
+          [
+            "1936",
+            "8100"
+          ],
+          [
+            "1936",
+            "9600"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0006836999999999999
+}

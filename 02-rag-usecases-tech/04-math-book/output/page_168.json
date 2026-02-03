@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 151,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 9—Find the value of $\n\\int \\frac{dx}{\\sqrt{x^4 + 1}}$ and hence the value of $\n\\int \\frac{dx}{\\sqrt{x^6 + 1}}$."
+      },
+      {
+        "type": "text",
+        "text": "Dealing with the first of these—"
+      },
+      {
+        "type": "text",
+        "text": "let $x = \\cosh u$"
+      },
+      {
+        "type": "text",
+        "text": "or"
+      },
+      {
+        "type": "text",
+        "text": "$x = \\sinh u$"
+      },
+      {
+        "type": "text",
+        "text": "Thus, $dx = \\sinh u du = \\sqrt{\\cosh^2 u - 1} \\, du$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dx}{\\sqrt{x^4 + 1}} = \\int \\frac{\\sinh u \\, du}{\\sqrt{(\\cosh^4 u) + 1}} = \\int \\frac{\\sinh u \\, du}{\\sqrt{\\cosh^4 u + 1}}.",
+        "description": "This integral evaluates the expression involving hyperbolic sine and cosine."
+      },
+      {
+        "type": "text",
+        "text": "To evaluate the second integral, let $x = \\tan u$."
+      },
+      {
+        "type": "text",
+        "text": "Then $dx = \\sec^2 u \\, du.$"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dx}{\\sqrt{x^6 + 1}} = \\int \\frac{\\sec^2 u \\, du}{\\sqrt{(\\tan^6 u) + 1}}.",
+        "description": "This shows the transformation of the integral from $x$ to $u$ in terms of tangent."
+      },
+      {
+        "type": "text",
+        "text": "Example 10—Find the value of $\n\\int \\tan u \\, du$ for the substitution in this case is—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\tan u \\, du = -\\ln |\\cos u| + C.",
+        "description": "This is the evaluation of the integral of tangent."
+      }
+    ]
+  },
+  "cost": 0.0008690999999999999
+}

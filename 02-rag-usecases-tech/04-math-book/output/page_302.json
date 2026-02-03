@@ -1,0 +1,31 @@
+{
+  "page": {
+    "page_number": 285,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence the solution (according to Case (i)) is  \n\n$y = Ae^{x^2 + (x + y)^2}$ \n\nwhere $a = 0$ and $b = 16$ \n\nso that  \n\n$y = 16$ (when $x = 0$)  \n\nThe general equation of S.I.M. is  \n\n$y = h(x)a^2 + 16$ \n\nbeing the angular velocity, so that the angular velocity in this case is 8 and the amplitude is A."
+      },
+      {
+        "type": "text",
+        "text": "Let  \n\n$y = (x + y)'$  \n\ni.e., $y = (x + y)$  \n\ni.e., the roots are equal.  \n\nHence  \n\n$y + 1 = a^2$.  \n\n(See (Cf. Case (2), p. 282))  \n\nExample 18 — Solve the equation  \n\n$$\\frac{dy}{dx} + 7dy + 10y = 5$$ \n\nThis differs from the preceding examples in the substitution of a constant in place of 0.  \n\nThe equation can be written as  \n\n$$\\frac{dy}{dx} + 7y + 10 \\frac{dy}{dx} = 5$$  \n\nand hence  \n\n$$\\frac{dy}{dx} + 7y = 5 - 10\\frac{dy}{dx}$$"
+      },
+      {
+        "type": "text",
+        "text": "In other words, the solution is that  \n\n$$y = 5$$, the constant.  \n\nThis is correct because  \n\n$dy = dy$  \n\nwhich equals 0, and thus one solution is  \n\n$y = 5$.  \n\nThe complete solution is the sum of the two solutions."
+      },
+      {
+        "type": "equation",
+        "latex": "y = 5",
+        "description": "This represents the constant solution for the differential equation."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} + 7y + 10\\frac{dy}{dx} = 5",
+        "description": "This is the reformulated equation for differential analysis."
+      }
+    ]
+  },
+  "cost": 0.0009068999999999999
+}

@@ -1,0 +1,26 @@
+{
+  "page": {
+    "page_number": 342,
+    "header": "CHAPTER XI HARMONIC ANALYSIS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Fourier's Theorem relates to periodic functions, of which many examples are found in both electrical and mechanical engineering. It states that any periodic function can be expressed as the sum of sine and cosine functions with different amplitudes, phases and periods. Thus, however irregular the curve representing the function may be, so long as it is periodic, it can be reconstructed entirely by a series of sine and cosine terms. In this section, we will explore how these are mathematically defined and what is meant by the terms harmonic analysis."
+      },
+      {
+        "type": "text",
+        "text": "Expressed in mathematical symbolism, Fourier's theorem reads as follows: \n\ny = f(x) = A_0 + \text{B} \text{sin}(n \text{x}) + A \text{sin}(n \text{x}) + A_1 \text{cos}(n \text{x}) + B \text{cos}(n \text{x}) + \text{etc.} \n\nThe latter from being periodic may be expressed as : \n\ny = A_0 + A \text{sin}(n \text{x}) + A_1 \text{sin}(2n \text{x}) + A_2 \text{sin}(3n \text{x}) + \text{etc.} \n\nwhere the B's and C's are suitably chosen."
+      },
+      {
+        "type": "equation",
+        "latex": "y = A_0 + A \text{sin}(n x) + A_1 \text{sin}(2n x) + A_2 \text{sin}(3n x) + \\ldots",
+        "description": "The general formulation that expresses a periodic function as a sum of sine functions."
+      },
+      {
+        "type": "text",
+        "text": "For the purposes of the analysis, the expression may appear simpler if we write \n\ny = A_0 + B \text{cos}(n x) + C \text{sin}(n x) + A_1 \text{cos}(2n x) + B_1 \text{sin}(2n x) + A_2 \text{cos}(3n x) + \text{etc.} \n\nDealing with the three processes in turn, (a) by calculation, (b) by a graphical interpretation of method (a), and (c) by superposition, we commence with the study of method (a)."
+      }
+    ]
+  },
+  "cost": 0.0009080999999999999
+}

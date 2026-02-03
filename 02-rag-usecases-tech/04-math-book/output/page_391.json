@@ -1,0 +1,19 @@
+{
+  "page": {
+    "page_number": 374,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "hence\n\n$A \\times \\sqrt{n} = L$,  \n\nor  \n\n$A = \\frac{L}{\\sqrt{n}}$\n\n\n\nThe law being known as the Normal Error Law.\n\nThe curve representing this equation is called the probability curve and also Gauss's Error curve. Two such curves are plotted in Fig. 140, and the equation of the curve will be written in terms of the value of the parameter $h$. The first curve, as the second curve, is a bell-shaped curve that is noted on comparing the curves for the smaller value of $h$, i.e., the best probability of the occurrence of the value $x = 2$ would be more nearly correct than for which $h = 5$.\n\n\n\nIt will be seen that the curve is in agreement with the axioms stated on p. 372; for the probability of error is very small, and there is a much higher probability of the interval of -2.3 < x < 2.3 than for the area ABCD in the curve, and ABCD not being presented."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 140.",
+        "description": "The figure illustrates two probability curves, showcasing the Normal Error Law curves for different values of parameter $h$. The comparison highlights how the curves change shape based on the value of $h$, particularly emphasizing the probabilities associated with specific intervals.",
+        "figure_number": 140
+      }
+    ]
+  },
+  "cost": 0.0008150999999999999
+}

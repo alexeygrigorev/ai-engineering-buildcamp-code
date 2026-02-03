@@ -1,0 +1,52 @@
+{
+  "page": {
+    "page_number": 154,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The integral $\\int \\frac{dx}{(a+b)}$ reduces to $\\frac{1}{n} \\log \\left| nu \\, \\log (a+b) \\right|$, where $u = a + b$."
+      },
+      {
+        "type": "text",
+        "text": "Example 14.1—Evaluate $\\int \\frac{dx}{(4x^2 + 5)}$."
+      },
+      {
+        "type": "text",
+        "text": "Then $\\int \\frac{dx}{(4x^2 + 5)} = \\frac{1}{\\sqrt{20}}\\log\\left| 2x + \\sqrt{4x^2 + 5} \\right| + C$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{1}{(4x^2 + 5)}dx = \\frac{1}{\\sqrt{20}} \\log \\left| 2x + \\sqrt{4x^2 + 5} \\right| + C.",
+        "description": "This equation shows the integral evaluation, relating it back to the logarithmic function."
+      },
+      {
+        "type": "text",
+        "text": "Example 15—Find the value of $\\int (1-2x^2) dx$."
+      },
+      {
+        "type": "text",
+        "text": "It will be observed that the denominator is a third quantity; and in many such cases it is advisable to make a substitution that rationalizes the denominator. Thus in this case let $u = x^{1/2}$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dx}{du} = x u = 2u (x + 1) x = 2x",
+        "description": "This equation shows the derivative of $x$ with respect to $u$ in the context of a substitution."
+      },
+      {
+        "type": "text",
+        "text": "Also, $1-2x = 2$, whence $2x = \\frac{(x-1)}{2} = (1 - x^2) = u^3 - 2$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int (1 - 2x)dx = \\int [u^3 - \\frac{1}{12} (u^2 - 8u + 4)]du",
+        "description": "This equation shows the integral with the substitution applied."
+      },
+      {
+        "type": "text",
+        "text": "which results could be further simplified if desired."
+      }
+    ]
+  },
+  "cost": 0.0009050999999999998
+}

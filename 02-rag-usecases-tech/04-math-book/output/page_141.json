@@ -1,0 +1,40 @@
+{
+  "page": {
+    "page_number": 124,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 3. The loading on a beam, 24 ft. long, simply supported at its ends varies continuously from zero at one end to a maximum value at the other end. Draw diagrams of shearing force and bending moment, stating clearly the maximum values of the shearing force and the bending moment."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Distance from one end to the load} = x",
+        "description": "Distance from one end to the load as a variable."
+      },
+      {
+        "type": "text",
+        "text": "Load in tons for this case."
+      },
+      {
+        "type": "section_heading",
+        "title": "The curve of loads is first plotted, as in Fig. 31."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 31",
+        "description": "This figure illustrates the relationship between the base line for the shearing force and bending moment against the length of the beam with the load applied. The curve shows how the shear changes with the position along the beam.",
+        "figure_number": 31
+      },
+      {
+        "type": "text",
+        "text": "To find the reactions at the ends, we examine how the load is distributed. The maximum reaction should be at the loaded end. Thus, the reactions are as follows:  Let us designate AB, in other words, marking off a length AC to represent the force at A, where A would be horizontal, and this is the shear base line for the curve of the shearing force and bending moment. The following diagrams on this page give the shear at the point in terms of the distance from where it is drawn."
+      },
+      {
+        "type": "text",
+        "text": "Next, the shear changes from CD as the resulting curve is that of bending moment."
+      }
+    ]
+  },
+  "cost": 0.0008060999999999999
+}

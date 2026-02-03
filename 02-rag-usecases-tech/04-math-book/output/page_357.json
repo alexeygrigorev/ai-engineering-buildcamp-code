@@ -1,0 +1,35 @@
+{
+  "page": {
+    "page_number": 340,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "3. Use the following table to obtain $P$ and then find the volume of 1 lb. of steam at 160 lbs. absolute pressure per sq. in."
+      },
+      {
+        "type": "table",
+        "caption": "Absolute pressure (lbs. per sq. in.) and temperature of steam.",
+        "columns": [
+          "Absolute Pressure (lbs. per sq. in.)",
+          "Temperature (°F)"
+        ],
+        "rows": [
+          [
+            "159",
+            "363.1"
+          ],
+          [
+            "160",
+            "364"
+          ],
+          [
+            "161",
+            "364.7"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0006680999999999999
+}

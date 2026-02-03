@@ -1,0 +1,39 @@
+{
+  "page": {
+    "page_number": 251,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Consider the thin disk (Fig. 58) of radius $R$ and thickness $t$. If the strip about a diameter $p$ for a diameter considered."
+      },
+      {
+        "type": "equation",
+        "latex": "I_{oy} = \\frac{\\pi}{4}R^4 \\cdot t \\quad (\\text{Example } 4.0, p. 246).",
+        "description": "Moment of inertia of the disk about the diameter."
+      },
+      {
+        "type": "text",
+        "text": "Next, we need to understand the categories of the two moments of inertia. The half-area of the strip is determined as:"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{oy} = \\frac{1}{2} \\cdot I_{o} \\quad \\text{and} \\quad I_{ox} = \\frac{1}{12} \\cdot \\left( b h^3 \\right).",
+        "description": "Moments of inertia related to the strip."
+      },
+      {
+        "type": "text",
+        "text": "The graphic construction now to be described is extremely simple to understand and has the additional merit of being utilized to give 2nd, 4th, and higher moments about various axes. This construction is applied to find the main axes and section properties of the rail section shown in Fig. 80, and some position of the neutral axis. The procedure is as follows:"
+      },
+      {
+        "type": "text",
+        "text": "To analyze the strip in general, we consider a number of strips by means of horizontal lines; the half-area only being treated, since action is symmetrical:"
+      },
+      {
+        "type": "text",
+        "text": "At point P, and the diameter at MM draw PR perpendicular to M, and from point M, the other end of the same horizontal, drop PR perpendicular to M', i.e. $PR | P'$. Repeat the process for all the horizontals (of which the $y$ axis is shown in the diagram) and obtain the complete framework."
+      }
+    ]
+  },
+  "cost": 0.0008456999999999999
+}

@@ -1,0 +1,37 @@
+{
+  "page": {
+    "page_number": 315,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let P = the total pushing force on ECE'."
+      },
+      {
+        "type": "text",
+        "text": "Then P = \\( \\sigma \\cdot A \\) (stress \\( \\times \\) area)."
+      },
+      {
+        "type": "text",
+        "text": "Hence, we can define the difference in the total pushing forces on DF and CE, if \\( \\delta P \\)."
+      },
+      {
+        "type": "text",
+        "text": "Also, \\( M = x \\) is the first moment of area ECE'."
+      },
+      {
+        "type": "text",
+        "text": "Now,\\n\\( \\frac{dM}{dy} = \\frac{M}{A} \\cdot \\frac{A}{dy} \\) ."
+      },
+      {
+        "type": "text",
+        "text": "\\( M = \\frac{I}{y} \\) is the moment of inertia of the section."
+      },
+      {
+        "type": "text",
+        "text": "And,\\n\\( \\frac{\\sigma}{I} = \\frac{dP}{dy} = \\sigma_{stress} \\cdot \\frac{dA}{dy} \\cdot I_{1} \\cdots \\sim \\text{(say)}"
+      }
+    ]
+  },
+  "cost": 0.0007514999999999999
+}

@@ -1,0 +1,36 @@
+{
+  "page": {
+    "page_number": 219,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "and hence first moment of area APQH about AP—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{x}{M} = \\frac{y}{x}\\cdot CM  \\\\\\text{but first moment of area APQH about A—}\\\\ \\frac{x}{H} = \\frac{y}{x} \\cdot HE = \\frac{x}{M} \\cdot CM.",
+        "description": "Relationships between areas and distances in a centroid calculation."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 64—Problem on Loaded Beam.",
+        "description": "A diagram depicting the load curve of a beam and its centroid. The load curve is shown with respect to support distances.",
+        "figure_number": 64
+      },
+      {
+        "type": "text",
+        "text": "Distance (from left-hand)  support (feet)                      12   18  36                                                       Load in support (lbs)                           12  18  38"
+      },
+      {
+        "type": "text",
+        "text": "We find the most vertical load from the figures given in the table (Fig. 64) and by taking the average distance from the centroids of the respective sections of loading. We find the total load as 36 tons. We set off L equal in length to b, and with this as polar distance we find the centroid from the base. This surface finishes at the point through C, and the centroid through G is the centroid, vertical 9.2 ft. from the base."
+      },
+      {
+        "type": "text",
+        "text": "For purposes of calculation, the whole load may be supposed to "
+      }
+    ]
+  },
+  "cost": 0.0007946999999999999
+}

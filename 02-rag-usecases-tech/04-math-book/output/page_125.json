@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 108,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Here—  \\[ W = \\frac{P_0 \\cdot D^4}{K D^2}\\], where  \\(K = 3\\)."
+      },
+      {
+        "type": "text",
+        "text": "Now the error in the diameter  \\(D\\) is \\(0.02 \\text{ in.}\\) and the error in the load \\(P_0\\) is \\( 0.04 \\text{ lb.}\\)."
+      },
+      {
+        "type": "text",
+        "text": "Example 1: If some torsion experiments are being made on shafts varying in diameter from 1 in. to 5 in.; then, allowing a maximum error of 0.5% in the measurement of the diameter, what is the range of the errors in the stress? Given that \\(  \\sigma = \\frac{T \\cdot r}{J}\\) where \\(T = 48 \\text{ ft.lb.}\\) and \\( J = \\frac{\\pi}{32} D^4\\)."
+      },
+      {
+        "type": "text",
+        "text": "The stress is  \\[ \\sigma = \\frac{T \\cdot r}{J} = \\frac{48 \\cdot \\frac{D}{2}}{\\frac{\\pi}{32} D^4} = \\frac{48 \\cdot 16}{\\pi D^3} = \\frac{768}{\\pi D^3} \\]."
+      },
+      {
+        "type": "text",
+        "text": "Now the error in the diameter is \\[ \\Delta D = 0.5\\% \\cdot D\\] or the percentage error in \\(D\\) is \\[ \\frac{0.5}{100} = 0.005 \\]. \n"
+      },
+      {
+        "type": "text",
+        "text": "i.e., the percentage error in  \\( \\sigma \\) is \\[ \\frac{d\\sigma}{\\sigma} = -3. \\]"
+      },
+      {
+        "type": "text",
+        "text": "Thus the smallest error is \\( \\sigma_{smallest} = 0.03 \\sigma_{largest} \\text{ stress} \\)."
+      },
+      {
+        "type": "text",
+        "text": "If the error in the measurement of the diameter is on the high side, then the stress, as calculated, will be too low."
+      },
+      {
+        "type": "text",
+        "text": "Expansion of Functions in Series. Theorems of Taylor and Maclaurin. Many of the simpler functions, such as \\(\\log(1+x)\\), sin \\(x\\), cos \\(x\\), etc., can be expressed as the sums of series. These functions can be expressed in terms of x for a series of the type of a theorem known as Maclaurin's."
+      }
+    ]
+  },
+  "cost": 0.0009417
+}

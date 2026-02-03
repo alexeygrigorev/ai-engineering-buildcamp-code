@@ -1,0 +1,70 @@
+{
+  "page": {
+    "page_number": 301,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "the tables) and can be easily found for any temperature. r Hence V can also be found."
+      },
+      {
+        "type": "text",
+        "text": "A numerical example will illustrate further."
+      },
+      {
+        "type": "text",
+        "text": "It is required to find the volume of 1 lb. of steam at 228°F, if it is at 40 lbs. per sq. in. pressure."
+      },
+      {
+        "type": "text",
+        "text": "Plotting these temperatures to a base of pressures, and then drawing the portion of the curve dealt with in this example is practically straight."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 103. Problem in Thermodynamics.",
+        "description": "This figure shows the relationship between temperature and pressure for steam, illustrating how volume changes at different pressures.",
+        "figure_number": 103
+      },
+      {
+        "type": "text",
+        "text": "The slope of this line is 2.65 (Fig. 103), and this is the value of dP/db being given in lb. per sq. in. and the latent heat in thermal units. To change the formula to agree with these units,"
+      },
+      {
+        "type": "equation",
+        "latex": "V = 7.74\\, B",
+        "description": "Volume V in terms of the variable B."
+      },
+      {
+        "type": "text",
+        "text": "Also let 228°F = 393.15 K."
+      },
+      {
+        "type": "equation",
+        "latex": "V = -0.0164 T + 228.953 \\times 2.65",
+        "description": "An equation for calculating steam volume based on temperature."
+      },
+      {
+        "type": "text",
+        "text": "10-82 cu. ft."
+      },
+      {
+        "type": "text",
+        "text": "Example 2—To prove that the specific heat of saturated steam (expanding dry) is:"
+      },
+      {
+        "type": "equation",
+        "latex": "C_v = Q",
+        "description": "Specific heat relationship equation."
+      },
+      {
+        "type": "text",
+        "text": "H = quantity of heat added."
+      },
+      {
+        "type": "text",
+        "text": "I = internal energy of the steam."
+      }
+    ]
+  },
+  "cost": 0.0008426999999999999
+}

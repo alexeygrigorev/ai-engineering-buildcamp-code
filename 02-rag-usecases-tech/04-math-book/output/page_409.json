@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 392,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Exercises 13"
+      },
+      {
+        "type": "text",
+        "text": "1. $\\frac{d}{dx}(y)$ = 2.718 + C"
+      },
+      {
+        "type": "text",
+        "text": "2. $\\frac{d}{dx}(y) = 5x^2$ + C"
+      },
+      {
+        "type": "text",
+        "text": "3. $\\frac{dy}{dx} = -2y \\tan(3x)$ + C."
+      },
+      {
+        "type": "text",
+        "text": "4. $\\frac{dy}{dx} = x^3 - 4x + 2$."
+      },
+      {
+        "type": "text",
+        "text": "5. $\\frac{dy}{dx} = \\frac{1}{1+x^2}$."
+      },
+      {
+        "type": "text",
+        "text": "6. $\\frac{d^2y}{dx^2} + 3y = 0$."
+      },
+      {
+        "type": "text",
+        "text": "7. $\\int (3x^2 - 2x + 1) dx$ + C."
+      },
+      {
+        "type": "text",
+        "text": "8. $y = ae^{bx}$ and $y = C + \\frac{x}{i}$."
+      },
+      {
+        "type": "text",
+        "text": "9. $\\int (\\sin x + \\cos x) dx$ + C."
+      },
+      {
+        "type": "text",
+        "text": "10. $\\int (x^4) dx$ = $\\frac{x^5}{5}$ + C."
+      },
+      {
+        "type": "text",
+        "text": "11. $\\int (e^x) dx$ = $e^x + C$."
+      },
+      {
+        "type": "text",
+        "text": "12. $\\int 1/x dx$ = $\\ln |x| + C$."
+      },
+      {
+        "type": "text",
+        "text": "13. $y = b + C \\ln(1+x)$."
+      },
+      {
+        "type": "text",
+        "text": "14. $y = a \\cos(\\theta) + b \\sin(\\theta)$."
+      },
+      {
+        "type": "text",
+        "text": "15. $f(x) = x^2 \\cos(x)$."
+      },
+      {
+        "type": "text",
+        "text": "16. $\\int \\sec^2(x) dx = \\tan(x) + C$."
+      },
+      {
+        "type": "text",
+        "text": "17. $L = 16\\frac{(1-\\cos x)}{x^2}$."
+      },
+      {
+        "type": "text",
+        "text": "18. $\\int (5x^4 + 3x^2 + 7) dx$."
+      },
+      {
+        "type": "text",
+        "text": "19. $\\int 1/y dy = \\ln |y| + C$."
+      },
+      {
+        "type": "text",
+        "text": "20. $\\int 5e^x dx$."
+      },
+      {
+        "type": "text",
+        "text": "21. $\\int x^2 \\sin x dx$."
+      },
+      {
+        "type": "text",
+        "text": "22. $\\int (\\sin^2 y\\cos^2 y) dy$."
+      },
+      {
+        "type": "text",
+        "text": "23. \\[\\int (\\frac{1}{1+t^2} dt) = \\tan^{-1}(t) + C\\]"
+      },
+      {
+        "type": "text",
+        "text": "24. \\[\\int (e^x \\sin x) dx\\]"
+      },
+      {
+        "type": "text",
+        "text": "25. $\\int (4x^3 + 3x) dx$."
+      },
+      {
+        "type": "text",
+        "text": "26. $\\lim\\limits_{x \\to 0} \\frac{\\sin(1)}{x}$."
+      },
+      {
+        "type": "text",
+        "text": "27. $\\lim\\limits_{x \\to c} f(c) = L$."
+      },
+      {
+        "type": "text",
+        "text": "28. $\\forall \\epsilon > 0, \\exists \\delta > 0$."
+      },
+      {
+        "type": "text",
+        "text": "29. $49-82$."
+      },
+      {
+        "type": "text",
+        "text": "30. $\\int (5 \\sin x) dx = -5 \\cos(x) + C$."
+      },
+      {
+        "type": "text",
+        "text": "31. $\\int 2x dx = x^2 + C$."
+      },
+      {
+        "type": "text",
+        "text": "32. $\\frac{dy}{d\\theta} + \\frac{1}{y} = 0$."
+      },
+      {
+        "type": "text",
+        "text": "33. \\(x^3 + y^3 = z^3\\) -[UNRECOGNIZED TEXT]"
+      },
+      {
+        "type": "text",
+        "text": "34. $x = \\frac{(a-b)}{(1 + \\cos x)}$."
+      },
+      {
+        "type": "text",
+        "text": "35. $dL = \\sqrt{dx^2 + dy^2}$."
+      },
+      {
+        "type": "text",
+        "text": "36. $\\frac{dy}{dx} = y e^{x^2}$."
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 14"
+      },
+      {
+        "type": "text",
+        "text": "37. $1.82$ = $3.45$"
+      },
+      {
+        "type": "text",
+        "text": "38. $3.7 + 16 = \\frac{1}{2 + \\sqrt{1}}$"
+      },
+      {
+        "type": "text",
+        "text": "39. $-c$ + C"
+      },
+      {
+        "type": "text",
+        "text": "40. Write the equation in the form $\\frac{dy}{dx}$ and then integrate: $y^{5} = C$."
+      }
+    ]
+  },
+  "cost": 0.0012716999999999997
+}

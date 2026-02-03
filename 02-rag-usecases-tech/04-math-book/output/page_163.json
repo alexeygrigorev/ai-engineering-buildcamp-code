@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 146,
+    "header": "CHAPTER VI",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "FURTHER METHODS OF INTEGRATION"
+      },
+      {
+        "type": "text",
+        "text": "By the use of the rules enumerated in the previous chapter it is possible to perform many operations which simplify the integration of the simpler functions by algebraic processes. This is particularly true in cases where the integrals, at times intricate to perform, so that it is very frequently the better plan to resort to a somewhat more elaborated method, despite having to incur the extra labor. However, other methods of integration have to be introduced, keeping in mind that only under very special circumstances do these methods supply the appropriate answers."
+      },
+      {
+        "type": "text",
+        "text": "We will be able to provide additional resources and articles that represent the foray into the algebraic integration of difficult functions and will be pointing out their properties. It should be remembered, it is well known that the various types should be considered, but this also entails broadening the scope of the standard forms which can vary to each range, and to leave them to suggest further forms."
+      },
+      {
+        "type": "text",
+        "text": "Integration by the Aid of Partial Fractions. – Many complex fractions can be split into simpler parts, to which the same rules of integration may be applied. Thus if we are asked to integrate, with respect to x, the fraction \\[ \\frac{30}{2x^{2}-15x+28} \\], we soon discover that we are unable to perform this operation with our method presented in the previous chapter."
+      }
+    ]
+  },
+  "cost": 0.0007832999999999999
+}

@@ -1,0 +1,86 @@
+{
+  "page": {
+    "page_number": 395,
+    "header": "ANSWERS TO EXERCISES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "K = 12 + 8I"
+      },
+      {
+        "type": "text",
+        "text": "log\\left( \\frac{a}{1 + r} \\right) = \\frac{E_1}{E_2}"
+      },
+      {
+        "type": "text",
+        "text": "10. I = R_1 + R_2 + R_3"
+      },
+      {
+        "type": "text",
+        "text": "11. H = H_1 + H_2"
+      },
+      {
+        "type": "text",
+        "text": "12. KR = KH"
+      },
+      {
+        "type": "text",
+        "text": "13. A = C \\cdot C_A \\cdot E"
+      },
+      {
+        "type": "text",
+        "text": "14. C = C_e - C_a"
+      },
+      {
+        "type": "text",
+        "text": "15. L = C \\cdot \\sin\\left( \\tan^{-1} L \\right)"
+      },
+      {
+        "type": "equation",
+        "latex": "16. \\sin(\\theta) = \\frac{y}{r}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "17. A = \\sin\\left(\\theta + \\frac{\\pi}{4}\\right)"
+      },
+      {
+        "type": "equation",
+        "latex": "18. \\frac{dA}{dB} = \\frac{4SM^2 + 7A^2}{\\beta S}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "19. \\theta = 27 - 833 + 748\\sin\\theta - 15\\theta + 4 + 8"
+      },
+      {
+        "type": "text",
+        "text": "20. p = C \\cdot R_2E_1"
+      },
+      {
+        "type": "text",
+        "text": "21. where"
+      },
+      {
+        "type": "text",
+        "text": "22. A = B - \\frac{F}{E_1}"
+      },
+      {
+        "type": "equation",
+        "latex": "23. v = \\frac{E_1}{E_2}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "24. r = B e^{-\\frac{F}{E_1}}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "25. v = \\cos(\\alpha)(X - a)",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      }
+    ]
+  },
+  "cost": 0.0009969
+}

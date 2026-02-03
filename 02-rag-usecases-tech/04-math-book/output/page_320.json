@@ -1,0 +1,19 @@
+{
+  "page": {
+    "page_number": 303,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "figure",
+        "caption": "Work Done in the Expansion of a Gas.",
+        "description": "This figure illustrates the work done during the expansion of a gas, represented graphically, showing the relationship between pressure (p) and volume (V).",
+        "figure_number": 104
+      },
+      {
+        "type": "text",
+        "text": "Work done = \\int_{V_1}^{V_2} p \\, dV"
+      }
+    ]
+  },
+  "cost": 0.0006519
+}

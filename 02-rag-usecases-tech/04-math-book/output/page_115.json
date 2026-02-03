@@ -1,0 +1,82 @@
+{
+  "page": {
+    "page_number": 98,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 2—The stiffness of a beam is proportional to the breadth and the cube of the depth of the section. Find the dimensions of the stiffest beam that can be cut from a cylindrical log 4 ins. in diameter."
+      },
+      {
+        "type": "equation",
+        "latex": "S = k b d^3",
+        "description": "The stiffness of a beam expressed as a function of breadth (b) and depth (d)."
+      },
+      {
+        "type": "text",
+        "text": "From hypothesis"
+      },
+      {
+        "type": "equation",
+        "latex": "S = k b d^3",
+        "description": "Restating the expression for stiffness."
+      },
+      {
+        "type": "text",
+        "text": "Both breadth and depth will vary, but they depend on each other; from Fig. 25 we see that 2d = 16 − b. Hence we can substitute for b its value in terms of d and then differentiate with regard to d."
+      },
+      {
+        "type": "equation",
+        "latex": "b = 16 - 2d",
+        "description": "Relationship between breadth (b) and depth (d)."
+      },
+      {
+        "type": "text",
+        "text": "This will be a maximum if S is a maximum; and hence we have to differentiate S with respect to d."
+      },
+      {
+        "type": "equation",
+        "latex": "S = K(16 - 2d)d^3",
+        "description": "Expressing stiffness S in terms of depth d."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dS}{dd} = K(16 - 2d)(3d^2) - K(2)(d^3) = 0",
+        "description": "Differentiating stiffness with respect to depth and setting the result to zero."
+      },
+      {
+        "type": "equation",
+        "latex": "16 - 2d = 0, \\ d = 0 (giving zero stiffness)",
+        "description": "Finding critical points in the differentiation."
+      },
+      {
+        "type": "equation",
+        "latex": "d = 8",
+        "description": "Finding the depth that maximizes stiffness."
+      },
+      {
+        "type": "text",
+        "text": "Now, since we are dealing with negatives it would be incorrect to say that we have a maximum value when it is positive. The higher the depth, the lower the value of the breadth, and hence we are simultaneously identifying values for maximum and minimum."
+      },
+      {
+        "type": "equation",
+        "latex": "d = 8, \\ b = 16 - 2(8) = 0",
+        "description": "Evaluating the breadth at the maximum depth."
+      },
+      {
+        "type": "text",
+        "text": "Example — Find the shape of the rectangular channel of greatest cross-section; when given that A(Q) = m, where m is the hydraulic mean depth."
+      },
+      {
+        "type": "equation",
+        "latex": "A = hydraulic mean depth × wetted perimeter",
+        "description": "Finding the area based on hydraulic mean depth and wetted perimeter."
+      },
+      {
+        "type": "text",
+        "text": "where A is the quantity flowing."
+      }
+    ]
+  },
+  "cost": 0.0009506999999999999
+}

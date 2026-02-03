@@ -1,0 +1,105 @@
+{
+  "page": {
+    "page_number": 237,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "18. The diameter of a spindle at various distances along its length was measured with the following results:"
+      },
+      {
+        "type": "table",
+        "caption": "Diameter (in inches)",
+        "columns": [
+          "Distance from C.G. (in inches)",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "rows": [
+          [
+            "Diameter (in inches)",
+            "2.0",
+            "2.1",
+            "2.3",
+            "2.5",
+            "2.7",
+            "2.8",
+            "3.0",
+            "3.2",
+            "3.4",
+            "3.6"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Find the distance of the C. G. from the smaller end."
+      },
+      {
+        "type": "text",
+        "text": "From this, we may find the moment of inertia of the spindle about the center of gravity."
+      },
+      {
+        "type": "text",
+        "text": "Next, by means of the double sun curve method, the distance from AB of the centroid of the rail section shown at (a), Fig. 75."
+      },
+      {
+        "type": "text",
+        "text": "2. An aircraft is descending in a spiral, and is being lifted by a buoyant gas bag, which creates a resistance to the fall."
+      },
+      {
+        "type": "text",
+        "text": "The section is shown in detail. Find the depth at the center of pressure above the plane."
+      },
+      {
+        "type": "text",
+        "text": "Moment of Inertia."
+      },
+      {
+        "type": "text",
+        "text": "The moment of inertia of a body about an axis is the sum of the products of the masses of the particles of which the body is composed and the squares of their distances from the axis. Thus—"
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\sum m r^2",
+        "description": "This equation represents the moment of inertia of a body, where I is the moment of inertia, m is the mass of each particle, and r is the distance from the axis of rotation."
+      },
+      {
+        "type": "text",
+        "text": "In the case of a rigid body, the moment of inertia is the sum of the products of the masses of all the elements of the body and their perpendicular distances from the given axis."
+      },
+      {
+        "type": "text",
+        "text": "Lest any errors occur in the computations, the following assumptions are made to change the section to a rectangular one:"
+      },
+      {
+        "type": "figure",
+        "caption": "Illustration of the assumptions made for calculating moment of inertia.",
+        "description": "The figure illustrates the assumptions that represent the section of a beam to rectangular shape, aiding in the calculation of the moment of inertia.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "C. A few examples will clarify this and will recur in letter I. Consider first the case of a loaded beam."
+      },
+      {
+        "type": "text",
+        "text": "Let the figure (Fig. 77) represent the section of a beam loaded uniformly. Then it is customary to make the following assumptions—"
+      },
+      {
+        "type": "equation",
+        "latex": "t = \\text{sum of the tensions = sum of the compressions}",
+        "description": "This equation represents the equilibrium condition related to the tensions and compressions in the loaded beam."
+      }
+    ]
+  },
+  "cost": 0.0009782999999999999
+}

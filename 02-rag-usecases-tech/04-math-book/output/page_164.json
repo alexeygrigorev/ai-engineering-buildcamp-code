@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 147,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus, \n\n\\[ 2 = \\frac{2}{x^{2}} \\] (see Part I, p. 453). \n\nHence, \n\n\\[ A = 2 \\log(4) - 4 \\log C \\] \n\nwhich can be combined with the other logs."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 1 - Find the value of \\( \\int \\frac{dx}{x^{4}} \\)"
+      },
+      {
+        "type": "text",
+        "text": "Letting numerators, \n\n\\[ A + B + C = \\frac{1}{x^{4}} \\] \n\nLet \\( A = \\frac{1}{x^{4}} \\) and \\( B = 0 \\) \n\nLet \\( C = 0 \\): \n\n- A \\( = \\frac{1}{x^{4}} \\) \n\nThis is a standard form."
+      },
+      {
+        "type": "text",
+        "text": "Example 2 - To find \\( \\int \\frac{dx}{x^{3}} \\) \n\nLet \\( x = A + B \\) \n\nThen, using the log,  \n\n\\[ \\int \\frac{dx}{x^{3}} = - \\frac{1}{2} \\log(ar + b) + C \\] \n\nExplanation:  \n- \\( {dx} = \\frac{dx}{x^{3}} \\) \n- For further methods we may write \\( {dx} \\) where \\( \\int \\frac{1}{x^{3}} dx = \\frac{1}{2} \\log(ar + b) \\) ."
+      }
+    ]
+  },
+  "cost": 0.0008270999999999999
+}

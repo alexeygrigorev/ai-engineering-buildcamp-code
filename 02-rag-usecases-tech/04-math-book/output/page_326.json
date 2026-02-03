@@ -1,0 +1,43 @@
+{
+  "page": {
+    "page_number": 309,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus, \n\n$$ \\frac{dM}{dx} = \\frac{d}{dy} \\left( \\frac{M}{R} \\right) $$ \n\nand \n\n$$ M = Ry $$\n\nis used; whence double integration from the equation so formed gives an expression for the deflection of the beam."
+      },
+      {
+        "type": "text",
+        "text": "A few harder cases are here taken: the beam not being simply supported."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 10"
+      },
+      {
+        "type": "text",
+        "text": "A beam is fixed at one end and supported at the other; the loading is uniform, being the intensity $ w $ of the deflected form."
+      },
+      {
+        "type": "text",
+        "text": "We must first find the form $ P $ (part of the couple keeping the end fixed). This being a constant, we can treat it as calculated on the assumption that the moment is the same everywhere. Referring to Fig. 109."
+      },
+      {
+        "type": "figure",
+        "caption": "Beam Uniformly Loaded",
+        "description": "This figure illustrates a beam that is fixed at one end and supported at the other, with a uniformly distributed load across its length.",
+        "figure_number": 109
+      },
+      {
+        "type": "text",
+        "text": "Hence the actual bending moment is \n\n$$ M = \\frac{w l^2}{8} - P x $$."
+      },
+      {
+        "type": "text",
+        "text": "Now, by integration:\n\n$$ \\int M \\, dx = \\frac{w l^2}{8} x - \\frac{P x^2}{2} + C_1 $$."
+      }
+    ]
+  },
+  "cost": 0.0008060999999999999
+}

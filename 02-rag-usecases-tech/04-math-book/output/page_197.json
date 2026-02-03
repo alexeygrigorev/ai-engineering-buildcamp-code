@@ -1,0 +1,86 @@
+{
+  "page": {
+    "page_number": 180,
+    "header": "CHAPTER VII",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Mean Values: Root Mean Square Values - Volumes: Length of Arc - Area of Surface - Solid of Revolution - Centroid - Moment of Inertia"
+      },
+      {
+        "type": "text",
+        "text": "Determination of Mean Values. - It is frequently necessary to calculate the mean value of a varying quantity; this if a variable force acts against a resistance, the work done will be dependent on the mean value of the force. In the simplest electrical engineering theory, we will take the electrical and electromagnetic force at various intervals during the passage of the current, then the mean rate of working is the mean value of the product."
+      },
+      {
+        "type": "text",
+        "text": "The mean value of a series of values is obtained by adding the values together and then dividing by the number of values taken. However, a curve is drawn from this mean value that is determined by the mean length of the diameter, which is the area divided by the length of the base. This really amounts to the taking of an average over a large number of ordinates and calculating their average."
+      },
+      {
+        "type": "text",
+        "text": "The mean values may be measured from the plane of height, which will be further discussed in Part I, Chap. VII."
+      },
+      {
+        "type": "text",
+        "text": "The average value of any electric value can be obtained by carefully selecting mean values that is gained by considering them as arithmetic average."
+      },
+      {
+        "type": "equation",
+        "latex": "E_{avg} = \\frac{1}{n} \\sum_{i=1}^{n} E_i",
+        "description": "The average value of an electric current and its corresponding values."
+      },
+      {
+        "type": "text",
+        "text": "Example 1. - The corresponding values of electric current and E.m.f. producing:"
+      },
+      {
+        "type": "table",
+        "caption": "Corresponding Values of Electric Current and E.m.f.",
+        "columns": [
+          "E",
+          "I",
+          "E.m.f.",
+          "Total"
+        ],
+        "rows": [
+          [
+            "17.5",
+            "25",
+            "175",
+            "5"
+          ],
+          [
+            "17.5",
+            "35",
+            "200",
+            "7"
+          ],
+          [
+            "17.5",
+            "50",
+            "225",
+            "10"
+          ],
+          [
+            "17.5",
+            "60",
+            "250",
+            "12"
+          ],
+          [
+            "17.5",
+            "75",
+            "275",
+            "15"
+          ],
+          [
+            "17.5",
+            "100",
+            "300",
+            "18"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0008714999999999999
+}

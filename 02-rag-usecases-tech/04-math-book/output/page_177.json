@@ -1,0 +1,56 @@
+{
+  "page": {
+    "page_number": 160,
+    "header": null,
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 23—Find the value of $\\int \\frac{x^2 - 20}{x^2 + 16} \\, dx$."
+      },
+      {
+        "type": "text",
+        "text": "In this case the numerator is of the first degree in $x$, whilst the denominator is of the second degree. Also we notice that the derivative of the denominator is $2x$ and the numerator is $18(4x^5)$. The derivative of the denominator and the numerator are consequently related. Hence the substitution will be of the form: \n\n\n\n"
+      },
+      {
+        "type": "equation",
+        "latex": "u = x^2 + 16\\quad \\text{so that } du = 2x \\, dx \\quad \\text{and thus } dx = \\frac{du}{2x}.",
+        "description": "Substitution for integral with respect to variable u."
+      },
+      {
+        "type": "text",
+        "text": "This gives the integral: \n\n\\begin{eqnarray*}\n\\int \\frac{x^2 - 20}{x^2 + 16} \\, dx &=& \\int \\frac{(u - 16) - 20}{u} \\cdot \\frac{du}{2x} \\\\\n&=& \\int \\frac{u - 36}{u} \\cdot \\frac{du}{2x} \\\\\n&=& \\int \\frac{1}{2} \\left(1 - \\frac{36}{u}\\right) \\, du.\n\\end{eqnarray*}\n\nEvaluating this integral leads to: \n\n\\begin{eqnarray*}\n\\frac{1}{2} \\left( u - 36 \\ln |u| \\right) + C \\\\\n= \\frac{1}{2} \\left( x^2 + 16 - 36 \\ln |x^2 + 16| \\right) + C.\n\\end{eqnarray*} \n\nNow, evaluating at the limits of integration gives: $"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^{4} \\frac{x^2 - 20}{x^2 + 16} \\, dx = \\frac{1}{2} \\left[ (4^2 + 16) - 36 \\ln |4^2 + 16| - (0 + 16 - 36 \\ln |16|) \\right] = 2 - 18 \\ln |20| + 18 \\ln |16|.",
+        "description": "Final result of the integral evaluation."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 24—To find the value of $\\frac{x^2 + 4}{x^2 + 5}$."
+      },
+      {
+        "type": "text",
+        "text": "This is evidently of the type \\textit{f(x) + g(x)}, where f and g are functions of x. We can split the integral accordingly."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 25—For a single straight wire at a potential from that of the earth."
+      },
+      {
+        "type": "text",
+        "text": "If, for instance, there is a radius of the wire $P$, i.e., length of the wire in cms, $r$ sufficient distance in charge in electric units per sq. cm., then we define the potential P at any point on the axis of the wire due to the charge on a length $l$ as given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "P = \\frac{q}{4 \\pi \\epsilon_0 r}",
+        "description": "Formula for the electric potential due to a charged wire."
+      },
+      {
+        "type": "text",
+        "text": "so that the potential at the middle point = $\\frac{q}{4 \\pi \\epsilon_0 \\sqrt{3g}}$. \n\nEvaluate this integral."
+      }
+    ]
+  },
+  "cost": 0.0010863
+}

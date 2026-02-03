@@ -1,0 +1,38 @@
+{
+  "page": {
+    "page_number": 394,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Exercises 18"
+      },
+      {
+        "type": "text",
+        "text": "1. 1450 cm, 3. 5077 lbs, 4. 1.79 K\n5. 724 (limits are ± 0.25) 6. 2. 20 (1) = 30.6; (2) = 1423; 1617 7. 4. 1.79 K2."
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 19"
+      },
+      {
+        "type": "text",
+        "text": "1. height from vertex 2. centroid is 158.7 from forward end 3. 721, in. 4. (a) (x,y) = (100,\"0\") (b) (d,0) = (31.5, 0) at centers (a) (b) (y) and the center (3; 88) 5. 21 units."
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 22"
+      },
+      {
+        "type": "text",
+        "text": "5. 283 = 73sinθ; the sine curve\n6. 892; 7. [UNRECOGNIZED TEXT]\n8. 8TE (64t2 - 48t4) = 0,\n  (dy = 0; when = … or…)"
+      },
+      {
+        "type": "equation",
+        "latex": "x = \frac{d^2y}{dx^2} + y = 0",
+        "description": "The second derivative of y with respect to x is equal to negative y, depicting simple harmonic motion or similar functional behavior."
+      }
+    ]
+  },
+  "cost": 0.0008054999999999999
+}

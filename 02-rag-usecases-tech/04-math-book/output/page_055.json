@@ -1,0 +1,38 @@
+{
+  "page": {
+    "page_number": 38,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "27. In a certain vapour the relation between the absolute temperature $T$ and the absolute pressure $p$ is given by the equation  \n$$ T = \frac{p}{1.465} + \frac{1}{2}.$$  \n\nIf the volume, in $m^3$, of the vapour when at a pressure of $b$ lb. per sq. in. is given by \n$$ V = 14 + \frac{14}{p} $$  \nfind the absolute temperature at a point where $p = 78$."
+      },
+      {
+        "type": "text",
+        "text": "28. For a rolling uniform rod of length $l$ on a beam of length $l$, the bending moment $M$ at a point is given by  \n$$ M = \frac{(y -1)Wl^2}{3l} $$  \nwhere $y$ is a constant, and $W$ is the weight of the rod. \n\nIf $W$ is constant, find an expression for the shear $S$ in the rate of change of the bending moment."
+      },
+      {
+        "type": "equation",
+        "latex": "M = M_1 - M_2 \\quad \\text{(shear force at the point).}",
+        "description": "The equation giving the shear force at a point."
+      },
+      {
+        "type": "text",
+        "text": "29. The equation giving the form taken by a trolley wire is  \n$$ y = \\frac{d^2}{4f} \\cdot x^2 $$  \nwhere $d$ is the diameter of the trolley wire and $f$ is the radius of curvature."
+      },
+      {
+        "type": "text",
+        "text": "Find the value of the radius of curvature."
+      },
+      {
+        "type": "text",
+        "text": "Good examples of the advantages obtained by utilising the shear effect are found in the shear at a cut point.  \nThe shear is given by the formula:  \n$$ S = M + T + M_1 $$  \nat a point."
+      },
+      {
+        "type": "text",
+        "text": "Also let $T = S_6 - S_8$.  \nTaking moments about $M$, we have  \n$$ M + 8M = S + 8R - 12S. $$  \nTaking moments about $A - M - 8$, we have  \n$$ M + 8M - S + 8R - 12S - 8R = 8S.$$  \nAlso let $M + 8M = S + 8A - S_4 + S_8.$"
+      }
+    ]
+  },
+  "cost": 0.0009350999999999999
+}

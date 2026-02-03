@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 104,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "20. A load uniformly distributed over a length l rolls across a beam of length l, and the bending moment M due to loading at a point is given by"
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\frac{w l^2}{12} - \\frac{w x^2}{2}  \\quad (1)\\,\\, \\text{for } 0 \\leq x \\leq l.",
+        "description": "This equation describes the bending moment at a distance x from one end of the beam."
+      },
+      {
+        "type": "text",
+        "text": "21. If V = (v velocity) that makes R (a resistance) a maximum."
+      },
+      {
+        "type": "equation",
+        "latex": "R = k V^{3/2} \\quad (2)",
+        "description": "This equation relates resistance to the velocity."
+      },
+      {
+        "type": "text",
+        "text": "22. A jet of water, moving with velocity v, impinges on a plate moving in the direction of the jet with velocity V. Find v to maximize the rate of transfer of momentum."
+      },
+      {
+        "type": "text",
+        "text": "23. If R = K_{f}(1 - \\sin \\theta), find values of θ for which R has a maximum, finding dR and θ as appropriate."
+      },
+      {
+        "type": "text",
+        "text": "24. Consider a petroglyph hung on a vertical rock face exposed facing south."
+      },
+      {
+        "type": "text",
+        "text": "25. If M = \\frac{w}{l} \\left( l - 2 x \\right) ^2 - R \\sin \\theta, for what values of θ will M be a maximum."
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\frac{w}{l} \\left( \\sin \\theta - 1 \\right) CAS(\\frac{w l ^2}{4} - M)",
+        "description": "This equation relates bending moment to the variables of weight and angle."
+      },
+      {
+        "type": "text",
+        "text": "26. If M = \\frac{w}{l} \\left( 1 - \\sin \\theta \\right) ^{2} = 0^{*}, determine a section of a length l for the beam loaded with a uniform load over finite span, and establish."
+      },
+      {
+        "type": "text",
+        "text": "27. It is required to determine an angle of 45° that is to maximize M. In order to maximize bending moment, a maximum."
+      },
+      {
+        "type": "text",
+        "text": "The final equation should be solved by plotting, a value being assumed for l."
+      }
+    ]
+  },
+  "cost": 0.0009176999999999998
+}

@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 344,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If we integrate throughout (with respect to $y$ and $z$), every term on the right-hand side, except the first, will vanish, \n\n$$ \begin{eqnarray*}\n\bar{A}_1 &=& 0 \\\n\bar{A}_2 &=& 0 \\\n\bar{A}_3 &=& 0 \\\n&\text{.}& \\\n&\text{.}& \\\n&\text{.}&\n\newline\text{Therefore, we have} \\ \n\bar{A}_1 = \text{the mean value of } A (p. 183) \text{ so that } A_0 \text{ found by averaging the ordinates; but in the majority of cases an expression is now implied. }\n\text{To find } A_1 \text{—multiply all through by } \frac{1}{\text{Area}},\n\text{ and integrate,} \\  \n\bar{A}_1 = 0\\\n\bar{A}_2 = 0\\\n\\\n\text{or}\\\n\text{or}\n\\\n\frac{1}{A} \\\n\bar{A}_1 = \bar{y} \text{ and continue from (3), (2) and (1)} \\\n \n&&\text{Let } B_1 = A_1 \text{ multiply throughout by its coefficient, }  \\\n\text{viz., } sin \theta, } \\ \n\text{and we find } }  \\ \nB_1 = A_1 \text{ from (4) and (5)} \\\nA_1 = \frac{1}{\text{mean value of } (y \times sin \theta) } \\\n\text{so that the values of } B_1, B_2, B_3, \text{ etc., may be found. }\n\newline\n\text{If we integrate throughout (with respect to $y$ and $z$), every term on the right-hand side will vanish. }\n\bar{A}_1 = \text{the mean value of } A, \\\n~ \\\n\bar{A}_2 = 0 \\\n}\n\text{\nWe continue throughout.}"
+      }
+    ]
+  },
+  "cost": 0.0009200999999999999
+}

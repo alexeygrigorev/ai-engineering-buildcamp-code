@@ -1,0 +1,79 @@
+{
+  "page": {
+    "page_number": 272,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Type: $\\frac{dy}{dx}$ given as a function of $y$, i.e., $\\frac{dy}{dx} = f(y)$. \n\nThis type of equation differs somewhat from the preceding in that a certain amount of transposition of terms has to be effected before the integration can be performed."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = f(y)",
+        "description": "This is the expression of the derivative of $y$ with respect to $x$ as a function of $y$."
+      },
+      {
+        "type": "text",
+        "text": "The equation may be written as \n\n$\\frac{1}{f(y)} \\frac{dy}{dx}$ \n\nor the transposition being spoken of as \"separating the variables,\" and then by integration  \n\n$\\int \\frac{1}{f(y)} dy = \\int dx$."
+      },
+      {
+        "type": "text",
+        "text": "Example 1.  \nIf $f(y) = y^3$, find an expression for $y$. \n\nSeparating the variables gives: \n\n$\\int \\frac{1}{y^3} dy = \\int dx$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{1}{y^3} dy = -\\frac{1}{2y^2} + C",
+        "description": "This integral represents the relationship between $y$ and $x$, yielding a form that can be solved for $y$."
+      },
+      {
+        "type": "text",
+        "text": "Integrating gives: \n\n$-\\frac{1}{2y^2} = x + C$."
+      },
+      {
+        "type": "text",
+        "text": "Example 2.  \nSolve the equation $\\frac{dy}{dx} = ay + b$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = ay + b",
+        "description": "This represents a differential equation that can be solved for $y$."
+      },
+      {
+        "type": "text",
+        "text": "So that \n\n$\\frac{1}{ay + b} dy = dx$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{1}{ay + b} dy = \\int dx",
+        "description": "This sets up the equation for integrating both sides."
+      },
+      {
+        "type": "text",
+        "text": "Now let $u = ay + b$, then $du = a dy$, or $dy = \\frac{du}{a}$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{1}{u} \\frac{du}{a} = \\int dx",
+        "description": "This changes the integral in terms of $u$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{1}{a} \\log |u| = x + C",
+        "description": "This result can be rewritten back in terms of $y$."
+      },
+      {
+        "type": "text",
+        "text": "or \n\n$\\log |ay + b| = a(x + C)$."
+      },
+      {
+        "type": "text",
+        "text": "Finally, after simplification: \n\n$|ay + b| = e^{a(x + C)} = \\text{constant}$."
+      },
+      {
+        "type": "text",
+        "text": "This shows the relationship between $y$ and $x$ derived from the original differential equation."
+      }
+    ]
+  },
+  "cost": 0.0010184999999999999
+}

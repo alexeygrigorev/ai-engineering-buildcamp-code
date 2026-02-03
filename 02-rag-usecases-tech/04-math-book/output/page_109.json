@@ -1,0 +1,78 @@
+{
+  "page": {
+    "page_number": 92,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "curve, and thus the ordinate of the second derived curve, must be expressed by $y = c$ so that we conclude that in the neighbourhood"
+      },
+      {
+        "type": "text",
+        "text": "of a maximum value of the original function the second derivative of it is a negative quantity."
+      },
+      {
+        "type": "text",
+        "text": "In the same way we see that in the neighbourhood of a minimum value of the function, its second derivative is a positive quantity. Thus we can summarize the following points."
+      },
+      {
+        "type": "text",
+        "text": "Let $y = f(x)$ and let the values of that function and of its first and second derivatives be written as follows:"
+      },
+      {
+        "type": "equation",
+        "latex": "f(x) = 12x^3 - 36x^2 + 30x",
+        "description": "This equation represents the original function."
+      },
+      {
+        "type": "equation",
+        "latex": "f'(x) = 36x^2 - 72x + 30",
+        "description": "This is the first derivative of the original function."
+      },
+      {
+        "type": "equation",
+        "latex": "f''(x) = 72x - 72",
+        "description": "This is the second derivative."
+      },
+      {
+        "type": "text",
+        "text": "We can apply this to our previous example:"
+      },
+      {
+        "type": "text",
+        "text": "Now, let us consider the values of $x$ where $f'(x) = 0$. In this case, we have the values controlling the critical points."
+      },
+      {
+        "type": "equation",
+        "latex": "0 = 12x^2 - 36x + 30",
+        "description": "The condition for critical points by setting the first derivative to zero."
+      },
+      {
+        "type": "text",
+        "text": "Solving this using the quadratic formula results in the values of $x$."
+      },
+      {
+        "type": "equation",
+        "latex": "x = \\frac{36 \\pm \\sqrt{(-36)^2 - 4 \\cdot 12 \\cdot 30}}{2 \\cdot 12}",
+        "description": "Formula for finding the roots of the quadratic equation."
+      },
+      {
+        "type": "text",
+        "text": "where $x = 3$ and $x = -\\frac{5}{3}$. This indicates the locations of the points."
+      },
+      {
+        "type": "text",
+        "text": "Similarly, we find that the second derived curve, $f''(x) = 12x - 36$, is negative at $x = -3$ so $x = -3$ is a negative critical point."
+      },
+      {
+        "type": "text",
+        "text": "Also, similarly, $x = 3$ is a maximum when we find that the second derivative $f''(x) = 12(3) - 36 = 0$."
+      },
+      {
+        "type": "text",
+        "text": "Thus the first divided curve has a turning value; but the first"
+      }
+    ]
+  },
+  "cost": 0.0009464999999999999
+}

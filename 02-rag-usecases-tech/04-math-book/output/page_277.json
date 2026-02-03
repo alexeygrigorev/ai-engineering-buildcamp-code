@@ -1,0 +1,73 @@
+{
+  "page": {
+    "page_number": 260,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The curve is drawn in Fig. 95."
+      },
+      {
+        "type": "text",
+        "text": "It will be seen that the ratio of"
+      },
+      {
+        "type": "text",
+        "text": "second ray = 5699"
+      },
+      {
+        "type": "text",
+        "text": "first ray = 5699"
+      },
+      {
+        "type": "text",
+        "text": "third ray = 5699"
+      },
+      {
+        "type": "text",
+        "text": "fourth ray = 5699"
+      },
+      {
+        "type": "text",
+        "text": "so that this spiral might have been defined as one for which the rays are at regular intervals of $30^{\text{o}}$ for a geometric progression in which each ray is a thrice of the previous ray."
+      },
+      {
+        "type": "text",
+        "text": "Differentiating the general equation $PT = r = \nu e^{\theta}$, we observe that the forms are identical for both the polar coordinates and the Cartesian coordinates, thereby demonstrating the growth of the term."
+      },
+      {
+        "type": "text",
+        "text": "If we consider that the spiral moves forward at an angle $PT$, and drawing the tangent PT at a point P of the spiral, for an angle  of $30^{\text{o}}$, it is found that $OP = 25$ on converting to an original scale."
+      },
+      {
+        "type": "text",
+        "text": "We also find that the angle between the spiral and the axis is given by $\theta$."
+      },
+      {
+        "type": "text",
+        "text": "If $r = d$, then the line $d = rx$ and $log \frac{r}{s} = y$ where r is one length, and log $r$ and $s$ are different lengths respectively."
+      },
+      {
+        "type": "text",
+        "text": "ON"
+      },
+      {
+        "type": "text",
+        "text": "$OP = y$"
+      },
+      {
+        "type": "text",
+        "text": "$r = r \text{cos} \theta$"
+      },
+      {
+        "type": "text",
+        "text": "Connection between Rectangular and Polar Coordinates."
+      },
+      {
+        "type": "text",
+        "text": "Let P be a given point, with rectangular coordinates $(x,y)$ and then referring to Fig. 96."
+      }
+    ]
+  },
+  "cost": 0.0008540999999999999
+}

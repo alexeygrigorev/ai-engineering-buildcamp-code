@@ -1,0 +1,51 @@
+{
+  "page": {
+    "page_number": 51,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 19. Given that $s = e^{4t} - 7e^{-t}$, find the value of $\\frac{d^{2}s}{dt^{2}} = 258.$"
+      },
+      {
+        "type": "text",
+        "text": "Again,"
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of $\\log x$ - The rule for the differentiation of logarithmic functions can be derived either from the expression for $\\log (x + x)$ or from assigning the result for the differentiation of $f(x)$, considering these methods in turn."
+      },
+      {
+        "type": "text",
+        "text": "(i) Working with $\\log (x + x)$, let $y = \\log x$. Then if $x$ increases to $x + \\Delta x$, $y$ takes a new value."
+      },
+      {
+        "type": "text",
+        "text": "Now $\\log (y + 8x)$ can be expanded as $\\log (x + 8x)$ and therefore,"
+      },
+      {
+        "type": "equation",
+        "latex": "y + 8y = \\log (x + 8x) - \\log x",
+        "description": "Logarithmic differentiation of the function with respect to $x$."
+      },
+      {
+        "type": "text",
+        "text": "Also $8y$ can be expanded into a series of the form"
+      },
+      {
+        "type": "equation",
+        "latex": "\\log (x + 8x) = \\log x + \\frac{8}{x} + O(\\Delta x^{2})",
+        "description": "Expansion of the logarithm into a series."
+      },
+      {
+        "type": "text",
+        "text": "Dividing all through by $\\Delta x$ we may make the"
+      },
+      {
+        "type": "text",
+        "text": "By sufficiently diminishing the value of $\\Delta x$ we may make the"
+      }
+    ]
+  },
+  "cost": 0.0008234999999999999
+}

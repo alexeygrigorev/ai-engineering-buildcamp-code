@@ -1,0 +1,27 @@
+{
+  "page": {
+    "page_number": 11,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "the one from the other; whilst in the limit the two lines coincide. Then since the slope of the chord PQ gives the value of \\( \\frac{\\Delta s}{\\Delta x} \\) and the limiting value of \\( \\frac{ds}{dx} \\) it follows that the slope of the tangent expresses as \\( \\frac{ds}{dx} \\) the rate of change of a quantity at any point is measured"
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 1: Various curves depicting relationships between velocity, acceleration, and time.",
+        "description": "This figure illustrates the relationships between different quantities such as space, velocity, and acceleration over time. It highlights how these quantities change with respect to one another across different curves, providing insight into their dynamic interactions.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "Values of space, velocity, and acceleration."
+      },
+      {
+        "type": "text",
+        "text": "Velocity-time curve"
+      }
+    ]
+  },
+  "cost": 0.0007208999999999999
+}

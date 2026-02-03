@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 1,
+    "header": "EDITORIAL NOTE",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The Directly-Useful Technical Series requires a few words by way of introduction. Technical books of the past have arranged themselves largely under two sections: the Theoretical and the Practical. Theoretical books have been written more for the training of college students than for the supply of information to men in practice, and have been greatly filled with problems of an academic character. Practical books have often sought the other extreme, omitting the scientific basis upon which all good practice is built, however disconcerting or not. The present series is intended to occupy a midway position. The information, the problems and the exercises are to be of a directly-useful character, but must at the same time be wedded to that proper amount of scientific explanation which alone will satisfy the inquiry mind. We shall appeal to all technical people throughout the land, either students or those in actual practice."
+      }
+    ]
+  },
+  "cost": 0.0007100999999999999
+}

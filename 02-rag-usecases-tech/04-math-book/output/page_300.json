@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 283,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Then  $y = A_1 e^{\frac{cx}{2}} + A_2 e^{- \frac{cx}{2}} + A_3 \frac{c}{2} x e^{\frac{cx}{2}}$  from Case (2)"
+      },
+      {
+        "type": "text",
+        "text": "Developing one of these only, viz., the first, and neglecting  $A_3$  for the time being."
+      },
+      {
+        "type": "text",
+        "text": "And by writing  $c$  for  $k$,"
+      },
+      {
+        "type": "text",
+        "text": "Hence  $y = A_1 e^{\frac{cx}{2}} + A_2 e^{- \frac{cx}{2}}$  (cos  $cx$  +  sin  $cx)$"
+      },
+      {
+        "type": "text",
+        "text": "where  $A_1 = e^{\frac{c}{2}} ( A_1 - A_2 ) = 2V_A (x, y)$  (see Part I, p. 277) and"
+      },
+      {
+        "type": "text",
+        "text": "$ \tan p = \frac{A_1 + A_2}{A_1 - A_2}$."
+      },
+      {
+        "type": "text",
+        "text": "Taking as the standard equation"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = Ay + Bx + C",
+        "description": "This equation represents a standard linear first-order differential equation."
+      },
+      {
+        "type": "text",
+        "text": "and grouping our results, we have the following :-"
+      },
+      {
+        "type": "equation",
+        "latex": "(1) \\; y = A e^{Bx} - C",
+        "description": "This represents the general solution of the first-order differential equation."
+      },
+      {
+        "type": "text",
+        "text": "If  $A$  and  $B$  are positive:"
+      },
+      {
+        "type": "equation",
+        "latex": "(2) \\; y = A e^{\\left( \\sqrt{A^2 + B^2} \\right)x + C}",
+        "description": "This is another form of the solution with positive constants."
+      }
+    ]
+  },
+  "cost": 0.0008648999999999998
+}

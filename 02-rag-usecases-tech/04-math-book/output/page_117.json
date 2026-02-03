@@ -1,0 +1,87 @@
+{
+  "page": {
+    "page_number": 100,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "so that"
+      },
+      {
+        "type": "equation",
+        "latex": "\\nabla \\cdot \\mathbf{F} = -27\\text{ and }\\nabla \\cdot \\mathbf{G} = 0.0833 + 0.000937.",
+        "description": "This indicates the divergence of the vector fields F and G."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d y}{d x} = \\frac{(120 - 27)}{[120 + (0.0833 + 0.000937)]} = \\frac{\\left( 120 - 0.0833 - 0.000937 \\right)}{\\left( 120 + 0.0833 + 0.000937 \\right)}.",
+        "description": "This represents the derivative of y with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "i.e., if"
+      },
+      {
+        "type": "equation",
+        "latex": "(\\frac{d y}{d x}) = \\frac{(120 - 0.0833)}{120 + 0.0833 + 0.000937} = (27 - 0.003)",
+        "description": "This provides a more specific formula for the derivative."
+      },
+      {
+        "type": "text",
+        "text": "i.e., it follows that"
+      },
+      {
+        "type": "text",
+        "text": "This equation must be solved by plotting, the intersection of the curves gives 1.084 log for y_1 = 225 being the moment when the line becomes linear. \nHence, y_1 = 225 - 1084 log for y_1."
+      },
+      {
+        "type": "equation",
+        "latex": "y = L - 2.23.",
+        "description": "This equation relates y to the inductance of a circuit."
+      },
+      {
+        "type": "text",
+        "text": "Example 11: \nThe value of a secondary electric current was given by the formula—"
+      },
+      {
+        "type": "equation",
+        "latex": "y = L - 2.23.",
+        "description": "This indicates the relationship between y and L."
+      },
+      {
+        "type": "text",
+        "text": "where"
+      },
+      {
+        "type": "text",
+        "text": "L = inductance of primary circuit"
+      },
+      {
+        "type": "text",
+        "text": "R = resistance of primary circuit"
+      },
+      {
+        "type": "text",
+        "text": "S = coefficient of mutual induction = steady current."
+      },
+      {
+        "type": "text",
+        "text": "Find for what value of y_1 has a maximum value."
+      },
+      {
+        "type": "text",
+        "text": "Transposing the factors gives us—"
+      },
+      {
+        "type": "equation",
+        "latex": "L - L - M = 0",
+        "description": "This represents the rearrangement of terms in the equation."
+      }
+    ]
+  },
+  "cost": 0.0009296999999999999
+}

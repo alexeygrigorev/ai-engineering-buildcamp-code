@@ -1,0 +1,51 @@
+{
+  "page": {
+    "page_number": 220,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In this line; the total load is 42 tons, and taking moments around A—"
+      },
+      {
+        "type": "equation",
+        "latex": "R_1 = 246 \\text{ tons}",
+        "description": "Calculation of reaction force R1 at support A."
+      },
+      {
+        "type": "text",
+        "text": "Now we must set up A, and a diagram to represent R_1 to the new vertical scale, and then a horizontal thrust H is the true base line for the moments."
+      },
+      {
+        "type": "text",
+        "text": "At the point C the shear is zero; but the shear corresponds to the rate of change of the bending moment, grouping our results: \n\nReaction at left-hand support = R_1 = 246 tons."
+      },
+      {
+        "type": "text",
+        "text": "Taking moment at right-hand support gives:\n\nM_C = -8.4 ft from the left-hand end."
+      },
+      {
+        "type": "text",
+        "text": "Conditions of Sections by Calculation (for a graphic method especially applicable to see pg. 251)—Special cases are the following: \n\n\\[ \\Sigma M_1 = 0, \\quad \\Sigma M_2 = 0, \\quad \\Sigma N_1 = 0, \\quad \\Sigma N_2 = 0 \\]"
+      },
+      {
+        "type": "text",
+        "text": "The form of sections of beams, joists, rails, etc., for which we considered the previous moments in the analysis, leads to the consideration of simple figures, since with practical proportions the flanges of these sections can be dealt with as rectangles of arbitrary width and height, creating a system of their own. Consequently, we shall find it convenient to draw the centroid of the C. G. of a number of sections involved."
+      },
+      {
+        "type": "text",
+        "text": "Examples.—Find the centroid of the solid of the Tee section involved."
+      },
+      {
+        "type": "text",
+        "text": "We may consider the section to be made up of two rectangles:\n\n\\[ \\text{Area of flange} = 6 \\times 3 = 18 \\text{ sq. in.}\\] \n\\[ \\text{Area of web} = 6 \\times 2 = 12 \\text{ sq. in.}\\] \n\\[ \\text{Total area} = 18 + 12 = 30 \\text{ sq. in.}\\]"
+      },
+      {
+        "type": "equation",
+        "latex": "G = \\frac{6 \\cdot 3 \\cdot \\frac{3}{2} + 6 \\cdot 2 \\cdot 2}{30} = \\frac{36 + 24}{30} = \\frac{60}{30} = 2 \\text{ in.}",
+        "description": "Calculation of centroid G as a function of areas and distances."
+      }
+    ]
+  },
+  "cost": 0.0009476999999999999
+}

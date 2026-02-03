@@ -1,0 +1,67 @@
+{
+  "page": {
+    "page_number": 198,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "tion may be performed in accordance with the rules for the integration of functions."
+      },
+      {
+        "type": "text",
+        "text": "Example 13. Find the volume of a paraboloid of revolution and compare it with the volume of the surrounding cylinder."
+      },
+      {
+        "type": "text",
+        "text": "The equation to the curve OB is $y = f(x)$, where $h = OI = x$, the revolution axis."
+      },
+      {
+        "type": "text",
+        "text": "Hence the volume of the solid swept out by the revolution of OBA is "
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{h} \\pi [f(x)]^{2} dx = \\frac{\\pi}{4}(h^{4}) = \\frac{\\pi h^{4}}{4}.",
+        "description": "Volume of the solid of revolution."
+      },
+      {
+        "type": "text",
+        "text": "Now the volume of the surrounding cylinder is "
+      },
+      {
+        "type": "equation",
+        "latex": "V_{cyl} = \\pi (r^{2})h = \\pi \\left( \\frac{h}{2} \\right)^{2}h = \\frac{\\pi h^{3}}{4}.",
+        "description": "Volume of the surrounding cylinder."
+      },
+      {
+        "type": "text",
+        "text": "Hence the volume of the paraboloid is $V = \\frac{1}{3} \\times V_{cyl} = \\frac{\\pi h^{3}}{12}.$"
+      },
+      {
+        "type": "text",
+        "text": "Example 14. The curve $y = x^{2}$ revolves about the axis of y."
+      },
+      {
+        "type": "text",
+        "text": "Find the volume generated, using the limits to be applied to $x$."
+      },
+      {
+        "type": "text",
+        "text": "The volume of the curve as severely treated in this axis."
+      },
+      {
+        "type": "text",
+        "text": "Hence the volume is $V_{fr} = \\int_{0}^{b} \\pi (y) dx$, the $y$ replacing is part of the definition of the volume."
+      },
+      {
+        "type": "text",
+        "text": "The limits given are to be verified and hence the integral $\\int_{0}^{1} \\frac{1}{2} y^{3} dy$ must be applied to determine the corresponding limits of $y$."
+      },
+      {
+        "type": "text",
+        "text": "When $x = 0$, $y = 0$; $x = 1$, $y = 1:8$."
+      }
+    ]
+  },
+  "cost": 0.0009062999999999999
+}

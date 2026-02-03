@@ -1,0 +1,54 @@
+{
+  "page": {
+    "page_number": 202,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The length of arc $L$ can thus be found if the value of the integral on the R.H.S. can be evaluated.\n\nIn only a few cases is the evaluation of the integral simple; for most curves, an approximation is taken. This is justified in the form of an elliptic integral, this being treated later in the chapter; and hence the approximate rules are nearly always accurate."
+      },
+      {
+        "type": "text",
+        "text": "To deal with a case of a very simple character:"
+      },
+      {
+        "type": "equation",
+        "latex": "L = \\int_{a}^{b} \\sqrt{1 + \\left( \\frac{dy}{dx} \\right)^{2}} \\cdot dy.",
+        "description": "An integral formula for calculating the length of an arc in a curve."
+      },
+      {
+        "type": "text",
+        "text": "In this case it is really a matter of determining the length of the line AB (Fig. 50):  \nIf $y = ax + b$, then we have:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = a.",
+        "description": "The derivative of the function $y = ax + b$."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "L = \\int_{A}^{B} \\sqrt{1 + a^{2}} \\cdot dx = \\sqrt{1 + a^{2}} ( b - a),",
+        "description": "The final equation provides the arc length between the points A and B."
+      },
+      {
+        "type": "text",
+        "text": "For convenience, put the figure in Fig. 51."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 51: Length of arc in a parabola.",
+        "description": "This figure illustrates the length of an arc segment in a parabolic shape, highlighting the points D and the span from base to apex.",
+        "figure_number": 51
+      },
+      {
+        "type": "text",
+        "text": "The arc length $L$ is given by  \n$L = \\frac{4}{3} D$  so that $D$ must be very large."
+      }
+    ]
+  },
+  "cost": 0.0008613
+}

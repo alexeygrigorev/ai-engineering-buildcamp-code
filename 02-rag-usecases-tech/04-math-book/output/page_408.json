@@ -1,0 +1,38 @@
+{
+  "page": {
+    "page_number": 391,
+    "header": "ANSWERS TO EXERCISES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "36. $y = 27 \\cdot 1 = 68.72 \\text{ or } 20.56$"
+      },
+      {
+        "type": "text",
+        "text": "36. height = $\\frac{\\text{Height}_1 + \\text{Height}_2}{2}$"
+      },
+      {
+        "type": "text",
+        "text": "36. $\\tan^{-1}(x) = \\frac{y}{\\sqrt{(a^2 - y^2)}}$"
+      },
+      {
+        "type": "text",
+        "text": "36. maximum at $x = 0$: points of inflection at $x = \\pm \\sqrt{3}$."
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\sqrt{R} \\cdot KP \\cdot \\sqrt{P} \\cdot r \\cdot m ",
+        "description": "The equation relates the variables R, KP, P, r, and m."
+      },
+      {
+        "type": "text",
+        "text": "36. $V = \\sqrt{R} \\cdot \\left(R_{max} \\right)$"
+      },
+      {
+        "type": "text",
+        "text": "36. $\\frac{R}{L} + 1.414 (3 + 12R) / \\sqrt{L}$"
+      }
+    ]
+  },
+  "cost": 0.0007568999999999999
+}

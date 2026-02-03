@@ -1,0 +1,47 @@
+{
+  "page": {
+    "page_number": 305,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence the work done \\( W = \\frac{L_1}{T_1} - \\frac{L_2}{T_2} \\) (1)"
+      },
+      {
+        "type": "text",
+        "text": "The heat put in \\( Q = (T_1 - T_2) \\log \\frac{T_1}{T_2} \\) (2)"
+      },
+      {
+        "type": "text",
+        "text": "and thus the efficiency \\( \\eta = \\frac{W}{Q} \\) (fraction at risk)."
+      },
+      {
+        "type": "figure",
+        "caption": "Efficiency of an Engine",
+        "description": "The figure illustrates the efficiency of an engine working on the Rankine Cycle, with steam kept saturated by jacket steam.",
+        "figure_number": 106
+      },
+      {
+        "type": "text",
+        "text": "Efficiency of an Engine working on the Rankine Cycle, with steam kept saturated by jacket steam."
+      },
+      {
+        "type": "text",
+        "text": "Example 7: Find the efficiency of the engine whose cycle is given by area \\( abcd \\) in Fig. 107."
+      },
+      {
+        "type": "text",
+        "text": "Work done = area \\( abcd \\) (the summation being of horizontal strips) = \\( \\int_a^b r \\, d\\phi \\) = \\( \\frac{1}{a + br} \\) = 1437.57."
+      },
+      {
+        "type": "text",
+        "text": "Total heat received = \\( L_1 - L_2 \\) = (1)"
+      },
+      {
+        "type": "text",
+        "text": "Hence the work done is \\( W = (2) \\) = (2)"
+      }
+    ]
+  },
+  "cost": 0.0008031
+}

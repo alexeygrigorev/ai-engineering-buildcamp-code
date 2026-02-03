@@ -1,0 +1,51 @@
+{
+  "page": {
+    "page_number": 226,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "As before, two cases arise, viz., (a) when values of A and x are given, and (b) when A is defined in terms of x. To deal with these: \nIn case (a) plot one curve in which A is the abscissa and find the value of x; this is the value of x."
+      },
+      {
+        "type": "text",
+        "text": "Plot a second curve whose ordinates are the products of corresponding values of A and x and the area, as shown for a given value of x. Thus the control vertical line is prescribed by the ordinates of x, this is followed by the supervisory curve that previously described when dealing with areas in case of problems."
+      },
+      {
+        "type": "text",
+        "text": "Example 69.—Problem Con. Column."
+      },
+      {
+        "type": "text",
+        "text": "Example 90.—The circumference of a tapering cast iron column, 16 inches, is described in places 9.43, 29.62, 32.62, and 36 inches respectively. The diameter at the circumference is located at its center C, 6 inches. \n\nThe areas must first be found from the circumferences."
+      },
+      {
+        "type": "table",
+        "caption": "Table for plotted values",
+        "columns": [
+          "r = distance from diameter (in)",
+          "Area (in²)"
+        ],
+        "rows": [
+          [
+            "0.79",
+            "0.478"
+          ],
+          [
+            "4.3",
+            "12.88"
+          ],
+          [
+            "7.28",
+            "178.9"
+          ],
+          [
+            "16",
+            "[UNRECOGNIZED TEXT]"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007934999999999999
+}

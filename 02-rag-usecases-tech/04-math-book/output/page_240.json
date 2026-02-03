@@ -1,0 +1,35 @@
+{
+  "page": {
+    "page_number": 223,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "CENTROIDS"
+      },
+      {
+        "type": "text",
+        "text": "Example 27—Find the centroid of the area between the curve $y = x^2$ , the axis of x and the ordinates through $x = 2$ and $x = 5$.\n\nThe curve is plotted in Fig. 67, and it is seen that the position of the centroid of the area ABCD is required.\n\nNow $y = x^2$, and thus $y = 2^{2} = 4$ and $y = 5^{2} = 25$. \n\nTo find"
+      },
+      {
+        "type": "equation",
+        "latex": "\bar{x} = \\frac{1}{A} \\int_2^5 x \\cdot y \\, dx",
+        "description": "Calculation of the x-coordinate of the centroid based on the area and integral of the function."
+      },
+      {
+        "type": "text",
+        "text": "where the centroid vertical is distant 7.81 units from the left-hand boundary.\n\nTo find"
+      },
+      {
+        "type": "equation",
+        "latex": "\\bar{y} = \\frac{1}{A} \\int_2^5 \\frac{y^2}{2} \\, dx",
+        "description": "Calculation of the y-coordinate of the centroid based on the area and integral of the square of the function."
+      },
+      {
+        "type": "text",
+        "text": "Hence the co-ordinates of the centroid are (3.81, 7.57).\n\nExample 28—The bending moment curve for a beam fixed at one end and loaded uniformly over its whole length is a parabola, as"
+      }
+    ]
+  },
+  "cost": 0.0008018999999999999
+}

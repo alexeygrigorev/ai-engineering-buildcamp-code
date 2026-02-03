@@ -1,0 +1,31 @@
+{
+  "page": {
+    "page_number": 381,
+    "header": "MATHEMATICAL PROBABILITY",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To return to the object of this paragraph — If $x_1, x_2, x_3, \", P_1 = \\frac{1}{\\sqrt{V}}$, $P_2 = \\frac{1}{\\sqrt{V'}}$ etc., and the probability that they all fall within this range $r$ is equivalently the product of these."
+      },
+      {
+        "type": "equation",
+        "latex": "P = P_1 \\times P_2 \\times \\ldots \\times P_n.",
+        "description": "This equation represents the total probability of multiple independent events occurring, calculated as the product of their individual probabilities."
+      },
+      {
+        "type": "text",
+        "text": "We wish to find for what value of $h$ P has its greatest value: Hence differentiate P with respect to $h$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dP}{dh} = K \\times \\left( s - 2hk \\right), \\text{ where } K = ....",
+        "description": "This equation shows the derivative of P with respect to h, indicating the relationship between various variables."
+      },
+      {
+        "type": "text",
+        "text": "[UNRECOGNIZED TEXT]  - 2"
+      }
+    ]
+  },
+  "cost": 0.0007562999999999999
+}

@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 122,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "in lbs. per sq. in. and must be converted to lbs. per sq. ft., so that the work done may be measured in ft. lbs."
+      },
+      {
+        "type": "text",
+        "text": "According to this modified scale the last ordinate is read off as 0.5, while the first is read as 106560."
+      },
+      {
+        "type": "figure",
+        "caption": "Problem on Stonem Column.",
+        "description": "The figure shows the curve for the diameter of a tapering stone column along with its weight. It represents the relationship between the diameter measurements at different heights and their corresponding weights per cubic foot, illustrating the volume and weight distribution of the column.",
+        "figure_number": 3
+      },
+      {
+        "type": "text",
+        "text": "Table 2.—The diameters of a tapering stone column, 20 ft. long, at 6 equidistant places were measured as 2.265, 1.534, 1.175, 0.80 and 0.55 ft. respectively."
+      },
+      {
+        "type": "text",
+        "text": "Then the volume will be obtained by plotting the areas of the height and summing. Now the area of a section is $A_{n}$, and the total volume will be the sum of the volumes of the small elements into which this body is supposed to be divided."
+      },
+      {
+        "type": "equation",
+        "latex": "V = \\int_{0}^{h} A_{n} \\, dh",
+        "description": "This formula represents the total volume V as the integral of the area A_n over the height h."
+      },
+      {
+        "type": "text",
+        "text": "Hence the weight—"
+      },
+      {
+        "type": "equation",
+        "latex": "W = 140 \\times V = 140 \\int_{0}^{h} A_{n} \\, dh = 1097. \\int_{0}^{h} A_{n} \\, dh.",
+        "description": "This formula shows that the weight W is calculated by multiplying the volume V by a constant weight per cubic foot."
+      }
+    ]
+  },
+  "cost": 0.0008468999999999998
+}

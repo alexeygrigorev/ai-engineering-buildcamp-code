@@ -1,0 +1,189 @@
+{
+  "page": {
+    "page_number": 389,
+    "header": "ANSWERS TO EXERCISES",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Exercises 6"
+      },
+      {
+        "type": "text",
+        "text": "1.  2 \\cos 2 x = 0"
+      },
+      {
+        "type": "text",
+        "text": "2.  3 \\tan (\\frac{\\pi}{4}) = 2"
+      },
+      {
+        "type": "text",
+        "text": "3.  74 \\sqrt{(3 - 4)} = -7"
+      },
+      {
+        "type": "text",
+        "text": "4.  2 \\sin 2 x \\cos 3 x"
+      },
+      {
+        "type": "text",
+        "text": "5.  24 \\tan^2 x"
+      },
+      {
+        "type": "text",
+        "text": "6.  60 \\text{ ft.} \\times \\text{cos} 30 \\degree"
+      },
+      {
+        "type": "text",
+        "text": "7.  \\frac{{dy}}{{dx}} = \\frac{{\\tan (\\frac{\\pi}{4})}}{{\\sqrt[3]{x^2}}}"
+      },
+      {
+        "type": "text",
+        "text": "8.  12 \\log y + \\text{slope of curve} = 0"
+      },
+      {
+        "type": "text",
+        "text": "9.  15 \\text{ ft.} = \\frac{3}{5} \\cdot 12 \\text{ ft.}"
+      },
+      {
+        "type": "text",
+        "text": "10.  \\sec^2 x = 1 + \\tan^2 x"
+      },
+      {
+        "type": "text",
+        "text": "11.  2 \\sqrt{(4 - 5)}"
+      },
+      {
+        "type": "text",
+        "text": "12.  \\sec^2 \\theta \\cos^5 \\theta"
+      },
+      {
+        "type": "text",
+        "text": "13.  \\sin^2 \\theta + \\cos^2 \\theta = 1"
+      },
+      {
+        "type": "text",
+        "text": "14.  \\text{For } a = \\sqrt{(b^2 + c^2)}"
+      },
+      {
+        "type": "text",
+        "text": "15.  3 \\log(\\text{e})"
+      },
+      {
+        "type": "text",
+        "text": "16.  \\tan(30 \\degree)"
+      },
+      {
+        "type": "text",
+        "text": "17.  \\sqrt{(1 - \\cos B)}"
+      },
+      {
+        "type": "text",
+        "text": "18.  5 \\text{ ft.} \\times \\frac{\\pi}{2}"
+      },
+      {
+        "type": "text",
+        "text": "19.  \\text{ea} = 4 \\tan 3"
+      },
+      {
+        "type": "text",
+        "text": "20.  \\cos^2 \\theta"
+      },
+      {
+        "type": "text",
+        "text": "21.  28 \\tan^2 x + 1"
+      },
+      {
+        "type": "text",
+        "text": "22.  2 \\sin^2 x \\cos^3 x"
+      },
+      {
+        "type": "text",
+        "text": "23.  \\tan 2 \\theta = 7"
+      },
+      {
+        "type": "text",
+        "text": "24.  2 \\sin 4 x"
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 7"
+      },
+      {
+        "type": "text",
+        "text": "1.  2^{x + 1} + 3 \\log 3"
+      },
+      {
+        "type": "text",
+        "text": "2.  5 \\tan (x - 2)"
+      },
+      {
+        "type": "text",
+        "text": "3.  7 \\text{y} + 3 = 0"
+      },
+      {
+        "type": "text",
+        "text": "4.  4 \\cot^2 x = 2 - \\sin 2 x"
+      },
+      {
+        "type": "text",
+        "text": "5.  \\sin 2 y = \\sqrt{3}"
+      },
+      {
+        "type": "text",
+        "text": "6.  3! + 4!"
+      },
+      {
+        "type": "text",
+        "text": "7.  6 \\sec^2 2 x"
+      },
+      {
+        "type": "text",
+        "text": "8.  4 \\frac{3}{5} = 1"
+      },
+      {
+        "type": "text",
+        "text": "9.  \\sec \\theta = \\frac{4}{5}"
+      },
+      {
+        "type": "text",
+        "text": "10.  y = \\cos (\\frac{3}{4} x)"
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 8"
+      },
+      {
+        "type": "text",
+        "text": "1.  2 \\log 2 = 7^2"
+      },
+      {
+        "type": "text",
+        "text": "2.  \\tan(2 - 7) \\tan(2 + 7)"
+      },
+      {
+        "type": "text",
+        "text": "3.  63 x^2 - 7 \\sqrt{2}"
+      },
+      {
+        "type": "text",
+        "text": "4.  \\sqrt{(1 - \\cos B)}"
+      },
+      {
+        "type": "text",
+        "text": "5.  \\log(x + 2) = \\log B"
+      },
+      {
+        "type": "text",
+        "text": "6.  2 \\log 3"
+      },
+      {
+        "type": "text",
+        "text": "7.  3 - 7^2"
+      },
+      {
+        "type": "text",
+        "text": "8.  \\text{ea} = 1 + \\sin B"
+      }
+    ]
+  },
+  "cost": 0.0014654999999999998
+}

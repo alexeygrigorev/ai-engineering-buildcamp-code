@@ -1,0 +1,32 @@
+{
+  "page": {
+    "page_number": 190,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus the square root of the result = R.M.S. = $\\sqrt{16 - 4}$."
+      },
+      {
+        "type": "text",
+        "text": "Plot the values of $x$ and $y$, the curve ABD in Fig. 41; find the area of the curve and divide by the base, thus obtaining the mean height; plot this point on the curve EFG. By graphical examination determine the area, find the curve BCD and draw the line MH to the mean height of the ordinate. Make MN = $396$ and on the scale of cad on PN describe a semicircle; produce MM to cut the semicircle in R. Then MR = $4$."
+      },
+      {
+        "type": "text",
+        "text": "The R.M.S. value = $396$ and the arithmetic mean value = $396 \\div 114$; this ratio mean value $= 3.68$, this ratio being termed the form factor."
+      },
+      {
+        "type": "equation",
+        "latex": "R.M.S. = \\sqrt{\\frac{\\sum_{i=1}^{n}y_{i}^{2}}{N}}",
+        "description": "This equation represents the formula for calculating the Root Mean Square (R.M.S.) value from a set of values."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 41—R.M.S. Value of an Alternating Current",
+        "description": "This figure illustrates the graphical representation of the R.M.S. value of an alternating current, depicting the area under the curve corresponding to the mean height of the waveform.",
+        "figure_number": 41
+      }
+    ]
+  },
+  "cost": 0.0007964999999999999
+}

@@ -1,0 +1,70 @@
+{
+  "page": {
+    "page_number": 162,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "By equating coefficients of $s = 3A + B + C = 33 + B = 22$"
+      },
+      {
+        "type": "text",
+        "text": ". . . B = 30"
+      },
+      {
+        "type": "text",
+        "text": "Hence the fraction—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{2x+2}{2x^{2}+28x} = \\frac{1}{2\\left(\\frac{x+1}{x^{2}+14x}\\right)}",
+        "description": "This equation represents the simplified form of the given fraction."
+      },
+      {
+        "type": "text",
+        "text": "We can make the numerator of the first of these fractions into some multiple of the derivative of the denominator; thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{2x+2}{2x^{2}+28x} = \\frac{\\left(2x+2\\right)}{\\left(2x^{2}+28x\\right)}",
+        "description": "An expression for the fraction with a specified numerator."
+      },
+      {
+        "type": "text",
+        "text": "and the numerator is . . ."
+      },
+      {
+        "type": "equation",
+        "latex": "2x + 2 = (2x + 28) \\text{ if } x = 3",
+        "description": "This equation indicates the relationship of the numerator with respect to certain values."
+      },
+      {
+        "type": "equation",
+        "latex": "\\left(2x + 28\\right)",
+        "description": "The adjusted numerator under certain conditions."
+      },
+      {
+        "type": "text",
+        "text": "i.e.,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\log \\left(\\frac{2}{x+1}\\right) = \\log \\left(\\frac{V}{6}\\right)",
+        "description": "This is a logarithmic equation involving variables V and x."
+      },
+      {
+        "type": "text",
+        "text": "Example 27—An integral required in the discussion of probability is $I = \\int e^{-x^2} \\mathrm{d}x$. Find a value for this."
+      },
+      {
+        "type": "text",
+        "text": "Let this integral be denoted by $I$, i.e., $I = \\int e^{-x^2}\\mathrm{d}x$."
+      },
+      {
+        "type": "text",
+        "text": "Then $I = \\int e^{-x^2}\\mathrm{d}x$."
+      }
+    ]
+  },
+  "cost": 0.0008901
+}

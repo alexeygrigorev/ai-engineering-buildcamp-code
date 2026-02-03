@@ -1,0 +1,55 @@
+{
+  "page": {
+    "page_number": 360,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "These five parts are written in the five sectors of a circle in the order in which they occur in a triangle: this is in Fig. 135, commencing from the side a and making the circlet of the triangle in the direction indicated; the parts in turn are: $A$ for which is written $90^\text{A}$ (for vertex $A$). These parts are set out as in Fig. 136."
+      },
+      {
+        "type": "text",
+        "text": "Then Napier's rules state:"
+      },
+      {
+        "type": "text",
+        "text": "One of the middle part = product of contact of opposite parts."
+      },
+      {
+        "type": "text",
+        "text": "The terms middle, adjacent and opposite have reference to the triangle as shown in Fig. 136."
+      },
+      {
+        "type": "text",
+        "text": "In the middle part, the adjacent parts are those in immediate contact with b, viz., a and A (equation (1))."
+      },
+      {
+        "type": "equation",
+        "latex": "\tan A = \\frac{a}{b} \\quad (1)",
+        "description": "This equation expresses the relationship between the sides and angle in a triangle."
+      },
+      {
+        "type": "text",
+        "text": "Again for the adjacent part to A, the adjacent parts are b and B."
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan B = \\frac{b}{A} \\quad (2)",
+        "description": "This equation shows the relationship for the parts adjacent to angle B."
+      },
+      {
+        "type": "text",
+        "text": "This gives us something comparable, but these two equations only lend themselves well to logarithmic computation."
+      },
+      {
+        "type": "text",
+        "text": "The Ambiguous Case in the Solution of Spherical Triangles."
+      },
+      {
+        "type": "text",
+        "text": "In the case of a triangle of a triangle, if two sides are known and the angle opposite the shorter of these is given, there is the possibility of two different triangles."
+      }
+    ]
+  },
+  "cost": 0.0008336999999999999
+}

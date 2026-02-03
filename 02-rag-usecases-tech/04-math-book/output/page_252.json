@@ -1,0 +1,47 @@
+{
+  "page": {
+    "page_number": 235,
+    "header": "CENTROIDS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "2. The equidistant half-ordinates of the load water plane of a ship are as follows, commencing from aft: y  2.5, 9.8, 5.4, 12.7, 8.4, 7.5, 13.6, 3.7, 4.5, 8.7, 12.6, 8.1, 7.5. Find the area of the load water plane and the longitudinal position of its centroid. The length of the ship is 250 ft."
+      },
+      {
+        "type": "text",
+        "text": "3. A triangular plate of base 5 in. and height 8 in. is immersed in water, its base being along the S.W.S.T. Find the total pressure on the plate and the depth of the centre of pressure if the angle of tilt is 0°."
+      },
+      {
+        "type": "text",
+        "text": "4. A vertical right circular cylinder of radius r and height h is submerged in water. Find the position of the centroid of the cylinder with respect to the water surface."
+      },
+      {
+        "type": "text",
+        "text": "5. Draw the quadrant of a circle of radius r, and the double ordinate AB from the centre to the circumference. Prove that the distance of the parabola from the directrix is equal to the distance from the focus."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 75.",
+        "description": "This figure illustrates the relationship between the circle and the double ordinate AB, showing how the parabola is formed from these geometrical constructs.",
+        "figure_number": 75
+      },
+      {
+        "type": "text",
+        "text": "6. Reproduce (a) Fig. 75, to scale (full size), and find the position of the centroid based on the parameters defined in the figure."
+      },
+      {
+        "type": "text",
+        "text": "7. Find the centroid of Example 4, two parallel sections of the section in Fig. 75."
+      },
+      {
+        "type": "text",
+        "text": "8. Determine the centroid from the line AB for three sections in No. 11."
+      },
+      {
+        "type": "text",
+        "text": "9. The parabola $y = Gx^2$ opens vertically about the axis of x. Find the distance from the vertex of the curve to the directrix of the parabola, given that the diameter of the parabola is 18."
+      }
+    ]
+  },
+  "cost": 0.0009494999999999998
+}

@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 282,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The general solution is: \n\n$$y = -a + b \\sqrt{4 - \\delta}$$ \n\nand let \n\n$$\\lambda_1 = -a + \\sqrt{4 - \\delta}$$ \n\n$$\\lambda_2 = -a - \\sqrt{4 - \\delta}$$ \n\nWe shall now discuss the three cases. \n\nCase (i): If \\( \\delta = 0 \\), then \\( \\lambda_1 \\) and \\( \\lambda_2 \\) are real quantities and unequal. \n\nCase (ii): If \\( \\delta > 0 \\), then \\( \\lambda_1 \\) and \\( \\lambda_2 \\) will equal 0, as the two roots are equal if \\( \\delta = 0 \\), such that to complete the solution the roots can be calculated (either or both are needed). \n\nThus \n\n$$\\lambda_1 = \\lambda_2 = -a \\pm b \\sqrt{\\delta}$$ \n\nthe constants \\( A_1 \\) and \\( A_2 \\) being fixed by the conditions. \n\nCase (iii): If \\( \\delta < 0 \\), then \\( \\lambda_1 \\) and \\( \\lambda_2 \\) are complex. According to the preceding case we might suppose that the solution was \n\n$$y = A e^{\\lambda_1 x} + B e^{\\lambda_2 x}$$ \n\nThis, however, is not the complete solution, which is \n\n$$\\lambda = A \\exp(B x) + C \\exp(\\text{[UNRECOGNIZED TEXT]})$$ \n\nThis means that \\( \\lambda_1 \\) is the square root of a negative quantity, i.e., it is an imaginary. \n\nNow, \\( \\lambda_1 = -a - \\sqrt{-1} \\text{[UNRECOGNIZED TEXT]} = \\delta \\) being positive; hence \n\n$$\\lambda_1 = -a + \\sqrt{-1 - \\sqrt{-a^2}}$$ \n\nYou might have made the solution to Case (i), adopting these values of \\( \\lambda_1 \\) and \\( \\lambda_2 \\) but this does not prove the most convenient form in which to write the solution. \n\nLet \\( z = \\sqrt{-b}$$"
+      }
+    ]
+  },
+  "cost": 0.0009303
+}

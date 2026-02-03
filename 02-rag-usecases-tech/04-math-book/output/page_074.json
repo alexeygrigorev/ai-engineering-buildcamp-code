@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 57,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The limiting value of $\frac{dy}{dx}$ and that of the right-hand side is $\text{cos } x$, since $\text{sin } x$ approaches more and more nearly to $0$ as $x$ is made smaller and smaller, and the limiting value of $\text{sin } x$ is $0$."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx} \\text{sin } x = \\text{cos } x.",
+        "description": "This equation states that the derivative of the sine function is the cosine function."
+      },
+      {
+        "type": "text",
+        "text": "By similar reasoning the derivative of $\text{cos } x$ may be obtained; its value being given by"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx} \\text{cos } x = -\\text{sin } x.",
+        "description": "This equation states that the derivative of the cosine function is the negative sine function."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 14. The graphs of the sine and cosine curves assist towards the full appreciation of these results.",
+        "description": "The figure shows the sine curve shifting horizontally along the axis, indicating that both sine and cosine functions have the same shape under the described transformation. It highlights that the sine curve has an exact primitive function associated with it.",
+        "figure_number": 14
+      },
+      {
+        "type": "text",
+        "text": "It is noted that the cosine curve shifted horizontally shows the same curve shift as the sine curve along the horizontal axis; thus, the sine curve and the primitive have exactly the same shape. This condition also holds for the primitive curve $y = e^x$, and suggests that there might be some connection between the various natural functions; and further reference to this subject is made later in the book."
+      }
+    ]
+  },
+  "cost": 0.0008282999999999999
+}

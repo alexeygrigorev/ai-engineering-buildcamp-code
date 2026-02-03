@@ -1,0 +1,111 @@
+{
+  "page": {
+    "page_number": 149,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "denominator, the numerator may be replaced by $du$, so that the integral reduces to the simple form $\\int \\frac{du}{u} = \\log |u| + \\log |C|.$"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{du}{u} = \\log |u| + \\log |C|",
+        "description": "The integral of the function in terms of $u$."
+      },
+      {
+        "type": "text",
+        "text": "If "
+      },
+      {
+        "type": "equation",
+        "latex": "u = 2ax + b",
+        "description": "Definition of $u$ in terms of $x$."
+      },
+      {
+        "type": "text",
+        "text": ", then "
+      },
+      {
+        "type": "equation",
+        "latex": "du = 2a dx",
+        "description": "Derivation of $du$ for the integration."
+      },
+      {
+        "type": "text",
+        "text": "Hence "
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{(2ax + b) dx}{2ax + b} = \\log(2ax + b) + C",
+        "description": "Integration result in terms of $x$."
+      },
+      {
+        "type": "text",
+        "text": "In many cases integration may be effected by substitution of trigonometric for algebraic functions; and Examples 6 to 10 illustrate this method of procedure."
+      },
+      {
+        "type": "text",
+        "text": "Example 6. Let $y = \\sqrt{a^2 - x^2}$."
+      },
+      {
+        "type": "equation",
+        "latex": "x = a \\sin a",
+        "description": "Substitution relation for $x$."
+      },
+      {
+        "type": "text",
+        "text": "as illustrated by Fig. 36."
+      },
+      {
+        "type": "text",
+        "text": "Since "
+      },
+      {
+        "type": "equation",
+        "latex": "\\sqrt{a^2 - x^2} = a \\cos u",
+        "description": "Result showing the relation between $y$ and $x$."
+      },
+      {
+        "type": "text",
+        "text": "in addition, one finds that "
+      },
+      {
+        "type": "equation",
+        "latex": "du = \\frac{dx}{a \\cos u}",
+        "description": "Derivation for integrating factor."
+      },
+      {
+        "type": "text",
+        "text": "Thus "
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{\\sqrt{a^2 - x^2}}{a \\cos u} \\; dx = \\int \\frac{1}{\\sqrt{a^2 - x^2}}\\; dx",
+        "description": "Integration representation with the use of trigonometric substitution."
+      },
+      {
+        "type": "text",
+        "text": "and also "
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos u = \\sqrt{a^2 - \\sin^2 u}",
+        "description": "Relation expressing $\\cos u$ in terms of $y$."
+      },
+      {
+        "type": "text",
+        "text": "Although this result is not expressed in terms of $x$, it is left in formal form for many purposes."
+      },
+      {
+        "type": "text",
+        "text": "To express the result in terms of "
+      },
+      {
+        "type": "equation",
+        "latex": "x",
+        "description": "Referring back to the variable $x$."
+      }
+    ]
+  },
+  "cost": 0.0009782999999999999
+}

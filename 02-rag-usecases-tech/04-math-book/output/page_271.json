@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 254,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Exercise 20. On Moment of Inertia."
+      },
+      {
+        "type": "text",
+        "text": "1. Find the swing radius about the centroid, \u00027 of a rectangular rod of uniform density and breadth a, length l, and where the density is proportional to the square root of the distance from the end."
+      },
+      {
+        "type": "text",
+        "text": "2. The swing radius of a connecting rod from its center of suspension to the end is defined as the distance C of G from the neutral axis. If the rod is 36 inches long, find the swing radius about the neutral axis."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 90.",
+        "description": "Illustration showing the swing radius of a rigid body and its relationship to the moment of inertia.",
+        "figure_number": 90
+      },
+      {
+        "type": "text",
+        "text": "3. A circular disc, r diameter, has a circular hole through it, where the radius of the hole is d."
+      },
+      {
+        "type": "text",
+        "text": "Determine an expression for the moment of inertia about the center of the disc and the axis through the center of the hole."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 91.",
+        "description": "Illustration representing the circular disc with a hole and the axes for moment of inertia calculations.",
+        "figure_number": 91
+      },
+      {
+        "type": "text",
+        "text": "5. Find the swing radius of a triangular plate (of height h)."
+      },
+      {
+        "type": "text",
+        "text": "(a) When swinging about the base, the swing radius is found."
+      },
+      {
+        "type": "text",
+        "text": "(b) When dividing into parts, from panels AB, find the moment of inertia, and also the swing radius, of the section shown at (a). Fig. 75. p. 234."
+      },
+      {
+        "type": "text",
+        "text": "6. Find the radius of gyration about the axis of rotation, of the section shown at (a)."
+      }
+    ]
+  },
+  "cost": 0.0008354999999999999
+}

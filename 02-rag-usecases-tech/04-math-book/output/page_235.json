@@ -1,0 +1,40 @@
+{
+  "page": {
+    "page_number": 278,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "\"Double Sum Curve\" Method of Finding the Centroid Vertical"
+      },
+      {
+        "type": "text",
+        "text": "This method is convenient when only the centroid vertical is required; for although entirely graphic, it is rather too long to be useful for fixing the centroid defin itely."
+      },
+      {
+        "type": "text",
+        "text": "Method of Procedure.— To find the centroid vertical for the area defined by the sum curve PQ in the adjoining diagram, thus obtaining the curve R for this construction the pole is at O, and the polar distance is to be used."
+      },
+      {
+        "type": "text",
+        "text": "Produce PA to O, making the original distance $d = HE$ as lateral distance to the origin of the curve of the original curve (i.e., $PQ$)."
+      },
+      {
+        "type": "figure",
+        "caption": "Centroid, Vertical of an Area.",
+        "description": "This figure illustrates the relationship between the pole O, the area represented by the curve PQ, and the points PA and AP. It shows how to define the centroid vertical.",
+        "figure_number": 63
+      },
+      {
+        "type": "text",
+        "text": "Consider the strip about $AP = x$ as part of the original area. Then $d$ and $x$ are parallel (by definition) and thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "\n\\begin{align*}\n\\frac{d}{x} & = \\frac{\\text{area} ~d}{\\text{area} ~x} \\\\\n\\Rightarrow d \\cdot \\text{area} ~x & = x \\cdot \\text{area} ~d\n\\end{align*}\n\n Again, the first moment of the strip about $AP = x$ is: ",
+        "description": "This equation shows the proportional relationship between the distances and areas associated with the centroid method."
+      }
+    ]
+  },
+  "cost": 0.0008276999999999999
+}

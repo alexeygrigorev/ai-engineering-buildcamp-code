@@ -1,0 +1,47 @@
+{
+  "page": {
+    "page_number": 228,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Consider a strip distant r from the solid end of thickness $dr$. Then, from hypothesis, the area of section = $r^2 \times dr$, and thus the volume = area $\\times$ thickness = $\\frac{5}{4} \\pi r^2 dr$. Also the mass of the strip = volume $\\times$ density."
+      },
+      {
+        "type": "text",
+        "text": "Hence\n\n$I = \\int_0^R y^2 \\, dm $, where $y$ is the moment about the strip distance\n\n$y = d \\cdot r$, and $dm = \\rho \\, dV = \\rho \\cdot dr \\cdot r^2 = \\rho \\cdot r^2 dr$."
+      },
+      {
+        "type": "text",
+        "text": "Let us consider $I$. We have:\n$$ I = \\int_0^R y^2 \\, dm = \\int_0^R d^2 \\cdot r^2 \\cdot dm = \\int_0^R d^2 \\cdot r^2 \\cdot \\rho \\, r^2 dr \\quad = \\int_0^R \\rho \\cdot d^2 \\cdot r^4 dr."
+      },
+      {
+        "type": "text",
+        "text": "C.G. of a Solid of Revolution. Suppose that the curve BC in Fig. 70 rotates round OY axis; and we need to find the position of the C.G. of the solid so generated.\n\nConsider a solid strip of area = $y \times x$ and height is $y$ and its distance from OY is $\\frac{y}{3}$, or the mass moment about this moment of this is $\\frac{y^2}{3} \\times \\text{distance}$."
+      },
+      {
+        "type": "text",
+        "text": "Thus the total first moment about OY is:\n$$ \\sum{y_j x_j} = \\int_0^H \\frac{y^2}{3} \\rho A \\, dy + \\text{other values}.$$"
+      },
+      {
+        "type": "text",
+        "text": "As before, the two cases are given. (a) When values of $xy^3$ are given. For this case make a table of values of $xy^4$ and also one of values of $y$."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\int_0^R y^2 \\, dm = \\int_0^R \\rho \\cdot d^2 \\cdot r^4 dr",
+        "description": "Expression for the moment of inertia in terms of the mass element."
+      },
+      {
+        "type": "equation",
+        "latex": "C.G. = f(x,y)",
+        "description": "Function representing the center of gravity of the solid of revolution."
+      },
+      {
+        "type": "text",
+        "text": "Plot the values of $xy^4$ against the abscissa and the resulting curve."
+      }
+    ]
+  },
+  "cost": 0.0009705
+}

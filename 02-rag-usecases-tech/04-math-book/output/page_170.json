@@ -1,0 +1,17 @@
+{
+  "page": {
+    "page_number": 153,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To evaluate this integral we must introduce another substitution.\n\nLet\n\n\\[ y = ax^2 + I \\]\n\nand modify\n\n\\[ \\int \\frac{dy}{\n\\sqrt{y-a}} = \\int \\frac{1}{a} \\cdot \\frac{1}{(ax^2 + I - a)} \\, dx \\]\n\nThen the integral\n\n\\[ \\int \\frac{1}{\\sqrt{y - a}}\\, dy \\]\n\nbecomes a direct evaluation:\n\n\\[ \\int \\frac{1}{\\sqrt{(ax^2 + I) - a}} \\, dx = \\frac{1}{\\sqrt{a}} \\cdot \\int \\frac{1}{\\sqrt{x^2 + \\frac{I - a}{a}}} \\, dx + C \\]\n"
+      },
+      {
+        "type": "text",
+        "text": "Example 13.—The equation \u0003\\[ u = \\frac{d^2y}{dz^2} \\] occurs in the statement of the mathematical theory of fluid motion, which is of value in connection with aeroplane design. Solve the equation for \\( z \\).\n\nThen . \n"
+      }
+    ]
+  },
+  "cost": 0.0007670999999999999
+}

@@ -1,0 +1,79 @@
+{
+  "page": {
+    "page_number": 364,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To find b:"
+      },
+      {
+        "type": "text",
+        "text": "From equation (10), p. 358,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos c = a \\cos s \\cos b = \\cos s \\cos 82^{\\circ}",
+        "description": "This equation expresses the cosine of angle c in terms of sides a, b, and s."
+      },
+      {
+        "type": "text",
+        "text": "whence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos b = \\frac{\\cos c}{a \\cos s} = \\frac{\\cos s \\cos 82^{\\circ}}{a}",
+        "description": "This equation rearranges to find cosine of angle b."
+      },
+      {
+        "type": "text",
+        "text": "Hence we shall work to find the supplement of b."
+      },
+      {
+        "type": "text",
+        "text": "Taking logs:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\log \\cos b = \\log \\cos c - \\log a - \\log \\cos s",
+        "description": "Logarithmic form of the cosine equation given for b."
+      },
+      {
+        "type": "text",
+        "text": "= -\\frac{3.57583}{a} - \\log 27.27"
+      },
+      {
+        "type": "equation",
+        "latex": "\\rightarrow b = 74^{\\circ} 8'+[UNRECOGNIZED TEXT]",
+        "description": "Finding angle b using logs."
+      },
+      {
+        "type": "text",
+        "text": "It is rather easier to work in terms of the logs in preference to the logarithmic ratios. This means, however, that there is no single log available for it. It is in A = 90^{\\circ}, the reading for log A will be 17904. If the logarithmic ratios are obtained."
+      },
+      {
+        "type": "text",
+        "text": "From equation (11), p. 359,"
+      },
+      {
+        "type": "equation",
+        "latex": "l = a \\sin c = a \\tan(90^{\\circ}-b) = a \\tan(90^{\\circ}-18^{\\circ}) = a \\tan 72^{\\circ}",
+        "description": "This equation relates angle c with angle b and the sides."
+      },
+      {
+        "type": "text",
+        "text": "l = 18 \\cdot 7.53"
+      },
+      {
+        "type": "equation",
+        "latex": "\\rightarrow l = 18^{\\circ} 18'",
+        "description": "Final calculation for length l."
+      },
+      {
+        "type": "text",
+        "text": "Example 3: A point A, in latitude 50^{\\circ} 7' 3''. A straight line is running which runs due E. at A. This straight line is prolonged for 900."
+      }
+    ]
+  },
+  "cost": 0.0009254999999999999
+}

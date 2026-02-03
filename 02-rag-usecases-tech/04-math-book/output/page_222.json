@@ -1,0 +1,65 @@
+{
+  "page": {
+    "page_number": 205,
+    "header": "LENGTH OF ARC",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let BPA (Figure) be the ellipse, CQA the quadrant of a circle on the major axis as diameter, and IBD the quadrant of a circle on the minor axis as diameter. Selecting P as an point on the ellipse, draw the lines QPN, PTS, RST, and OTG as shown. The point P has the coordinates as $x$ and $y$, where $x$ and $y$ are respectively $a \text{cos} \theta$ and $b \text{sin} \theta$. "
+      },
+      {
+        "type": "text",
+        "text": "Thus and $$ \frac{dx}{d\theta} = -a \text{sin} \theta, $$ and $$ \frac{dy}{d\theta} = b \text{cos} \theta.$$ "
+      },
+      {
+        "type": "text",
+        "text": "Now the equation to the ellipse is given by $\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1$, and the eccentricity, which is the focal distance between the focus and the major axis is given as:"
+      },
+      {
+        "type": "equation",
+        "latex": "e = \\sqrt{1 - \\frac{b^{2}}{a^{2}}}",
+        "description": "Eccentricity of the ellipse."
+      },
+      {
+        "type": "text",
+        "text": "Hence, we use. "
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{\\frac{dy}{d\\theta}}{\\frac{dx}{d\\theta}} = -\\frac{b \\text{cos} \\theta}{a \\text{sin} \\theta}",
+        "description": "Derivative representing the slope of the ellipse."
+      },
+      {
+        "type": "text",
+        "text": "Thus our integral reduces to the form:"
+      },
+      {
+        "type": "equation",
+        "latex": "L = \\int (1 + \\left(\\frac{dy}{dx}\\right)^{2})^{\\frac{1}{2}} \\,d\\theta = \\int (1 + \\frac{b^{2} \\cos^{2}\\theta}{a^{2} \\sin^{2}\\theta})^{\\frac{1}{2}} \\,d\\theta",
+        "description": "Integral representing the length of the arc."
+      },
+      {
+        "type": "text",
+        "text": "And for the quarter of the ellipse the perimeter of the figure is given as:"
+      },
+      {
+        "type": "equation",
+        "latex": "L = \\frac{1}{4} \\pi (a + b) = K \\lbrace 1 + \\frac{(4-\\frac{K}{3})}{2} \\rbrace\\frac{1}{2}",
+        "description": "Approximation of the perimeter of the ellipse."
+      },
+      {
+        "type": "text",
+        "text": "The values of the ellipse are computed when substituting respective integral values for $K$ as per $K \\geq 0$. "
+      },
+      {
+        "type": "text",
+        "text": "It is further recommended that precision measurements be made to validate theoretical outcomes, but if these are not available, a graphic method presents results which is not at all difficult."
+      },
+      {
+        "type": "text",
+        "text": "Now the results are taken for $a$ and the calculated values of $\\sqrt{1 - \\frac{K}{3}}$ are plotted as ordinates to a base of $a$. Then the area under the resulting curve when multiplied by $4a$ gives the perimeter of the ellipse."
+      }
+    ]
+  },
+  "cost": 0.0010287
+}

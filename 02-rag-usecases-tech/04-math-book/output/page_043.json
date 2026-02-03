@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 26,
+    "header": "CHAPTER II",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "DIFFERENTIATION OF FUNCTIONS"
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of $a x^n$ has been shown in Chapter I how to compare the changes in the two quantities as we change the value of $x$ at any particular instant, for instance, in a great number of instances, however, these two quantities are connected by an equation, indicating that the one depends on the other. Thus if $y = a x^n$, there is a definite value for each value given to $x$, and it is expressed in the shorter form $y = f(x)$. Again, if $x = 1.2y^4 - 15g y$, where both $x$ and $y$ are defined for its valuation, we can differentiate this equation."
+      },
+      {
+        "type": "text",
+        "text": "We then have to specify the number of values to the given values of $x$ and then to treat them as known, the calculus will give us the calculation formulas. This would consequently depend on rules that can be derived entirely from first principles which permit the differentiation process of these functions."
+      },
+      {
+        "type": "text",
+        "text": "Now we proceed to develop the rules for the differentiation of functions and we shall approach the general case, viz., for any function which can be expressed in the form $f(x)$. If $y$ is expressed as $f(x)$, then it is clearly understood that we can express $f' = \frac{dy}{dx}$ as the operator $D$ having many important properties, as will be seen later in the book. If $y$ is expressed as $f(x)$, then we can often write $f'(x)$ as $\\frac{d}{dx} f(x)$."
+      }
+    ]
+  },
+  "cost": 0.0008204999999999998
+}

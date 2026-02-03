@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 141,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Notice that no cancelling takes place, beyond that concerning the constant multiplier $1$, until the values $4$ and $2$ have been substituted in place of $x$. In other words, it would be quite wrong to say."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{6}{3} \\left( 4^{2} - 2^{2} \\right) = 8",
+        "description": "Simplifying the expression where $x=2$ and $x=4$ in the integral."
+      },
+      {
+        "type": "text",
+        "text": "Example 19: The total range of an aeroplane in miles can be obtained from the expression $R = \\frac{1}{m} \\int m\\, dy$ where $m$ = pound-miles."
+      },
+      {
+        "type": "text",
+        "text": "per lb. of petrol, and $q$ = loading at any time, in pounds."
+      },
+      {
+        "type": "text",
+        "text": "Taking $m = 6$ and $q = 4000$, find the total range."
+      },
+      {
+        "type": "equation",
+        "latex": "R = \\frac{1}{m} \\int m\\, dy = \\int (6) \\, dy = 6y",
+        "description": "Total range formula for given values."
+      },
+      {
+        "type": "text",
+        "text": "Thus $\\int (6) \\, dy = 6y$ from $y = 0$ to $y = 4000$."
+      },
+      {
+        "type": "equation",
+        "latex": "R = 4000 \\times 6 = 24000",
+        "description": "Calculating total range."
+      },
+      {
+        "type": "text",
+        "text": "Hence the range = 24000 miles."
+      },
+      {
+        "type": "text",
+        "text": "Proof of Simpson's Rule for the Determination of Areas of Irregular Curved Figures: This rule, given on p. 370 of Part I, states that—"
+      },
+      {
+        "type": "equation",
+        "latex": "Area = \\frac{h}{3} \\left( f(a) + 4f\\left( a + \\frac{h}{2} \\right) + 2f(b) \\right)",
+        "description": "Simpson's Rule for area calculation."
+      },
+      {
+        "type": "text",
+        "text": "where $h$ = length of one division of the base; $f(a)$ = first ordinate + $f(b)$ = last ordinate."
+      }
+    ]
+  },
+  "cost": 0.0008936999999999999
+}

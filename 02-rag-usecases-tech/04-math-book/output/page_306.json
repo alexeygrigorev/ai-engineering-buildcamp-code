@@ -1,0 +1,87 @@
+{
+  "page": {
+    "page_number": 289,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Application of these Rules to the Solution of Differential Equations."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 19—Solve the equation $\frac{d^2y}{dx^2} + 7\frac{dy}{dx} + 12y = 0$"
+      },
+      {
+        "type": "text",
+        "text": "This equation might be written as"
+      },
+      {
+        "type": "equation",
+        "latex": "D^2 + 7D + 12 = 0",
+        "description": "The characteristic equation associated with the differential equation."
+      },
+      {
+        "type": "text",
+        "text": "The solution of this equation gives the particular integral, whilst the complementary function, as it is termed, will be obtained by the solution of the equation"
+      },
+      {
+        "type": "equation",
+        "latex": "D^2 + 7D + 12 = 0",
+        "description": "The characteristic equation used to find the complementary function."
+      },
+      {
+        "type": "text",
+        "text": "Now $D^2 + 7D + 12 = (D + 3)(D + 4) = 0$, so $D = -3$, $D = -4$."
+      },
+      {
+        "type": "text",
+        "text": "Hence the particular integral is"
+      },
+      {
+        "type": "equation",
+        "latex": "y_p = C_1e^{-3x} + C_2e^{-4x}",
+        "description": "The particular integral derived from the characteristic equation."
+      },
+      {
+        "type": "text",
+        "text": "Hence the general solution is"
+      },
+      {
+        "type": "equation",
+        "latex": "y = C_1e^{-3x} + C_2e^{-4x}",
+        "description": "The overall solution to the differential equation."
+      },
+      {
+        "type": "text",
+        "text": "To test this by differentiation of the result—"
+      },
+      {
+        "type": "equation",
+        "latex": "y = C_1e^{-3x} + C_2e^{-4x}",
+        "description": "The general solution for differentiation."
+      },
+      {
+        "type": "text",
+        "text": "$\frac{dy}{dx} = -3C_1e^{-3x} - 4C_2e^{-4x}$"
+      },
+      {
+        "type": "text",
+        "text": "$\frac{d^2y}{dx^2} = 9C_1e^{-3x} + 16C_2e^{-4x}$"
+      },
+      {
+        "type": "equation",
+        "latex": "\frac{d^2y}{dx^2} + 7\frac{dy}{dx} + 12y = 0",
+        "description": "Verification of the solution through substitution into the original equation."
+      },
+      {
+        "type": "text",
+        "text": "Example 20—Solve the equation $\frac{d^2y}{dx^2} + 4\frac{dy}{dx} + 4y = 0$."
+      },
+      {
+        "type": "text",
+        "text": "This type of equation occurs frequently in electrical problems and in problems on forced vibrations of a system."
+      }
+    ]
+  },
+  "cost": 0.0009530999999999999
+}

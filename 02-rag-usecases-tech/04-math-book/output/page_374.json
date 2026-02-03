@@ -1,0 +1,98 @@
+{
+  "page": {
+    "page_number": 357,
+    "header": "THE SOLUTION OF SPHERICAL TRIANGLES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The magnitude of this can be found by the relation"
+      },
+      {
+        "type": "equation",
+        "latex": "spherical\\, excess = 360^{\\circ} \\times area\\, of\\, triangle",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Letting $r$ be the radius of the surface of the hemisphere),"
+      },
+      {
+        "type": "text",
+        "text": "This represents the area of the triangle whose sides are contained in connection with vertices."
+      },
+      {
+        "type": "text",
+        "text": "E. g., consider the area of an equilateral triangle of side 68 miles."
+      },
+      {
+        "type": "equation",
+        "latex": "area\\, of\\, triangle \\approx 3960\\, miles.",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "The area of the triangle is about 200 sq. miles."
+      },
+      {
+        "type": "text",
+        "text": "Then the spherical excess"
+      },
+      {
+        "type": "equation",
+        "latex": "E = 360 \\times 3960 \\div 4317.",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "A good approximation for the spherical excess of a triangle on the earth's surface is"
+      },
+      {
+        "type": "equation",
+        "latex": "spherical\\, excess\\, (seconds) = 78",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Solution of Spherical Triangles. — It should be remembered that sin a is easily seen to be equal to sin B, and consequently"
+      },
+      {
+        "type": "equation",
+        "latex": "sin\\, A \\div sin\\, a = sin\\, B \\div sin\\, b = sin\\, C \\div sin\\, c",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Other rules are"
+      },
+      {
+        "type": "equation",
+        "latex": "sin\\, A = k\\, sin\\, a",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "sin\\, B = k\\, sin\\, b",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "sin\\, C = k\\, sin\\, c",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "and corresponding forms for C, obtained by writing the letters one on in the proper sequence, 2."
+      },
+      {
+        "type": "text",
+        "text": "In these formula $a+b+c$ and is, therefore, an angle"
+      },
+      {
+        "type": "equation",
+        "latex": "in\\, plane\\, trigonometry,\\, s = \\frac{a+b+c}{2} \\text{ (but is a length).}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      }
+    ]
+  },
+  "cost": 0.0010766999999999999
+}

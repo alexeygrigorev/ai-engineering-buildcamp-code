@@ -1,0 +1,46 @@
+{
+  "page": {
+    "page_number": 118,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "attached, the $a$ and $b$ being replaced by the English forms $f$ and $d$ respectively, so that the area between the curve and the axis of $x$ is the area that is not defined by the given formula."
+      },
+      {
+        "type": "text",
+        "text": "Hence $f(x)$ is spoken of as an indefinite integral."
+      },
+      {
+        "type": "text",
+        "text": "The $f$ that is given by the area in this case will depend on the values given to $x$. Suppose that when $x = AB$, $x = a$, and when $x = CD$, $x = b$; then the range of $x$ is from $a$ to $b$ and the area $ABC$ found is a function of these limits."
+      },
+      {
+        "type": "text",
+        "text": "In general, we write"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_a^b f(x) \\, dx",
+        "description": "This represents the integral of the function $f(x)$ from the lower limit $a$ to the upper limit $b."
+      },
+      {
+        "type": "text",
+        "text": "It is usually written as $F(x)$, that is, the quantity derived from it."
+      },
+      {
+        "type": "text",
+        "text": "Now we admit that $ABC$ is a finite area between one value only, and thus $\\int_a^b f(x)$ is termed a definite integral."
+      },
+      {
+        "type": "text",
+        "text": "The most convenient method for evaluating this quantity is that treated in Part I, Chap. VII; that is, to consider it being expressed in terms of its integrand."
+      },
+      {
+        "type": "text",
+        "text": "Next this will be illustrated by the case of the integral of a vertical line, as $BM$. A pole $P$ now stands to the left of that line; this, therefore, forms part of the polar diagram; being a round motion about the vertical axis. The pole is next being a round motion opposite to the horizontal units. The pole is next being a round motion in turn and parallels are drawn across the."
+      }
+    ]
+  },
+  "cost": 0.0008576999999999999
+}

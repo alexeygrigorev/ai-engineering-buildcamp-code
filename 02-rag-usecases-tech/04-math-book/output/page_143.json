@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 126,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "For a ship whose length is 350 ft, the scale of loads being indicated on the diagram."
+      },
+      {
+        "type": "text",
+        "text": "Draw diagrams of shearing force and bending moment on the hull of the vessel and measure the maximum values."
+      },
+      {
+        "type": "text",
+        "text": "It is first necessary to construct the curve of loads to a straight line basis, and then to deploy the curves AAA and BBB to the left of the diagram, and to zero scale below the original base line."
+      },
+      {
+        "type": "text",
+        "text": "In this way the curve of loads (LLL) is obtained, the scale for loads being to the right of the horizontal."
+      },
+      {
+        "type": "text",
+        "text": "In this case, since the shear is obtainable from the slope of the curve, so that, so that the curve of shear is shown simply rises to the top of the linear summation."
+      },
+      {
+        "type": "text",
+        "text": "Maximum shear = 246 tons."
+      },
+      {
+        "type": "text",
+        "text": "It should also indicate the bending moment curve and the curve of bending moment should represent the maximum values, which produce moment from the shape of the ship model as it shifts from mast to hull and IBS' hull."
+      },
+      {
+        "type": "text",
+        "text": "[UNRECOGNIZED TEXT]"
+      },
+      {
+        "type": "text",
+        "text": "A brief description of the Integraph, which is used in the ship design worked over four milled wheels, 4, 5 and 6 inch each on the integraph setup."
+      },
+      {
+        "type": "text",
+        "text": "In slotting a arm C carrying the tracer B which encloses the primitive curve, and the arm D which carries the primitive curve."
+      },
+      {
+        "type": "text",
+        "text": "As B is moving around the primitive curve, the slotted arm C aids the pins G and H, thus altering its inclination to the horizontal."
+      },
+      {
+        "type": "text",
+        "text": "The linear motion of the slotted arm C instantaneously controls the movement of E parallel to the instantaneous position of C, the sharp-edged wheel F assisting in guiding the tracer bracket."
+      }
+    ]
+  },
+  "cost": 0.0009260999999999999
+}

@@ -1,0 +1,43 @@
+{
+  "page": {
+    "page_number": 277,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 8— Solve the equation \\( dy + 12y = e^{x} \\)."
+      },
+      {
+        "type": "text",
+        "text": "The equation may be written as."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} + 12y = e^{x}.",
+        "description": "This represents a first-order linear differential equation."
+      },
+      {
+        "type": "text",
+        "text": "In comparison with the standard form \\( \\frac{dy}{dx} + P(x)y = Q(x) \\), we have \\( P(x) = 12 \\) and \\( Q(x) = e^{x} \\)."
+      },
+      {
+        "type": "text",
+        "text": "Example 9—let \\( a = 1 \\) and \\( b = 1 \\), find an expression for \\( y \\)."
+      },
+      {
+        "type": "text",
+        "text": "Hence \\( y = \\frac{1}{(1-2x)} \\int (1-2x)\\frac{e^{x}}{(1-2x)^{2}} dx + C. \\) "
+      },
+      {
+        "type": "text",
+        "text": "Thus, let \\( (1-2x) = u \\) where \\( du = -2dx \\) and \\( x = \\frac{1-u}{2},\\) then."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{1}{u}\\left(-\\frac{1-u}{2}\\right) du = -\\frac{1}{2}\\int \\frac{1-u}{u}du",
+        "description": "Integrating the expression to find the solution in terms of \\( y \\)."
+      }
+    ]
+  },
+  "cost": 0.0008120999999999998
+}

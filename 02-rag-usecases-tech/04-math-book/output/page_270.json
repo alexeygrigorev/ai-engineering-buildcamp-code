@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 253,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In this case the actual results are as follows:\n\n\\[ I_n = \\frac{A}{I_t} \\cdot S_n. \\quad A_t = 39\\, sq.\\, in. \\quad I_t = 39\\, sq.\\, in. \\] \n\nHence \n\n\\[ I_n = \\frac{39}{39} \\cdot S_n = S_n. \\] \n\n\\[ \\text{ area of section about } MM = \\frac{1}{2} \\times 39 \\times 39 =  763.5 \\] \n\nN.B.—To distinguish which area is read off by the parameter the following convention may be used. The thin strip on one side of the original contour from which area may be, and the side of the original contour from which area may be, and the side of the original contour from which area may be, and the side of the original contour from which area may be, that were drawn perpendicular to the line about which there is discussion.\n\nConsider PQR as the reference of a thin strip (such as the one indicated). Then the area of the strip is given by \n\n\\[ A = RP \\times RQ \\] \n\nFrom the similar triangles \\( RPQ \\) and \\( RJR \\) \n\n\\[ \\frac{RP}{PQ} = \\frac{RJ}{R} \\] \n\nwhere  \n\n\\( x \\) = area of the section about \\( MM \\) = l \\( A \\) \\cdot \\( h \\) = \\(A \\times h \\). \n\nAgain, can be treated as follows:\n\n\\[ MM = RP \\times RP \\times RQ \\] \n\n\\[ = x \\times \\text{ area of section about } MM \\] \n\n\\[ = x \\times area of \\left( PQ \\right) \\text{ is the centre line.} \\]"
+      }
+    ]
+  },
+  "cost": 0.0008667
+}

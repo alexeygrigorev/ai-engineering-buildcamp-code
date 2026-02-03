@@ -1,0 +1,54 @@
+{
+  "page": {
+    "page_number": 249,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "be subtracted the moment of inertia of a disc of radius r, viz, $I_{r} = \\frac{1}{2} m r^{2}$, where $m$ is the density of the material and b the breadth of the rim along the face)."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\frac{1}{2} M R^{2} + M r^{2} = \\frac{1}{2} M (R^{2}+2Rr+r^{2})",
+        "description": "This equation represents the moment of inertia of the wheel based on the contributions from both the outer rim and the inner structure."
+      },
+      {
+        "type": "text",
+        "text": "where M is the mass of the wheel."
+      },
+      {
+        "type": "text",
+        "text": "Writing $R_{1} = R_{0} \\text{ for } R_{1} \\text{ and } R_{2} = R_{0} + 2R$ we can size the radius $R$ as large as possible."
+      },
+      {
+        "type": "text",
+        "text": "As R increases and m must be very small compared with R. Thus the approximation m is neglected in the expression for I so that $I = MR$."
+      },
+      {
+        "type": "text",
+        "text": "Approximating $I_{0}$, to $I_{2}$, as the inner radius has no contributions of terms higher than the average radius."
+      },
+      {
+        "type": "text",
+        "text": "Moment of Inertia of Compound Vibrators. To find the modulus of rigidity of a sample over $Y$ by the method of torsional oscillations, which is essential to vibration calculations, consider the mass moment of inertia by the method of determining the vibrations."
+      },
+      {
+        "type": "text",
+        "text": "When $I_{1} = AB$ cm, $P$ is its radius and L its length."
+      },
+      {
+        "type": "text",
+        "text": "Then $I_{1}$, corresponding to $C$, as found from Example 41, p. 248"
+      },
+      {
+        "type": "text",
+        "text": "and $I_{sinn}$, for the inner radius $I_{1} = I_{s}$."
+      }
+    ]
+  },
+  "cost": 0.00115395
+}

@@ -1,0 +1,70 @@
+{
+  "page": {
+    "page_number": 332,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "MATHEMATICS FOR ENGINEERS"
+      },
+      {
+        "type": "text",
+        "text": "and the total moment of the friction force"
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\int_0^R p \\cdot 2\\pi r^2 \\, dr = \\frac{2\\pi}{3} p R^3 = \\frac{2\\pi}{3} \\frac{W}{R} R^3 = \\frac{2\\pi}{3} W R.",
+        "description": "This equation calculates the total moment of the friction force based on the pressure and radius."
+      },
+      {
+        "type": "text",
+        "text": "i. e., the moment is the same as it would be if the whole load were supposed concentrated at a distance of two-thirds of the radius from the centre."
+      },
+      {
+        "type": "text",
+        "text": "(b) Assume that the intensity of pressure varies inversely as the velocity, \n\\[ p = K \\times \\frac{1}{v} \\] so that"
+      },
+      {
+        "type": "equation",
+        "latex": "v = \\frac{K}{p}",
+        "description": "This equation expresses the velocity in terms of pressure and a constant."
+      },
+      {
+        "type": "text",
+        "text": "Then the pressure intensity on an annulus distant r from the centre is"
+      },
+      {
+        "type": "equation",
+        "latex": "p = \\frac{2W}{\\pi R^2} \\cdot \\frac{1}{r}",
+        "description": "This equation relates the pressure intensity on an annulus to the distance from the centre."
+      },
+      {
+        "type": "text",
+        "text": "and the total pressure on the annulus is"
+      },
+      {
+        "type": "equation",
+        "latex": "F = 2\\pi r \\cdot p = 2\\pi r \\cdot \\frac{2W}{\\pi R^2} \\cdot \\frac{1}{r} = \\frac{4W}{R^2}",
+        "description": "This equation gives the total pressure on the annulus based on its radius."
+      },
+      {
+        "type": "text",
+        "text": "also the friction force, \\[ F_r = 2\\pi r p. \\] This pressure."
+      },
+      {
+        "type": "text",
+        "text": "Hence the moment of the friction force on the annulus is"
+      },
+      {
+        "type": "equation",
+        "latex": "M_f = F_r \\cdot r = \\frac{4W}{R^2} \\cdot r^2",
+        "description": "This equation calculates the moment of the friction force on the annulus."
+      },
+      {
+        "type": "text",
+        "text": "Now the total load W = intensity \\times area."
+      }
+    ]
+  },
+  "cost": 0.0009170999999999999
+}

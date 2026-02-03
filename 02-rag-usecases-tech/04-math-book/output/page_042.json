@@ -1,0 +1,177 @@
+{
+  "page": {
+    "page_number": 25,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "29. The weight of a sample of cast iron was measured after various heatings with the following results: the gain in weight due to the external gases in the muffle."
+      },
+      {
+        "type": "table",
+        "caption": "Table of weight measurements.",
+        "columns": [
+          "Number of heats.",
+          "Weight (g)"
+        ],
+        "rows": [
+          [
+            "0",
+            "14150"
+          ],
+          [
+            "1",
+            "14270"
+          ],
+          [
+            "2",
+            "14285"
+          ],
+          [
+            "3",
+            "14288"
+          ],
+          [
+            "4",
+            "14290"
+          ],
+          [
+            "5",
+            "14293"
+          ],
+          [
+            "6",
+            "14295"
+          ],
+          [
+            "7",
+            "14305"
+          ],
+          [
+            "8",
+            "14310"
+          ],
+          [
+            "9",
+            "14315"
+          ],
+          [
+            "10",
+            "14320"
+          ],
+          [
+            "11",
+            "14325"
+          ],
+          [
+            "12",
+            "14330"
+          ],
+          [
+            "13",
+            "14350"
+          ],
+          [
+            "14",
+            "14360"
+          ],
+          [
+            "15",
+            "14390"
+          ],
+          [
+            "16",
+            "14400"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "text": "Plot a curve to represent this table of values, and from it construct the rate."
+      },
+      {
+        "type": "text",
+        "text": "32. The figures in the table are the readings of the temperature of a sample of steel, at various times during its cooling.  Plot these values to a time base, and then draw the inverse curve, i.e., the curve in which values of $t^{\text{°}}$ are plotted horizontally and the temperatures along the vertical axis."
+      },
+      {
+        "type": "table",
+        "caption": "Temperature vs Time table.",
+        "columns": [
+          "Time in secs (t)",
+          "Temperature in °C"
+        ],
+        "rows": [
+          [
+            "0",
+            "240"
+          ],
+          [
+            "15",
+            "195"
+          ],
+          [
+            "30",
+            "150"
+          ],
+          [
+            "45",
+            "120"
+          ],
+          [
+            "60",
+            "105"
+          ],
+          [
+            "75",
+            "85"
+          ],
+          [
+            "90",
+            "70"
+          ],
+          [
+            "120",
+            "60"
+          ],
+          [
+            "150",
+            "50"
+          ],
+          [
+            "180",
+            "45"
+          ],
+          [
+            "240",
+            "40"
+          ],
+          [
+            "300",
+            "38"
+          ],
+          [
+            "360",
+            "37"
+          ],
+          [
+            "420",
+            "36"
+          ],
+          [
+            "480",
+            "35"
+          ],
+          [
+            "600",
+            "34"
+          ],
+          [
+            "900",
+            "33"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0008361
+}

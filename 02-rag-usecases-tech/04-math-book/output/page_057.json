@@ -1,0 +1,21 @@
+{
+  "page": {
+    "page_number": 40,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Differentiating again, \n\\[ \\frac{d^2y}{dx^2} = \\frac{E}{I}(u - 2x) + \\frac{1}{E} \\left( \\frac{d}{dx} \\left( -2 \\sigma \\right) \\right) \\] \nCarrying the differentiation one stage further, \n\\[ M = EI \\frac{d^2y}{dx^2} \\] \nPhysical meanings may now be attached to these various derivatives. Referring to Fig. 10, consider a section of the beam at distance from the fixed end. To the right of this section there is a length \\( L \\) attached to a load with tension \\( T \\) on that side; the total load or net downward force on this section is \\[ -T = -2 \\sigma \\] ; and since this load is evenly distributed, it may all be supposed to be concentrated at distance \\( \\frac{1}{2}L \\) from the section."
+      },
+      {
+        "type": "text",
+        "text": "Now the bending moment at the section \n\\[ M = force \\times distance \\] \nat the distance \\( \\frac{1}{2}L \\), we find that \n\\[ M = -2 \\sigma \\times \\frac{1}{2}(L - x) = - \\sigma (L - x) \\] \nComparing this result with the value found for \\( M \\), we notice that the two are alike except for the presence of the constants \\( E \\) and \\( I \\) that must be a measure of the bending moment."
+      },
+      {
+        "type": "text",
+        "text": "Actually the rule connecting \\( M \\) and \\( S \\) is \n\\[ M = EI \\frac{d^2y}{dx^2} \\] \nWe will derive this rule in a later chapter. \nThe shear force can be derived from this, that the shear is given by the rate of change of bending moment, thus \n\\[ S = \\frac{dM}{dx} = EI \\frac{d^3y}{dx^3} \\] \n= \\( \\frac{w}{x} \\) ."
+      }
+    ]
+  },
+  "cost": 0.0008948999999999999
+}

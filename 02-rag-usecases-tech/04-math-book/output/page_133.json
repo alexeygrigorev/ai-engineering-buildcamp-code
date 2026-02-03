@@ -1,0 +1,46 @@
+{
+  "page": {
+    "page_number": 116,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The accelerations are here found by comparing differences of velocity over the differences of time."
+      },
+      {
+        "type": "text",
+        "text": "Regarding the accelerations, we can wish to determine the total change in velocity in the given period. The initial change must again be related to the change in the small periods of time ${\\Delta}t$. For example, if the average acceleration was 26, if ${\\Delta }t$ = 26 units per sec. sec. and the velocity at the end of the period was 29 units per sec., the change must of course be 3 units in 1 sec."
+      },
+      {
+        "type": "text",
+        "text": "Then the successive periods of changes in velocity are 8, 29 and 3."
+      },
+      {
+        "type": "text",
+        "text": "Hence the total change in the velocity over the period t sec. is:\n$$\\frac{26 + 29 + 3}{3} = \\frac{58}{3}$$\nHere we state, therefore, the initial velocity was 26, but we also notice that the acceleration is given by the formula:"
+      },
+      {
+        "type": "equation",
+        "latex": "a = \\frac{v - u}{t}",
+        "description": "This formula expresses acceleration as the change in velocity ($v - u$) over time ($t$)."
+      },
+      {
+        "type": "text",
+        "text": "Hence we can find the ratio of the velocity to the change in the magnitude of the acceleration."
+      },
+      {
+        "type": "text",
+        "text": "We can also find integrals by knowing the order of differentiation, but this is the reverse method. If a function, expressed into $x^n$, is in an advantage to transform the integrals, differentiating into forms more readily helps to realize this."
+      },
+      {
+        "type": "text",
+        "text": "If the interval remains, we can then integrate ourselves into a determination of an area."
+      },
+      {
+        "type": "text",
+        "text": "Considered from an abscissa standpoint -\nDifferentiation implies the calculation of rates of change; Integration implies the summation of small quantities."
+      }
+    ]
+  },
+  "cost": 0.0008558999999999999
+}

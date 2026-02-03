@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 280,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Our equation thus reduces to $du = 0$, or by integrating, to $u = C$, but  $u = [P(x) y + Q(y) x$ being constant], and hence we have the rule as given."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 12."
+      },
+      {
+        "type": "text",
+        "text": "Solve the equation\n$$\nP(x,y) = 4xy - 4y^2 - 2x^2 = 0.\n$$"
+      },
+      {
+        "type": "text",
+        "text": "Here\n$$\n\frac{dy}{dx} = \frac{44y - 4y^2 - 2x^2}{4y - 4y^2 - 2x^2},\n$$\nand thus the equation is exact."
+      },
+      {
+        "type": "text",
+        "text": "If $P(x,y)$ as (though $k$ were a constant)\n$$\n\frac{dy}{dx} = -\frac{(44y - 4y^2 - 2x^2)}{(4y - 4y^2 - 2x^2)},\n$$\nbut of this only the $k$ must be taken, since there can be always been attained by the integration of terms containing $x$."
+      },
+      {
+        "type": "text",
+        "text": "Hence\n$$\n24y^2 - 2x^2 = k. \n$$"
+      },
+      {
+        "type": "text",
+        "text": "13.—Solve the equation for $x$."
+      },
+      {
+        "type": "text",
+        "text": "If this equation is multiplied through by $v$, we have a form on the left-hand side with which we are familiar, viz.\n$$\ndu = \frac{du}{dx} + v = C.\n$$"
+      },
+      {
+        "type": "text",
+        "text": "[This equation might have been regarded as one made exact through multiplication by the integrating factor $v$.]"
+      }
+    ]
+  },
+  "cost": 0.0008480999999999999
+}

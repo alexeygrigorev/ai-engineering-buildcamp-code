@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 113,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let \\( f'(a) = 0 \\) when \\( a = 130 \\) and \\( f''(a) = 132, so that f'(a) = 0 \\) at \\( a = 130 \\) and \\( f''(a) \\) has a value 130."
+      },
+      {
+        "type": "text",
+        "text": "Thus the expansion may be rewritten as:"
+      },
+      {
+        "type": "equation",
+        "latex": "f(x) = f(a) + f'(a)(x - a) + \\frac{f''(a)}{2}(x - a)^2 + \\cdots + \\frac{f^{(n)}(a)}{n!}(x - a)^n.",
+        "description": "This formula represents the Taylor series expansion of a function around a point a."
+      },
+      {
+        "type": "text",
+        "text": "where \\( g \\) is a function of the variable."
+      },
+      {
+        "type": "equation",
+        "latex": "f(a) = 60.5955 + \\left( \\frac{1}{2} \\times 4705 \\right) + \\left( \\frac{1}{3} \\times 100 \\right) = \\cdots",
+        "description": "Calculation involving a given function at certain limits."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 11 — On the Calculation of Small Corrections and Expansion in Series."
+      },
+      {
+        "type": "text",
+        "text": "1. If \\( R_1 = \\left( \\frac{dR}{dh} \\right) \\) where \\( R_1 \\) is the resistance at elevation h."
+      },
+      {
+        "type": "text",
+        "text": "2. The height of one point \\( A \\) of a station in a survey is measured, and let there be a possibility of an error of 1 in vertical elevation (if it is measured as 1 instead of 0)."
+      },
+      {
+        "type": "text",
+        "text": "3. If a tank of water has a height of 4 feet, the rate of flow is about \\( 5 \\times 6 \\sqrt{\\frac{g}{h}} \\) where \\( g \\) is a constant."
+      },
+      {
+        "type": "text",
+        "text": "4. In a certain room, the water is 3 feet high, and it is possible to measure to a solution of 0.2."
+      },
+      {
+        "type": "text",
+        "text": "5. If the number of revolutions per minute is \\( N \\) and \\( V = W + h \\)."
+      },
+      {
+        "type": "equation",
+        "latex": "W = W + \\frac{P}{N} \\cdot h, \\text{ where } h = \\frac{h}{200} \\text{ or } h = 1 \\text{ is the height due to a change in speed from 200 to 190}.",
+        "description": "An equation representing the relationship between work, power, and height."
+      }
+    ]
+  },
+  "cost": 0.0009662999999999999
+}

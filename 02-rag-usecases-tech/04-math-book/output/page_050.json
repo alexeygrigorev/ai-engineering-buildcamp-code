@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 33,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 5. — The formula giving the electrical resistance of a length of wire at temperature $t$ is:\n\n$R_t = R_0 (1 + \rho R_t t)$\n\nwhere $R_0$ = Resistance at $0^\text{o}C$. Find the increase of resistance per $^\text{o}C$ if the initial resistance is $R_0$ at $0^\text{o}C$."
+      },
+      {
+        "type": "text",
+        "text": "\n\nThus, if $t$ = increase in temperature per $^\text{o}C$, then:\n\n$R_t = R_0 (1 + \rho R_0 t)$\n\nRate of change of $R$ with regard to $t$ is given by:\n\n$$\frac{dR_t}{dt} = R_0 \rho R_t$$."
+      },
+      {
+        "type": "text",
+        "text": "\n\nand consequently the rate of change of resistance per $^\text{o}C$ in initial resistance is:"
+      },
+      {
+        "type": "text",
+        "text": "\n\n\n\n$$\frac{dR_t}{dt} = R_0 \rho R_t$$ \n\n if $R_0 = 1$."
+      },
+      {
+        "type": "text",
+        "text": "\n\nExample 6. — Find the value of the expression as $x$ approaches $1$:\n\n$$4x^2 - 5x + 3 - \frac{4}{x - 1}$$."
+      },
+      {
+        "type": "text",
+        "text": "It can be proved that as $x$ approaches $1$:\n\n$$\frac{4x^2 - 5x + 3}{x - 1} = 4(1) - 5 + 3 = 2.$"
+      },
+      {
+        "type": "text",
+        "text": "Example 7. — As stands at $y = ax^n$, a formula referring to the flow of a gas through an orifice, and an expression for:"
+      },
+      {
+        "type": "text",
+        "text": "\n\n$y$ as a function of $x$, is a product of functions of the I.V. (in this case $a$), and it cannot therefore be differentiated with our current methods."
+      }
+    ]
+  },
+  "cost": 0.0008889
+}

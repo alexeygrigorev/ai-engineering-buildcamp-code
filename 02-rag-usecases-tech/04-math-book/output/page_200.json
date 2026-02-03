@@ -1,0 +1,49 @@
+{
+  "page": {
+    "page_number": 183,
+    "header": "MEAN VALUES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If, then, the law concerning the two variables is known, the mean value of the one over any range of the other can be found by integrating the former with regard to the latter between the proper limits and then dividing by the range; or to express in symbols, if  $y = f(x)$, the mean value of $y$, as $x$ ranges from $a$ to $b$, is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{1}{b - a} \\int_{a}^{b} f(x) \\,dx",
+        "description": "This formula represents the mean value of the function $f(x)$ over the interval from $a$ to $b$."
+      },
+      {
+        "type": "text",
+        "text": "Example 2. Find the mean value of $x^2$ between $a = 2$ and $b = 7:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{1}{7 - 2} \\int_{2}^{7} x^{2} \\,dx",
+        "description": "Calculating the mean value of the function $x^2$ over the interval from 2 to 7."
+      },
+      {
+        "type": "text",
+        "text": "i.e., if the curve  $y = x^{2}$  were plotted between $a = 2$ and $b = 7$ my integral would be 12-16 units."
+      },
+      {
+        "type": "text",
+        "text": "Example 3. If  $C = \\sin 3t$, find the m.v. of $C$, when:"
+      },
+      {
+        "type": "equation",
+        "latex": "(b) \\; (a) \\; (b) \\; (b) \\; (b)",
+        "description": "This indicates there's a list or options regarding the evaluations of the function over the given interval."
+      },
+      {
+        "type": "text",
+        "text": "When dealing with the integration of trigonometric functions using numerical work methods, we can also use definite integrals to find the mean value of our curve as the average of all the points considered. Therefore, regarding this case where the axis of our period is zero, it means that the mean height of the curve, and therefore the m.v. of the function, must be zero."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{2 \\pi} \\sin 3t \\,dt = 0",
+        "description": "This equation confirms that the mean value of the sine function over one complete cycle is zero."
+      }
+    ]
+  },
+  "cost": 0.0009086999999999999
+}

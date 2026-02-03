@@ -1,0 +1,90 @@
+{
+  "page": {
+    "page_number": 331,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Resolving the forces horizontally"
+      },
+      {
+        "type": "equation",
+        "latex": "(T + \\Delta T) \\cos \\theta = \\mu P  \n\\Rightarrow \\Delta T = \\mu P - T \\cos \\theta.",
+        "description": "This equation relates the change in tension to the force components."
+      },
+      {
+        "type": "text",
+        "text": "Resolving the forces vertically"
+      },
+      {
+        "type": "equation",
+        "latex": "P = (T + \\Delta T) \\sin \\theta  \n\\Rightarrow \\Delta T = P \\div \\sin \\theta - T.",
+        "description": "This equation expresses the vertical forces in relation to the tension."
+      },
+      {
+        "type": "text",
+        "text": "In the limit"
+      },
+      {
+        "type": "equation",
+        "latex": "\\Delta T = T \\cdot \\frac{d}{d\\theta} \\left(\\sin \\theta \\right) \n\\Rightarrow \\mu = \\frac{P}{T} .\n\\text{ (when the angle is small)}",
+        "description": "This equation shows the limit behavior as angle approaches zero."
+      },
+      {
+        "type": "text",
+        "text": "Then, combining equations (1) and (2) gives"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dT}{d\\theta} = \\frac{\\mu P}{T} .",
+        "description": "This shows the relationship between tension and the coefficient of friction."
+      },
+      {
+        "type": "text",
+        "text": "Separating the variables,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int T \\, dT = \\int \\mu P \\, d\\theta .",
+        "description": "This integral sets up the relationship for solving tension."
+      },
+      {
+        "type": "text",
+        "text": "Integrating,"
+      },
+      {
+        "type": "equation",
+        "latex": "T^2 \\div 2 = \\mu P \\theta + C.",
+        "description": "The result of integrating the previous equations."
+      },
+      {
+        "type": "text",
+        "text": "Friction in a Footstep Bearing."
+      },
+      {
+        "type": "text",
+        "text": "Example 28.—To find the moment of the friction force in a footstep bearing, suppose that \\ R = \\text{ radius of journal and } V = \\text{ total load}."
+      },
+      {
+        "type": "text",
+        "text": "(i) Assume that the pressure is uniform over the bottom surface,  \\ R = W R^2, where \\ P = \\text{ intensity of the pressure.}"
+      },
+      {
+        "type": "equation",
+        "latex": "Area of the annulus = \\pi (R^2 - r^2) \\qquad \\text{(where } r = \\text{ inner radius)}",
+        "description": "Equation for the area of the annulus."
+      },
+      {
+        "type": "equation",
+        "latex": "Pressure on the annulus = \\frac{V}{\\pi (R^2 - r^2)}",
+        "description": "Expression for the pressure applied on the annulus."
+      },
+      {
+        "type": "equation",
+        "latex": "Friction force on the annulus = 2 \\pi r b p R \\qquad \\text{and hence the moment of the friction force on the annulus = } 2\\pi b p x Y.",
+        "description": "Final expressions for friction force and moment."
+      }
+    ]
+  },
+  "cost": 0.0009945
+}

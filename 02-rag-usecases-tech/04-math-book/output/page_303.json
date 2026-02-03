@@ -1,0 +1,56 @@
+{
+  "page": {
+    "page_number": 286,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The Operator $D$. The differential coefficient of $y$ with respect to $x$ may be expressed in a variety of forms: thus either $D\\frac{dy}{dx}$, $f(x)$ or $D(y)$ might be used to denote the process of differentiation."
+      },
+      {
+        "type": "text",
+        "text": "The last of these forms, which will only be used when there is no ambiguity about the independent variable, proves to be the most convenient for our purpose. It denotes the operation $D(y)$, meaning simply "
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = D\\cdot y",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "and the second derivative of $y$ with respect to $x$ is written as $D^{2}y$."
+      },
+      {
+        "type": "text",
+        "text": "Our rule then holds, at any rate, so long as the index is positive, or the operator operates directly on $y$. We must therefore denote the index as:"
+      },
+      {
+        "type": "equation",
+        "latex": "D^{m}y = \\frac{d^{m}y}{dx^{m}}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Then by integration:"
+      },
+      {
+        "type": "equation",
+        "latex": "D^{-1}y = \\int y dx",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Hence $D^{-1}$ indicates the operation of integration."
+      },
+      {
+        "type": "text",
+        "text": "Again, if the rules of indices are to hold, then $D^{-1}y$ must equal $D(y)$ or $y$."
+      },
+      {
+        "type": "text",
+        "text": "Hence $D^{-1}$ must represent the process of integration; since if we"
+      }
+    ]
+  },
+  "cost": 0.0008942999999999999
+}

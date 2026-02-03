@@ -1,0 +1,39 @@
+{
+  "page": {
+    "page_number": 61,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Considering the displacement along the horizontal axis, the displacement in time is given by $AO = cos AOM = \\frac{AO}{OM}$. \n\nAnd the acceleration is given by the expression."
+      },
+      {
+        "type": "text",
+        "text": "If, \n\nthe acceleration is proportional to the displacement, but is directed towards the acceleration; thus, when the displacement is greatest, the acceleration is directed as  \\( a = -k \\cdot x \\), where \\( x \\) is in the position OX, the acceleration is \\( a \\) and is directed towards the origin, effectively destroying the outward velocity. \n\nAt X = 0, the acceleration is \\( a \\) = 0, or the velocity is zero."
+      },
+      {
+        "type": "text",
+        "text": "An initial lag or delay in the motion does not affect the truth of the forcing condition for the acceleration concerning displacement. \nThe equation is \\( v = \\frac{dx}{dt} \\) (x = 0, t = c), where \\( c \\) is the angle of lag or lead, and the differentiation to find the velocity and the acceleration is as before."
+      },
+      {
+        "type": "text",
+        "text": "Example 25.\nIf \\( v = 8 sin 4t - 12 \\), show that this is a S.H.M. and find its velocity."
+      },
+      {
+        "type": "text",
+        "text": "Also, if \\( x = 16, a = \\text{angular velocity} = 4 \\text{ radians per sec}. \\)"
+      },
+      {
+        "type": "equation",
+        "latex": "a = \\frac{dx}{dt} \\",
+        "description": "The derivative of displacement with respect to time, giving velocity."
+      },
+      {
+        "type": "equation",
+        "latex": "x = 16 \\text{ and } a = 4 \\text{ radians/sec}.",
+        "description": "Given values for displacement and angular velocity."
+      }
+    ]
+  },
+  "cost": 0.0008444999999999999
+}

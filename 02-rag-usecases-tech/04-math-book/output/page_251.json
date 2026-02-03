@@ -1,0 +1,40 @@
+{
+  "page": {
+    "page_number": 234,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus the depth of the C. of P. below S.W.S.L."
+      },
+      {
+        "type": "equation",
+        "latex": "z = \\frac{62}{42} - 12.65 \\text{ ft}",
+        "description": "Calculation for the depth of the center of pressure below the surface of the liquid."
+      },
+      {
+        "type": "text",
+        "text": "Hence C. of P. is at the point P, at a depth of 12.65 ft below the surface of the liquid."
+      },
+      {
+        "type": "text",
+        "text": "The more general investigation for the position of the C. of P. is given in Chap. X."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 19 - Centroids.",
+        "description": "A diagram illustrating centroids of various shapes including dimensions and referencing points A and B.",
+        "figure_number": 19
+      },
+      {
+        "type": "text",
+        "text": "Exercises 19—On the Determination of the Positions of Centroids and Centres of Gravity."
+      },
+      {
+        "type": "text",
+        "text": "1. The density of the material of which a right circular cone is composed varies as the square of the distance from the vertex. Find the position of the centre of gravity of the cone."
+      }
+    ]
+  },
+  "cost": 0.0007490999999999999
+}

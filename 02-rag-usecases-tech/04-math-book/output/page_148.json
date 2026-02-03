@@ -1,0 +1,76 @@
+{
+  "page": {
+    "page_number": 331,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 9. Find the value of $\\int (\\sqrt{\\cos x} + x) \\, dx$."
+      },
+      {
+        "type": "text",
+        "text": "Example 10. Find an expression for $f'(x)$, and apply the result to determine the value of $\\sqrt{2} \\cdot \\sqrt{5}.$"
+      },
+      {
+        "type": "text",
+        "text": "From our previous work we have: $\\int \\sqrt{x} \\, dx = \\frac{2}{3} x^{\\frac{3}{2}} + C$."
+      },
+      {
+        "type": "text",
+        "text": "Hence $\\sqrt{2} \\cdot \\sqrt{5} = \\sqrt{10}$."
+      },
+      {
+        "type": "text",
+        "text": "(i.e., $12 x^{\\frac{5}{3}} = 12 \\cdot 2^{\\frac{5}{2}}$ = $\\frac{12}{5} \\cdot 25^{\\frac{1}{5}} - 1.609$)."
+      },
+      {
+        "type": "text",
+        "text": "Alternatively, the result might have been arrived at in the following manner:"
+      },
+      {
+        "type": "equation",
+        "latex": "12 x^{\\frac{5}{3}} = 12 \\cdot 2^{\\frac{5}{2}} - 1.609 + C.",
+        "description": "An expression representing the integration result."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 12 – On Graphic Integration."
+      },
+      {
+        "type": "table",
+        "caption": "Acceleration of a slider at various times as given in the table.",
+        "columns": [
+          "Time (s)",
+          "Acceleration (m/s²)"
+        ],
+        "rows": [
+          [
+            "0.00",
+            "75"
+          ],
+          [
+            "0.016",
+            "87"
+          ],
+          [
+            "0.028",
+            "82"
+          ],
+          [
+            "0.040",
+            "80"
+          ],
+          [
+            "0.056",
+            "87"
+          ],
+          [
+            "0.075",
+            "81"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0008348999999999999
+}

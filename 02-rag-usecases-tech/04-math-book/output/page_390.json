@@ -1,0 +1,84 @@
+{
+  "page": {
+    "page_number": 373,
+    "header": "MATHEMATICAL PROBABILITY",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "between any assigned limits,  and , must be the sum of the probability  extended over the range  to ."
+      },
+      {
+        "type": "equation",
+        "latex": "P = \\int_{a}^{b} f(x) \\, dx",
+        "description": "This equation represents the probability as the integral of a function over the specified limits."
+      },
+      {
+        "type": "text",
+        "text": "Hence the probability that the error may have any value whatever (i.e., the probability is ) must be expressed by"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{-\\infty}^{+\\infty} f(x) \\, dx = 1",
+        "description": "This equation indicates that the total probability over the entire range must equal 1."
+      },
+      {
+        "type": "text",
+        "text": "for the range is unlimited, so that"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{a}^{b} f(x) \\, dx = I",
+        "description": "This equation represents the integral of the function over the limits a to b equating to I."
+      },
+      {
+        "type": "text",
+        "text": "has been proved by Lord Kelvin (see his \"Natural Philosophy\") that  must be such that"
+      },
+      {
+        "type": "equation",
+        "latex": "f(x) = k \\cdot f_{1}(x) + f_{2}(x)",
+        "description": "This equation describes the functional relationship in the context of probability density functions."
+      },
+      {
+        "type": "text",
+        "text": "and since"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int f(x) \\, dx = A \\cdot e^{-x}",
+        "description": "This expression shows the relationship of f(x) to an exponential function."
+      },
+      {
+        "type": "text",
+        "text": "this condition will be satisfied if"
+      },
+      {
+        "type": "equation",
+        "latex": "k = \\frac{1}{A}",
+        "description": "This shows how the coefficient k is determined in the equation."
+      },
+      {
+        "type": "text",
+        "text": "the minus sign being inserted in accordance with assumption 1 on p. 372; and the coefficient k being written as  for the reason that is explained later."
+      },
+      {
+        "type": "text",
+        "text": "A value can now be found for the constant A."
+      },
+      {
+        "type": "text",
+        "text": "It is known that"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{-\\infty}^{+\\infty} f(x) \\, dx = 1",
+        "description": "This equation asserts that the total probability density function integrates to 1."
+      },
+      {
+        "type": "text",
+        "text": "Now it has already been proved (see p. 163) that"
+      }
+    ]
+  },
+  "cost": 0.0009140999999999999
+}

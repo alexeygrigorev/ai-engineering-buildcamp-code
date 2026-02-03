@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 232,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Consider a small strip of width $dx$, distant $x$ from the apex (Fig. 73)."
+      },
+      {
+        "type": "text",
+        "text": "The area of the strip = $x \\cdot dx$, and thus its volume = $y \\cdot x \\cdot dx$. "
+      },
+      {
+        "type": "text",
+        "text": "Now the density $\\rho$ or density = $\\frac{y}{x}$."
+      },
+      {
+        "type": "text",
+        "text": "And also, by similar triangles,"
+      },
+      {
+        "type": "text",
+        "text": "So that the mass of the strip"
+      },
+      {
+        "type": "text",
+        "text": "$m = \\rho \\cdot V = \\frac{y}{x} \\cdot y \\cdot x \\cdot dx = y^2 \\cdot dx.$"
+      },
+      {
+        "type": "text",
+        "text": "The first moment of the strip about O is"
+      },
+      {
+        "type": "text",
+        "text": "$\\frac{1}{2} \\cdot m \\cdot x = \\frac{1}{2} \\cdot y^2 \\cdot dx \\cdot x = \\frac{1}{2} \\cdot y^2 \\cdot x dx.$"
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 73: Diagram showing the strip in relation to the apex",
+        "description": "A diagram illustrating a small strip of width $dx$ positioned at a distance $x$ from the apex, outlining its area, volume, and relationships.",
+        "figure_number": 73
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 74: Illustration of the center of pressure concept",
+        "description": "An illustration depicting the concept of the center of pressure for a body immersed in a liquid, relating pressure to depth, with labeled points indicating depth variations.",
+        "figure_number": 74
+      },
+      {
+        "type": "text",
+        "text": "Hence—"
+      },
+      {
+        "type": "text",
+        "text": "Centre of Pressure—If a body is immersed in a liquid, then the pressure per sq. in. of surface is not uniform over the solid, for the pressure is proportional to the depth. The point at"
+      }
+    ]
+  },
+  "cost": 0.0008552999999999999
+}

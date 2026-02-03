@@ -1,0 +1,113 @@
+{
+  "page": {
+    "page_number": 259,
+    "header": "POLAR CO-ORDINATES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Then the table for the plotting reads —"
+      },
+      {
+        "type": "equation",
+        "latex": "r = 5 \\sin \\theta",
+        "description": "This is a polar equation representing a sine function."
+      },
+      {
+        "type": "text",
+        "text": "and the plotting is shown in Fig. 94."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 94",
+        "description": "A polar plot of the function showing the curve of the spiral in relation to angles and radius values.",
+        "figure_number": 94
+      },
+      {
+        "type": "text",
+        "text": "Example 3 — Plot one convolution of the equiangular spiral"
+      },
+      {
+        "type": "equation",
+        "latex": "r = 5e^{0.5\\theta}",
+        "description": "This represents the equation of an equiangular spiral."
+      },
+      {
+        "type": "text",
+        "text": "In the log form"
+      },
+      {
+        "type": "equation",
+        "latex": "\\log r = \\log 5 + 0.5\\theta \\log e",
+        "description": "Logarithmic transformation of the equiangular spiral's equation."
+      },
+      {
+        "type": "equation",
+        "latex": "T = 690 + 1.00336 \\times 3434 \\times \\cos \\theta",
+        "description": "Formula relating temperature in accordance with polar coordinates."
+      },
+      {
+        "type": "text",
+        "text": "and thus the table of values reads —"
+      },
+      {
+        "type": "table",
+        "caption": "Values for the equiangular spiral",
+        "columns": [
+          "Theta (degrees)",
+          "r (units)"
+        ],
+        "rows": [
+          [
+            "0°",
+            "5"
+          ],
+          [
+            "30°",
+            "6.57"
+          ],
+          [
+            "60°",
+            "8.66"
+          ],
+          [
+            "90°",
+            "10"
+          ],
+          [
+            "120°",
+            "11.55"
+          ],
+          [
+            "150°",
+            "13.02"
+          ],
+          [
+            "180°",
+            "14.16"
+          ],
+          [
+            "210°",
+            "15.17"
+          ],
+          [
+            "240°",
+            "16.05"
+          ],
+          [
+            "270°",
+            "16.83"
+          ],
+          [
+            "300°",
+            "17.53"
+          ],
+          [
+            "330°",
+            "18.18"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0008354999999999999
+}

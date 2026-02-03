@@ -1,0 +1,74 @@
+{
+  "page": {
+    "page_number": 27,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let $y = f(x)$, then $\\frac{dy}{dx}$ or $f'(x)$ is called the derivative or differential coefficient of $y$ with respect to $x$; and the full significance of the latter of these terms is shown in Chapter III."
+      },
+      {
+        "type": "text",
+        "text": "We wish to find a rule giving the actual rate of change of $y$ with regard to $x$, being $\\Delta y$ the rule to be true for all values of $x$. As in the earlier work, the actual rate of change must be determined by the limit process."
+      },
+      {
+        "type": "text",
+        "text": "Let us alter $y$ in the amount so that the new value of $y$ can be expressed as $y = 3x^{2}+8x$; then, by introducing $\\Delta y$, we must change to a new variable $y = 3(x + \\Delta x)^{2} + 8(x + \\Delta x)$."
+      },
+      {
+        "type": "equation",
+        "latex": "y = 3(x + \\Delta x)^{2} + 8(x + \\Delta x)",
+        "description": "Expression for a new value of y after applying a small change in x."
+      },
+      {
+        "type": "text",
+        "text": "Now, by substitution of $(x + \\Delta x)$ for $x$, we have:"
+      },
+      {
+        "type": "equation",
+        "latex": "(3(x + \\Delta x)^{2}+8(x + \\Delta x)) - (3x^{2}+8x)",
+        "description": "Calculation for change in y."
+      },
+      {
+        "type": "text",
+        "text": "Divide through by $\\Delta x$:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{(3(x + \\Delta x)^{2}+8(x + \\Delta x)) - (3x^{2}+8x)}{\\Delta x}",
+        "description": "Rate of change of y with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "Then an average value for $\\Delta y$ is the rate of change over a small interval. Simplifying gives a result."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{3(\\Delta x)(2x+\\Delta x) + 8(\\Delta x)}{\\Delta x}",
+        "description": "Expression for the average rate of change."
+      },
+      {
+        "type": "text",
+        "text": "Evidently, by further reducing the $\\Delta x$ and reducing the second and third terms can be made practically negligible in comparison with the first term."
+      },
+      {
+        "type": "text",
+        "text": "Then, the right-hand side becomes $3x^{2} + 000000 - 000000$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = 3x^{2}",
+        "description": "Final expression for the derivative of y with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "and thus $\\frac{dy}{dx} = 3x^{2}$."
+      },
+      {
+        "type": "text",
+        "text": "or $y = 3x^{2}$. "
+      }
+    ]
+  },
+  "cost": 0.0009854999999999998
+}

@@ -1,0 +1,69 @@
+{
+  "page": {
+    "page_number": 231,
+    "header": "CENTRE OF GRAVITY",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Then since the centroid must lie along the axis of $y$, its position is definitely fixed at the point $G$, (3, 3/8)."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 34."
+      },
+      {
+        "type": "text",
+        "text": "Find the mass and also the position of the C. G. of a bar of uniform cross section and length $l$, whose density is proportional to the cube of the distance from one end."
+      },
+      {
+        "type": "text",
+        "text": "Let us consider a small length $dy$ of the bar, distant $r$ from the end mentioned above; the density of the material here is $K r^3$, where $K$ is some constant; hence the mass of the element will be."
+      },
+      {
+        "type": "equation",
+        "latex": "dm = K r^3 \times dy= K (l - y)^3 dy",
+        "description": "Mass of the differential element of the bar."
+      },
+      {
+        "type": "text",
+        "text": "Thus the total mass $M$ is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\\\int_{0}^{l} K (l - y)^3 dy",
+        "description": "Total mass of the bar."
+      },
+      {
+        "type": "text",
+        "text": "Also the position of the element about the end - mass distance is."
+      },
+      {
+        "type": "equation",
+        "latex": "K \\\\int_{0}^{l} (l - y)^4 dy",
+        "description": "Mass distance about the chosen end."
+      },
+      {
+        "type": "text",
+        "text": "Total $r_{1} moment = K \\\\int_{0}^{l} (l - y)^4 dy."
+      },
+      {
+        "type": "text",
+        "text": "And if $d$ is distance of C. G. from the light end - we have."
+      },
+      {
+        "type": "equation",
+        "latex": "d = \\frac{K \\\\int_{0}^{l} (l - y)^4 dy}{M}",
+        "description": "Distance of the center of gravity from the chosen end."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 35."
+      },
+      {
+        "type": "text",
+        "text": "Find the position of the C. G. of a triangular lamina whose density varies linearly as the distance from the apex. (Let the thickness of the lamina is ... )"
+      }
+    ]
+  },
+  "cost": 0.0008846999999999999
+}

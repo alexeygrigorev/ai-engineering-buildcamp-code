@@ -1,0 +1,34 @@
+{
+  "page": {
+    "page_number": 103,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "6.  \n$y = 4x^2 + 18x - 4$ \n"
+      },
+      {
+        "type": "text",
+        "text": "8.  \n$y = 3x^2 - 15x + 21$ (find also the value of $y$ at the point of inflection).  \n"
+      },
+      {
+        "type": "text",
+        "text": "9.  \nSixteen electric cells, each of internal resistance $r$ and giving each 1 volt, are connected up in mixed circuit through a resistance of 4 ohms. Find the arrangement for the greatest current [UNRECOGNIZED TEXT] .  \n"
+      },
+      {
+        "type": "text",
+        "text": "10.  \nGiven that $C$ is the cost of a turning value of $a$, find and state the nature of this turning value. \n"
+      },
+      {
+        "type": "equation",
+        "latex": "M = (a + b) \\cdot \\frac{W}{(r + s)(r + a)};  \n \\text{For what value of } a \\text{ is } M \\text{ a maximum?}  \n W = W(a) \\text{ and } r, s \\text{ are constants}.  \n",
+        "description": "This formula represents the cost calculation considering the variables involved."
+      },
+      {
+        "type": "text",
+        "text": "12.  \nThe cost in pounds setting for an electric cable can be expressed by \n"
+      }
+    ]
+  },
+  "cost": 0.0007880999999999999
+}

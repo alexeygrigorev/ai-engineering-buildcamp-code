@@ -1,0 +1,56 @@
+{
+  "page": {
+    "page_number": 52,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "second and succeeding terms as small as we please, and evidently the limiting value of the series is $i.e.,$"
+      },
+      {
+        "type": "text",
+        "text": "Let— $y = \text{log } x$, so that $x = e^{y}$."
+      },
+      {
+        "type": "text",
+        "text": "Now by $y$ and consequently by considering the limiting values of these functions."
+      },
+      {
+        "type": "text",
+        "text": "We wish to find $\frac{dy}{dx}$ and we have already obtained an expression for"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{1}{x \\log A} \\\\",
+        "description": "This is the derivative of y with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "Hence —"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{1}{e^{y} \\log A} \\\\",
+        "description": "This is the expression of dy/dx in terms of y."
+      },
+      {
+        "type": "text",
+        "text": "or"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d \\log (Ax+B)}{dx} = \\frac{A}{Ax+B} \\\\",
+        "description": "This indicates the derivative of the logarithmic function."
+      },
+      {
+        "type": "text",
+        "text": "for, in accordance with the rule given on p. 48, the A which multiplies the I.V. in the original function must appear as a multiplier after differentiation."
+      },
+      {
+        "type": "text",
+        "text": "All these rules apply to functions involving natural log, but... [UNRECOGNIZED TEXT]"
+      }
+    ]
+  },
+  "cost": 0.0008036999999999999
+}

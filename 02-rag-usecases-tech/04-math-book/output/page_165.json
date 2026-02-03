@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 148,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Integration by the Resolution of a Product into a Sum.—A product cannot be integrated directly; but when the functions are trigonometric the product can be broken up into a sum of sine and cosine terms and therefore integrated."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 3"
+      },
+      {
+        "type": "text",
+        "text": "Find the value of $\\int \\sin 5x \\cos 4x \\, dx$."
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\sin 5x \\cos 4x \\, dx = \\frac{1}{2} \\int (\\cos(5x-4x) - \\cos(5x+4x)) \\, dx \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ = \\frac{1}{2} \\left( \\frac{1}{1} \\sin(1x) - \\frac{1}{9} \\sin(9x) \\right) + C = \\frac{1}{2}(\\sin x - \\frac{1}{9} \\sin 9x) + C \\]"
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 4"
+      },
+      {
+        "type": "text",
+        "text": "Find $\\int \\sin^2 x \\, dx$."
+      },
+      {
+        "type": "text",
+        "text": "We know that $\\sin^2 x = 1 - \\cos^2 x$."
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\int \\sin^2 x \\, dx = \\int (1 - \\cos^2 x) \\, dx = x - \\frac{1}{2} \\int \\cos(2x) \\, dx \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ = x - \\frac{1}{4} \\sin(2x) + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "Integration by Substitution.—At times a substitution aids the integration; but the cases in which this method applies can only be distinguished after one has become pretty familiar with the differential of the denominator."
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\frac{\\text{d}}{\\text{dx}}(ax + b) = a \\]"
+      },
+      {
+        "type": "text",
+        "text": "In this fraction it will be observed that the numerator is exactly the differential of the denominator. Hence if $u$ be written for the denominator, then there will be only the substitutions to apply."
+      }
+    ]
+  },
+  "cost": 0.0009038999999999998
+}

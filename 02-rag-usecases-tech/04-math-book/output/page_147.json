@@ -1,0 +1,44 @@
+{
+  "page": {
+    "page_number": 130,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Differentiating the first expression—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dp} \\left(\\frac{1}{3} (\\rho - \\rho_{0} + 83)\\right) = \\frac{1}{3} \\frac{d\\rho}{dp}.",
+        "description": "The derivative of the function with respect to p."
+      },
+      {
+        "type": "text",
+        "text": "Integrating the second expression gives: \n\n\\[ \\int \\left(\\frac{1}{3} (\\rho - \\rho_{0} + 83)\\right) dp = \\frac{1}{3}(\\rho p - \\rho_{0} p + 83p) + C. \\]"
+      },
+      {
+        "type": "text",
+        "text": "Notice that although a function has been differentiated and the derivative produced, the integral retains exactly the constant term, the constant term being represented only by C, where C can have any value. Further mention will be made to this point on p. 137.\n\nExample 6.1 — Find the value of \\(\\rho_p\\). \nTo express \\(\\rho_p\\) in terms of \\(C\\): \n\n\\[\\rho_p = C \\frac{1}{3} \\left(\\frac{1}{2} \\frac{(1)}{p^{(1-3)}} + 1 + \\frac{1}{K} \\right)\\] \n \n(K being an auxiliary constant)\n\nThis result can be written in a slightly different form, if C were written as \\(\\rho_p\\): then—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\rho_{p} = C \\left(\\frac{1}{3} 2^{1-1} + \\frac{1}{K}\\right) + K",
+        "description": "An alternative expression for \\(\\rho_p\\) using C."
+      },
+      {
+        "type": "text",
+        "text": "Example 7 — Find \\(\\rho_p\\) when \\(p = C\\). \nIn this case—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\rho_p = \\frac{1}{3} (\\rho - \\rho_{0} + 83) + K",
+        "description": "Expression evaluated for the specific case where \\(p = C\\)."
+      },
+      {
+        "type": "text",
+        "text": "Example 8 — Find the value of \\(C\\). \n\n\\[ C = 17 \\log \\frac{\\rho_p}{\\rho} \\] \nNotice that C is a constant multiplier throughout; it multiplies the I.V. and therefore appears as a divisor after integration; also the power of e remains exactly the same."
+      }
+    ]
+  },
+  "cost": 0.0009506999999999999
+}

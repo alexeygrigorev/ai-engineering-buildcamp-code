@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 310,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "\n\\[ \\frac{d^2y}{dx^2} = \\frac{w}{EI} \\\n\\text{for the deflected form is horizontal at this end.}\n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Integrating, $EI \\frac{dy}{dx} = \\int w \\, dx + C_2 \\text{ and we eliminate } C_2 \\text{ by applying the boundary conditions.}$"
+      },
+      {
+        "type": "text",
+        "text": "In this case, the beam is simply supported at points P and C, and to evaluate them we must form two equations from the extremities:\n\\[  y = 0 \\text{ when } x = 0 \\text{ and }  y = 0 \\text{ when } x = L. \\]\nAlso if \\[ C_1 = 0. \\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\text{\\textbf{Point of Contraflexure}} \\]"
+      },
+      {
+        "type": "text",
+        "text": "If the beam were simply supported, the upward reaction would be 2 \\( wL \\) and the next reaction would be 2."
+      },
+      {
+        "type": "text",
+        "text": "Substituting \\( y \\) in place of \\( P \\) in the expression for \\( y \\), we arrive at the equation of the deflected form\n\\[ y = \\frac{-8}{\\sqrt{w}}(y^2-3P), \\]\nthe curve for which is shown in Fig. 110."
+      },
+      {
+        "type": "text",
+        "text": "We may proceed to find where the maximum deflection occurs, and also the position of the point of contraflexure."
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\frac{dy}{dx} = 0 \\implies \\frac{d^2y}{dx^2} = -\\frac{8}{3} = 1. \\]"
+      },
+      {
+        "type": "text",
+        "text": "the solution of which, applicable to the present case, is \\( x = 1.423. \\)"
+      }
+    ]
+  },
+  "cost": 0.0008696999999999999
+}

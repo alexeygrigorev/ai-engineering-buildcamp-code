@@ -1,0 +1,77 @@
+{
+  "page": {
+    "page_number": 349,
+    "header": "HARMONIC ANALYSIS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Having found these differences, we multiply by cos 45° , by setting the lengths along the line OI (cf. Fig. 130) and then projecting to the horizontal axis OX; the resultant of these projections being the value of A."
+      },
+      {
+        "type": "text",
+        "text": "In this (ii) Fig. 130 - Make OI = 1.03 (on the strip) and $\theta = 45°$. Drop to perpendicular to OX. Then Oe (where Oe = OI cos 45°) = 0.727 and A = 1.03 sin 45° = 0.727. The value of A, this value of Oe, is 3.43."
+      },
+      {
+        "type": "text",
+        "text": "Thus the value of B3 in the strip can be used according the following rule:"
+      },
+      {
+        "type": "equation",
+        "latex": "B_3 = \\sqrt{(B_1-B_2)^{2} + [d_{13} \\sin (\\phi_2)]^{2}}",
+        "description": "This formula calculates the value of B3 based on the given parameters B1, B2, and the vertical distance d13 adjusted by the sine of the angle."
+      },
+      {
+        "type": "text",
+        "text": "For B3 = 4.16 on the strip, we have:"
+      },
+      {
+        "type": "equation",
+        "latex": "B_1 = 4.16",
+        "description": "The given value of B1."
+      },
+      {
+        "type": "equation",
+        "latex": "B_2 = 3.68",
+        "description": "The given value of B2."
+      },
+      {
+        "type": "text",
+        "text": "And d13 is the distance from O to G on the strip, but to avoid extending the diagram this is already assumed with length OI."
+      },
+      {
+        "type": "text",
+        "text": "Hence:"
+      },
+      {
+        "type": "equation",
+        "latex": "O_g = M - 18.2,\\; B_m = 377",
+        "description": "This gives the parameters for B3 calculation based on earlier determined values."
+      },
+      {
+        "type": "text",
+        "text": "To find the values of A and B, we can use:"
+      },
+      {
+        "type": "equation",
+        "latex": "A = B_{m} - (y_1-y_2)\\cos 60^{\\circ}",
+        "description": "This equation helps to find value A by using measured values from the earlier steps."
+      },
+      {
+        "type": "equation",
+        "latex": "A = 1.74 - (y_1 - y_2)\\cos 60^{\\circ}",
+        "description": "Explains the calculations involved in determining A."
+      },
+      {
+        "type": "equation",
+        "latex": "B = A^2 + [d_{13} \\sin (\\phi_2)]^2 \\cos 45^{\\circ}",
+        "description": "This will determine the value of B through a combination of previously evaluated parameters."
+      },
+      {
+        "type": "equation",
+        "latex": "\\phi_2 = 45^{\\circ}",
+        "description": "Angle phi2 is set to 45 degrees for calculations."
+      }
+    ]
+  },
+  "cost": 0.0009782999999999999
+}

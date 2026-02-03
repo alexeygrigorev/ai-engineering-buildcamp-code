@@ -1,0 +1,49 @@
+{
+  "page": {
+    "page_number": 121,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 1. – It is required to find the work done in the expansion of steam, which is generated from saturated steam from pressure room temperature to 15 bars per kg."
+      },
+      {
+        "type": "figure",
+        "caption": "Work done in expansion of steam.",
+        "description": "This graph shows the work done during the expansion process, illustrating the relationship between pressure, volume, and work. The integral area under the curve represents the work done in the expansion.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "From the present table the following values of variables v (in m³/kg) and p (in bar) are found:"
+      },
+      {
+        "type": "table",
+        "caption": "Values of v and p for steam at respective pressures",
+        "columns": [
+          "Pressure (p) in bar",
+          "Volume (v) in m³/kg"
+        ],
+        "rows": [
+          [
+            "1",
+            "44"
+          ],
+          [
+            "5",
+            "11.82"
+          ],
+          [
+            "10",
+            "4.61"
+          ],
+          [
+            "15",
+            "2.77"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.00085875
+}

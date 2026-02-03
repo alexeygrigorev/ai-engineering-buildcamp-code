@@ -1,0 +1,53 @@
+{
+  "page": {
+    "page_number": 278,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The equation  \n$T = P_t - n(P - c x)$  is of the type $\\frac{dy}{dx} = b$, where  \na = P - c x.\n\nThe solution may be written  \n\\[y = \\int \\frac{P_t - n(P - c x)}{L \\cdot M} dx + K.\\]  \n\nThe integrating factor will be method.\n\nHence  \n\\[  y = y_p + y_h,\\]  \n\nand to express this in a simple form the integral $\\int (P_t - n(P - c x))$ must first be evaluated:  \n\nLet  \n$y_p = \\int \\frac{P_t}{L \\cdot M} dx$  and $e^{\\int n dx}$.  \n\nThen  \n\\[  P_{c} = P_t - n(P - c x) = L. \\]  \n\nHence,  \n\\[ \n  P_t = L - c M + K.\n\\]  \n\nSince  \n$T^* = T - P_t$  and  \n$L = M - K.$  \n\nIn particular, when finding the currents and any of the coils of a wattmeter we arrive at the following differential equation:  \n\\[  P_t = P_0 \\Big(\\frac{L_t}{L^*} + \\frac{L_1}{L^* + L_2}\\Big).\\]  \n\nLet  \n$L = L_t$  be the inductance and $L, L_t$ associated with the other coil; $L$ enables the standard form of equation,  \n$Y = \\frac{T}{A}.$  \n\nWe see that  \n\\[  Y = A \\Big( L_t^2 + \\frac{L_1}{L^* + L_2}\\Big).\\]  \n\nThis leads to the equality of the integration and the influences on unit systems."
+      },
+      {
+        "type": "equation",
+        "latex": "T = P_t - n(P - c x)",
+        "description": "The equation represents a relationship involving variables T, P, and x."
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\int \\frac{P_t - n(P - c x)}{L \\cdot M} dx + K",
+        "description": "The general solution expressed as an integral."
+      },
+      {
+        "type": "equation",
+        "latex": "y = y_p + y_h",
+        "description": "This expresses the solution as a sum of a particular and homogeneous solution."
+      },
+      {
+        "type": "equation",
+        "latex": "P_{c} = P_t - n(P - c x) = L",
+        "description": "An equation showing the relationship of P_c, P_t, and other variables."
+      },
+      {
+        "type": "equation",
+        "latex": "P_t = L - c M + K",
+        "description": "A rearranged equation for P_t in terms of L, M, and K."
+      },
+      {
+        "type": "equation",
+        "latex": "P_t = P_0 \\Big(\\frac{L_t}{L^*} + \\frac{L_1}{L^* + L_2}\\Big)",
+        "description": "The formula for calculating P_t based on inductances and other factors."
+      },
+      {
+        "type": "equation",
+        "latex": "Y = \\frac{T}{A}",
+        "description": "The standard form for relating Y, T, and A."
+      },
+      {
+        "type": "equation",
+        "latex": "Y = A \\Big( L_t^2 + \\frac{L_1}{L^* + L_2}\\Big)",
+        "description": "An equation relating Y to induced effects and inductance."
+      }
+    ]
+  },
+  "cost": 0.0010892999999999999
+}

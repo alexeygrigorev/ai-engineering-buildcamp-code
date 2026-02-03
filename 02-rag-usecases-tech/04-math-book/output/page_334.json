@@ -1,0 +1,71 @@
+{
+  "page": {
+    "page_number": 337,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The values of I must next be calculated for each disc, and a new curve plotted with ordinates equal to B*M . This double interpolation of this gives the deflected form."
+      },
+      {
+        "type": "text",
+        "text": "It is necessary to use the ordinates of this curve to find the time of the maximum position and hence the time of reversal. It can be derived:"
+      },
+      {
+        "type": "text",
+        "text": "The deflection at any section y, and the load or weight of the disc."
+      },
+      {
+        "type": "text",
+        "text": "Find the sum of all products like xy and also the sum of all products like x."
+      },
+      {
+        "type": "text",
+        "text": "(Suitable transformation will facilitate matters)."
+      },
+      {
+        "type": "text",
+        "text": "Then T (time of oscillation) is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "T = 2\\pi \\sqrt{\\frac{Z}{g}}",
+        "description": "The formula for the time period T of oscillation, where Z is the effective height and g is the acceleration due to gravity."
+      },
+      {
+        "type": "text",
+        "text": "If V = maximum deflection, then the upward velocity v is obtained from"
+      },
+      {
+        "type": "equation",
+        "latex": "v = \\frac{Z}{T}",
+        "description": "The relationship between the upward velocity v and the maximum deflection Z time period T."
+      },
+      {
+        "type": "text",
+        "text": "Examples on Applied Electricity."
+      },
+      {
+        "type": "text",
+        "text": "Example 18 — Arrange x electric cells per rows and connect them in series to obtain the maximum resistance R."
+      },
+      {
+        "type": "text",
+        "text": "Let the internal resistance R (cell) be given, and let these be arranged in rows."
+      },
+      {
+        "type": "text",
+        "text": "Suppose the mixed circuit is as shown in Fig. 15.6, with x cells per row shown."
+      },
+      {
+        "type": "text",
+        "text": "Then the total E.M.F. of I now will equal internal resistance of r, but as there are z rows, the total internal"
+      },
+      {
+        "type": "text",
+        "text": "resistance is: r that of row, r = (r, 1 - 1) + r.E.M.F. is wasted: in reality the effect being that of one cell, the area being greater and thus the resistance less."
+      }
+    ]
+  },
+  "cost": 0.0008816999999999999
+}

@@ -1,0 +1,32 @@
+{
+  "page": {
+    "page_number": 67,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 5.—Water is flowing into a large tank at the rate of 200 gallons per min. The reservoir is in the form of a frustum of a cone, the length of the top being 8 ft., and the corresponding dimensions of the base being 12 ft. and 14 ft.; the depth is 12 ft. (see Fig. 17). At what rate is the level of the water rising when the depth of water is 4 ft."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 17",
+        "description": "The figure represents a frustum of a cone illustrating the dimensions and the water level.",
+        "figure_number": 17
+      },
+      {
+        "type": "text",
+        "text": "In 12 ft. the length decreases by 20 ft., and therefore in 8 ft. the length when the water is at 4 ft. is given by the relationship."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dV}{dt} = Ah = area \\ of \\ surface",
+        "description": "This equation represents the change in volume of the water with respect to time."
+      },
+      {
+        "type": "text",
+        "text": "Similarly, the breadth = 32 ft. and height = 18 ft. ."
+      }
+    ]
+  },
+  "cost": 0.0007556999999999999
+}

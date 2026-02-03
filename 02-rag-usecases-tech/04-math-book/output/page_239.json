@@ -1,0 +1,63 @@
+{
+  "page": {
+    "page_number": 222,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "As indicated in the work on the calculation of weights, viz., we first treat the section as \"solid\" and then treat the section as \"solid,\" the section has the form shown in Fig. 66."
+      },
+      {
+        "type": "text",
+        "text": "The area of AB = $\\frac{3}{2} \\cdot 7.52 \\: \\text{sq. in.}$, and its centroid is at the intersection of its diagonals."
+      },
+      {
+        "type": "text",
+        "text": "The area of CD = $\\frac{3}{2} \\cdot 7.131 \\: \\text{sq. in.}$ at G."
+      },
+      {
+        "type": "text",
+        "text": "For the area of EHM = $\\frac{3}{2} \\cdot 8.173 \\: \\text{sq. in.}$ at G."
+      },
+      {
+        "type": "text",
+        "text": "From P. 130, that is section $\\frac{3}{2} \\cdot 424 \\: \\text{radius, if} \\: E = \\frac{424}{\\text{radius}}.$"
+      },
+      {
+        "type": "text",
+        "text": "Again, the area of EHM = $\\frac{3}{2} \\cdot 8.173 \\: \\text{sq. in.}$ at G."
+      },
+      {
+        "type": "text",
+        "text": "Now, our problem is thus reduced to that of determining the C. of G. We have to note that the cohesive properties of the sections opposed to one another are made equal. Now, let the centroid of the first section be denoted as $d_1$ and the other as $d_2$."
+      },
+      {
+        "type": "text",
+        "text": "The required moment about the existing axis is:"
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\sum \\left( A_i \\cdot d_i \\right) = A_1 d_1 + A_2 d_2 = (3 \\cdot 7.52 + 3 \\cdot 7.131 + 424 + 3 \\cdot d_1 + 8.173 + \\sum d_1) = 3095.",
+        "description": "This represents the moment of the total area about the existing axis, incorporating areas and their respective distances."
+      },
+      {
+        "type": "text",
+        "text": "That is, the area of the section is $A = 524 + 6 \\cdot 5 + \\sum d_1 = (7.52 + 7.131 + 424 + 8.173 + 3 \\cdot 752) = 330."
+      },
+      {
+        "type": "text",
+        "text": "Now, the determination by Analytic Integration. Suppose that we state $x$ and $y$ as functions defined in terms of $x$, and the integration performed regarding the area."
+      },
+      {
+        "type": "equation",
+        "latex": "A = \\int y \\, dx",
+        "description": "This integral represents the area under the curve for the function defined by the relationship between $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "The examples here given should be carefully studied, for there is always a majority of areas in sections such as these."
+      }
+    ]
+  },
+  "cost": 0.0009999
+}

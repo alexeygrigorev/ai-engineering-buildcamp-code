@@ -1,0 +1,52 @@
+{
+  "page": {
+    "page_number": 262,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Evidently the electric ray is constant in length and equal to a, the radius of the circle, and the limits to 0 and 2π, if the full area is required; hence."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{2\\pi} \\int_{0}^{a} r \\, dr \\, d\\theta = \\int_{0}^{2\\pi} \\left( \\frac{r^{2}}{2} \\right) \\Bigg|_{0}^{a} d\\theta = \\int_{0}^{2\\pi} \\frac{a^{2}}{2} d\\theta = \\frac{a^{2}}{2} (2\\pi) = \\pi a^{2}.",
+        "description": "This equation calculates the area of a circle using polar coordinates."
+      },
+      {
+        "type": "text",
+        "text": "Example 4. Find the area of the solid angle given by the equation v = (1 + cos θ), ranging from 0 to π."
+      },
+      {
+        "type": "text",
+        "text": "In this case $r$ is of variable length, but there is a definite connection between these variables, so we have to express the area in terms of $\\theta$ and $r$. Hence."
+      },
+      {
+        "type": "equation",
+        "latex": "area = \\int_{0}^{\\pi} \\int_{0}^{1 + cos \\theta} r \\, dr \\, d\\theta = \\int_{0}^{\\pi} \\left( \\frac{r^{2}}{2} \\right) \\Bigg|_{0}^{1 + cos \\theta} d\\theta = \\int_{0}^{\\pi} \\frac{(1 + cos \\theta)^{2}}{2} d\\theta.",
+        "description": "This equation calculates the area of the solid angle based on the variable length."
+      },
+      {
+        "type": "text",
+        "text": "area = \\int_{0}^{\\pi} \\frac{1 + 2 cos \\theta + cos^{2} \\theta}{2} d\\theta = \\frac{1}{2} (\\theta + sin \\theta cos \\theta) \\Bigg|_{0}^{\\pi} = \\frac{1}{2} (\\pi + 0 - 0) = \\frac{\\pi}{2}."
+      },
+      {
+        "type": "text",
+        "text": "The Rousseau Diagram. The use of the Rousseau diagram simplifies the determination of the area spherical candle power."
+      },
+      {
+        "type": "text",
+        "text": "If the light source can be varied according to the direction in which the illumination is directed (cf. Fig. 93); in the case there discussed, however, we have to look at the candela, and in some vectorial diagrams to illustrate how we see the surface area obtained by moving the source in the direction of the candela and the varying influences in all directions. If the source is placed at the center of a spherical cone of radius r, then it is the illumination spherical candle power."
+      },
+      {
+        "type": "equation",
+        "latex": "4\\pi R^{2} I = A",
+        "description": "This equation shows the relationship between intensity (I), area (A), and the radius (R) of the surface."
+      },
+      {
+        "type": "text",
+        "text": "where I is the intensity on a zone of surface area A."
+      }
+    ]
+  },
+  "cost": 0.0010184999999999999
+}

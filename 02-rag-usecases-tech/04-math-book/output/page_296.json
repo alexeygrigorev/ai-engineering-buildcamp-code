@@ -1,0 +1,56 @@
+{
+  "page": {
+    "page_number": 279,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "and"
+      },
+      {
+        "type": "text",
+        "text": "$\\frac{dy}{dx} = \\frac{Be^{Ax}}{Be^{Ax} cos\\,pt + AB cos\\,pt}.$"
+      },
+      {
+        "type": "text",
+        "text": "Exact Differential Equations. An exact differential equation is one that can be integrated if it is set equal to zero; thus, the expression $Pdx + Qdy = 0$ being an exact differential. The term exact differential must first be explained."
+      },
+      {
+        "type": "text",
+        "text": "Let $P = P(x,y)$ and $Q = Q(x,y)$ be such that the derivatives being paired, or to use the more familiar notation, $\\frac{\\partial P}{\\partial y} = \\frac{\\partial Q}{\\partial x}$."
+      },
+      {
+        "type": "text",
+        "text": "To solve such an equation proceeds as follows: It is sufficient to integrate $Pdx$ as though there is no term in $Q$ that depends on $y$, and put the sum of the results equal to a constant."
+      },
+      {
+        "type": "text",
+        "text": "For $y$, let."
+      },
+      {
+        "type": "equation",
+        "latex": "du = P dx + Q dy = 0.",
+        "description": "Differential equation representing the relationship between $P$ and $Q$."
+      },
+      {
+        "type": "text",
+        "text": "This can also be expressed as:"
+      },
+      {
+        "type": "equation",
+        "latex": "du = P dx + Q dy = \\frac{\\partial u}{\\partial x} dx + \\frac{\\partial u}{\\partial y} dy.",
+        "description": "An expression showing the relationship of the function $u$ with respect to $x$ and $y$."
+      },
+      {
+        "type": "text",
+        "text": "and this is exactly the same as the original equation."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{\\partial P}{\\partial y} = \\frac{\\partial Q}{\\partial x},",
+        "description": "Condition for an exact differential equation."
+      }
+    ]
+  },
+  "cost": 0.0008504999999999999
+}

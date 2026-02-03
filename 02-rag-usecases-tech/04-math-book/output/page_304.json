@@ -1,0 +1,66 @@
+{
+  "page": {
+    "page_number": 287,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "A differential equation we must integrate the result to arrive at the original function once again."
+      },
+      {
+        "type": "equation",
+        "latex": "D = \\frac{d}{dt}",
+        "description": "This represents the derivative operator with respect to time."
+      },
+      {
+        "type": "text",
+        "text": "Having satisfied ourselves that the ordinary rules of indices may be applied to D, now we may prove that the rules of factorisation apply also."
+      },
+      {
+        "type": "text",
+        "text": "Taking the expression D² - 12D + 32, we can easily show that it can be written in the factor form (D - 4)(D - 8):"
+      },
+      {
+        "type": "equation",
+        "latex": "D^2 - 12D + 32 = (D - 4)(D - 8)",
+        "description": "This is the factorization of the differential expression."
+      },
+      {
+        "type": "text",
+        "text": "Therefore, we may write"
+      },
+      {
+        "type": "equation",
+        "latex": "D(D - 8) = (D - 4)(D - 8)",
+        "description": "This shows how the expression can be resolved into its factors."
+      },
+      {
+        "type": "text",
+        "text": "These properties make D of great usefulness in the solution of certain types of differential equations."
+      },
+      {
+        "type": "text",
+        "text": "Suppose"
+      },
+      {
+        "type": "equation",
+        "latex": "y' = \\frac{dy}{dt} = \\frac{y}{7} + 1 - 0y",
+        "description": "This represents a differential equation involving the derivative of y."
+      },
+      {
+        "type": "text",
+        "text": "then this equation may be rewritten as"
+      },
+      {
+        "type": "equation",
+        "latex": "y' + \\frac{y}{7} = 1",
+        "description": "Rearranged form of the differential equation."
+      },
+      {
+        "type": "text",
+        "text": "and the solution of equation (1) may be found by this artifact. Many differential equations occurring in electrical theory may be solved in a very simple manner under the treatment of D as a `quasi-algebraic operator'; before proceeding to these, however, we must enunciate the following theorems."
+      }
+    ]
+  },
+  "cost": 0.0008594999999999999
+}

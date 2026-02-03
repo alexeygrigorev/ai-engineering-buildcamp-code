@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 370,
+    "header": "CHAPTER XIII",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "MATHEMATICAL PROBABILITY AND THEOREM OF LEAST SQUARES"
+      },
+      {
+        "type": "text",
+        "text": "When extremely accurate results are desired, these results being derived from a series of observations, the possibility of error in each of the observations must be considered. The correct result is usually found by combining the mean of the observations with the \"probable error of the mean.\" The rough rule that is to follow is to consider primarily the probabilities of the individual observations."
+      },
+      {
+        "type": "text",
+        "text": "Thus, if we consider a certain event happening 5 times in 7 trials, then the probability that it will happen on any given trial is given by its relative frequency of failing; 5 is observed out of 7. It is important to note the significance of the phrase \"considered over a great range.\" We could not simply assert that we might expect it to happen, say, 50 times out of 120. If, however, we were to use this reasoning and suggest that large numbers might result in apparently \"freaks\" we would eliminate."
+      },
+      {
+        "type": "text",
+        "text": "In general terms, if an event may happen in ways and fail in b ways, and all those are equally likely to occur, then the probability of its happening is a/(a+b) and of its failing is b/(a+b)."
+      }
+    ]
+  },
+  "cost": 0.0007700999999999999
+}

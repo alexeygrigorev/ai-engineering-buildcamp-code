@@ -1,0 +1,75 @@
+{
+  "page": {
+    "page_number": 29,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Re-stating these relations in a modified form—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx} (x^n) = nx^{n-1}",
+        "description": "This is the power rule for differentiation."
+      },
+      {
+        "type": "text",
+        "text": "The three cases considered suggest a general rule, but it would be unwise to accept this as the true rule without the more rigid proof, which can be given."
+      },
+      {
+        "type": "text",
+        "text": "Proof of the rule:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx} (x^n) = nx^{n-1}",
+        "description": "Restating the differentiation rule proven."
+      },
+      {
+        "type": "text",
+        "text": "We note that in all these cases the results take the form—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx} (x^n) = 5x^4 = 4x^3",
+        "description": "An application of the power rule."
+      },
+      {
+        "type": "text",
+        "text": "Expand (x + h)^n using the Binomial Theorem (see p. 463, Part I). Then—"
+      },
+      {
+        "type": "equation",
+        "latex": "(x + h)^n = x^n + \\binom{n}{1} x^{n-1}h + \\binom{n}{2} x^{n-2}h^2 + \\ldots + h^n",
+        "description": "Expansion of (x + h) using the Binomial Theorem."
+      },
+      {
+        "type": "text",
+        "text": "If h is increased to h + y, it takes a new value y + 8h, and from that—"
+      },
+      {
+        "type": "equation",
+        "latex": "y + 8y = 2y + \\ldots \\text{(2)}",
+        "description": "An equation from expansion."
+      },
+      {
+        "type": "text",
+        "text": "Subtract (1) from (2) to get—"
+      },
+      {
+        "type": "equation",
+        "latex": "h^n = (8 + 1)h^n + h^n - 1^n=0",
+        "description": "Result from subtracting the two expansions."
+      },
+      {
+        "type": "text",
+        "text": "containing products of (8^n) and higher powers of h."
+      },
+      {
+        "type": "text",
+        "text": "Let h be continually decreased, and then, since h is a factor of each term, all and succeeding terms in the relation can be made as small as we please by sufficiently diminishing h."
+      }
+    ]
+  },
+  "cost": 0.0009098999999999999
+}

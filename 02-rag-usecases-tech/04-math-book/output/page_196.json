@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 179,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "19. The time taken (t secs.) to lower the level of the liquid in a certain vessel having two orifices in one side can be found from \n\n\\[ t = \\frac{h}{k \\sqrt{h} + v} \\]\n\nFind this time if the limits of h are 0 and \\( H \\).\n\n20. Express \\( I \\) as a series, and hence find the value of\n\n\\[ I = \\int \\frac{1}{\\sqrt{1+x^2}} \\, dx \\]\n\n21. Find the integral of the function \\( R = \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\).\n\n22. Evaluate the integral \\( \\int \\frac{1}{x^2} \\, dx. \\)\n\n23. Write down the value of \\( \\int \\cos^2 x \\, dx. \\)\n\n24. If the value of log \\( r(t) = 8 \\) is given in the tables in R9757, find the value of \\( \\int_0^t e^{r(t)} \\, dt. \\)\n\n25. Write down the value of \\( \\int_0^{\\pi} \\cos^3 \\theta \\, d\\theta. \\) Evaluate this integral.\n\n26. Evaluate the definite integral \\( \\int_0^{\\frac{\\pi}{2}} \\sin^2 \\theta \\, d\\theta. \\)\n\n27. The attraction \\( F \\) of a thin circular disc of radius \\( r \\) on a body on the axis of the disc, and distant \\( x \\) from the centre, is given by \n\n\\[ F = \\frac{2\\pi r^2 \\rho}{x^2} \\]\n\nwhere \\( \\rho \\) is the density of the disc, and \\( k \\) is a constant. Find the value of \\( F \\) for this case."
+      }
+    ]
+  },
+  "cost": 0.0008751
+}

@@ -1,0 +1,67 @@
+{
+  "page": {
+    "page_number": 125,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "It is well carefully to consider the scales, for it is with these that difficulties often arise."
+      },
+      {
+        "type": "text",
+        "text": "The scales given here are the original drawing, of which Fig. 3 is a reproduction somewhat under half scale."
+      },
+      {
+        "type": "text",
+        "text": "For the length:\n 1 in. = 2 ft."
+      },
+      {
+        "type": "text",
+        "text": "For loads:\n 1 in. = 4 tons per ft."
+      },
+      {
+        "type": "text",
+        "text": "Polar distance for the first sun curve = 4.25° = 4 horizontal units."
+      },
+      {
+        "type": "text",
+        "text": "Hence the scale of shear =  ¾ ton per ft."
+      },
+      {
+        "type": "text",
+        "text": "Load"
+      },
+      {
+        "type": "text",
+        "text": "Shear"
+      },
+      {
+        "type": "text",
+        "text": "Fig. 3—Shearing Force and Bending Moment on Ship's Hull."
+      },
+      {
+        "type": "text",
+        "text": "Polar distance for the second sun curve = 4° = 40 horizontal units."
+      },
+      {
+        "type": "text",
+        "text": "Hence the scales of bending moment = 4 × 10 = 40."
+      },
+      {
+        "type": "text",
+        "text": "The maximum shear = 5 tons and the maximum bending moment = 68.5 tons."
+      },
+      {
+        "type": "text",
+        "text": "Example 4—In Fig. 32 AAA is the curve of weights or load distribution, and EBB the curve of buoyancy or upward water thrust."
+      },
+      {
+        "type": "figure",
+        "caption": "Load vs. Shear and Bending Moment Curves",
+        "description": "This figure illustrates the relationships between the load applied, the shearing force, and the bending moment along the ship's hull. The curves demonstrate how different forces vary with polar distance and the resultant effects on the structure.",
+        "figure_number": 3
+      }
+    ]
+  },
+  "cost": 0.0008216999999999999
+}

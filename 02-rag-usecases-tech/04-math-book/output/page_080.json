@@ -1,0 +1,48 @@
+{
+  "page": {
+    "page_number": 63,
+    "header": "CHAPTER III",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "ADDITIONAL RULES OF DIFFERENTIATION"
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of a Function of a Function. Whilst the expression $y = f(g(x))$ is essentially a function of $x$, it can be regarded as a function of $g(x)$, and it is observed that $y$ is a function of a function of $x$. This means if $g = h(x)$, then if $y$ is written in terms of $x$, thus: $y = f(h(x))$, then $y$ is a function of $h$, which again, is a function of $x$, since $g = h(x)$. To differentiate a function in this situation the following rule is employed:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{dy}{dg} \\cdot \\frac{dg}{dx}",
+        "description": "This equation describes how to differentiate a composite function by applying the chain rule."
+      },
+      {
+        "type": "text",
+        "text": "Let $y$ be a function of $g$, and let $g$ be a function of $x$."
+      },
+      {
+        "type": "text",
+        "text": "Then, if $y$ is a function of $g$, it takes a small amount $\\Delta g$, and as the new value becomes $y + \\Delta y$. Since these changes are increasing the quantities by small, the ordinary rules of arithmetic can be applied here."
+      },
+      {
+        "type": "text",
+        "text": "When $x$ approaches zero these fractions approach the limiting values as $x$ goes to zero and respectively: in the limit:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\lim_{x \\to 0} \\frac{y(u + \\Delta u) - y(u)}{u + \\Delta u - u}",
+        "description": "This equation illustrates the limit definition of the derivative as $x$ approaches zero."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dg}{dx} = \\lim_{x \\to 0} \\frac{g(x + \\Delta x) - g(x)}{\\Delta x}",
+        "description": "This equation demonstrates the limit definition of $g$'s derivative as $x$ approaches zero."
+      },
+      {
+        "type": "text",
+        "text": "In like manner, if $u$ is a function of $w$, and $w$ a function of $v$, and $v$ a function of $x$, it can be proved that..."
+      }
+    ]
+  },
+  "cost": 0.0009134999999999999
+}

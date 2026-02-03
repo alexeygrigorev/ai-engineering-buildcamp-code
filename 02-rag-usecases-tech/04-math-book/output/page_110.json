@@ -1,0 +1,34 @@
+{
+  "page": {
+    "page_number": 93,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "derived curve is the curve of the gradients of the primitive curve, and hence if 1 \\text{ is } x = -5 , the gradient of the primitive must have a turning value which is a maximum or minimum. In other words, if we had placed a straight edge to be tangential in all positions to the primitive curve, the turning must have been reached, after which the rotation would be in the reverse direction. A point on the curve at which the gradient ceases to rise and begins to fall is called a point of contamination, while the turning in the opposite direction is called a point of inflection."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{occur when} \\; \\frac{d^2y}{dx^2} = 0.",
+        "description": "This equation indicates the condition for points of inflection on a curve."
+      },
+      {
+        "type": "text",
+        "text": "already seen that the bending moment at any section is proportional to the value of y there; hence the line of points of curvature is where the bending moment is zero."
+      },
+      {
+        "type": "text",
+        "text": "Example 2. – To determine the points of contraflexure we must first find the bending moment."
+      },
+      {
+        "type": "text",
+        "text": "We may regard this question from either the graphic aspect or the physical. The graphical aspect makes it necessary to determine the changes of inclination, and therefore to find values of x for the bending moment."
+      },
+      {
+        "type": "text",
+        "text": "The physical considerations deal with the value of the bending moment as the beam arrives at the same result, which is expressed by the following argument: the bending moment, which is expressed by \\text{M} \\text{ changes sign,} and is indicated by the curve of the beam (see Fig. 23), and thereafter at two points the bending moment must be zero, since the variation in it is uniform."
+      }
+    ]
+  },
+  "cost": 0.0008361
+}

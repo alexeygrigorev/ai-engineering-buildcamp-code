@@ -1,0 +1,27 @@
+{
+  "page": {
+    "page_number": 80,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Figure 20."
+      },
+      {
+        "type": "figure",
+        "caption": "A plane curve relating to changes in the function and partial derivatives.",
+        "description": "This figure illustrates a plane curve and the relationship between the variables in the context of differentiation. It shows how rates of change are represented graphically, with the x and y axes indicating different dimensions of the plan.",
+        "figure_number": 20
+      },
+      {
+        "type": "text",
+        "text": "In the plane $V$ due to the change in $P$ (assuming that $r$ is kept constant) is added to the change in $V$ due to the change in $P$ (with $P$ being kept constant). Rates of change found through this plan are spoken of as partial rates of change, or more usually partial derivatives, and the process of determining them is known as partial differentiation."
+      },
+      {
+        "type": "text",
+        "text": "When only two variables occur, a plane curve may be plotted to depict the connection between them, but for three variables a surface is needed. The three co-ordinate axes will be mutually at right angles to each other in the plane of the paper, and the other at right angles to it. If $x$, $y$ and $z$ are the variables, we can say that it is a function of $x$ and $y$, or in the abbreviated form $z = f(x, y)$. "
+      }
+    ]
+  },
+  "cost": 0.0007736999999999999
+}

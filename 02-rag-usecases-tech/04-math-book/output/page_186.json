@@ -1,0 +1,64 @@
+{
+  "page": {
+    "page_number": 169,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 31—H, the horizontal thrust on a circular arch carrying a uniformly distributed load w per foot run of the arch, is obtained from"
+      },
+      {
+        "type": "equation",
+        "latex": "H = \\frac{wR^4}{2R^2(\\cos\\theta - \\cos 366)}",
+        "description": "This equation expresses the horizontal thrust on a circular arch in terms of the radius and angle."
+      },
+      {
+        "type": "text",
+        "text": "if the span is equal to the radius of curvature (see Fig. 38). If w = 5 ton per foot, and the span \nso is, then find the value of H.\n\nHere w = 5, R = span in feet, and θ = \nfrom Fig. 38.\n\nHence"
+      },
+      {
+        "type": "equation",
+        "latex": "H = \\frac{5R^4}{2R^2(\\cos\\theta - \\cos 366)}",
+        "description": "The equation shows the calculated horizontal thrust based on prescribed variables."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 38—Circular Arched Rib",
+        "description": "This figure shows the relationship between the horizontal thrust and the curvature of the arch.",
+        "figure_number": 38
+      },
+      {
+        "type": "text",
+        "text": "Dealing with the numerator separately, as this alone presents any difficulty—"
+      },
+      {
+        "type": "equation",
+        "latex": "1 - \\sin^2\\theta = \\cos^2\\theta = 0.2165\\sin\\theta \\cdot 0.866\\sin\\theta",
+        "description": "This equation relates sine and cosine values to the geometry of the arch."
+      },
+      {
+        "type": "text",
+        "text": "Then"
+      },
+      {
+        "type": "equation",
+        "latex": "H = \\frac{5R^4}{2R^2(0.2165\\sin\\theta - 0.866\\sin\\theta)}",
+        "description": "This shows the reformulated equation for horizontal thrust."
+      },
+      {
+        "type": "text",
+        "text": "as proved on p. 148, \\sin\\theta = 0.12, and thus,"
+      },
+      {
+        "type": "equation",
+        "latex": "H = R^2 \\cdot \\frac{0.12}{2\\cos 20}",
+        "description": "Final expression of horizontal thrust in terms of radius and cosine of angle."
+      },
+      {
+        "type": "text",
+        "text": "and as proved on p. 168, \\sin\\theta = 0.20."
+      }
+    ]
+  },
+  "cost": 0.0009038999999999998
+}

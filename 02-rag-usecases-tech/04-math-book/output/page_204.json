@@ -1,0 +1,82 @@
+{
+  "page": {
+    "page_number": 187,
+    "header": "MEAN VALUES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 6. If  VC = \n \n $V = V_0 \\sin q$ and $C = \\cos (q - \\phi)$, find the average value of the power, i.e., the average value of VC."
+      },
+      {
+        "type": "equation",
+        "latex": "VC = V_0 \\sin q \\cos (q - \\phi)",
+        "description": "The product of voltage and the cosine of the phase difference."
+      },
+      {
+        "type": "text",
+        "text": "Also the period is given by $T = \\frac{2\\pi}{\\omega}$."
+      },
+      {
+        "type": "text",
+        "text": "Hence the m.v. of VC is: \n \n $\\text{m.v.} = \\frac{1}{T} \\int_0^T VC \\, dt$"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{m.v.} = \\frac{1}{T} \\int_0^T V_0 \\sin q \\cos (q - \\phi) \\, dt",
+        "description": "Expression for the mean value of the product."
+      },
+      {
+        "type": "text",
+        "text": "We can use the identity: \n \n $\\cos (A - B) = \\cos A \\cos B + \\sin A \\sin B$"
+      },
+      {
+        "type": "equation",
+        "latex": "= \\cos q \\cos \\phi + \\sin q \\sin \\phi",
+        "description": "Identity for cosine of a difference."
+      },
+      {
+        "type": "text",
+        "text": "Thus, we have: \n \n $VC = V_0 \\sin q \\left( \\cos q \\cos \\phi + \\sin q \\sin \\phi \\right)$.\n \n Therefore, we can write an integral to find the mean value."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{m.v.} = \\frac{1}{T} \\int_0^T V_0 \\sin q \\left( \\cos q \\cos \\phi + \\sin q \\sin \\phi \\right) \\, dt",
+        "description": "Integral formulation for finding the mean value."
+      },
+      {
+        "type": "text",
+        "text": "If we let $C = \\frac{1}{2}\\int \\sin^2 q \\, dq = \\frac{1}{2} \\left( q - \\frac{1}{2} \\sin(2q) \\right) + C$."
+      },
+      {
+        "type": "equation",
+        "latex": "C = \\frac{1}{2}(t - \\sin t cos t)",
+        "description": "Constant of integration for the mean value."
+      },
+      {
+        "type": "text",
+        "text": "This is a most important result."
+      },
+      {
+        "type": "text",
+        "text": "If $\\phi = 90^\\circ$, i.e., when the lag is $2$, then we have \n \n $\\text{m.v.} = 0$; this being spoken of as the case of \n \n **"
+      },
+      {
+        "type": "text",
+        "text": "weightless currents."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 16—On Mean Values."
+      },
+      {
+        "type": "text",
+        "text": "16. As an exercise, ask as to follow this approach with $r = 120$, find the average present between the volumes 4 and 6."
+      },
+      {
+        "type": "text",
+        "text": "17. The mean value of $y = 5+3\\sin x$, for $x$ ranging from $0$ to $4$. \n \n Discuss this question from its graphic aspect."
+      }
+    ]
+  },
+  "cost": 0.0010371
+}

@@ -1,0 +1,93 @@
+{
+  "page": {
+    "page_number": 264,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence, for this tone, the illumination"
+      },
+      {
+        "type": "text",
+        "text": "\n candle power = \n OC \n × \n ZR \n cos 68°."
+      },
+      {
+        "type": "text",
+        "text": "\n Area = \n z \n × \n R \n × \n z \n = \n 2 \n × \n R \n × \n a \n ' \n cos \n O."
+      },
+      {
+        "type": "text",
+        "text": "\n Total illumination = \n FLD \n × \n a \n ' \n area under the curve FLD."
+      },
+      {
+        "type": "text",
+        "text": "\n Therefore,"
+      },
+      {
+        "type": "text",
+        "text": "\n Total illuminance = \n \n \n \n \n \n \n \n  \n \n \n Total illumination \n ."
+      },
+      {
+        "type": "text",
+        "text": "\n \n 4 \n ∙ \n π \n R \n ² \n \n time \n  ."
+      },
+      {
+        "type": "text",
+        "text": "\n \n \n  R is the base of the curve."
+      },
+      {
+        "type": "text",
+        "text": "Dr. Fleming's Graphic Method for the Determination of R.M.S. Values - The determination of R.M.S. values of some important ac circuits is essential for electrical engineers. Although this method was discussed in Chapter VIII, it is worth mentioning it here as it illustrates the process in a graphical manner."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 99: A graph used to illustrate Dr. Fleming's method for R.M.S values.",
+        "description": "The figure shows a graphical representation of R.M.S. values based on the current at various times in the table.",
+        "figure_number": 99
+      },
+      {
+        "type": "text",
+        "text": "Using the graph, we can determine the values of an alternating current at various times as in the table:"
+      },
+      {
+        "type": "table",
+        "caption": "Current Values",
+        "columns": [
+          "Time (s)",
+          "Current (C)"
+        ],
+        "rows": [
+          [
+            "0.0",
+            "0.0"
+          ],
+          [
+            "0.1",
+            "0.1"
+          ],
+          [
+            "0.2",
+            "0.3"
+          ],
+          [
+            "0.3",
+            "0.4"
+          ],
+          [
+            "0.4",
+            "0.6"
+          ],
+          [
+            "0.5",
+            "0.7"
+          ],
+          [
+            "0.6",
+            "0.8"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0008954999999999999
+}

@@ -1,0 +1,33 @@
+{
+  "page": {
+    "page_number": 12,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Thus the slope of the tangent at any point on the space-time curve measures the actual rate of change of the space with respect to the time at that instant. Here by drawing tangents to the space-time curve at various points and calculating the slopes, a set of values of the velocity is obtained: these values are then plotted to a base of time and a new curve is drawn, which gives by its ordinate the value of the velocity at any time and is known as the \"velocity-time\" curve."
+      },
+      {
+        "type": "text",
+        "text": "Since this curve is obtained by the calculation of slopes, or rates of change, it is designated a derivative of the original curve, viz., the space-time curve, being termed the \"primitive.\""
+      },
+      {
+        "type": "text",
+        "text": "In the case under notice the velocity-time curve is a sloping straight line, and in consequence, it is constant, having a positive slope. Hence the derived curve, which is the acceleration-time curve, is a horizontal line, constant and equal to zero. There are first derivatives of the original curve, and second derive curvature or the acceleration."
+      },
+      {
+        "type": "text",
+        "text": "curves and curves of derivatives. The accurate construction of curves necessitates the use of a great number of values for both the independent variables, as well as for the dependent variables, with their respective slopes and derivatives."
+      },
+      {
+        "type": "text",
+        "text": "The following is the graphical representation of such a construction that has been shown in the previous chapters where diagrams have been provided in order to show how to obtain moments and values of interest."
+      },
+      {
+        "type": "text",
+        "text": "The distance AB is denoted by PA parallel to the axis; the first portion of the curve, and the point C is taken at the mid-ordinate of the first entity. In order to measure this distance, the slope of the chord AB, and hence the slope of the tangent at the primitive."
+      }
+    ]
+  },
+  "cost": 0.0008391
+}

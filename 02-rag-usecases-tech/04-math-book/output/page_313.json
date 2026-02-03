@@ -1,0 +1,63 @@
+{
+  "page": {
+    "page_number": 296,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Given a \n\\[ \\frac{d^2 y}{dx^2} + 13y = 764 \\] and that \\( y = 2 \\) when \\( x = 0 \\), find an expression for \\( y \\) in terms of \\( x \\)."
+      },
+      {
+        "type": "text",
+        "text": "A beam simply supported at its ends is loaded with a concentrated load \\( W \\) at the center. The bending moment \\( M \\) at the section distance \\( x \\) from the left end is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\frac{W}{2} x \\left( L - x \\right)",
+        "description": "This equation describes the bending moment for a simply supported beam under a concentrated load at its center."
+      },
+      {
+        "type": "text",
+        "text": "For the case of a fixed beam uniformly loaded, \\( M = \\frac{qL^2}{12} \\) where \\( q \\) is the load per unit length."
+      },
+      {
+        "type": "text",
+        "text": "The bending moment, \\( M \\), at distance \\( x \\) when \\( x = \\frac{L}{2} \\) and also when \\( x = l \\) and an expression for \\( y \\)."
+      },
+      {
+        "type": "text",
+        "text": "Solve the equation \\( \\frac{d^2 y}{dx^2} + 13y = 764 \\) using the limits to find \\( T_p \\) and \\( T_q \\) for \\( x \\) being 1 and 0; the remaining letters representing constants."
+      },
+      {
+        "type": "text",
+        "text": "Substituting \\( y \\) and \\( u \\) on where to leave the equation, leaving this clause:"
+      },
+      {
+        "type": "text",
+        "text": "Determine all values for \\( y \\) and \\( u \\) when \\( x \\) equals the range of 0 to the area specified that consists of gases along the letters."
+      },
+      {
+        "type": "text",
+        "text": "The center is given for \\( r \\) where the distance from one end to the other."
+      },
+      {
+        "type": "text",
+        "text": "Let \\( H \\) be the length of the tube, \\( r_1 \\) and \\( r_2 \\) denote the letters having the same meanings in no zone, and the limits should be in numbers:"
+      },
+      {
+        "type": "text",
+        "text": "If \\( \\frac{dQ}{dr} = K \\left( \\frac{r}{r_1} \\right)^2 \\) then the inside radius and outside radii respectively for \\( l \\) be the length of the tube and \\( \\frac{m}{s} \\) measuring for heat, and the limits around \\( r_1 \\)."
+      },
+      {
+        "type": "equation",
+        "latex": "K = \\frac{Q}{\\left( r_2 \\right)^2}",
+        "description": "This equation relates the heat transfer to the radii of the tube."
+      },
+      {
+        "type": "text",
+        "text": "Find an expression for \\( H \\), \\( K \\), and \\( K \\) being a constant."
+      }
+    ]
+  },
+  "cost": 0.0010029
+}

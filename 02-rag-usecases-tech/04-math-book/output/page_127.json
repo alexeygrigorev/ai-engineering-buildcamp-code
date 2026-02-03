@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 110,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 15.1—To find a series for cos x."
+      },
+      {
+        "type": "text",
+        "text": "Let\n\n  f(x) = cos x\n\nthen\n\n  f(0) = cos 0 = 1\n  f'(x) = -sin x\n  f'(0) = -sin 0 = 0\n  f''(x) = -cos x\n  f''(0) = -cos 0 = -1\n  f'''(x) = sin x\n  f'''(0) = sin 0 = 0\n  f^{(4)}(x) = cos x\n  f^{(4)}(0) = cos 0 = 1\n  f^{(5)}(x) = -sin x\n  f^{(5)}(0) = -sin 0 = 0\n  f^{(6)}(x) = -cos x\n  f^{(6)}(0) = -cos 0 = -1\nTherefore\n\n  f(x) = 1 - \frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\text{...} = \text{cos} x."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 15.2—To find a series for log(1+x)."
+      },
+      {
+        "type": "text",
+        "text": "Now, let\n\n  f(x) = \text{log}(1+x).\n\nThen\n\n  f(0) = \text{log}(1) = 0\n  f'(x) = \frac{1}{1+x}\n  f'(0) = \frac{1}{1+0} = 1\n  f''(x) = -\frac{1}{(1+x)^2}\n  f''(0) = -\frac{1}{(1+0)^2} = -1\n  f'''(x) = \frac{2}{(1+x)^3}\n  f'''(0) = \frac{2}{(1+0)^3} = 2\n  f^{(4)}(x) = -\frac{6}{(1+x)^4}\n  f^{(4)}(0) = -\frac{6}{(1+0)^4} = -6\nTherefore\n\n  f(x) = 0 + \frac{x}{1!} - \frac{x^2}{2!} + \frac{2x^3}{3!} - \frac{6x^4}{4!} + \text{...}.\n\nHence\n\n  \text{log}(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \text{...}."
+      }
+    ]
+  },
+  "cost": 0.0009800999999999998
+}

@@ -1,0 +1,73 @@
+{
+  "page": {
+    "page_number": 273,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Solve the equation $4y = x + C$"
+      },
+      {
+        "type": "text",
+        "text": "Separating the variables"
+      },
+      {
+        "type": "text",
+        "text": "$dy = \\frac{1}{4} (x + C) dx$"
+      },
+      {
+        "type": "text",
+        "text": "or"
+      },
+      {
+        "type": "text",
+        "text": "$\\log{(1+y)} = \\frac{1}{4} \\log{(x+C)}$"
+      },
+      {
+        "type": "text",
+        "text": "where"
+      },
+      {
+        "type": "text",
+        "text": "if $y$ is written in place of $y$, then"
+      },
+      {
+        "type": "text",
+        "text": "$\\frac{dy}{dx} = \\frac{1}{4} \\frac{(x + C)}{y}$"
+      },
+      {
+        "type": "text",
+        "text": "Example 5—The difference in the tensions at the ends of a belt submitting an angle of $\\theta$ at the center of a pulley of radius $r$ is $T_1 - T_2$, where $\\mu$ is the coefficient of friction between the belt and pulley. If the weight and greatest tensions on the belt are $T_1$ and $T_2$ respectively, whilst the lap is $l$, find an expression for $T_2$."
+      },
+      {
+        "type": "text",
+        "text": "The equation $T_1 - T_2 = \\mu T_2$."
+      },
+      {
+        "type": "text",
+        "text": "Integrate both sides of the equation, applying the limits 1 and T to T and 0 to T."
+      },
+      {
+        "type": "text",
+        "text": "Then"
+      },
+      {
+        "type": "text",
+        "text": "$\\log{T_1} - \\log{T_2} = \\mu \\log{T_2}$"
+      },
+      {
+        "type": "text",
+        "text": "$T = \\frac{T_1}{T_2}$."
+      },
+      {
+        "type": "text",
+        "text": "A word further might be added about Example 3, or a modification to it."
+      },
+      {
+        "type": "text",
+        "text": "$T = \\frac{dy}{dx}.$"
+      }
+    ]
+  },
+  "cost": 0.0008564999999999998
+}

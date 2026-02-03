@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 215,
+    "header": "CENTROIDS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 22. – Find the centroid of the area bounded by the curve given by the table, the axis of $x$ and the ordinates through $x = 10$ and $x = 60.$"
+      },
+      {
+        "type": "text",
+        "text": "We thus wish to find the centroid of the area $ABCD$ (Fig. 61)."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 61. – Centroid of an Area",
+        "description": "This figure illustrates the area defined by the curve and the axis of $x$, along with the specified bounds for $x$ that help in determining the centroid.",
+        "figure_number": 61
+      },
+      {
+        "type": "text",
+        "text": "The table for the plotting of $Y$ against $x$ reads –"
+      },
+      {
+        "type": "table",
+        "caption": "Values of Y for given X",
+        "columns": [
+          "X",
+          "Y"
+        ],
+        "rows": [
+          [
+            "10",
+            "125"
+          ],
+          [
+            "20",
+            "240"
+          ],
+          [
+            "30",
+            "288"
+          ],
+          [
+            "40",
+            "300"
+          ],
+          [
+            "50",
+            "480"
+          ],
+          [
+            "60",
+            "500"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007274999999999998
+}

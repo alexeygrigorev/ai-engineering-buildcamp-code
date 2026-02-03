@@ -1,0 +1,86 @@
+{
+  "page": {
+    "page_number": 137,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 15. — If $R = \\int (3 - 4y) \\, dy$, find $R$."
+      },
+      {
+        "type": "equation",
+        "latex": "R = \\int (3 - 4y) \\, dy = 3y - 2y^2 + C = 3y - 2y^2 + 2.143 \\cdot (3 - 4y) + C.",
+        "description": "Definite integral solved for R."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 13. — On Integration of Trigonometric Functions."
+      },
+      {
+        "type": "text",
+        "text": "Integrate, with respect to $y$, the functions in Nos. 1 to 10."
+      },
+      {
+        "type": "text",
+        "text": "1. $2 \\sin^2 y - 2y \\cos y + 2 \\cos^2 y + 2 \\cos^2 y \\sin(\\cos y)$."
+      },
+      {
+        "type": "text",
+        "text": "2. $\\int (e^{y} - \\sin y) \\, dy$."
+      },
+      {
+        "type": "text",
+        "text": "3. $\\int (x^2 + 3x + 5) \\, dx$."
+      },
+      {
+        "type": "text",
+        "text": "4. $\\int (\\sin^2 y + \\cos^2 y) \\, dy$."
+      },
+      {
+        "type": "text",
+        "text": "5. $\\int (\\sec^2 y - \\tan^2 y) \\, dy$."
+      },
+      {
+        "type": "text",
+        "text": "6. $\\int (\\tan y + \\cot y) \\, dy$."
+      },
+      {
+        "type": "text",
+        "text": "7. $\\int (3\\sin^3 y + 4\\cos^3 y) \\, dy$."
+      },
+      {
+        "type": "text",
+        "text": "8. $\\int (\\ln y \\, dy)$."
+      },
+      {
+        "type": "text",
+        "text": "9. $\\int (\\cos(2y) + \\sin(3y)) \\, dy$."
+      },
+      {
+        "type": "text",
+        "text": "10. $\\int (e^{2y} + 3) \\, dy$."
+      },
+      {
+        "type": "text",
+        "text": "Find expressions for the velocity and the space, the latter being in terms of the acceleration."
+      },
+      {
+        "type": "text",
+        "text": "11. If $R = 12y + 61 - 29y^2$, find the value of $R$."
+      },
+      {
+        "type": "text",
+        "text": "Indeterminate Form and Limits."
+      },
+      {
+        "type": "text",
+        "text": "As hitherto, those expressions, already given, although correct, are not defined. If an integral is to be said to be an indefinite integral, it must be capable of yielding a constant that is erroneous in every dealing with finite areas or integrals. To ratify this idea, we consider that the general solution is stated as a constant $C$ in the R.H.S. of the equation."
+      },
+      {
+        "type": "text",
+        "text": "As soon as the integral, and therefore the area, is made definite it will be observed that $C$ vanishes."
+      }
+    ]
+  },
+  "cost": 0.0009903
+}

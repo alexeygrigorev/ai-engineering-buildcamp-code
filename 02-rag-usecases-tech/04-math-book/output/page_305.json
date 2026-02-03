@@ -1,0 +1,65 @@
+{
+  "page": {
+    "page_number": 288,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Useful Theorems, involving the Operator D -"
+      },
+      {
+        "type": "equation",
+        "latex": "D\\left( p + qD \\right)\\text{ operating on the function } a\\sin(bt+c)",
+        "description": "The application of the operator D on a function."
+      },
+      {
+        "type": "equation",
+        "latex": "D\\left( p + qD \\right)(a\\sin(bt+c)) = \\frac{ap}{p^2 + q^2}\\sin\\left(bt + c - \\tan^{-1}\\left(\\frac{q}{p}\\right)\\right)",
+        "description": "Result of applying the operator to the sine function."
+      },
+      {
+        "type": "text",
+        "text": "Proof of (1):"
+      },
+      {
+        "type": "equation",
+        "latex": "D\\sin(b t+c) = b\\cos(b t + c)",
+        "description": "Derivative of sine."
+      },
+      {
+        "type": "equation",
+        "latex": "D\\left( p + qD \\right)(a\\sin(bt+c)) = a\\left(p\\sin(b t + c) + q b \\cos(b t + c)\\right)\\text{ (See Part I, p. 277) }",
+        "description": "Application of the operator."
+      },
+      {
+        "type": "equation",
+        "latex": "D\\left( p + qD \\right)(a\\sin(bt+c)) = a\\frac{p}{p^2 + q^2}\\sin\\left(bt + c - \\tan^{-1}\\left(\\frac{q}{p}\\right)\\right)",
+        "description": "Another form of the operator's result."
+      },
+      {
+        "type": "text",
+        "text": "As a test of the correctness of the theorem, consider the combination of the two operations should give the original function. Thus,"
+      },
+      {
+        "type": "equation",
+        "latex": "D\\sin(bt+c) = a\\sin(bt+c)",
+        "description": "Demonstration of operator's application."
+      },
+      {
+        "type": "text",
+        "text": "A third theorem might thus be added."
+      },
+      {
+        "type": "equation",
+        "latex": "D \\sin(bt + c) = b\\cos(bt + c) \\text{ (but } D = -b^2)",
+        "description": "Another relationship involving D."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{hence}",
+        "description": "Conclusion leading into the next steps."
+      }
+    ]
+  },
+  "cost": 0.0008954999999999999
+}

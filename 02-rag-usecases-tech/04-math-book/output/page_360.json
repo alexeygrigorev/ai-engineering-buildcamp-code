@@ -1,0 +1,62 @@
+{
+  "page": {
+    "page_number": 343,
+    "header": "HARMONIC ANALYSIS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Method (a): Analysis by Calculation. — Before actually proceeding to detail the scheme of working, it is well to verify the following statements:"
+      },
+      {
+        "type": "equation",
+        "latex": "c_0 = 0, \\, \\text{this being self-evident, since the area under a cosine curve is zero, provided that the period is complete.} \\, \\text{(1)}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "for"
+      },
+      {
+        "type": "equation",
+        "latex": "\\cos(m \\omega_0 t) = \\cos(m \\theta)",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "and hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^{T} \\cos(m \\omega_0 t) \\, dt = 0",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "(for both are cosine curves over the full period or a multiple of the full period)."
+      },
+      {
+        "type": "text",
+        "text": "and"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^{T} \\sin^2 \\theta \\, d\\theta = \\frac{1}{2} T",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "To proceed with the analysis: ..."
+      },
+      {
+        "type": "equation",
+        "latex": "A_0 = A_1 + A_2 \\cos 2\\theta + A_3 \\cos 3\\theta + ...",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "and we wish to find the values of the coefficients $A_0, A_1, B_1, B_2, \\text{etc.}$"
+      }
+    ]
+  },
+  "cost": 0.0009027
+}

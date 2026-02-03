@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 297,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "19. A pendulum couples to form an oscillation with a cart during a time of a complete oscillation. \n\n19. A point $C$ is the center of mass in a system consisting of a cart and pendulum. \n\nThen, $X$ angular acceleration is given by $\\alpha = - \\frac{g}{L} \\sin(\\theta)$, where $g$ is the acceleration due to gravity, $L$ is the length of the pendulum, and $\\theta$ is the angle of displacement."
+      },
+      {
+        "type": "text",
+        "text": "20. Solve this expression for $\\theta$.\n\n21. For a cylindrical shell, if $p$ = radial pressure,\n\n\\[ 34\\rho\\cdot S = 2\\pi\\cdot p \\cdot r^2 \\]"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dp}{dr} + \\frac{1}{r}p = 0",
+        "description": "This equation models the radial pressure variation in a cylindrical shell."
+      },
+      {
+        "type": "text",
+        "text": "22. Find an expression for $p$, assuming a being constant."
+      },
+      {
+        "type": "equation",
+        "latex": "dp + \\gamma = 0",
+        "description": "This equation relates the change in pressure with a constant $\\gamma$."
+      },
+      {
+        "type": "text",
+        "text": "23. Given that the heat transfer they cause while a electric condenser for capacity $C$ discharges through a constant resistance, it yields the potential difference at that constant resistance and the end $d$ being given that relation."
+      },
+      {
+        "type": "equation",
+        "latex": "V = RC + d",
+        "description": "This equation models the relationship between voltage, resistance, capacitance, and potential difference."
+      },
+      {
+        "type": "equation",
+        "latex": "V = RC + L\\cdot A\\cdot \\sin(\\omega t)",
+        "description": "This expression represents the voltage in terms of resistance, capacitance, and a sinusoidal function."
+      }
+    ]
+  },
+  "cost": 0.0008529
+}

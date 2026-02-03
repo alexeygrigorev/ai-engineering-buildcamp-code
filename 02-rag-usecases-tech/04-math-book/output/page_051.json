@@ -1,0 +1,66 @@
+{
+  "page": {
+    "page_number": 34,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "present knowledge. We may simplify, however, by removing the brackets, and then—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{7x^{3} - 2y^{2}}{1 + 9y} = 0.",
+        "description": "This expression represents the derivative of $y$ with respect to $x$. Setting it to zero allows us to find critical points."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{3y^{2} + 2y}{2y - 4x + 5}",
+        "description": "This equation gives the relationship between $y$ and $x$ derived from implicit differentiation."
+      },
+      {
+        "type": "text",
+        "text": "Example 8.—Determine the value of..."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{d x} \\left( \\frac{1}{\\sqrt{\\frac{1}{(17m^{2} + 15)^{2}} + 2}} \\right) = \\frac{1 (17) (2)}{2 (17m^{2} + 15)^{\\frac{3}{2}}}.",
+        "description": "This differentiation demonstrates how to apply the chain rule and quotient rule in calculus."
+      },
+      {
+        "type": "text",
+        "text": "To avoid the quotient of functions, we divide each term by $y$ first, and then..."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d m}{d x} = (3 + 1) \\left( x^{2} + 2 - (3x^{2} + 5) \\cdot 5.0 \\right) \\cdot 1",
+        "description": "This equation calculates the rate of change of $m$ with respect to $x$ based on derived functions."
+      },
+      {
+        "type": "text",
+        "text": "Proof of the construction for the slope curve given on p. 14."
+      },
+      {
+        "type": "text",
+        "text": "Let us deal first with the particular principle in which the equation of the primitive curve is given."
+      },
+      {
+        "type": "text",
+        "text": "Referring to Fig. 4, the equation of the curve OAB is $y = 2x^3$."
+      },
+      {
+        "type": "text",
+        "text": "Hence the difference between the ordinates of the curves OAB and CG, the latter being regarded as the base curve—"
+      },
+      {
+        "type": "equation",
+        "latex": "y_{G} = 2x^{3} - 4x^{2} - k",
+        "description": "This equation shows the relationship between the ordinates of two curves and signifies the height difference."
+      },
+      {
+        "type": "text",
+        "text": "so that the equation of the curve MN is"
+      }
+    ]
+  },
+  "cost": 0.0009422999999999999
+}

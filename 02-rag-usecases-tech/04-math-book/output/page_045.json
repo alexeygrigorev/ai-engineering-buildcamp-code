@@ -1,0 +1,35 @@
+{
+  "page": {
+    "page_number": 28,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "This relation can be interpreted graphically in the following manner: If the curve $y = x^2$ be plotted, and if its slope curve be drawn by either of the methods of Chapter I, then the equation to the latter curve is found to be $y = 3x^2$."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 7 - Primitive and Slope Curves",
+        "description": "The figure illustrates the curve $y = x^2$ and its slope curve $y = 3x^2$, highlighting their relationship and the concept of slope.",
+        "figure_number": 7
+      },
+      {
+        "type": "text",
+        "text": "Example 1 - Find the slope of the curve $y = x^2$ when $x = 4$."
+      },
+      {
+        "type": "text",
+        "text": "The slope of the curve $\\frac{dy}{dx} = 2x$ at $x = 4$ is $\\frac{dy}{dx} = 2 \\cdot 4 = 8$."
+      },
+      {
+        "type": "text",
+        "text": "Meaning that, in the neighbourhood of $x = 4$, the ordinate of the curve $y = x^2$ is changing at the rate of 8 feet as the abscissa; this fact is being illustrated by Fig. 7."
+      },
+      {
+        "type": "text",
+        "text": "Working along the same lines, it would be found that $\\frac{d^2y}{dx^2} = 2$, $\\frac{d^3y}{dx^3} = 0$, and $\\frac{d^4y}{dx^4} = 0$ (the reader is advised to test these results for himself)."
+      }
+    ]
+  },
+  "cost": 0.0008174999999999999
+}

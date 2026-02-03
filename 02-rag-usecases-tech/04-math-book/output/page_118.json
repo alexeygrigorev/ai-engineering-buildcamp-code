@@ -1,0 +1,39 @@
+{
+  "page": {
+    "page_number": 101,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In order to find an expression for $I$, this equation must be changed to a log form, thus—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\log(I) = \\frac{2MR}{L+M} - \\frac{MR}{L-M} \\log \\left( \\frac{L+M}{L-M} \\right) ",
+        "description": "This equation relates the log of current $I$ to various constants and variables, allowing for the expression of $I$ in a different form."
+      },
+      {
+        "type": "text",
+        "text": "If three variables are concerned, say $x$, $y$, and $z$, the relation between them may be expressed by the equation $z = f(x, y)$, then in order to find the values of $x$ and $y$ for turning values of $z$, it is necessary to determine the value of $x$ and $y$ simultaneously."
+      },
+      {
+        "type": "text",
+        "text": "The algebraic problem is to find the values of $x$ and $y$ that satisfy simultaneously the equations $\\frac{dz}{dx} = 0$ and $\\frac{dz}{dy} = 0$, these derivatives being partial."
+      },
+      {
+        "type": "text",
+        "text": "Example 12.—The electric time constant of a cylindrical coil of wire (i.e., the time within which the current through the coil falls from its initial value to a value equal to -632 of its value). It is expressed approximately by $K = \\frac{\\lambda}{R}$, where $\\lambda$ is the inductance of the coil and $R$ is the resistance of the coil."
+      },
+      {
+        "type": "equation",
+        "latex": "V = \\frac{I}{L} = (a + b) x - 0.5 x^{2} \\text{ for } x = a + b. \\text{now}\\, \\frac{d^{2}V}{dx^{2}} =-1, \\text{ which is a maximum.}",
+        "description": "This derivation expresses the volume $V$ of the coil in terms of its dimensions and provides a second derivative test for maximization."
+      },
+      {
+        "type": "text",
+        "text": "Now $\\frac{dV}{dx} = (a + b) - x.$"
+      }
+    ]
+  },
+  "cost": 0.0008894999999999999
+}

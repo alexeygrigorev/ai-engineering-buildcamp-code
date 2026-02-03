@@ -1,0 +1,49 @@
+{
+  "page": {
+    "page_number": 189,
+    "header": "ROOT MEAN SQUARE VALUES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "mean value of the squares (the root mean square value and written R.M.S.) of their numbers, the instrument records what are termed alternative numbers, a virtual amperage being the current that produces the same heat in a resistance as a steady or direct current of an ampere in the same time."
+      },
+      {
+        "type": "text",
+        "text": "In place of the measurement of the current by its heating effect, the same current may be determined by its voltage, and in such instrument records the mean value of C², and the square root of this value is called the effective current."
+      },
+      {
+        "type": "text",
+        "text": "E. Similar relationships exist for other forms of alternating currents."
+      },
+      {
+        "type": "text",
+        "text": "It is therefore necessary to determine R.M.S. values of functions likely to occur, and thereby to comply the virtual with the steady."
+      },
+      {
+        "type": "text",
+        "text": "While the determination of R.M.S. values is of greatest importance from the applications to electrical problems, it is also necessary in the solution of many problems in mechanics, as known from the preceding section (see p. 240) it is possible to obtain a theoretical explanation of R.M.S. values."
+      },
+      {
+        "type": "text",
+        "text": "Example 7—The values of an alternating circuit are given as follows: \n\n2, 3, 4, 5, 6, 7."
+      },
+      {
+        "type": "text",
+        "text": "Find the mean value and also the R.M.S. value of these given values."
+      },
+      {
+        "type": "text",
+        "text": "The mean value is calculated as the average of the given values as 3.5."
+      },
+      {
+        "type": "text",
+        "text": "Now we must tabulate the values of the squares; thus,\n\n2²  = 4  3²  = 9  4²  = 16  5²  = 25  6²  = 36  7²  = 49."
+      },
+      {
+        "type": "text",
+        "text": "The mean of the squares of R.M.S. = \\sqrt{\\frac{4 + 9 + 16 + 25 + 36 + 49}{6}} = \\sqrt{\\frac{139}{6}} = 3.84."
+      }
+    ]
+  },
+  "cost": 0.0008816999999999999
+}

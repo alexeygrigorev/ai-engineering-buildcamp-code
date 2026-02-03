@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 56,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "3. Evaluate \\( \\frac{d^2 y}{dx^2} \\) when \\( y = A e^{x} + B e^{-x} + C \\sin x + D \\cos x \\)."
+      },
+      {
+        "type": "text",
+        "text": "4. Newst gives the following relation concerning the pressure \\( p \\) of a refrigerant (such as Carbon Dioxide or Ammonia) and its absolute temperature."
+      },
+      {
+        "type": "equation",
+        "latex": "p = A - B \\log \\left( C + \\sqrt{T} \\right)",
+        "description": "This equation relates the pressure of the refrigerant to the temperature."
+      },
+      {
+        "type": "text",
+        "text": "where A, B, C, and D are constants. Find an expression for \\( T \\)."
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of the Trigonometric Functions - Before proceeding to establish the rules for differentiation of \\( \n x \\) and \\( \n \\sin x \\), it is useful to remind ourselves of the following simple identities which are necessary for the proof of these rules."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sin^2 x + \\cos^2 x = 1",
+        "description": "This identity connects sine and cosine functions."
+      },
+      {
+        "type": "text",
+        "text": "(a) If \\( A + B = 2 \\) then: \\( \\sin \\left(\\frac{A+B}{2}\\right) = \\sin \\left( \\frac{A}{2} + \\frac{B}{2} \\right) \\)."
+      },
+      {
+        "type": "text",
+        "text": "(b) Let \\( \\sin A = B \\) and \\( \\sin B = 2 \\)."
+      },
+      {
+        "type": "text",
+        "text": "To find \\( \n \\\\ sin x \\) we can write it in simpler cases; thus-"
+      },
+      {
+        "type": "equation",
+        "latex": "\\begin{align*} \n \\sin x & = a \\sin x + b \\cos y \\\\ \n \\sin A + \\cos A & = 1 \n \\end{align*}",
+        "description": "These equations relate sine and cosine to simpler functions."
+      },
+      {
+        "type": "text",
+        "text": "Dividing through by \\( \\sin x \\), we get:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{\\sin x}{a}\\sin \\left(2 \\times 2 \\sin x \\right) \\sin \\left(\\cos A\\right) \\sin \\left(\\cos A\\right)",
+        "description": "This equation shows a relation involving sine and cosine functions."
+      }
+    ]
+  },
+  "cost": 0.0009338999999999999
+}

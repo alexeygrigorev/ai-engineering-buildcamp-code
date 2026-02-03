@@ -1,0 +1,44 @@
+{
+  "page": {
+    "page_number": 236,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "figure",
+        "caption": "Fig. 76",
+        "description": "This figure shows two parts; (a) is a diagram illustrating a curve with labeled points and dimensions, while (b) is the corresponding curve on an axis, indicating the shape of the figure based on the measurements provided in part (a).",
+        "figure_number": 76
+      },
+      {
+        "type": "equation",
+        "latex": "p = -75t",
+        "description": "Equation representing a value related to time (t)."
+      },
+      {
+        "type": "equation",
+        "latex": "r = 2.25t + 5t",
+        "description": "Equation combining variables to determine another value."
+      },
+      {
+        "type": "equation",
+        "latex": "r = -t",
+        "description": "Equation expressing a direct relationship between r and t."
+      },
+      {
+        "type": "equation",
+        "latex": "z = 2.1t",
+        "description": "Equation providing a value represented by z in relation to t."
+      },
+      {
+        "type": "equation",
+        "latex": "-9t",
+        "description": "Output of a linear equation with respect to t."
+      },
+      {
+        "type": "text",
+        "text": "The graph below indicates the relationship between the variables as per the equations shown."
+      }
+    ]
+  },
+  "cost": 0.0007394999999999999
+}

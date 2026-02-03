@@ -1,0 +1,54 @@
+{
+  "page": {
+    "page_number": 144,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "17. Evaluate \n\\[ I = \\int \\left( x^2 - 2x + y^2 \\right) dx \\, dy \\] , an integral occurring in a beam problem."
+      },
+      {
+        "type": "text",
+        "text": "18. Let \n\\[ Q = \\frac{\\pi}{2} \\int \\left( 1 - \\sin x \\right) \\sin^2 x \\, dx \\] , find \\( Q \\), the potential thrust of a thrust for \\( I_c \\), the curve vault, and \\( \\theta \\), the angle of repose of the curve."
+      },
+      {
+        "type": "text",
+        "text": "19. Find the area between the curve \\( y = x^2 \\) and the line \\( y = 594 \\)."
+      },
+      {
+        "type": "text",
+        "text": "20. If \\( x = 6 \\) when \\( t = 0 \\) for \\( x = 10^5 \\) and \\( y = 14 \\) when \\( t \\) is varying for \\( y \\) in terms of \\( x \\)."
+      },
+      {
+        "type": "text",
+        "text": "21. Evaluate \\( \\sqrt{13} - \\sqrt{3} \\)."
+      },
+      {
+        "type": "text",
+        "text": "22. The total centrifugal force on a body is given by the relation \n\\[ F = \\frac{N}{g} \\cdot \\frac{N_{total} \\cdot \\sin \\theta}{R} \\] , find an expression for the force."
+      },
+      {
+        "type": "text",
+        "text": "23. The area of bending moment diagram in a certain case was given by \n\\[ F = \\frac{S}{I} \\cdot H \\] , find the value of this area."
+      },
+      {
+        "type": "text",
+        "text": "24. The horizontal thrust on a parabolic arch is given by \n\\[ F_h = \\frac{W \\cdot L^2}{2H} \\] , find."
+      },
+      {
+        "type": "text",
+        "text": "25. The work done by an engine working on the Rankine cycle may be expressed as \n\\[ W = \\int_0^{t_{final}} P_{engine} \\, dV \\] , find the parameters for this integral."
+      },
+      {
+        "type": "text",
+        "text": "26. Find the value of \\( \\lambda \\), the frequency of transverse vibrations of a beam simply supported at its ends with \\( w \\) tons per foot load, and the deflected form is given by \n\\[ \\lambda = \\sqrt{\\frac{EI}{\\rho}} \\] ."
+      },
+      {
+        "type": "equation",
+        "latex": "\\[ \\frac{d^2y}{dx^2} + \\lambda^2 y = 0 \\]",
+        "description": "This equation models the behavior of the vibrations of a beam under certain conditions."
+      }
+    ]
+  },
+  "cost": 0.0009681
+}

@@ -1,0 +1,37 @@
+{
+  "page": {
+    "page_number": 166,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence\n\n\\[ \\int_{0}^{\\pi/2} \\sin^{4}\\theta \\, d\\theta = \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta \\cdot \\cos^{2}\\theta \\, d\\theta = \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta \\cdot \\left(1 - \\sin^{2}\\theta \\right) \\, d\\theta \\\\ \n= 0 + \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, (1 - \\sin^{2}\\theta) \\, d\\theta \n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Now\n\n\\[ \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta = \\frac{1}{2} \\int_{0}^{\\pi/2} \\cos^{2}\\theta \\, d\\theta \\\\ \n= \\frac{\\pi}{2} - \\left(\\frac{\\pi}{2} - \\frac{\\pi}{4}\\right) \\\\ \n= \\frac{\\pi}{8} \n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Hence—\n\n\\[ \\int_{0}^{\\pi/2} \\sin^{4}\\theta \\, d\\theta = \\frac{3}{8} \\\\ \n\\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta = \\frac{1}{4} \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta \\\\ \n= \\frac{\\pi}{8} \n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Or\n\n\\[ \\int_{0}^{\\pi/2} \\sin^{4}\\theta \\, d\\theta = \\frac{3}{4} \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta \\\\ \n= \\frac{1}{8} \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta + C \\\\ \n= \\frac{1}{8} \\cdot 1 + C = \\frac{\\pi}{8} + C \n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Thus we have reduced the power by 2, and knowing the result for  \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta , we can finally state the value for  \\int_{0}^{\\pi/2} \\sin^{4}\\theta \\, d\\theta ."
+      },
+      {
+        "type": "text",
+        "text": "In like manner it could be shown—\n\n\\[ \\int_{0}^{\\pi/2} \\sin^{6}\\theta \\, d\\theta = \\frac{5}{8} \\cdot \\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta \\\\ \n= \\frac{5}{8} \\cdot \\frac{3}{8} \\cdot \\frac{\\pi}{8} = \\frac{5 \\cdot 3}{8 \\cdot 8} \\cdot \\frac{\\pi}{8} \\\\ \n= \\frac{15}{64} \\cdot \\frac{\\pi}{8} \n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Thus\n\n\\[ \\int_{0}^{\\pi/2} \\sin^{6}\\theta \\, d\\theta = \\frac{4.2}{5} \\\\ \n\\int_{0}^{\\pi/2} \\sin^{2}\\theta \\, d\\theta = 4.2 \\cdot \\frac{4}{5} = 4.2 \\\\ \n= \\frac{15}{64} \\cdot \\frac{\\pi}{8}  \n\\]"
+      }
+    ]
+  },
+  "cost": 0.0011331
+}

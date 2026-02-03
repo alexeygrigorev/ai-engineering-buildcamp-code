@@ -1,0 +1,27 @@
+{
+  "page": {
+    "page_number": 362,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "As before\nlog sin A = log sin A + log sin B\nlog sin 55° 10′ + log sin 38° 16′ + log sin 44° 35′\n1 : sin A = 47° 3′ : 132° 57′  \nso that possible values of A are 47° 3′ and 132° 57′, and we must test each of these values.\n\nExample 1: In a spherical triangle A = 30°, let B = 60°.\nGiven also:\n\nA = 30°; B = 60°; C = 90°; A = 30°; B = 60°; C = 90°\n\nThen from the table and included angle we; therefore use equations (8) and (9):"
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan A = \\frac{\\sin B}{\\sin C} \\\\\\tan 30° = \\frac{\\sin 60°}{\\sin 90°} \\\\\\tan 30° = \\frac{\\frac{\\sqrt{3}}{2}}{1} \\\\\\tan 30° = \\frac{\\sqrt{3}}{2}",
+        "description": "Using the tangent function for the angles and sides of the triangle."
+      },
+      {
+        "type": "equation",
+        "latex": "L = \\tan A = \\frac{1}{\\tan P} \\\\\\L \\tan 30° = 1 \\tan 30° = \\frac{\\sqrt{3}}{3} \\\\\\L = \\frac{\\sqrt{3}}{3}",
+        "description": "Relating the tangent of angle A to tangent P."
+      },
+      {
+        "type": "text",
+        "text": "Taking logs of both sides: \n\n\\[L = \\tan A = \\log(\\tan A) - \\log(\\sin C)\\\\\n\\ L = \\log A + \\log B - \\log C = \\log A + \\log B - \\log A + \\log B - \\log A = A + B = 120° 8′ 6′′\n\\]"
+      }
+    ]
+  },
+  "cost": 0.0008858999999999999
+}

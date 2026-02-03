@@ -1,0 +1,53 @@
+{
+  "page": {
+    "page_number": 173,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To evaluate $\n\\int \\frac{dx}{x^2 + 1}$, known as the First Euler Integral and usually denoted by the form $E(\\alpha, n)$, we may substitute $x = \\tan \\theta$. Then, since when $x = 0$ then $\\theta = 0$ and thus $0 = 2$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{dx}{x^2 + 1} = \\int \\sec^2 \\theta \\; d\\theta",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "and this can readily be evaluated."
+      },
+      {
+        "type": "equation",
+        "latex": "= \\theta + C = \\tan^{-1} x + C",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Examples – Evaluate $\n\\int (1 - x^2)^{\\frac{1}{2}}(dx)$."
+      },
+      {
+        "type": "text",
+        "text": "Let $u = 1 - x^2$ and thus $\\; du = -2x \\, dx$, or $dx = -\\frac{du}{2x}$. Hence, our integral becomes:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int (1 - x^2)^{\\frac{1}{2}}dx = -\\frac{1}{2} \\int (u)^{\\frac{1}{2}} \\cdot \\frac{1}{-u^{\\frac{1}{2}}} \\; du",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Another result obtained by the process of reduction is the value of $\n\\int e^{-x^2} \\, dx$. This is termed a Gamma Function; this particular integral being denoted by $\\Gamma(n)$."
+      },
+      {
+        "type": "equation",
+        "latex": "R = (1 + \\cos 0 + \\cdots + u) = \\frac{\\int e^{-x^2} \\, dx}{\\sqrt{\\pi}}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Thus, the latter integral being also called the Second Eulerian Integral."
+      }
+    ]
+  },
+  "cost": 0.0009518999999999999
+}

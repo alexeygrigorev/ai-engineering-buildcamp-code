@@ -1,0 +1,53 @@
+{
+  "page": {
+    "page_number": 150,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence\n\n\\[ \\int \\sin z \\, dz = -\\cos x \\cdot \\frac{\\sqrt{a^2 - x^2}}{a} + K. \\]"
+      },
+      {
+        "type": "text",
+        "text": "Example 7 — To find\n\n\\[ \\int \\frac{1}{\\sqrt{a^2 - x^2}} \\, dx. \\]"
+      },
+      {
+        "type": "text",
+        "text": "Let\n\n\\[ x = a \\sin \\theta, \\quad i.e., \\quad dx = a \\cos \\theta \\, d\\theta. \\]"
+      },
+      {
+        "type": "text",
+        "text": "Then,\n\n\\[ \\sqrt{a^2 - x^2} = a \\cos \\theta, \\]"
+      },
+      {
+        "type": "text",
+        "text": "as before, so\n\n\\[ \\int \\frac{1}{\\sqrt{a^2 - x^2}} \\, dx = \\int \\frac{a \\cos \\theta}{a \\cos \\theta} \\, d\\theta = \\int d\\theta = \\theta + C = \\sin^{-1} \\left( \\frac{x}{a} \\right) + C. \\]"
+      },
+      {
+        "type": "text",
+        "text": "Example 8 — To find\n\n\\[ \\int \\frac{dx}{\\sqrt{1 - x^2}}. \\]"
+      },
+      {
+        "type": "text",
+        "text": "In this case let's set\n\n\\[ u = \\sin h \\, u, \\quad i.e., \\quad \\frac{dx}{du} = \\cos h u. \\]"
+      },
+      {
+        "type": "text",
+        "text": "Now\n\n\\[ \\cosh^2 x - 1 = \\sinh^2 x \\quad (cf. p. 291, Part I) \\]"
+      },
+      {
+        "type": "text",
+        "text": "or\n\n\\[ \\int \\frac{du}{\\cosh^2 u} = \\int \\text{sech}\u0002 u \\, du. \\]"
+      },
+      {
+        "type": "text",
+        "text": "Referring to p. 298, Part I, we see that\n\n\\[ \\int \\text{sech}^2 u \\, du = \\tanh u + C \\]"
+      },
+      {
+        "type": "text",
+        "text": "or\n\n\\[ \\int \\frac{dx}{\\sqrt{1 - x^2}} = \\sin^{-1} x + C. \\]"
+      }
+    ]
+  },
+  "cost": 0.0009153
+}

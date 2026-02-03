@@ -1,0 +1,77 @@
+{
+  "page": {
+    "page_number": 36,
+    "header": "THE SOLUTION OF SPHERICAL TRIANGLES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "of two solutions of the problem; the best test for which is, pointed out in Chap. VI, Part I, the following:"
+      },
+      {
+        "type": "text",
+        "text": "The solution of spherical triangles, when two sides and the angle opposite one of them is given."
+      },
+      {
+        "type": "text",
+        "text": "From equation (1), p. 357."
+      },
+      {
+        "type": "text",
+        "text": "$\n\\sin A = \\frac{a \\sin B}{b} \\n$"
+      },
+      {
+        "type": "text",
+        "text": "Now $\n\\sin A$ = $\n\\sin(180^{\\circ} - A)$, and the right-hand side of this last equation may be written either as the derivative of a particular angle or its supplement."
+      },
+      {
+        "type": "text",
+        "text": "This means that the proof may be stated that there will be two conditions for an angle opposite the angle side, $\nA$, if a value between either side and the supplement. Thus in the case in which $\nB$ is known, we can assert that."
+      },
+      {
+        "type": "text",
+        "text": "If $\nB$ lies between $g$ and $(180^{\\circ} - g)$, then the test must be applied that either the greater angle or lesser angle."
+      },
+      {
+        "type": "text",
+        "text": "The lesser angle must be expressed as the difference from the $90^{\\circ}$ raised. This can best be justified by the following examples, and all being raised in ascending order throughout."
+      },
+      {
+        "type": "text",
+        "text": "Suppose $\nB$ = $57^{\\circ}$, then $B = 79^{\\circ}$."
+      },
+      {
+        "type": "text",
+        "text": "In $\nA$ we have:"
+      },
+      {
+        "type": "text",
+        "text": "$\n\\sin A = \\sin B = \\sin 57^{\\circ}$"
+      },
+      {
+        "type": "text",
+        "text": "And log in $\nA$: $\n\\sin B = \\sin 57^{\\circ} = \\frac{g - 1}{g - 2}$. And log in: $\n\\sin 57^{\\circ} = g$."
+      },
+      {
+        "type": "text",
+        "text": "So that it is possible that $\nA = c$ + $\n(\\frac{\\pi}{180})$."
+      },
+      {
+        "type": "text",
+        "text": "Here, $\nA$ could lie around, since $64^{\\circ}$ is noted."
+      },
+      {
+        "type": "text",
+        "text": "But left noting, that $\nA$ = $65^{\\circ}$ remains $g$, therefore only one solution is expected."
+      },
+      {
+        "type": "text",
+        "text": "Also, it would be $A = 44^{\\circ}$; and $B = 38^{\\circ}$."
+      },
+      {
+        "type": "text",
+        "text": "So, it does not lie between $a$ and $(180^{\\circ} - a)$, so that two solutions are possible."
+      }
+    ]
+  },
+  "cost": 0.0009656999999999999
+}

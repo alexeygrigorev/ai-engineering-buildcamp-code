@@ -1,0 +1,80 @@
+{
+  "page": {
+    "page_number": 32,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx}\\left(\\frac{a}{x^{n+1}}\\right) = -\\frac{(n+1)a}{x^{n+2}}.",
+        "description": "Derivative of \\( \\frac{a}{x^{n+1}} \\) with respect to \\( x \\)."
+      },
+      {
+        "type": "text",
+        "text": "and hence \\( \\frac{d}{dx}\\left(\\frac{a}{x^{n}}\\right) = -\\frac{na}{x^{n+1}}.\\) Now, let \\( n = 1. \\) To apply these ideas to some numerical examples:"
+      },
+      {
+        "type": "text",
+        "text": "Example 2—Differentiate with respect to \\( x \\) the function—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{1}{2}x^{4}+4x^{2}-7x+8",
+        "description": "Function to differentiate."
+      },
+      {
+        "type": "text",
+        "text": "Thus: "
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx}\\left(\\frac{1}{2}x^{4}+4x^{2}-7x+8\\right) = 2x^{3}+8x-7.",
+        "description": "Result of the differentiation."
+      },
+      {
+        "type": "text",
+        "text": "Example 3: If \\( v = -8\\frac{x}{\\sqrt{1 - x^{2}}} \\) find the value of \\( \\frac{dy}{dx} \\) when \\( x = 4 \\) so that in comparison with the standard form."
+      },
+      {
+        "type": "equation",
+        "latex": "v = -8\\frac{x}{\\sqrt{1 - x^{2}}}",
+        "description": "Expression for \\( v \\)."
+      },
+      {
+        "type": "text",
+        "text": "Then—"
+      },
+      {
+        "type": "equation",
+        "latex": "dp = C_{p}du - C_{v}dT = R \\cdot dz - R\\frac{dp}{dv}",
+        "description": "Expression relating differentials in terms of heat capacities."
+      },
+      {
+        "type": "text",
+        "text": "In this example we have to differentiate \\( p \\) with regard to \\( v \\) and before all, find \\( p \\) must be expressed in terms of \\( v \\)."
+      },
+      {
+        "type": "equation",
+        "latex": "C_{v} = C_{g} \\Rightarrow p = \\frac{dp}{dv}",
+        "description": "Relationship involving heat capacities."
+      },
+      {
+        "type": "text",
+        "text": "Hence "
+      },
+      {
+        "type": "equation",
+        "latex": "dp = -\\frac{74}{x^{p}u}dT + u - R\\frac{dp}{dv}\\text{ for C with its variable } p^{u}\\text{ so, } ",
+        "description": "Differential equation involving \\( dp, dT, \\) and \\( dv \\)."
+      },
+      {
+        "type": "text",
+        "text": "Thus \\( \\frac{dy}{dx} = -R\\frac{dp}{dv}."
+      }
+    ]
+  },
+  "cost": 0.0009903
+}

@@ -1,0 +1,38 @@
+{
+  "page": {
+    "page_number": 376,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If  $n$ observations are made, let  $x_1, x_2, \n\\ldots, x_n$  be the respective observations and  $a$  the A.M. of these values \n\nthe value most probably correct then  $(x_a - a), (x_2 - a)$ etc. are known as residual errors."
+      },
+      {
+        "type": "text",
+        "text": "Now the probability of making this system of errors is \n\n$P = \\left( \\frac{1}{\\sqrt{2\\pi \\sigma^2}} \\right)^n e^{\\frac{-1}{2\\sigma^2}\\sum_{i=1}^{n}(x_i - a)^2}$"
+      },
+      {
+        "type": "text",
+        "text": "To differentiate  $P$  with regard to  $a$, \n\ndifferentiating under the sign of summation gives \n\nHence,\n\n$\\frac{dP}{da} = -\\frac{1}{\\sigma^2}\\sum_{i=1}^{n}(x_i - a)$."
+      },
+      {
+        "type": "text",
+        "text": "Thus\n\n$\\frac{dP}{da} = 0$ if  $\\sum_{i=1}^{n}(x_i - a) = 0$  or if  $\\sum_{i=1}^{n}x_i = na$  \n\nbut  $\\sum_{i=1}^{n} x_i = na$  of the observations\n\nand hence  $a = \\frac{1}{n}\\sum_{i=1}^{n}x_i$."
+      },
+      {
+        "type": "text",
+        "text": "The most probable value is the A.M. of the observations.\n\nAgain, if  $x_i$  is the error of the A.M. and  $x_1, x_2, x_3, x_n$ are the respective errors of the observations,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\sum_{i=1}^{n} x_i = 0",
+        "description": "The sum of the errors of the observations equals zero."
+      },
+      {
+        "type": "text",
+        "text": "By squaring\n\n$\\frac{1}{n}\\sum_{i=1}^{n} x_i^2$."
+      }
+    ]
+  },
+  "cost": 0.0008966999999999998
+}

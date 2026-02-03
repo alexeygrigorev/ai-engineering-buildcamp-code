@@ -1,0 +1,31 @@
+{
+  "page": {
+    "page_number": 252,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "join up all the points like Q, thus obtaining the curve CQLS, which is termed the first moment curve."
+      },
+      {
+        "type": "text",
+        "text": "To obtain the 2nd moment curve treat the area CPXKSLQ in the same way as the original area was treated, i.e., drop QR′ perpendicular to MM, and join RR′; join up all points like D, and the 2nd moment curve is obtained."
+      },
+      {
+        "type": "text",
+        "text": "Calculations.---Find by the planimeter the areas of the original"
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 59. Section of Section from Graphic Construction.",
+        "description": "The figure illustrates the relationship between the curves and the various areas labeled A₀, A₁ and A₂. It shows the steps in calculating the first moment curve and the second moment curve based on the specific areas.",
+        "figure_number": 59
+      },
+      {
+        "type": "text",
+        "text": "and the theorem of parallel axes, I can be found about NN."
+      }
+    ]
+  },
+  "cost": 0.0007298999999999999
+}

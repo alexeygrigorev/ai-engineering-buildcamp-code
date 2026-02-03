@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 143,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Or, in general —"
+      },
+      {
+        "type": "text",
+        "text": "Area = $\\int_{a}^{b} (first + last) \\frac{1}{2} dx$."
+      },
+      {
+        "type": "section_heading",
+        "title": "Exercises 14—On the Evaluation of Definite Integrals."
+      },
+      {
+        "type": "text",
+        "text": "Find the values of the definite integrals in No 1."
+      },
+      {
+        "type": "text",
+        "text": "1. $\\int_{1}^{2} (x^2 + 4) \\, dx$."
+      },
+      {
+        "type": "text",
+        "text": "2. $\\int_{0}^{4} (x^3 - 3x + 2) \\, dx$."
+      },
+      {
+        "type": "text",
+        "text": "3. Find the change in entropy of a gas as the absolute temperature changes from 643 to 775 is given by $\\int \\frac{C}{T} \\, dT$. Find this change."
+      },
+      {
+        "type": "text",
+        "text": "4. If $H = \\int I \\, dx$, find the value of $H$."
+      },
+      {
+        "type": "text",
+        "text": "5. The applied viscous flux density ($q$) for a 3-phase motor is given by $q = \\epsilon \\cdot \\int d\\theta$. Find $B$ in terms of $B$."
+      },
+      {
+        "type": "text",
+        "text": "6. Express $\\sin \\alpha \\cos \\beta$ as the sum of two terms and integrate with respect to $t$. If $a = 3$ and $b = 4$, what is the value of the integral with limits from 1 to 7?"
+      },
+      {
+        "type": "text",
+        "text": "7. If $f = f(x) \\cos^2 \\theta$, find $f$."
+      },
+      {
+        "type": "text",
+        "text": "8. Given that $\\int_{a}^{b} f \\, dx$ = 0 when $a = 0$ and $b = 1$, find an expression for $x$. (The case of a red beam unallowed during...)"
+      }
+    ]
+  },
+  "cost": 0.0008606999999999998
+}

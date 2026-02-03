@@ -1,0 +1,64 @@
+{
+  "page": {
+    "page_number": 77,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Now sin^{-1} x is an inverse trigonometric function, and it is such a function that if y = sin⁡x, then sin⁡y = x."
+      },
+      {
+        "type": "text",
+        "text": "To differentiate sin^{-1} x with regard to x."
+      },
+      {
+        "type": "text",
+        "text": "Let y = sin^{-1} x so that, from definition, sin y = x."
+      },
+      {
+        "type": "text",
+        "text": "but"
+      },
+      {
+        "type": "text",
+        "text": "and hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{1}{\\cos y} \\frac{dy}{dx}.",
+        "description": "The derivative of sin^{-1} x with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "Similarly (x being supposed to vary between 0 and π/2)."
+      },
+      {
+        "type": "text",
+        "text": "Example 14—Find the value of \\frac{d}{dx} \\tan^{-1} x."
+      },
+      {
+        "type": "text",
+        "text": "Now \\tan^{-1} x = y, and sec^2 y = 1 + \\tan^2 y."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{1}{1 + \\tan^2 y} \\frac{dy}{dx}.",
+        "description": "The derivative of tan^{-1} x with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{1}{1 + x^2}.",
+        "description": "Final expression for the derivative of tan^{-1} x."
+      },
+      {
+        "type": "text",
+        "text": "or"
+      }
+    ]
+  },
+  "cost": 0.0008162999999999998
+}

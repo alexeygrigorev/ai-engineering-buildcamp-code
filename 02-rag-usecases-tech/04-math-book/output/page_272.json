@@ -1,0 +1,53 @@
+{
+  "page": {
+    "page_number": 255,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Find the moment of inertia about the neutral axis of the sections in Exs. 9 and 10."
+      },
+      {
+        "type": "text",
+        "text": "8. Channel Section, (b), Fig. 75."
+      },
+      {
+        "type": "text",
+        "text": "9. Unequal Angle, (d), Fig. 75."
+      },
+      {
+        "type": "text",
+        "text": "10. Tee Section, (a), Fig. 75."
+      },
+      {
+        "type": "text",
+        "text": "11. The flexural rigidity of a beam is measured by the quantity EI, where E is the modulus of elasticity of the material, and I is the moment of inertia of the cross-section with respect to the neutral axis. The relationship between the radius of curvature, $R$, of the neutral surface and the bending moment, $M$, is given by the formula:\n\\[ M = EI \\frac{d^2y}{dx^2} \\] \nwhere $y$ is the vertical deflection of the beam."
+      },
+      {
+        "type": "text",
+        "text": "12. Calculate the moment of inertia of an annular section, the outer radius being $R_1$, and the inner radius being $R_2$. Find the moment of inertia about the center of the cylinder."
+      },
+      {
+        "type": "text",
+        "text": "13. An annular section has the following dimensions: the outer radius is $R = 0.5 \text{ m}$, and the inner radius is $r = 0.3 \text{ m}$. Calculate the moment of inertia."
+      },
+      {
+        "type": "text",
+        "text": "14. The moment of inertia of a cylindrical shell is given by the formula:\n\\[ I = \\frac{1}{2} m R^2 \\] \nwhere $m$ is the mass and $R$ is the radius."
+      },
+      {
+        "type": "text",
+        "text": "15. The figure shows a beam in a vertical position with a load acting horizontally at its mid-point. Find the reaction at the supports and the bending moments at the supports."
+      },
+      {
+        "type": "text",
+        "text": "16. A wire of steel, which is 6 cm in diameter and 8 m long, has a length of the wire is shown in a table below."
+      },
+      {
+        "type": "text",
+        "text": "Finally, find the time of a torsional oscillation of the wire from the formula:\n\\[ T = 2\\pi \\sqrt{\\frac{I}{T}} \\] \nwhere $I$ is the moment of inertia and $T$ is the torque."
+      }
+    ]
+  },
+  "cost": 0.0009170999999999999
+}

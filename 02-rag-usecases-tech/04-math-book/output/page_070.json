@@ -1,0 +1,65 @@
+{
+  "page": {
+    "page_number": 53,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "they can be modified to meet the cases in which common logs occur; for example,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\log_{10} x = \\frac{\\ln x}{\\ln 10} \n\\hspace{2cm} \\text{and hence} \n\\frac{d}{dx} \\log_{10} x = \\frac{1}{\\ln 10} \\cdot \\frac{d}{dx} \\ln x = \\frac{1}{x \\ln 10}.",
+        "description": "The derivative of the log base 10 with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "It should be observed that in all these logarithmic functions the I.V. is raised to the first power only; if the I.V. is raised to a power higher than the first, other rules, which are given later, must be employed."
+      },
+      {
+        "type": "text",
+        "text": "Example 20—If y = log_{7} x, find \\frac{dy}{dx}."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{1}{x \\ln 7}",
+        "description": "The derivative of y with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "or alternatively— using the change of base property, we have"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{1}{x \\ln 7}.",
+        "description": "Same derivative restated using logarithmic properties."
+      },
+      {
+        "type": "text",
+        "text": "Example 21—Differentiate with regard to t the expression\\n                  log_{3} t^{2} and find the numerical value of the derivative when  t = 3^2."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dt} \\log_{3} t^{2} = \\frac{2}{t \\ln 3} = \\frac{2}{3 \\ln 3} \\approx 0.588.",
+        "description": "Deriving the log base 3 for t squared and computing its value."
+      },
+      {
+        "type": "text",
+        "text": "Thus we can treat this expression approximately by taking values of t as 3 and 3.21 and calculating the value of \\frac{dy}{dx}."
+      },
+      {
+        "type": "text",
+        "text": "When  t = 3, : \\displaystyle \\log_{3}(3^2) = 2."
+      },
+      {
+        "type": "text",
+        "text": "while and thus candidate for value of \\frac{2}{3 \\ln(3)} = 0.221."
+      },
+      {
+        "type": "text",
+        "text": "and when t = 3.21 applying this value, we have 2.9. \\text{Thus,}, we get approximately 2.09."
+      }
+    ]
+  },
+  "cost": 0.0009518999999999999
+}

@@ -1,0 +1,76 @@
+{
+  "page": {
+    "page_number": 204,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence\n\n$\\frac{d}{dx}(y) = \\frac{x^2}{y} - 1$"
+      },
+      {
+        "type": "text",
+        "text": "Length of circumference"
+      },
+      {
+        "type": "equation",
+        "latex": "L = 4 \\times\\text{length of } \\text{circumference}",
+        "description": "This formula indicates the length of the circumference, scaling it by a factor of 4."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{\\pi/2} \\sqrt{1 + \\left(\\frac{dy}{dx}\\right)^2} \\; dx = \\int_{0}^{\\pi/2} \\sqrt{1 + \\sin^2(\\theta)} \\; d\\theta",
+        "description": "This integral represents the calculation of the length of a curve based on its derivative."
+      },
+      {
+        "type": "text",
+        "text": "to evaluate this integral, let $\\sin u = x$ (Example 7, p. 150)."
+      },
+      {
+        "type": "equation",
+        "latex": "dx = \\cos u \\; du",
+        "description": "This equation relates the derivative of $x$ to $u$ in terms of cosine."
+      },
+      {
+        "type": "text",
+        "text": "and also"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{\\cos u}{\\cos u} = 1",
+        "description": "This equation confirms the derivative of $y$ with respect to $x$."
+      },
+      {
+        "type": "text",
+        "text": "Fig. 52."
+      },
+      {
+        "type": "text",
+        "text": "To find the limits to be assigned to..."
+      },
+      {
+        "type": "equation",
+        "latex": "u = \\frac{x}{a}",
+        "description": "This defines $u$ in terms of the variable $x$ and a constant $a$."
+      },
+      {
+        "type": "text",
+        "text": "and when $u = 0 \\Rightarrow x = 0$ and when $u = \\frac{\\pi}{2} \\Rightarrow x = a$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Thus the circumference}",
+        "description": "The subsequent equations will relate to circumference, derived from the integral."
+      },
+      {
+        "type": "equation",
+        "latex": "L = 4\\pi a",
+        "description": "This equation provides the expression for the circumference in terms of the parameter $a$."
+      },
+      {
+        "type": "text",
+        "text": "Example 19—Find an expression for the length of the perimeter of the ellipse whose major and minor axes are 2a and 2b respectively."
+      }
+    ]
+  },
+  "cost": 0.0009153
+}

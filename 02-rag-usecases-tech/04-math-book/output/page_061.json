@@ -1,0 +1,56 @@
+{
+  "page": {
+    "page_number": 44,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "This result illustrates an important property of the parabola and one useful in the drawing of tangents. For AT = z1, z2 > 0, and hence to find the tangent at any point P, drop PA perpendicular to the axis, set off OT = OA and join TP."
+      },
+      {
+        "type": "text",
+        "text": "i.e., the length of the sub-normal AN = z1."
+      },
+      {
+        "type": "text",
+        "text": "Example 13—Find the lengths of the sub-normal of the parabola $y^2 = 4ax$ when $y = 3a$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{2y}{4a} = \\frac{y}{2a} \\text{ and hence sub-tangent } = \\frac{y}{\\frac{dy}{dx}} = \\frac{y \\cdot 2a}{y} = 2a.",
+        "description": "Finding the derivative of the parabola and calculating the sub-tangent."
+      },
+      {
+        "type": "text",
+        "text": "When $y = 3a$,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{sub-normal} = 3a - 2a = a.",
+        "description": "Calculating the length of the sub-normal."
+      },
+      {
+        "type": "text",
+        "text": "Finding sub-normal when y = 4 and x = 341 units."
+      },
+      {
+        "type": "text",
+        "text": "The length of the sub-normal is calculated as:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{sub-normal} = 3 \\text{ and } y = 341 units.",
+        "description": "Calculation related to sub-normal and specific values."
+      },
+      {
+        "type": "text",
+        "text": "Remembering the first example, we can generalize to find it by considering the bending moment occurring at the respective sections."
+      },
+      {
+        "type": "text",
+        "text": "Reflecting the shaft as a simply supported beam AB (see Fig. 13), we may draw the bending moment diagrams for the respective systems."
+      }
+    ]
+  },
+  "cost": 0.0008540999999999999
+}

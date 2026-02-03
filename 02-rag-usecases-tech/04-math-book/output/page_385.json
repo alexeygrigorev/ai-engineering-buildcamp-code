@@ -1,0 +1,38 @@
+{
+  "page": {
+    "page_number": 368,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Graphic construction. With any convenient radius OD describe an arc of a circle. Draw OA, OB and OE, making the angle DOA = 74°; AOB = 76°; AOC = 78°; and DBC at right angles to OB, intersecting at the point C. Note that C lies outside the triangle AOB."
+      },
+      {
+        "type": "text",
+        "text": "Then E and C being fixed, construct the arc of a circle EH perpendicular to OB at the point E and join EH. Then the arc RE is the value of the required angle A, and is found to be in the neighbourhood of 78°. If the arc had fallen the other side of OA, the angle E would have been measured."
+      },
+      {
+        "type": "text",
+        "text": "The actual spherical triangle ABC is formed by the circular arc AC and the perpendicular radial arc AE. It is thus a subtended angle of 41° at the center. The side BC is marked 76° and its actual length of b, does not represent its true distance in this manner either."
+      },
+      {
+        "type": "text",
+        "text": "Let the circular sector OAB be rotated about OA as axis, and the resultant surfaces OA  \nBC be formed into a solid of revolution. This creates a solid cone of height OB and slant height OAB, and thus the relation OAB is produced."
+      },
+      {
+        "type": "text",
+        "text": "The line from the center O to point A is OA; and the line from the center O to point B is OB. The solid thus formed has a volume clearly illustrated by the dimensional formula shown below."
+      },
+      {
+        "type": "equation",
+        "latex": "V = \\frac{1}{3} \\pi r^2 h",
+        "description": "Volume of the cone formed by rotating the sector OAB around OA."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      }
+    ]
+  },
+  "cost": 0.0008318999999999999
+}

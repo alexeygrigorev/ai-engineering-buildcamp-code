@@ -1,0 +1,51 @@
+{
+  "page": {
+    "page_number": 326,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "It is rather easier to consider the stress on the outside to be greater than that on the inside: thus for an annulus of radius $r$ and thickness $t$, we take the internal stress as $\rho$ and the external stress as $\tau$. Considering the element RS of the annulus (substituting an angle of $d\theta$ for the center) and dealing with the radial arc: "
+      },
+      {
+        "type": "text",
+        "text": "Total radial force = $(\rho + \tau) \times$ inner arc"
+      },
+      {
+        "type": "text",
+        "text": "This is balanced by two forces: "
+      },
+      {
+        "type": "text",
+        "text": "1. The radial force."
+      },
+      {
+        "type": "text",
+        "text": "2. The circumferential force due to the internal pressure, $p$: $p \times r^2$ (see Fig. 120)."
+      },
+      {
+        "type": "text",
+        "text": "Letting $\rho = p + \tau$, we get (Fig. 120): "
+      },
+      {
+        "type": "equation",
+        "latex": "\\rho = \\frac{p \\cdot r^2}{A}",
+        "description": "This shows the relationship of stress and area due to pressure."
+      },
+      {
+        "type": "text",
+        "text": "Assume each longitudinal fibre to lengthen the same amount due to the secondary stresses."
+      },
+      {
+        "type": "text",
+        "text": "Then, the extension due to $\rho$ will be $\\frac{E}{I} \\times$ stress, and the extension due to $E$ will be $\\frac{E}{X} \\times$ stress."
+      },
+      {
+        "type": "equation",
+        "latex": "\\sigma = 2A, \\text{ say, for } A \\text{ and } E \\text{ are constants.}",
+        "description": "This equation relates stress to area and Young's modulus."
+      }
+    ]
+  },
+  "cost": 0.0008282999999999999
+}

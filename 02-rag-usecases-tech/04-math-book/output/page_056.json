@@ -1,0 +1,71 @@
+{
+  "page": {
+    "page_number": 39,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Dividing by $x$, "
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dM}{dx}=\\frac{8M}{S-8}$ and when $8$ is diminished indefinitely, $8$ becomes negligible.",
+        "description": "Differentiation of the moment equation with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "Examples on Loaded Beams."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 10.",
+        "description": "Illustration showing the loading on a beam and the deflection pattern under uniform load.",
+        "figure_number": 10
+      },
+      {
+        "type": "text",
+        "text": "The last example should be considered in conjunction with the following."
+      },
+      {
+        "type": "text",
+        "text": "Example 10.—For a beam of length $l$ fixed at one end and loaded uniformly with $w$ tons per foot, the deflection $y$ at distance $x$ from the fixed end is given by the formula."
+      },
+      {
+        "type": "equation",
+        "latex": "y=\\frac{wx^2}{24EI}(l^2-4x^2)",
+        "description": "Formula representing the deflection of the beam."
+      },
+      {
+        "type": "text",
+        "text": "E being the Young's Modulus of the material of the beam, and I being the moment of inertia of the beam section."
+      },
+      {
+        "type": "text",
+        "text": "Find the values of $y$ by:"
+      },
+      {
+        "type": "text",
+        "text": "Differentiating."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx}=\\frac{w}{24EI}(2x(l^2-4x^2)-8x^2)",
+        "description": "First derivative of the deflection with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "Differentiating again,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dx^2}=\\frac{w}{24EI}(2l^2-24x^2)",
+        "description": "Second derivative of the deflection with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "or"
+      }
+    ]
+  },
+  "cost": 0.0008558999999999999
+}

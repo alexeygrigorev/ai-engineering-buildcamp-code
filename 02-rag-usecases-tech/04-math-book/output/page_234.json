@@ -1,0 +1,79 @@
+{
+  "page": {
+    "page_number": 217,
+    "header": "CENTROIDS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "to be \"mean height\" $h$; and therefore measure ordinates such as $MN$ and multiply by the thickness or width of the strip. Repeat for each strip, and the sum of all these will be the area of the figure."
+      },
+      {
+        "type": "text",
+        "text": "To find $l_{OA}$, the distance of the first strip from $OY$ so that the area of the strip $x \times OA$ is the distance from $OY$."
+      },
+      {
+        "type": "text",
+        "text": "Next, multiply the area of each strip by the distance of its mid-ordinate from $OY$ and add the results; then the sum will be the moment of the area about $OY$."
+      },
+      {
+        "type": "text",
+        "text": "Let us find the first moments, and let:"
+      },
+      {
+        "type": "table",
+        "caption": "Calculation of Moments for Strips",
+        "columns": [
+          "Strip",
+          "Width (b)",
+          "Height (h)",
+          "Area (A)",
+          "Distance (d)",
+          "Moment (MA)"
+        ],
+        "rows": [
+          [
+            "1",
+            "2",
+            "4",
+            "8",
+            "2",
+            "16"
+          ],
+          [
+            "2",
+            "2",
+            "3",
+            "6",
+            "6",
+            "36"
+          ],
+          [
+            "3",
+            "2",
+            "2",
+            "4",
+            "10",
+            "40"
+          ],
+          [
+            "4",
+            "2",
+            "1",
+            "2",
+            "14",
+            "28"
+          ],
+          [
+            "5",
+            "2",
+            "0.5",
+            "1",
+            "18",
+            "18"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007700999999999999
+}

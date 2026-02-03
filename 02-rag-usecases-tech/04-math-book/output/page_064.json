@@ -1,0 +1,52 @@
+{
+  "page": {
+    "page_number": 47,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "A cantilever loaded with $W$ at the free end.\n\n$L$ = distance from the fixed end.\n\nFind the lengths of the projections of the tangent to the normal of the parabola, $y = a x^2 + b x + c$, having the value of the parabola $y = k$ is constant and find the value of this constant."
+      },
+      {
+        "type": "equation",
+        "latex": "W = \\frac{1}{2} \\int_{0}^{L} M(x) \\, dx",
+        "description": "This equation relates the load $W$ to the moment $M(x)$ along the beam."
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of Exponential Functions—The rule for differentiating exponential quantities applies only to functions involving the I.V. (usually the a) raised to some power. A method must now be found for the evaluation of differential coefficients for those in which the I.V. appears explicitly as a function of $x$."
+      },
+      {
+        "type": "text",
+        "text": "When concerned with the plotting of the curve $y = f(x)$ (see Art. 2) the tangents were made to the primitive curves and the tangents were equated to the primitive curves. Thus the slope curve out of which the tangents follow was given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{dy}{dx}",
+        "description": "This is the expression for the derivative of $y$ with respect to $x$."
+      },
+      {
+        "type": "text",
+        "text": "or the rate of change of the function which can be evaluated algebraically as:"
+      },
+      {
+        "type": "equation",
+        "latex": "dx = 0 + 1 + 2x + 2c",
+        "description": "This equation is derived from applying differential calculus to an expression."
+      },
+      {
+        "type": "text",
+        "text": "Assuming that there is some other term and the results added would be the differentiation (this being true for all cases which we shall deal)."
+      },
+      {
+        "type": "text",
+        "text": "Another respect in which the function $f$ is unique may be..."
+      },
+      {
+        "type": "text",
+        "text": "[UNRECOGNIZED TEXT]"
+      }
+    ]
+  },
+  "cost": 0.0008702999999999998
+}

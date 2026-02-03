@@ -1,0 +1,36 @@
+{
+  "page": {
+    "page_number": 211,
+    "header": "CENTROIDS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Centre of Gravity and Centroid. — The Centre of Gravity of a body is that point at which the resultant of all the forces acting on the body may be supposed to act, i.e., it is the balancing point. The term Centroid has been applied in place of C. G. when dealing with areas; and our work here is more confined towards areas where it will be convenient to adopt the term centroid."
+      },
+      {
+        "type": "text",
+        "text": "From the definition of its location, the sum of the weights of a body may be supported at its C. G. and it is shown in Mechanics this property is most useful. Thus, movements of complex systems of weights may be reduced to the movement of a single weight at the centroid. Therefore, to find the centroid of an area, it is necessary to find the position of the centroid of the bending moment."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 38. Centre of Gravity or Centroid.",
+        "description": "This figure illustrates the concept of the centre of gravity or centroid for various shapes, indicating their geometric properties and how the centroid is determined for uniformly loaded bodies.",
+        "figure_number": 38
+      },
+      {
+        "type": "text",
+        "text": "The centroid will best be approached by way of a simple example of a rectangle. If a rectangular area is taken as a representation of a body, its position can be defined if the total area is called A, and if it is desired to divide it into two classes; (a) graphic and (b) graphical."
+      },
+      {
+        "type": "equation",
+        "latex": "M_x = \\frac{1}{A} \\int_A y dA = \\frac{m_1h_1 + m_2h_2 + m_3h_3 + \\cdots + m_nh_n}{\\sum m_i}",
+        "description": "This equation determines the moment about the x-axis based on the weighted heights of individual masses."
+      },
+      {
+        "type": "text",
+        "text": "The product of a moment to its distance from a fixed point or axis is called its first moment about that point or axis; whilst the"
+      }
+    ]
+  },
+  "cost": 0.0008576999999999999
+}

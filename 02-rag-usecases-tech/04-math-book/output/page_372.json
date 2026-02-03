@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 355,
+    "header": "CHAPTER XII",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "THE SOLUTION OF SPHERICAL TRIANGLES"
+      },
+      {
+        "type": "text",
+        "text": "The curvature of the earth's surface is not an appreciable factor in the calculations following a small survey, as there is no reason to assume that the length of the boundaries of the survey are great; hence the use of a ''micro triangulation,'' if the curvature must be considered, is not needed. It is often necessary to use Spherical Trigonometry in place of the more familiar Plane Trigonometry because the surveyor's instrument is here, dealing with the solution of spherical triangles."
+      },
+      {
+        "type": "text",
+        "text": "A great circle on a sphere is a circle traced by the intersection of the sphere by a plane, such that the plane passes through the center of the sphere. All great circles are called the small circles. Thus all meridians are great circles, which are not parallel, except for the equator and polar are all small circles."
+      },
+      {
+        "type": "text",
+        "text": "A small circle on the earth's surface is any circle whose center is not at the earth's center. These circles can be of various sizes and radii, although they are usually much smaller than those just indicated by the above. The figure presented here is undoubtedly convenient to the reader having a great deal of interest in the subject of the sphere. On this construction it is convenient to remember that a radius of a small circle (r) extends subtends an angle of r' at the center of the circle; hence a length of 80 nautical miles would be the same as a side of 80′, i.e. r' = 20′."
+      }
+    ]
+  },
+  "cost": 0.0008036999999999999
+}

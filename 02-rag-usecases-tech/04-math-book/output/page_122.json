@@ -1,0 +1,49 @@
+{
+  "page": {
+    "page_number": 105,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "32. In connection with retaining walls the following equation\n\n$P = \\frac{\\gamma z}{2} \\left(1 - \\frac{z}{H}\\right)$"
+      },
+      {
+        "type": "text",
+        "text": "Find an expression, giving the value of $z$ in terms of $H$, that makes $P$ a maximum.\n\n34. Assuming that the H.P. of an engine can be expressed by the relation $H.P. = C \\left(\\frac{L}{D} - K P_{res}\\right)$ where $C$ is a constant, $L$ is the length of the stroke, $D$ is the diameter of the cylinder, $K$ is a constant related to the pressure on the piston, and $P_{res}$ is the resistance of the material of the engine."
+      },
+      {
+        "type": "text",
+        "text": "Find the turning point of the probability curve..."
+      },
+      {
+        "type": "text",
+        "text": "and also the points of inflexion."
+      },
+      {
+        "type": "text",
+        "text": "(a) In the two-stage converter, neglecting clearances, $P_1$ and $P_2$ are the pressures in the interval, and during this time in the cylinder, the total work for the cycle is $W = \\int_{}^{T} (P_1 - P_2) \\mathrm{d}V$."
+      },
+      {
+        "type": "text",
+        "text": "Show that if $P_1$ is a minimum, $P_2$ must be maximum."
+      },
+      {
+        "type": "text",
+        "text": "Let $f_1$ and $f_2$ be the specific work done."
+      },
+      {
+        "type": "text",
+        "text": "Substituting relative to the difference in pressures we find that $f_1$ and $f_2$ are equal."
+      },
+      {
+        "type": "text",
+        "text": "The value of $f_1$ must be the value of $P_1$."
+      },
+      {
+        "type": "text",
+        "text": "Find the height of the parabolic arc that can be inscribed:"
+      }
+    ]
+  },
+  "cost": 0.0008588999999999999
+}

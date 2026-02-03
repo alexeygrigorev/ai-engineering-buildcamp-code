@@ -1,0 +1,74 @@
+{
+  "page": {
+    "page_number": 41,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "a result agreeing with our statement that the shear at a section from the end of the beam all the loads to the right of the section. (The reason for the minus sign, $-\\frac{dE}{dX}$, being written where $(X-x)$ might be expected need not be discussed at this stage.)"
+      },
+      {
+        "type": "text",
+        "text": "Continuing the investigation,"
+      },
+      {
+        "type": "text",
+        "text": "but $w$ is the loading on the beam and"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dE}{dx} = w",
+        "description": "This equation indicates the relationship between the change in shear and the loading on the beam."
+      },
+      {
+        "type": "text",
+        "text": "so that the loading is measured by the rate of change of the shear. If now the deflected form is set out, by constructing the slope curves we obtain, respectively, the slope curve of the deflected form, the bending moment curve, the shear curve and finally the curve of loads."
+      },
+      {
+        "type": "section_heading",
+        "title": "ENUGLE 1"
+      },
+      {
+        "type": "text",
+        "text": "The work done in the expansion of gas in gas turbines is given by"
+      },
+      {
+        "type": "equation",
+        "latex": "W = \\frac{PV}{R} \\left( T_2 - T_1 \\right)",
+        "description": "This expression relates the work done in gas expansion to pressure, volume, and temperature change."
+      },
+      {
+        "type": "text",
+        "text": "where $r$ is the ratio of expansion governed by"
+      },
+      {
+        "type": "equation",
+        "latex": "r = \\frac{T}{P} \\left( \\frac{(V_1 - V_2)}{V_2} \\right)",
+        "description": "This equation defines the ratio of expansion in terms of temperature and volume."
+      },
+      {
+        "type": "text",
+        "text": "Now"
+      },
+      {
+        "type": "equation",
+        "latex": "PV = nRT = P_{0}V_{0}",
+        "description": "This states the ideal gas law in terms of constants and volume, applicable to the condition before expansion."
+      },
+      {
+        "type": "text",
+        "text": "Deal first with the expansion control, i.e., regard $T$ as constant and"
+      },
+      {
+        "type": "equation",
+        "latex": "T_2 = T_1 + \\Delta T",
+        "description": "This formula shows how temperature changes during the expansion process."
+      },
+      {
+        "type": "text",
+        "text": "Then state at which the work is increased with respect to $r$ is given by"
+      }
+    ]
+  },
+  "cost": 0.0010088999999999999
+}

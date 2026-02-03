@@ -1,0 +1,67 @@
+{
+  "page": {
+    "page_number": 112,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "As an illustration, consider the following case: A rough test gives 2x + 4 as a solution of the equation 3x + 1 - 1.534x + 27 - 554."
+      },
+      {
+        "type": "text",
+        "text": "It is required to find a solution more correct."
+      },
+      {
+        "type": "text",
+        "text": "\nThus, \n\n\\[ f(x) = 2x + 4 - (1.534x + 27 - 554) = 0 \\]"
+      },
+      {
+        "type": "text",
+        "text": "If the correct value of x is found, then \\( f(x) \\) must = 0."
+      },
+      {
+        "type": "text",
+        "text": "Hence, \n\n\\[ f'(x) = 2 - 1.534 = 0.466 \\]"
+      },
+      {
+        "type": "text",
+        "text": "(Now, \n\n\\[ f(\\bar{x}) = f(2) = 2(2) + 4 - (1.534(2) + 27 - 554) \\]"
+      },
+      {
+        "type": "equation",
+        "latex": "= -1.534(2) + 27 - 554 = 55.30 - 552",
+        "description": "Calculation of f at the proposed solution."
+      },
+      {
+        "type": "text",
+        "text": "Hence, a more correct approximation is x = 2.0073."
+      },
+      {
+        "type": "text",
+        "text": "i.e., \n\n\\[ x = 2.0073 \\] is the solution of the equation."
+      },
+      {
+        "type": "text",
+        "text": "This method may therefore be successfully employed in lieu of the graphical method and extremely accurate results may be obtained."
+      },
+      {
+        "type": "text",
+        "text": "The following example illustrates the process of interpolation necessary in many cases where tables of values are needed."
+      },
+      {
+        "type": "text",
+        "text": "Consider the situation where the accurate value of \\( x \\) is sought where \\( x = 132^\\circ C \\) (the nearest to 132 is 130)."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dx^2}",
+        "description": "Calculating the second derivative of y with respect to x."
+      },
+      {
+        "type": "text",
+        "text": "Calculate, very exactly, the value of \\( \\frac{d^2y}{dx^2} \\) when \\( x = 132^\\circ C \\)."
+      }
+    ]
+  },
+  "cost": 0.0009032999999999999
+}

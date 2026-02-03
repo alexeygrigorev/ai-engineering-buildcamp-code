@@ -1,0 +1,29 @@
+{
+  "page": {
+    "page_number": 60,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In like manner it can be proved that: \n\\[\n\\frac{d}{dx} \\sin x = \\cos x\n\\]"
+      },
+      {
+        "type": "text",
+        "text": "To generalise \n\\[\n\\frac{d}{dx} \\tan x = \\frac{AB}{SE} = AB \\sec^{2} x\n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Example 23—Find the slope of the curve representing the equation \n\\[ \n y = \\frac{2}{5} x^{2} - 2x \n\\] when \\( x = 1 \\). \nThe slope of the curve— \n\\[\n\\frac{dy}{dx} = \\frac{d}{dx} \\left( \\frac{2}{5} x^{2} - 2x \\right) = \\frac{2}{5} \\cdot 2x - 2 = \\frac{4}{5} x - 2\n\\] Hence when \\( x = 1 \\): \n\\[\n\\frac{dy}{dx} = \\frac{4}{5}(1) - 2 = \\frac{4}{5} - 2 = \\frac{4}{5} - \\frac{10}{5} = -\\frac{6}{5}\n\\] Therefore at \\( x = 1 \\), the slope is \\( -\\frac{6}{5} \\)."
+      },
+      {
+        "type": "text",
+        "text": "Example 24—Differentiate, with regard to \\( t \\), the function \n\\[ \n y = 9t^{5} - 9t^{4} + 5\n\\] \n\\[\n\\frac{dy}{dt} = 45t^{4} - 36t^{3} \n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Simple Harmonic Motion— \nSimple harmonic motion can be represented as a more strict examination of simple harmonic motion. Suppose a crank of length \\( 2 \\) feet (Figure 15), starting from the position \\( OX \\), rotates at a constant angular heading direction. Let it have reached the position \\( OA \\) after \\( t \\) seconds has elapsed from the start; then the angle passed through in this interval of time \\( AOM \\) is \\( \\theta \\) seconds, since the angular distance covered in \\( 1 \\) sec. = radians and the angular distance in \\( t \\) seconds of radians."
+      }
+    ]
+  },
+  "cost": 0.0009303
+}

@@ -1,0 +1,53 @@
+{
+  "page": {
+    "page_number": 313,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 13.—A uniform rectangular beam, fixed at its ends, is 20 ft long, weighs 600 lbs., and has a load of 10 tons at its center. Find the fixing couple and the true B.M. diagram."
+      },
+      {
+        "type": "text",
+        "text": "This is a special case of Example 12 since the section, and therefore I, is constant."
+      },
+      {
+        "type": "text",
+        "text": "The bending moment diagram for the simply supported beam, with a uniformly distributed load, will have the form of a triangle, as APD."
+      },
+      {
+        "type": "text",
+        "text": "Recall that in Example 12, the previous example, is drawn with the same base line."
+      },
+      {
+        "type": "figure",
+        "caption": "Fixing Couples and B.M. Diagram of Loaded Beam.",
+        "description": "The figure illustrates the fixing couples applied to the beam along with the bending moment diagram. It shows how the various forces are acting on the beam, demonstrating the equilibrium and the distribution of moments along the length.",
+        "figure_number": 112
+      },
+      {
+        "type": "text",
+        "text": "work according to the Goodman and Spence Method as applied in Engineering by Goodman."
+      },
+      {
+        "type": "text",
+        "text": "(1) The opposing areas (i.e., the free and resisting areas) must be on the same vertical line; i.e., the centroid must lie on the same vertical of AP."
+      },
+      {
+        "type": "equation",
+        "latex": "A_{BCD} = (2\\times5\\times25) + \\left(\\frac{1}{2}\\times(5+5)(\\sqrt{(25^2)+(25^2)})\\right) = 600\\text{ lbs}",
+        "description": "The area calculation for triangle ABCD."
+      },
+      {
+        "type": "equation",
+        "latex": "A_{APQ} = 2\\times(5\\times25) = 625",
+        "description": "The area calculation for triangle APQ."
+      },
+      {
+        "type": "text",
+        "text": "Equating these areas, m_{1} + m_{2} = 762.5 \\, . . . . . . . . . (1)"
+      }
+    ]
+  },
+  "cost": 0.0008630999999999999
+}

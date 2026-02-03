@@ -1,0 +1,70 @@
+{
+  "page": {
+    "page_number": 284,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 15 – Solve the equation"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dt^2} + 5\\frac{dy}{dt} + 4y = 0.",
+        "description": "This is a second-order linear homogeneous differential equation."
+      },
+      {
+        "type": "text",
+        "text": "This can be written (after dividing through by 5) as"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dt^2} + \\frac{dy}{dt} + \\frac{4}{5}y = 0.",
+        "description": "This form highlights the coefficients of the terms."
+      },
+      {
+        "type": "text",
+        "text": "We can set \\( s = \\frac{1}{5} \\) and do a comparison with the standard form."
+      },
+      {
+        "type": "equation",
+        "latex": "s^2 + s + \\frac{4}{5} = 0.",
+        "description": "This is the characteristic equation derived from the differential equation."
+      },
+      {
+        "type": "text",
+        "text": "It is really easier to work the roots of this kind from first principles rather than to try to remember the root formula in the form given; thus the values of \\( \\lambda \\) will be the roots of the equation."
+      },
+      {
+        "type": "equation",
+        "latex": "\\lambda^2 + \\lambda + \\frac{4}{5} = 0.",
+        "description": "This highlights the relationship between the roots and the coefficients."
+      },
+      {
+        "type": "text",
+        "text": "Then, calling the roots \\( \\lambda_1 \\) and \\( \\lambda_2 \\) and we are required, to evaluate the two roots, if possible, or if needed."
+      },
+      {
+        "type": "text",
+        "text": "If the values of \\( \\lambda \\) are known, a body is moving away from a fixed point in such a way that the displacement is directly proportional to the magnitudes of the body that is distanced from that point. Find the equation for the attached body, that is the motion is."
+      },
+      {
+        "type": "text",
+        "text": "The motion is Simple Harmonic."
+      },
+      {
+        "type": "text",
+        "text": "If \\( x \\) is displacement using the frame obvious.."
+      },
+      {
+        "type": "equation",
+        "latex": "\\lambda^2 + 6\\lambda = 0",
+        "description": "This represents the derived motion in terms of displacement."
+      },
+      {
+        "type": "text",
+        "text": "(the reason for this is most of the time obvious...)"
+      }
+    ]
+  },
+  "cost": 0.0009062999999999999
+}

@@ -1,0 +1,59 @@
+{
+  "page": {
+    "page_number": 213,
+    "header": "CENTROIDS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Rules for the Determination of the Centroid of an Area\nLet it be required to find the centroid of the area ABCD in Fig. 60."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 60—Centroid of an Area.",
+        "description": "This figure illustrates the area ABCD and its centroid, showing how it is determined by considering an infinite number of small strips of area, represented by PQMN, which contribute to the overall centroid calculation.",
+        "figure_number": 60
+      },
+      {
+        "type": "text",
+        "text": "The area may be considered to be composed of an infinite number of small areas, and for a small strip PMN area $= \\text{area} \\times \\text{density} \\left( \\text{considering the strips of some thin strip like PQMN} \\right)$."
+      },
+      {
+        "type": "text",
+        "text": "Let "
+      },
+      {
+        "type": "equation",
+        "latex": "\\bar{x} = \\frac{x}{y} \\quad , \\quad \\bar{y} = \\frac{y}{x}",
+        "description": "The distances of the centroid from the axes OX and OY are represented as \\bar{x} and \\bar{y}, taking into account the respective masses."
+      },
+      {
+        "type": "text",
+        "text": "To find the strip about OY,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{mass} = \\rho \\text{ area} \\times \\text{ distance} = \\rho \\times \\bar{x} \\times y \\times dx",
+        "description": "The mass of the strip is calculated based on density, area, and distance from the centroid."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "\\rho \\text{ strip moments about OY} = \\sum \\rho \\bar{x} y \\bar{x} dx \\text{ masses being a and b}",
+        "description": "The moments about OY are calculated considering the contributions from the masses defined earlier."
+      },
+      {
+        "type": "text",
+        "text": "and if the strips are extremely narrow—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\rho \\text{ cancelling from both numerator and denominator}",
+        "description": "This simplification allows for the cancellation of the density term in the calculation of the centroid."
+      }
+    ]
+  },
+  "cost": 0.0008774999999999999
+}

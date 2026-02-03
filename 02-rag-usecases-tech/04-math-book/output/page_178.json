@@ -1,0 +1,68 @@
+{
+  "page": {
+    "page_number": 161,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "This integral is of the type $\\int \\frac{dx}{x^{2} + 2x + 5}$."
+      },
+      {
+        "type": "text",
+        "text": "Let $P_{m} = \\log \\left| x + 1 + \\sqrt{(x + 1)^{2} + 4} \\right| + C,$ (cf. Example 8, p. 150) "
+      },
+      {
+        "type": "equation",
+        "latex": "P_{m} = \\log \\left| x + 1 + \\sqrt{(x + 1)^{2} + 4} \\right| + C",
+        "description": "The logarithmic integral for a specific form, showing the relationship of the variables involved."
+      },
+      {
+        "type": "text",
+        "text": "$\\int \\frac{dx}{x^{2} + 2x + 5} = \\frac{1}{\\sqrt{5}} \\log \\left| \\frac{x + 1 + \\sqrt{5}}{x + 1 - \\sqrt{5}} \\right| + C$."
+      },
+      {
+        "type": "text",
+        "text": "or $\\int \\frac{dx}{(x^{2} + 2x + 5)} = \\frac{1}{\\sqrt{5}} \\log \\left|\\frac{x + 1 + \\sqrt{5}}{x + 1 - \\sqrt{5}}\\right| + C$ where $\\sqrt{5}$ is the diameter of the curve."
+      },
+      {
+        "type": "text",
+        "text": "The following example involves the use of three of the methods of this chapter."
+      },
+      {
+        "type": "text",
+        "text": "Example 26. Find the value of $\\int \\frac{(5x + 4) dx}{x^{2} + 2x + 5}$. "
+      },
+      {
+        "type": "text",
+        "text": "The fraction under the integral sign should first be resolved into partial fractions."
+      },
+      {
+        "type": "text",
+        "text": "Let $x = 3$, then"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{A}{x-4} + \\frac{B}{x-5} = \\frac{C}{(x-1)^{2}}",
+        "description": "Partial fraction decomposition setup for the given integral."
+      },
+      {
+        "type": "text",
+        "text": "(cf. Part I, p. 454) "
+      },
+      {
+        "type": "text",
+        "text": "Values of A and B can be found by equating coefficients of x and those of x²."
+      },
+      {
+        "type": "equation",
+        "latex": "A = 11, B = \\frac{1}{10}",
+        "description": "Results of the coefficient comparison in the partial fraction decomposition."
+      },
+      {
+        "type": "text",
+        "text": "By equating coefficients of $x^{2}$, we obtain $A + C = 11$ and hence $A = 11 - C$."
+      }
+    ]
+  },
+  "cost": 0.0009620999999999999
+}

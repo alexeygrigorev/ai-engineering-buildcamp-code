@@ -1,0 +1,47 @@
+{
+  "page": {
+    "page_number": 266,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To find this, first divide the base into a number of equal divisions and erect mid-ordinates and secant mid-ordinates to represent them as radii vectors in (b) Fig. 100, at the angles at which the rays of the drawing representing the values of v are plotted. The angle of the radial diagram thus obtained; divide this area by the same equation or formula and the result is the same."
+      },
+      {
+        "type": "text",
+        "text": "In order to find the area of the polar diagram m (Fig. 101), represent the values of r and the angles represented values of v, then—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Original area }A = \\int_{0}^{\\pi} r^{2} \\frac{d\\theta}{2}",
+        "description": "This equation calculates the area A in polar coordinates."
+      },
+      {
+        "type": "text",
+        "text": "For the area A certain adjustments scale the results to the original drawing (cf. p. 214)."
+      },
+      {
+        "type": "text",
+        "text": "For (a) Fig. 100:  \n      100 = 100 units vertically"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{0}^{\\pi} v_{hod} \\frac{d\\theta}{6} \\text{, where } v_{hod} = 336\\text{.}  \n      A_{hod} = 36\\text{.}  \n      \\int_{0}^{\\pi} \\frac{8}{3} d\\theta = \\frac{1}{2}(180) = 60{}^{\\circ} = 1.0472 radians Normal length of the base = 10 units.",
+        "description": "This sequence details the process of adjusting parameters for the resulting area calculation."
+      },
+      {
+        "type": "text",
+        "text": "Theory of the Amsler Planimeter. The principle upon which this instrument is based may be explained quite simply, using the following."
+      },
+      {
+        "type": "text",
+        "text": "The area of region P is based on the portion of the outline traced by the instrument to A."
+      },
+      {
+        "type": "text",
+        "text": "The tracing point P is regarded as moving from the position of P to P’ continually. The area can be regarded as a flow of two different parts: firstly, a sliding or translational movement from A to A’."
+      }
+    ]
+  },
+  "cost": 0.0008960999999999999
+}

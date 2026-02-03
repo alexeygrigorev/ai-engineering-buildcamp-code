@@ -1,0 +1,44 @@
+{
+  "page": {
+    "page_number": 140,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "For brevity, $\\int_0^1 x^3 dx$ is written $\\left(\\frac{3}{4}\\right)$, which on expansion reads—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\left( \\frac{2!}{3!} = \\frac{(3-1)(3-2)}{3 \\cdot 2 \\cdot 1} = \\frac{6 \\cdot 1}{6} = 1 \\right)",
+        "description": "The calculation for integrating a polynomial."
+      },
+      {
+        "type": "text",
+        "text": "Example 16. Find the value of the definite integral  $\\int_0^1 4e^{4x}dx = 4\\left( e^1 - e^0 \\right) = 4(e - 1)$."
+      },
+      {
+        "type": "text",
+        "text": "Example 17. Evaluate the definite integral"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^{\\frac{\\pi}{4}} 5 \\cos 4t \\, dt = \\left[\\frac{5}{4} \\sin 4t \\right]_0^{\\frac{\\pi}{4}} = \\frac{5}{4} \\sin(1) - 0 = \\frac{5 \\sin(1)}{4}",
+        "description": "Evaluation of the definite integral involving a cosine function."
+      },
+      {
+        "type": "text",
+        "text": "Example 18. Find the value of"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^1 \\frac{5}{x^2}\\,dx = [-\\frac{5}{x}]_0^1 = -5 + \\lim_{x \\to 0} 5 = \\infty - 5 = \\infty",
+        "description": "Calculation involving an improper integral."
+      },
+      {
+        "type": "text",
+        "text": "The expression $\\int_0^1 s \\, ds = \\left[ \\frac{s^2}{2} \\right]_0^1 = \\frac{1}{2} - 0 = \\frac{1}{2}$."
+      }
+    ]
+  },
+  "cost": 0.0008690999999999999
+}

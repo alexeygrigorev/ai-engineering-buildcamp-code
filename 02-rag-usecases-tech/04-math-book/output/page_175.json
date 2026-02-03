@@ -1,0 +1,56 @@
+{
+  "page": {
+    "page_number": 158,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 21. Find the value of \\( \\int \\frac{5x}{x^{2}+4} \\, dx \\) ."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{5x}{x^{2}+4} \\, dx = \\frac{5}{2} \\ln(x^{2}+4) + C",
+        "description": "This equation calculates the integral of the function using logarithmic integration."
+      },
+      {
+        "type": "text",
+        "text": "As an alternative method of solution, the graphic process of integration possesses certain advantages in a case such as this."
+      },
+      {
+        "type": "text",
+        "text": "It might even help to plot the curve of \\( \\frac{5x}{x^{2}+4} \\) and find the area between it, the axis of x and the ordinates through \\( x = 1 \\) and \\( x = 2 \\)."
+      },
+      {
+        "type": "text",
+        "text": "The table for the plotting reads:"
+      },
+      {
+        "type": "table",
+        "caption": "Table of values for the curve plot.",
+        "columns": [
+          "x",
+          "y"
+        ],
+        "rows": [
+          [
+            "1",
+            "0.4167"
+          ],
+          [
+            "1.5",
+            "0.6476"
+          ],
+          [
+            "2",
+            "0.7578"
+          ],
+          [
+            "2.5",
+            "0.8333"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007629
+}

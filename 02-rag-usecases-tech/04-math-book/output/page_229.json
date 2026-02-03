@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 212,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "product of a force the square of its distance from a fixed point is called its second moment about that point. "
+      },
+      {
+        "type": "text",
+        "text": "Hence our statement concerning the distance $C$ can be written—"
+      },
+      {
+        "type": "equation",
+        "latex": "C = \\frac{\\sum m_i x_i}{\\sum m_i} , \\quad m = \\sum m_i.",
+        "description": "Formula for the distance to the centroid $C$ based on masses and their coordinates."
+      },
+      {
+        "type": "text",
+        "text": "To extend this rule to cover the case of a number of scattered masses entered upon a plan, let us, for example, see how the coordinates of the centroid must be found, viz., $x$ and $y$."
+      },
+      {
+        "type": "equation",
+        "latex": "x = \\frac{\\sum mx}{\\sum m} , \\quad y = \\frac{\\sum my}{\\sum m}",
+        "description": "Formulas to find the coordinates of the centroid in terms of masses and their coordinates."
+      },
+      {
+        "type": "text",
+        "text": "If the masses are not all in the same plane, the coordinates of the C. G. must be found by numbering their positions in a plan and elevation drawing and determining the coordinates of the C. G. of the virtual elevations and also that of their plan. Thus the C. G. is located by its plan and elevation."
+      },
+      {
+        "type": "text",
+        "text": "It will be noted that the general method of summation is necessary for the determination of the positions of centroids or centres of gravity; and this summation may be called by a different name, viz., integration, all the rules of which may be utilised; the integration in some cases being graphic, in others case algebraic, and in others a combination of the two."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 59—Centroid.",
+        "description": "Figure illustrating the centroid of a system of scattered masses along with the coordinates used to determine its position.",
+        "figure_number": 59
+      }
+    ]
+  },
+  "cost": 0.0008522999999999998
+}

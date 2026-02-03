@@ -1,0 +1,65 @@
+{
+  "page": {
+    "page_number": 72,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 8. Find the value of $\\frac{d^2y}{dx^2} \\sin(4x - 1)$."
+      },
+      {
+        "type": "text",
+        "text": "Let $u = 5e^{-x}$ so that $y = 5x - 2.35e^{-x}$ and let $v = \\sin(4x - 4)$."
+      },
+      {
+        "type": "text",
+        "text": "Then $\\frac{dy}{dx} = 5 + e^{-x}(5 - 4\\cos(4x - 4))$."
+      },
+      {
+        "type": "text",
+        "text": "If $p$ is a function of $x$, then $\\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)$."
+      },
+      {
+        "type": "text",
+        "text": "Hence,"
+      },
+      {
+        "type": "text",
+        "text": "\\[\\frac{d^2y}{dx^2} = \\frac{d}{dx}(5 + e^{-x}(5 - 4\\cos(4x - 4))).\\]"
+      },
+      {
+        "type": "text",
+        "text": "Example 10. Find the value of $\\frac{d^2y}{dx^2}\\sin(3x - 7)$."
+      },
+      {
+        "type": "text",
+        "text": "Let $u = \\sin(3 - 7)$ and $v = \\log(5 - 2)$. Let $w = 3 \\cos(3x - 7)$."
+      },
+      {
+        "type": "text",
+        "text": "Then $\\frac{dy}{dx} = 3 \\cos(3x - 7) + \\frac{\\log(5 - 2)}{3 - 7}.$"
+      },
+      {
+        "type": "text",
+        "text": "Hence,"
+      },
+      {
+        "type": "text",
+        "text": "\\[\\frac{d^2y}{dx^2}\\sin(3 - 7) = \\frac{d}{dx}(\\frac{dy}{dx}).\\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[= \\frac{d}{dx}\\left(3 \\cos(3 - 7) + \\frac{\\log(5 - 2)}{3 - 7}\\right)\\]"
+      },
+      {
+        "type": "text",
+        "text": "\\[ + 5 \\sin(3 - 7)(1 - \\sin(3 - 7)) = \\frac{3(7 - 3)}{5} + \\frac{5 \\sin(3 - 7)}{3 - 7} - \\frac{5 \\sin(3 - 7)}{x - y}\\]"
+      },
+      {
+        "type": "text",
+        "text": "+ 5 \\sin(3 - 7) - \\frac{5 \\sin(3 - 7)}{7 - x}.\\]"
+      }
+    ]
+  },
+  "cost": 0.0009597
+}

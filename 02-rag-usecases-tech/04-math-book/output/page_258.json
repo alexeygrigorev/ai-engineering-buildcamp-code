@@ -1,0 +1,42 @@
+{
+  "page": {
+    "page_number": 241,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "In general, $I$ can be written as $I = \\frac{1}{3} \\pi R^4$ (if dealing with a mass or area if concerned with an area)."
+      },
+      {
+        "type": "section_heading",
+        "title": "Method of Determination of the Value of I for any Section."
+      },
+      {
+        "type": "text",
+        "text": "Whilst it is of some importance to know the values of $I$ for the simpler sections, it is often necessary to determine the value of $I$ for any arbitrary section. This is done by considering a small element of the section at a distance from the axis of rotation, and then integrating to find the sum of all such elements. The moment of inertia for the entire section can be determined from the relation $I = \\int r^2 \\, dA$ (for area) or $I = \\int r^2 \\, dm$ (for solid); there are two areas or mass of elements."
+      },
+      {
+        "type": "text",
+        "text": "The moment of inertia for an area $A$ (area of a section) is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\int r^2 \\, dA",
+        "description": "The equation representing the moment of inertia for an area section."
+      },
+      {
+        "type": "text",
+        "text": "Where $r$ is the distance from the axis, $A$ is the area, and $dA$ is a small element of area."
+      },
+      {
+        "type": "text",
+        "text": "Where the axis is known, the C. of G. of the section can be found, and the moment of inertia can then be reduced."
+      },
+      {
+        "type": "text",
+        "text": "In Figure 1, $I_N$ is the resultant inertia about $A$, if $dA$ is required."
+      }
+    ]
+  },
+  "cost": 0.0008240999999999999
+}

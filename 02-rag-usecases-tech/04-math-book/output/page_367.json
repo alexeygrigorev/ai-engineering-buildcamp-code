@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 350,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Set off O to A on the strip, along OX,"
+      },
+      {
+        "type": "text",
+        "text": "and O to C (A = OY - y_1 - y_2 - y_3) (which has already been done when finding A_1)."
+      },
+      {
+        "type": "text",
+        "text": "Project B to C on A; then O—C = O—A - sin (2y_1 + y_2 + y_3) cos 45°."
+      },
+      {
+        "type": "text",
+        "text": "To find B_s"
+      }
+    ]
+  },
+  "cost": 0.0006734999999999999
+}

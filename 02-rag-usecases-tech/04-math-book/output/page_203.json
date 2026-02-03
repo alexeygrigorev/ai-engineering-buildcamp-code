@@ -1,0 +1,81 @@
+{
+  "page": {
+    "page_number": 186,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "place for 6 secs. {Use the relations i = a t², v = a t and v² = 2 a s}"
+      },
+      {
+        "type": "equation",
+        "latex": "s = \\int_{0}^{6} v \\, dt = \\int_{0}^{6} a t \\, dt = \\left[ \\frac{1}{2} a t^2 \\right]_{0}^{6} = \\frac{1}{2} a (6)^2 = 18 a.",
+        "description": "Calculating the distance s in terms of the acceleration a over 6 seconds."
+      },
+      {
+        "type": "text",
+        "text": "and if the limits of a are 0 and 6 then the limits of s are 0 and 54."
+      },
+      {
+        "type": "text",
+        "text": "To find the time average of the velocity..."
+      },
+      {
+        "type": "equation",
+        "latex": "v_{avg} = \\frac{s}{t} = \\frac{54}{6} = 9 \\, \\text{f.p.s.}",
+        "description": "Average velocity over the given period."
+      },
+      {
+        "type": "text",
+        "text": "To find the space average of v..."
+      },
+      {
+        "type": "equation",
+        "latex": "v_{avg} = \\frac{1}{t} \\int_{0}^{t} v \\, dt = \\frac{1}{6} \\int_{0}^{6} 6 \\, dt = \\frac{6t}{6} = t = 6 \\, \\text{f.p.s.}",
+        "description": "Space average of the velocity in terms of the time."
+      },
+      {
+        "type": "text",
+        "text": "and the mean value of v = mean value of \\sqrt{8s}. "
+      },
+      {
+        "type": "equation",
+        "latex": "v_{mean} = \\sqrt{8s} = \\sqrt{8 \\times 18 a} = \\sqrt{144 a} = 12 \\sqrt{a}.",
+        "description": "Mean value of the function relating distance and acceleration."
+      },
+      {
+        "type": "text",
+        "text": "Hence the space average = 12 \\sqrt{a}."
+      },
+      {
+        "type": "equation",
+        "latex": "v = 12 a^{\\frac{1}{2}} \\text{f.p.s.}",
+        "description": "Expression for velocity as a function of acceleration."
+      },
+      {
+        "type": "text",
+        "text": "Example 5—The electrical resistance R of a rheostat at temperature t °C is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "R_t = 38(1 + 0.004t)",
+        "description": "Relationship for electrical resistance as a function of temperature."
+      },
+      {
+        "type": "text",
+        "text": "(This will be a temperature average)."
+      },
+      {
+        "type": "equation",
+        "latex": "m.v. = \\int_{0}^{40} R_t \\, dt = \\int_{0}^{40} 38(1 + 0.004t) \\, dt = \\left[ 38t + 0.038t^{2} \\right]_{0}^{40}.",
+        "description": "Calculating the mean value of resistance over the temperature from 0 to 40 degrees."
+      },
+      {
+        "type": "equation",
+        "latex": "= 38(40) + 0.038(40)^{2} = 1520 + 0.038(1600) = 1520 + 60.8 = 1580.8.",
+        "description": "Final calculation for mean value of resistance."
+      }
+    ]
+  },
+  "cost": 0.0010287
+}

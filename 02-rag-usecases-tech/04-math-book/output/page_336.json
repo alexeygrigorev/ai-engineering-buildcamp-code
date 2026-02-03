@@ -1,0 +1,69 @@
+{
+  "page": {
+    "page_number": 319,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Solve this equation for the cases when $V = 0$, $C = C_{sin}qt$ and $V = V_{sin}qt.$"
+      },
+      {
+        "type": "text",
+        "text": "For the case of a steady current $V = RC \neq 0$, and this corresponds to the equation of uniform motion in mechanics, whilst the equation $V = RC + L\frac{dC}{dt}$ may be compared with that for curvilinear motion, $V$ being the force. Thus the second term of the equation may be regarded as expressing the ‘inertia’ or $L\frac{dC}{dt}$, and the total current for the magnetic current may vary according to various laws, the fact that $C$ can have a variety of values."
+      },
+      {
+        "type": "text",
+        "text": "Dealing with the cases suggested -"
+      },
+      {
+        "type": "text",
+        "text": "(i) $V = 0$, then $RC = \frac{1}{C}$ and this equation is solvable by separating the variables and integrating."
+      },
+      {
+        "type": "text",
+        "text": "(ii) $RC = L$ and this equation becomes -"
+      },
+      {
+        "type": "equation",
+        "latex": "R = L \\ log_{e}C - log_{e}A",
+        "description": "This equation relates the resistance, inductance, and capacitor charge."
+      },
+      {
+        "type": "text",
+        "text": "where $L = L_{0} + L_{1} + L_{2} + ... + L_{n}$ being a constant."
+      },
+      {
+        "type": "text",
+        "text": "Here, we have $R = \\frac{C}{C_{0}}$ since $C = C_{0} + C_{1} + ... + C_{n}qt$."
+      },
+      {
+        "type": "text",
+        "text": "Thus after simplification, we have -"
+      },
+      {
+        "type": "equation",
+        "latex": "V \\ sin qt = R \\ C \\ sin qt",
+        "description": "This equation describes the behavior of the current in relation to time."
+      },
+      {
+        "type": "text",
+        "text": "And, using Theorem 2 -"
+      },
+      {
+        "type": "equation",
+        "latex": "C = \\frac{C_{0}}{R+V+L\\frac{dC}{dt}(\\tan^{-1})}",
+        "description": "This states the charge in terms of resistance, current, and the time derivative of charge."
+      },
+      {
+        "type": "text",
+        "text": "Hence the complete solution is -"
+      },
+      {
+        "type": "equation",
+        "latex": "C = \\frac{V}{R + V + R + L \\sin \\tan^{-1}}",
+        "description": "Final solution for the current in terms of the applied voltages and resistances."
+      }
+    ]
+  },
+  "cost": 0.0009320999999999999
+}

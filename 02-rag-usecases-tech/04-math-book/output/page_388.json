@@ -1,0 +1,48 @@
+{
+  "page": {
+    "page_number": 377,
+    "header": "MATHEMATICAL PROBABILITY",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let $a = b$, then it is as likely to happen as not, i.e., its probability of either happening or failing is $\\frac{a + b}{a + b} = 1$.\\n\\nProbability of happening = $\\frac{a}{a + b}$.\\nProbability of failing = $\\frac{b}{a + b}$.\\n\\nIf $a$ is the odds as to for the event $A$ to happen, and $b$ is the first being used if $A \\neq B$ and vice versa.\\nE.g., if the odds are to 1 against an event, the probability of its happening = $\\frac{1}{1 + 1} = \\frac{1}{2}$."
+      },
+      {
+        "type": "text",
+        "text": "Exclusiveness. Let us now consider cases of several exclusive events, i.e., the case in which the happenings do not concur."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{a_{1}}{a_{1} + a_{2}} = \\frac{a_{1}}{a_{1} + a_{2}} + \\frac{a_{2}}{a_{1} + a_{2}}",
+        "description": "This equation shows the probability of the first event versus the probability of the second event."
+      },
+      {
+        "type": "text",
+        "text": "and the probability of the happening of the second event = $A \\cdot B$."
+      },
+      {
+        "type": "text",
+        "text": "Then for purposes of comparison each of these fractions may be expressed with the same denominator: this common denominator is given by the sum of the individual probabilities $a_{1}$ and $a_{2}$."
+      },
+      {
+        "type": "text",
+        "text": "Let us call the events $A$ and $B$ where $A$ ways and the second event $A_{1}$ ways and since the two events are exclusive, it follows that if one event happens, the other cannot happen."
+      },
+      {
+        "type": "equation",
+        "latex": "P(A) + P(B) = 1",
+        "description": "The probability that one of the events $A$ or $B$ happens is 1."
+      },
+      {
+        "type": "text",
+        "text": "Thus the probability that the one event will happen is, if it happens once, then the probability that the second event will happen given that the first, i.e. the second never happens at a time of mutual exclusivity."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{1}{10} \\text{ and the other happens } 4 \\text{ times out of 11 attempts.}",
+        "description": "Shows a calculation related to the mutual exclusivity of events."
+      }
+    ]
+  },
+  "cost": 0.0009386999999999999
+}

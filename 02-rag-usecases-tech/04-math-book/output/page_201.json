@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 184,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence, whenever the analysis shows that the full period is involved, there is no need to go through the process of integration. In this case, however, the integration is performed for purposes of verification."
+      },
+      {
+        "type": "section_heading",
+        "title": "(a) "
+      },
+      {
+        "type": "text",
+        "text": "m.v.c. of C = $\frac{1}{T} \times \frac{1}{0} \times \frac{5}{\times sin \frac{\theta}{4} \times d\theta}$ = $\frac{1}{T} \times \frac{5}{T \times 0} \times \frac{5}{\times cos \frac{\theta}{4} \times d\theta}$ = $ ... =  \frac{23}{5} \times \frac{ ...}{\times cos \frac{\theta}{3}d\theta}$ = $\frac{5}{2}  (1 - cos \frac{3\theta}{Hyper 1})$"
+      },
+      {
+        "type": "text",
+        "text": "Comparing this with the amplitude, which is the maximum ordinate of the curve and has its sin term in $\frac{45\theta}{T}$, we note that: \nMean ordinate for j = sin 120º+ sin 60º =  $ \frac{1}{T}... =  \frac{3}{2}$. \nHence, the maximum height of this curve is always -637 x the maximum height."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example: — If an alternating electric curve is given by the relation...  "
+      },
+      {
+        "type": "text",
+        "text": "the mean value of C= sin 120  o + sin 60  o ;( finding evaluation; and consequently the curves = sin 120  o + sin 60  o for one, and sin 30  o and sin 60  o for two."
+      },
+      {
+        "type": "text",
+        "text": "Thus, it is apparent that period 21  and mean height is $\frac{1}{30}$, so that it will become the mean height of the curve."
+      },
+      {
+        "type": "text",
+        "text": "&  $H$  can be computed."
+      },
+      {
+        "type": "text",
+        "text": "There is the positive and negative areas are otherwise balanced, but this table to be computed at:"
+      }
+    ]
+  },
+  "cost": 0.0008996999999999999
+}

@@ -1,0 +1,117 @@
+{
+  "page": {
+    "page_number": 388,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Exercises 1"
+      },
+      {
+        "type": "equation",
+        "latex": "1. \\; e^{-x} = 0.",
+        "description": "Solve for x in the equation e^{-x} = 0."
+      },
+      {
+        "type": "equation",
+        "latex": "2. \\; 6 + 15x = 08.",
+        "description": "Solve for x in the equation 6 + 15x = 08."
+      },
+      {
+        "type": "equation",
+        "latex": "3. \\; 1 - 7.423 = x.",
+        "description": "Solve for x in the equation 1 - 7.423 = x."
+      },
+      {
+        "type": "equation",
+        "latex": "4. \\; (4 + 15)^{3}.",
+        "description": "Calculate the cube of (4 + 15)."
+      },
+      {
+        "type": "equation",
+        "latex": "5. \\; \\log_{10} (3.156) \\approx 0.497.",
+        "description": "Approximate the logarithm of 3.156 to the base 10."
+      },
+      {
+        "type": "equation",
+        "latex": "6. \\; e^{x} - 4 = 0.",
+        "description": "Solve for x in the equation e^{x} - 4 = 0."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 2"
+      },
+      {
+        "type": "equation",
+        "latex": "7. \\; C_{1} = 1 + 4b.",
+        "description": "Calculate C_{1} in relation to b."
+      },
+      {
+        "type": "equation",
+        "latex": "8. \\; 8x + 3 = 12.",
+        "description": "Solve for x in the equation 8x + 3 = 12."
+      },
+      {
+        "type": "equation",
+        "latex": "9. \\; \\sqrt{x + 4} - 2 = 0.",
+        "description": "Solve for x in the equation \\sqrt{x + 4} - 2 = 0."
+      },
+      {
+        "type": "equation",
+        "latex": "10. \\; y = \\frac{Bx}{1 - x}.",
+        "description": "Express y in terms of B and x."
+      },
+      {
+        "type": "equation",
+        "latex": "11. \\; \\frac{d}{dt} \\left(1500 \\cos p_{1} + 300 \\cos 3p_{1} + 42p^{3} - 84p^{4}\\right).",
+        "description": "Differentiate the expression with respect to time."
+      },
+      {
+        "type": "equation",
+        "latex": "12. \\; A = B + \\log(AB - \\log A - \\log B).",
+        "description": "Calculate A in terms of B."
+      },
+      {
+        "type": "equation",
+        "latex": "13. \\; 18 - 8x = 3x.",
+        "description": "Solve for x in the equation 18 - 8x = 3x."
+      },
+      {
+        "type": "equation",
+        "latex": "14. \\;\\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B.",
+        "description": "State the sine addition formula."
+      },
+      {
+        "type": "equation",
+        "latex": "15. \\; x^2 + 4 = x.",
+        "description": "Rearrange the equation x^2 + 4 = x."
+      },
+      {
+        "type": "equation",
+        "latex": "16. \\; x^{2} - 5x + 6 = 0.",
+        "description": "Solve the quadratic equation x^{2} - 5x + 6 = 0."
+      },
+      {
+        "type": "equation",
+        "latex": "17. \\; \\frac{d}{dt} \\left(\\frac{B}{F} \\cdot (C_{1} - C_{2})\\right).",
+        "description": "Differentiate the product with respect to time."
+      },
+      {
+        "type": "equation",
+        "latex": "18. \\; \\frac{1}{2} m v^2 = \\text{constant}.",
+        "description": "State the conservation of kinetic energy equation."
+      },
+      {
+        "type": "equation",
+        "latex": "19. \\; v = u + at.",
+        "description": "State the equation of motion relating final velocity, initial velocity, acceleration, and time."
+      },
+      {
+        "type": "equation",
+        "latex": "20. \\; \\text{Acceleration} = \\frac{B}{F}.",
+        "description": "Express acceleration in terms of B and F."
+      }
+    ]
+  },
+  "cost": 0.0011337
+}

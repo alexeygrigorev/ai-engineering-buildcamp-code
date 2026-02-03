@@ -1,0 +1,28 @@
+{
+  "page": {
+    "page_number": 345,
+    "header": "HARMONIC ANALYSIS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Actually, the values of the coefficients A₁, A₂, B₁, B₂, etc., are found by dividing the base into ten or eight divisions and averaging the mid-ordinates for these divisions. To determine the absolute values, an infinite number of ordinates should be taken, but this would of course be quite out of the question as far as an ordinary calculation is concerned."
+      },
+      {
+        "type": "text",
+        "text": "Example 1.—Resolve the curve ABCD (Fig. 129) into its component curves: it being understood that there is not a higher harmonic than the first."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 129.—Harmonic Analysis.",
+        "description": "The figure illustrates the curve ABCD, showing its symmetry about the axis of the x-axis, which indicates that the average ordinate is zero, or A₀ = 0.",
+        "figure_number": 129
+      },
+      {
+        "type": "equation",
+        "latex": "y = A_1 \\sin(\\omega t + \\phi) + C_1 + C_2 \\sin(2\\omega t) \\quad \\sigma = A_1 + A_0 + C_1 + C_2 + B_1 \\sin(2\\omega t)",
+        "description": "This equation represents the function of the harmonic analysis."
+      }
+    ]
+  },
+  "cost": 0.0007664999999999999
+}

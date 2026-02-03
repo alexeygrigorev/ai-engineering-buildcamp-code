@@ -1,0 +1,44 @@
+{
+  "page": {
+    "page_number": 97,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "(1) depends inversely on the speed, so that if the journey were 200 nautical miles the time taken would be 2200 hours; or in general, the number of hours = \\[ h = \\frac{\\text{distance}}{\\text{speed}} \\].\n\nThen the total cost for a journey of \\( k \\) nautical miles is."
+      },
+      {
+        "type": "text",
+        "text": "Differentiating with regard to the variable \\( v \\):"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d(C)}{d(v)} = -\\frac{330}{(v^2) \\cdot 62.4}   3sftv_min",
+        "description": "This equation shows the relationship between the change in cost and the change in speed. It suggests that as speed increases, the cost decreases."
+      },
+      {
+        "type": "text",
+        "text": "Example 7.  A water main is supplied by water under a head of 60 ft. The head loss due to pipe friction, for a given length, is proportional to the velocity of flow. Therefore, if the water in head lost in friction when \\( v \\) is the velocity of flow, then:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Head Loss} = K_v \\cdot v, \\quad \\text{where } K \\text{ is some constant}",
+        "description": "This equation represents the head loss in terms of velocity and a constant."
+      },
+      {
+        "type": "text",
+        "text": "HP transmitted = Quantity (in lbs. per second effective head) (ft) = area (in sq. ft.) \\times \\frac{v}{60} \\times 62.4 \\times H."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{where } C = Haw, \\quad \\text{C = } \\frac{d(H)}{dt} \\cdot \\left(\\frac{d(R)}{dH}\\right)",
+        "description": "This equation relates different rates of change concerning head loss and power."
+      },
+      {
+        "type": "text",
+        "text": "In general, then, the maximum horse-power is transmitted when the head lost is one-half the head supplied, i.e., the maximum efficiency is \\( \\frac{3}{2} \\) or 66\\%."
+      }
+    ]
+  },
+  "cost": 0.0008912999999999998
+}

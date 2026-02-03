@@ -1,0 +1,29 @@
+{
+  "page": {
+    "page_number": 115,
+    "header": "CHAPTER V",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "INTEGRATION"
+      },
+      {
+        "type": "text",
+        "text": "HAVING discussed the section of the Calculus which treats of differentiation, we can now proceed to the study of the process of integration, which has a far more extensive application, and being, without doubt, far more difficult to comprehend."
+      },
+      {
+        "type": "text",
+        "text": "As with the differentiation, it is impossible fully to appreciate this branch of the subject unless careful thought is given to the fundamental principles; and accordingly the introduction to the Integral Calculus must be treated in great length, but in a manner which, it is hoped, will commend itself."
+      },
+      {
+        "type": "text",
+        "text": "Meaning of Integration. It has been common to convey the idea of totality: an integer being, as we know, a whole number, and thus the sum of its segments parts or fractions. The process of integration in this sense may be conceived as summation or a totaling, whereas the differentiation is rather the process of taking differences. The fundamental concept of integral calculus is what integration suggests addition; differentiation deals with rates of change, while integration considers the totality of the amount, once the determination of change has been made. Integration, in fact, serves to compensate for differentiation. Let us consider the totality of function as a series of changes that tend toward integration."
+      },
+      {
+        "type": "text",
+        "text": "To introduce the concept of integration, consider the mathematical cases of velocity and acceleration. Suppose values of 2 and 4 are given, as in the table:"
+      }
+    ]
+  },
+  "cost": 0.0007868999999999999
+}

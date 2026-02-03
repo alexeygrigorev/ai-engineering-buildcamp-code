@@ -1,0 +1,81 @@
+{
+  "page": {
+    "page_number": 363,
+    "header": "THE SOLUTION OF SPHERICAL TRIANGLES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "From equation (9)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\tan A = \\frac{\\sin a}{\\sin(A + C) \\cot C}",
+        "description": "This equation relates the angles and sides of a spherical triangle."
+      },
+      {
+        "type": "text",
+        "text": "or"
+      },
+      {
+        "type": "equation",
+        "latex": "B = A - B + A - L = 2L \\sin 45^{\\circ} + 10",
+        "description": "This is a transformation of the previous relationships involving angles A and B."
+      },
+      {
+        "type": "text",
+        "text": "By adding (a) and (b):"
+      },
+      {
+        "type": "equation",
+        "latex": "B = 144^{\\circ} 37' 12\" + 72^{\\circ} 18'",
+        "description": "Adding the angles found in previous calculations."
+      },
+      {
+        "type": "text",
+        "text": "(Note that"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{that the spherical excess} = 10^{\\circ} 8' 57\"",
+        "description": "This describes the spherical excess in the triangle."
+      },
+      {
+        "type": "text",
+        "text": "Example 2 — Solve the spherical triangle ABC, having given"
+      },
+      {
+        "type": "equation",
+        "latex": "A = 67^{\\circ} 18', \\quad a = 72^{\\circ} 27'",
+        "description": "Describing the values for angle A and side a in the triangle."
+      },
+      {
+        "type": "text",
+        "text": "(Note that this triangle is right-angled, and therefore rules (10) to (19) may be used.)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{To find A ...} = \\sin a = \\frac{a}{\\sin A + c + 10}",
+        "description": "This equation is used to find angle A based on the given sides."
+      },
+      {
+        "type": "equation",
+        "latex": "L = \\sin A = \\sin a = \\sin 10",
+        "description": "This further relates the angles and sides in the triangle."
+      },
+      {
+        "type": "text",
+        "text": "In this case the triangle is right-angled, therefore:"
+      },
+      {
+        "type": "equation",
+        "latex": "A = \\sin 45^{\\circ} + 10",
+        "description": "This gives a specific relationship for angle A and its calculation."
+      },
+      {
+        "type": "text",
+        "text": "To find A ..."
+      }
+    ]
+  },
+  "cost": 0.0008918999999999999
+}

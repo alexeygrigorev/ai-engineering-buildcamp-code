@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 11,
+    "header": "CONTENTS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "INTRODUCTORY"
+      },
+      {
+        "type": "text",
+        "text": "CHAPTER I"
+      },
+      {
+        "type": "text",
+        "text": "Introduction to Differentiation"
+      },
+      {
+        "type": "text",
+        "text": "Historical note—Rates of change—Average and actual rates of change—Slopes of curves—Graphic differentiation by two methods."
+      },
+      {
+        "type": "text",
+        "text": "CHAPTER II"
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of Functions"
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of a function of a sum of terms—Proof of construction for slope-secant lines—Problems—Lengths of sub-tangents and sub-normals of curves—Differentiation of exponential functions—Differentiation of log—Differentiation of sin x and cos x—Applications of the trigonometric functions—Simple harmonic motion."
+      },
+      {
+        "type": "text",
+        "text": "CHAPTER III"
+      },
+      {
+        "type": "text",
+        "text": "Additional Rules of Differentiation"
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of a function of a product—Differentiation of a quotient—Differentiation of trigonometric functions—Partial differentiation—Total differentiation—Logarithmic differentiation."
+      },
+      {
+        "type": "text",
+        "text": "CHAPTER IV"
+      },
+      {
+        "type": "text",
+        "text": "Applications of Differentiation"
+      },
+      {
+        "type": "text",
+        "text": "Maximum and minimum values—Point of inflection—Calculation of small errors—Expansion of functions in series—Theorems of Taylor and Maclaurin."
+      }
+    ]
+  },
+  "cost": 0.0007767
+}

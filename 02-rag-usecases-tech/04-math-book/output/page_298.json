@@ -1,0 +1,74 @@
+{
+  "page": {
+    "page_number": 281,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Equations Homogeneous (i.e., of the same power throughout) in x and y."
+      },
+      {
+        "type": "text",
+        "text": "Rule. Make the substitution $y = vx$ and separate the variables."
+      },
+      {
+        "type": "text",
+        "text": "Example 14.--Solve the equation $(x+y) \frac{dy}{dx} = xy$."
+      },
+      {
+        "type": "text",
+        "text": "Let $y = vx,$ then"
+      },
+      {
+        "type": "text",
+        "text": "$y' = v + x \frac{dv}{dx}$  ... (1)"
+      },
+      {
+        "type": "text",
+        "text": "Now"
+      },
+      {
+        "type": "text",
+        "text": "Substituting for $y$,"
+      },
+      {
+        "type": "text",
+        "text": "$(x + vx) \bigg(v + x \frac{dv}{dx}\bigg) = vx \times x$."
+      },
+      {
+        "type": "text",
+        "text": "Separating the variables, and integrating,"
+      },
+      {
+        "type": "text",
+        "text": "or $log(1 - v) = - log C + K$ (the substitution being $K = - \frac{1}{x}$)"
+      },
+      {
+        "type": "text",
+        "text": "or $log(1 - v) = K$ and"
+      },
+      {
+        "type": "equation",
+        "latex": "v = 1 - e^{K}.",
+        "description": "This shows the relationship between $v$ and an exponential function."
+      },
+      {
+        "type": "text",
+        "text": "Linear Equations of the Second Order."
+      },
+      {
+        "type": "text",
+        "text": "Type: $y'' + p(x)y' + q(x)y = 0$"
+      },
+      {
+        "type": "text",
+        "text": "let $y = vx,$ then $y'' + p(x)y' + q(x)y = 0$ would be a special case."
+      },
+      {
+        "type": "text",
+        "text": "There are three possible solutions to this quadratic."
+      }
+    ]
+  },
+  "cost": 0.0008276999999999999
+}

@@ -1,0 +1,138 @@
+{
+  "page": {
+    "page_number": 55,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Exercises 4. On the Differentiation of $x^n$, Log $x$ and the Hyperbolic Functions."
+      },
+      {
+        "type": "text",
+        "text": "Differentiate with respect to $x$ the functions in Nos. 1 to 20."
+      },
+      {
+        "type": "text",
+        "text": "1. $y = 14x^5$"
+      },
+      {
+        "type": "text",
+        "text": "2. $y = 3e^x$"
+      },
+      {
+        "type": "text",
+        "text": "3. $y = 5\tan(x)$"
+      },
+      {
+        "type": "text",
+        "text": "4. $y = \frac{1}{x^2}$"
+      },
+      {
+        "type": "text",
+        "text": "5. $y = \frac{x^2 + 1}{x - 3}$"
+      },
+      {
+        "type": "text",
+        "text": "6. $y = 4\text{log}(x^3 + 2)$"
+      },
+      {
+        "type": "text",
+        "text": "7. $y = 6\text{sinh}(x)$"
+      },
+      {
+        "type": "text",
+        "text": "8. $y = 8\text{cosh}(x)$"
+      },
+      {
+        "type": "text",
+        "text": "9. $y = \text{log}(\text{log}(x))$"
+      },
+      {
+        "type": "text",
+        "text": "10. $y = e^{x^3}$"
+      },
+      {
+        "type": "text",
+        "text": "11. $y = 7\text{cot}(x)$"
+      },
+      {
+        "type": "text",
+        "text": "12. $y = x^x$"
+      },
+      {
+        "type": "text",
+        "text": "13. $y = \text{arcsin}(x)$"
+      },
+      {
+        "type": "text",
+        "text": "14. $y = 10^x$"
+      },
+      {
+        "type": "text",
+        "text": "15. $y = \text{log}(x + \text{log}(4))$"
+      },
+      {
+        "type": "text",
+        "text": "16. $y = \text{arccos}(x)$"
+      },
+      {
+        "type": "text",
+        "text": "17. $y = x \text{log}(x)$"
+      },
+      {
+        "type": "text",
+        "text": "18. $y = x^2 \text{log}(x)$"
+      },
+      {
+        "type": "text",
+        "text": "19. $y = e^{x^2} + 3x$"
+      },
+      {
+        "type": "text",
+        "text": "20. $y = x^2 + e^{x}$"
+      },
+      {
+        "type": "text",
+        "text": "21. Find $dy/dx$ when $x = 2$; check your result approximately by taking as values of $x: 1.75$ and $1.95$."
+      },
+      {
+        "type": "text",
+        "text": "22. Write down the value of $2 \text{log} 18$."
+      },
+      {
+        "type": "text",
+        "text": "23. If $T = \text{sinh}(x)$ and $C$ being electrical currents, the equation is $C = \text{log}(T)$, it is self-indicating the rate at which the current increases."
+      },
+      {
+        "type": "text",
+        "text": "24. Find $dT/dx$ when $x = 2$."
+      },
+      {
+        "type": "text",
+        "text": "25. Given $dW = 203 \text{log}(7 - y)$, find $y$."
+      },
+      {
+        "type": "text",
+        "text": "26. Evaluate $dZ = \text{cosh}^2 x + a \text{sinh}^2 y$."
+      },
+      {
+        "type": "text",
+        "text": "27. An electromotive Force is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "dW = -\frac{a}{a - b} \text{ln} \text{sh} \text{.}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "28. Find the value of $x$ that makes $dF/dx$ when $b$ is in the expansion of steam from pressure $P_1$ through a ratio of expansion $r$."
+      },
+      {
+        "type": "text",
+        "text": "29. Determine the value of $\\frac{d^{2}y}{dx^2} + ay$ if $y = \frac{a}{a - b}.$"
+      }
+    ]
+  },
+  "cost": 0.0013089
+}

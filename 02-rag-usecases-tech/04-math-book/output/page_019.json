@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 2,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "I.H.P.  \n\"\u0000\" \"angle in degrees.\"\n\"angle in radians.\"\n\"indicated horse-power.\"\n\"brake horse-power.\"\n\"miles per hour.\"\n\"revolutions per minute.\"\n\"independent variable.\"\n\"dependent variable.\"\n\"electric field intensity.\"\n\"electromotive force.\"\n\"Young's Modulus of elasticity.\"\n\"bending moment.\"\n\" shear force.\"\n\"simple harmonic motion.\"\n\"Newton's second law of motion.\"\n\"Coefficient of friction.\"\n\"Bond of Trade unit.\"\n\"absolute thermal unit.\"\n\"unit of work.\"\n\"pressure.\"\n\"weight.\"\n\"volume.\"\n\"the acceleration due to the force of gravity.\"\n\"the body.\"\n\"the specific heat.\"\n\"the equation of motion.\"\n\"the motion of a falling body.\"\n\"the differential coefficient of a function of x.\"\n\"a system of units.\"\n\"the relationship of yield to shear.\"\n\"mass, radius, or radius of gyration.\"\n\"the first derivative of a function of x.\"\n\"differential coefficient.\"\n\"the differential coefficient of a function of y.\"\n\"the operation d.\"\n\"candle-power.\"\n\"mean spherical candle-power.\"\n\"density.\""
+      }
+    ]
+  },
+  "cost": 0.0007970999999999999
+}

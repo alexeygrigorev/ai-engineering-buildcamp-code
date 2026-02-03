@@ -1,0 +1,67 @@
+{
+  "page": {
+    "page_number": 23,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "9. Tabulate the values of the velocity and the acceleration for the following case."
+      },
+      {
+        "type": "table",
+        "caption": "Space (feet)",
+        "columns": [
+          "Time (secs)",
+          "Position (ft)"
+        ],
+        "rows": [
+          [
+            "0",
+            "2"
+          ],
+          [
+            "1",
+            "4"
+          ],
+          [
+            "2",
+            "4"
+          ],
+          [
+            "3",
+            "6"
+          ],
+          [
+            "4",
+            "12"
+          ],
+          [
+            "5",
+            "16"
+          ],
+          [
+            "6",
+            "12"
+          ],
+          [
+            "7",
+            "15"
+          ],
+          [
+            "8",
+            "10"
+          ],
+          [
+            "9",
+            "6"
+          ],
+          [
+            "10",
+            "3"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0006680999999999999
+}

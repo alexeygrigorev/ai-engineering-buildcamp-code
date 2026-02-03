@@ -1,0 +1,17 @@
+{
+  "page": {
+    "page_number": 82,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "MATHEMATICS FOR ENGINEERS"
+      },
+      {
+        "type": "text",
+        "text": "and \\( \\frac{d}{dy} \\) must be kept constant.\n\nthen\n\n\\[\\frac{d}{dy} \\left( 5y^2 + 2y^3 + 2y \\right) = 5 \\cdot 2y + 2 \\cdot 3y^2\\frac{dy}{dy} = 10y + 6y^2\\frac{dy}{dy} + 2\\frac{dy}{dy} = 10y + 6y^2 + 2.\\] \n\nExample 17. – If \\( 6 \\log y -18y^2 + 3y^2 \\) = 0, then find the values of \\( x \\) and \\( y \\) . \n\nNow we must find the value of \\( y \\) . We may regard \\( y \\) as a constant; then if we return to this expression the value of \\( x \\) must be determined as a constant, and this is the value of \\( d \\) .  \n\nNow \\( \\frac{d}{dy}  \\left( 6y -18y^2 + 3 \\right) = 0 \\left( 6 - 36y \\right) = 0. \\) say.\n\nDifferentiating this expression with regard to \\( y \\) being regarded as constant – \n\\[ \\frac{d}{dy} \\left( 6 \\right) - \\frac{d}{dy} \\left( 18y^2 \\right) + \\frac{d}{dy} \\left( 3 \\right) = 0 \\] \n\n\\[ \\frac{d}{dy} = ( 6 - 36y ) = -90y^{2} = 18. \\] \n\nHence the order of differentiation does not affect the result. \n\nTotal Differential. – If \\( f = f(x,y) \\) and \\( dx \\) and \\( dy \\) are spoken of as differentials, and \\( f' \\) is the coefficient of the differential \\( dx \\), hence we see the reason for the term \"differential coefficient\"."
+      }
+    ]
+  },
+  "cost": 0.0009050999999999998
+}

@@ -1,0 +1,17 @@
+{
+  "page": {
+    "page_number": 3,
+    "header": "CHAPTER I",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "INTRODUCTION TO DIFFERENTIATION"
+      },
+      {
+        "type": "text",
+        "text": "The seventeenth century will be remarkable for the number of great mathematicians that it produced, and still more for the magnitude of the research accomplished by them. In the early part of the century Napier and Briggs had introduced their systems of logarithms, whilst Newton and Leibniz worked together towards the quadrature of curves, which they effected in some instances by expansion into series, thus following the Binomial Theorem that was then unknown to them. In 1666 Newton, in his search for the method of quadrature, evolved what he termed to be a system of 'fluxions' or flowing quantities: if $x$ and $y$ denote two such quantities, then he denoted the velocities by $\\dot{x}$ and $\\dot{y}$ respectively. By the use of these new forms he enabled their radical functions to be expressed and differentiated, and to alleviate the same problem, regarded it practically the same as that which had been given by the earlier mathematicians, although they were in touch with the problems of 'differential' and also of 'integral' fluxions, viz., to deduce $dy$ from the relation of $y$ to $x$. He made his expression for the first time of a differential of $y$ to $x$."
+      }
+    ]
+  },
+  "cost": 0.0007730999999999999
+}

@@ -1,0 +1,106 @@
+{
+  "page": {
+    "page_number": 294,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Equations of the Second Degree. — The treatment of these equations is very similar, up to a certain point, to that employed in the solution of ordinary quadratic equations; particularly the solution by factorisation."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 24."
+      },
+      {
+        "type": "text",
+        "text": "— Solve the equation"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{dy}{dx} + 3y = 0",
+        "description": "This is a differential equation that can be solved using standard methods."
+      },
+      {
+        "type": "text",
+        "text": "Let"
+      },
+      {
+        "type": "equation",
+        "latex": "y = C_1e^{\\left(-\\frac{1}{3}x\\right)}",
+        "description": "This represents the general solution of the first-order linear differential equation."
+      },
+      {
+        "type": "text",
+        "text": "Then"
+      },
+      {
+        "type": "equation",
+        "latex": "Y - 3Y = 0",
+        "description": "This equation shows a relationship that leads to solving for Y."
+      },
+      {
+        "type": "text",
+        "text": "which gives two solutions, since the equation is of \"degree\" higher than the first."
+      },
+      {
+        "type": "equation",
+        "latex": "y = C_1 e^{\\left( -\\frac{1}{3} x \\right)}",
+        "description": "This is the final solution derived from the differential equation."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 25."
+      },
+      {
+        "type": "text",
+        "text": "— Solve the equation"
+      },
+      {
+        "type": "equation",
+        "latex": "ay^2 + by + c = 0",
+        "description": "This is a standard quadratic equation."
+      },
+      {
+        "type": "text",
+        "text": "Using"
+      },
+      {
+        "type": "equation",
+        "latex": "b^2 - 4ac = \\Delta",
+        "description": "This is the discriminant for the quadratic equation."
+      },
+      {
+        "type": "text",
+        "text": "Factoring"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{-b \\pm \\, \\sqrt{\\Delta}}{2a}",
+        "description": "This gives the solutions to the quadratic equation."
+      },
+      {
+        "type": "text",
+        "text": "Separating the variables and integrating"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int (1 + 2y) dy = \\int (1 - 2y^2) dx",
+        "description": "This equation sets up the integration process for solving the differential equation."
+      },
+      {
+        "type": "text",
+        "text": "The general solution is"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{1}{2} x + C_1 - C_2",
+        "description": "This represents the combined solution after integration."
+      },
+      {
+        "type": "text",
+        "text": "Two further examples are added to illustrate methods of solution other than those already indicated."
+      }
+    ]
+  },
+  "cost": 0.0009296999999999999
+}

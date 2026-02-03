@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 30,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "\n   \n   \n   dy\n   =  \n   \n   ∫\n   y\n   \n   dx\n   \n   or \n   \n   dy\n   =\n   \n   dx\n   \n   \n   \n   *\n   \n   \n   \n   \n   \n   \n   \n   \n   y\n   = f(x)\n   \nb \n   \n   Hence the first rule for differentiation of functions is established, viz:\n"
+      }
+    ]
+  },
+  "cost": 0.0006836999999999999
+}

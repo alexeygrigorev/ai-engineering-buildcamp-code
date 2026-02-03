@@ -1,0 +1,55 @@
+{
+  "page": {
+    "page_number": 123,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The integral will be of the standard form if $x$ were $y$ and if for $y$ were $x$. It can be seen that ordinates must represent $h$ and abscissas lengths, and hence the table for plotting reads  \n\n\\[ \n\\begin{array}{ccc} \n\\text{y} & 6.34 & 4.21 \\ \n\\text{x} & 124 & 336 \\ \n\\end{array} \n\\]"
+      },
+      {
+        "type": "text",
+        "text": "Plotting these values and therefore construct the sum curve (see Fig. 30), we find the last ordinate to be $2.75$, and this is the value of $\\int_0^4 f(dy)$."
+      },
+      {
+        "type": "text",
+        "text": "Weight = $\\frac{100}{9} = 1097.4$ and $\\int_0^4 f(dy) = 1097.4 \\times 2.75 = 5180 \\text{ lb}$."
+      },
+      {
+        "type": "section_heading",
+        "title": "Application of Integration to \"Problems...\""
+      },
+      {
+        "type": "text",
+        "text": "At an earlier stage in the 18th of the above loading is given, when the shear at every point in the span (say form a beam loaded in any way) the load may be given as a function of it, $f(x)$ as given below."
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\int_a^b f(x) \\; dx \n\\Rightarrow M = \\left[ f(x) \\right]_{a}^{b} = f(b) - f(a) \\; .",
+        "description": "This equation represents the bending moment as a function of the load, integrating the load function over a specified interval [a, b]."
+      },
+      {
+        "type": "text",
+        "text": "In the majority of cases, when the loading is given, the bending moment can be derived by the same integration formulas by inserting the notations provided."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dM}{dx} = -\\frac{df}{dx}",
+        "description": "This equation relates the derivative of the bending moment to the derivative of the load function."
+      },
+      {
+        "type": "text",
+        "text": "Here, the two expressions will represent the statements in the notation of the calculus; $M = \\int \\,( -f\\, dx)$ being termed as $M = f \\left[ \\int f(x) \\right]$."
+      },
+      {
+        "type": "text",
+        "text": "If the loading is not uniform, but continuous, the summation must be performed graphically."
+      },
+      {
+        "type": "text",
+        "text": "(The link polygon method largely used allows that these curves, e.g., the linking polygon for the loads gives at once the curve of bending moment)."
+      }
+    ]
+  },
+  "cost": 0.0009548999999999998
+}

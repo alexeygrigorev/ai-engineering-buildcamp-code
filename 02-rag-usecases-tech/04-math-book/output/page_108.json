@@ -1,0 +1,73 @@
+{
+  "page": {
+    "page_number": 97,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The point of the slope is positive. Thus $y$ has turning values when $x = -3$ and when $x = 2$, where these values bring a maximum at $x = -3$ and a minimum at $x = 2$ as observed from the curve."
+      },
+      {
+        "type": "text",
+        "text": "This investigation proves of great service when we proceed to treat the question from the algebraic aspect; in fact, for complete understanding the two methods must be examined:"
+      },
+      {
+        "type": "text",
+        "text": "(b) From the algebraic point of view."
+      },
+      {
+        "type": "text",
+        "text": "Let"
+      },
+      {
+        "type": "equation",
+        "latex": "y = 4x^{3} - 36x^{2} - 36x - 15",
+        "description": "The equation of the curve that we are investigating."
+      },
+      {
+        "type": "text",
+        "text": "Now in order that $y$ may have turning values we have seen that it is necessary that:"
+      },
+      {
+        "type": "equation",
+        "latex": "dy = 0 \\iff 4x^{2} \\left( x - 9 \\right) = 0",
+        "description": "The derivative set to zero to find critical points."
+      },
+      {
+        "type": "text",
+        "text": "i.e., when $x = 0$ and $x = 9$. We do not, however, know the character of these turning values, so that our discrimination must be made."
+      },
+      {
+        "type": "text",
+        "text": "To do this we can apply the second derivative test; let us calculate the second derivative at each turning value."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^{2}y}{dx^{2}} = 0",
+        "description": "Setting the second derivative to zero to analyze concavity."
+      },
+      {
+        "type": "text",
+        "text": "$\\Rightarrow$ For $x = 0$ we substitute:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^{2}y}{dx^{2}} = 0 = 4(0)\\left(0 - 9\\right) = 0",
+        "description": "Value of the second derivative at $x=0$."
+      },
+      {
+        "type": "text",
+        "text": "The arithmetic involved is not necessary in this central point, however, is expressed by the use of the further mathematical process, now possessing the:"
+      },
+      {
+        "type": "text",
+        "text": "Regarding the first derived curve, the equation of which is $\\frac{dy}{dx} = 6x^{2} - 36x - 36$. Here I can say that as $x$ increases from $-3$ to $2$ the derivative increases from $36$ to $3$."
+      },
+      {
+        "type": "text",
+        "text": "Moreover, the curve decreases from $36$ to $-3$ numerically, $-3$ in the neighbourhood of $x = -3$ the slope of the second derived curve, which is the slope curve of the first derived curve, is negative (for the ordinate decreases as the ascendant or the IV. increases). But the slope of the first derived."
+      }
+    ]
+  },
+  "cost": 0.0009819
+}

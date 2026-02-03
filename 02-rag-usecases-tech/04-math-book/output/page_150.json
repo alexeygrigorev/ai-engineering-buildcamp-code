@@ -1,0 +1,21 @@
+{
+  "page": {
+    "page_number": 133,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "7. The current from a battery was measured at various times, with the following results:\n\nTime (hours) :    0       1       2       3       4       5\nCurrent (amperes) :  0      12      24      33      35      32\n\nIf its capacity is measured by $\\int_{0}^{5} I(t) dt$ in ampere-hours, where $I(t)$ is the current in amperes.\n\nThe table below gives approximate speeds of a locomotive on a run over a now slightly level road. Draw a curve showing the distance run up to any time.\n\nSpeed (miles per hour) :                        0           5          10         20       30       40\nTime (hours) :                                  0           1           2           3          4          5\n\nLoad (1000 pounds) :                             0           1          2          3           4           5\nTime (hours) :                                  0           1          2          3          4          5\n\n\\[ 2 \\cdot 3 \\cdot 44 \\cdot 5  \\text{ of the current curve can be constructed from the following data.} \\]"
+      },
+      {
+        "type": "text",
+        "text": "Velocity (ft/sec) : 76       78       76       72       67       63\nTime (seconds) :   0       10      20      30      40      50\n\n10. The velocity of a three-phase electric train, with rheostatic control, at various times, was found to be:\n\nVelocity (ft/sec) :  16       20       25       30\nTime (seconds) :      0       10       20       30\n\n12. At $t = 0 $ sec, $\\; x = 0 $ and $\\; y = 14$.\n\n13. $\\int x^{2} dx = \\frac{x^{3}}{3} + C$"
+      },
+      {
+        "type": "text",
+        "text": "14. $\\int \\frac{1}{x} dx = \\ln |x| + C$ \n\n15. $\\int e^{x} dx = e^{x} + C$ \n\n16. $\\int a^{x} dx = \\frac{a^{x}}{\\ln a} + C$"
+      }
+    ]
+  },
+  "cost": 0.0009291
+}

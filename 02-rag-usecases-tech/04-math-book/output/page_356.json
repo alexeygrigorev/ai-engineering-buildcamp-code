@@ -1,0 +1,25 @@
+{
+  "page": {
+    "page_number": 339,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "For the cubic parabola we may assume an equation\n\n$y = \\frac{h}{\\sqrt{1 + (\\frac{6p}{h})^2}} \\cdot \\frac{(x + p)^2}{(p + x^2)}$,\n\nwhere $h$ is the distance from the straight, along a tangent, and $y$ is the offset (here obviously $p$ must be very small).  \n\nHence\n\n$R = \\frac{6p}{h} \\cdot \\frac{6p}{h} = \\frac{36p^2}{h^2}$.\n\nFor a first approximation, or $p$ small, we find:\n\n$R \\approx \\frac{36p^2}{h^2} \\cdot \\frac{1}{(1 - \\frac{1}{3}\\frac{p}{h})} \\approx \\frac{36p^2}{h^2} \\cdot (1 + \\frac{1}{3}\\frac{p}{h})$."
+      },
+      {
+        "type": "text",
+        "text": "Hence  \n\n$R \\approx \\frac{36p^2}{h^2} + \\frac{12p^3}{h^3}$."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 23."
+      },
+      {
+        "type": "text",
+        "text": "1. A cylindrical tank is kept full of water by a supply. Show that the time required to discharge a quantity $Q$, equal to the capacity of the tank, can be computed in terms of $K$, where $K$ can be found from the expression,\n\n$K = \\frac{1}{h_1} \\cdots = \\frac{A}{L - h_1}$,\n\nwhere $h_1$ is the level of the water at the time $t$ and $A$ is the area of cross section of the pipe.  \n\nAn emptying tank with a $3$ ft. cross section and a $4$\" diam. pipe gave the following results:\n\n\\[ \n\\begin{array}{|c|c|} \n\\hline \n\\text{Time, in mins} & \\text{Level in tank, in ft.} \\\\ \n\\hline \n23 &  24 \\ \n\\hline \n15 &  22 \\ \n\\hline \n}\\end{array} \n\\] \n\nFind the value of $K$ for the pipe."
+      }
+    ]
+  },
+  "cost": 0.0009344999999999999
+}

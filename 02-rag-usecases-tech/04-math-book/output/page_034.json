@@ -1,0 +1,48 @@
+{
+  "page": {
+    "page_number": 17,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "as would be expected since the primitive curve is a \"square\" parabola."
+      },
+      {
+        "type": "text",
+        "text": "As regards the scale of slope, the new vertical scale"
+      },
+      {
+        "type": "text",
+        "text": "old vertical scale"
+      },
+      {
+        "type": "text",
+        "text": "The derived curve supplies much information about the primitive. Thus, when the outline of the derived curve is $y = f'(x)$, and then the derived curve touches or cuts the horizontal axis, the"
+      },
+      {
+        "type": "equation",
+        "latex": "f'(x) = 0",
+        "description": "This equation indicates the points where the slope of the primitive curve is zero."
+      },
+      {
+        "type": "text",
+        "text": "slope of the primitive curve is zero. It means that if the slope is zero the curve must be horizontal, since it neither rises nor falls, and this is the case at a turning point, either maximum or minimum. Hence turning points occur at points where $y$ is indicated by zero ordinates of the slope curve."
+      },
+      {
+        "type": "text",
+        "text": "Again, a positive ordinate of the derived curve implies a positive slope of the primitive, and this indicates that in the neighbourhood considered the primitive increases with increase of abscissa. A large ordinate of the slope curve indicates rapid change of the primitive with regard to the abscissa."
+      },
+      {
+        "type": "text",
+        "text": "This last suggests another and a more important one. By a careful examination of the primitive curve we see what is actually"
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 4. Graphic Differentiation",
+        "description": "This figure likely illustrates the relationship between the primitive curve and its derived curves, indicating how their slopes change and relate to turning points.",
+        "figure_number": 4
+      }
+    ]
+  },
+  "cost": 0.0008127
+}

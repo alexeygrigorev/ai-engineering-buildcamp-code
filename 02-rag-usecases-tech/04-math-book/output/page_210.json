@@ -1,0 +1,83 @@
+{
+  "page": {
+    "page_number": 193,
+    "header": "VOLUMES",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 17—On Root Mean Square Values"
+      },
+      {
+        "type": "text",
+        "text": "Find the R.M.S. values of the functions in Notes 1 to 7."
+      },
+      {
+        "type": "text",
+        "text": "1.  $f(x) = 3$ (range from $-10$ to $+5$)."
+      },
+      {
+        "type": "text",
+        "text": "2.  $f(x) = 2 x + 6$ (range from $-5$ to $2$)."
+      },
+      {
+        "type": "text",
+        "text": "3.  $f(x) = x^2 + 2 x$ (range from $0$ to $3$)."
+      },
+      {
+        "type": "text",
+        "text": "4.  $f(x) = \frac{1}{2} \text{sin} \theta + \frac{1}{2}$ (range with the mean value = $\frac{1}{2}$)."
+      },
+      {
+        "type": "text",
+        "text": "5.  Compare the R.M.S. value of the wave—"
+      },
+      {
+        "type": "text",
+        "text": "where wave form is sinusoidal, having a maximum of 100 amperes, and other training develop."
+      },
+      {
+        "type": "text",
+        "text": "6.  Find the first function with mean intervals of $y = 3 \text{sin} \theta$ over the period of 2 $\text{pi}$.  (Refer to p. 178.)"
+      },
+      {
+        "type": "text",
+        "text": "7.  If the values of the primary current through a transformer at equal intervals of time are, for example:"
+      },
+      {
+        "type": "table",
+        "caption": "Values of primary current",
+        "columns": [
+          "Time (s)",
+          "Current (A)"
+        ],
+        "rows": [
+          [
+            "0",
+            "22"
+          ],
+          [
+            "2",
+            "24"
+          ],
+          [
+            "4",
+            "26"
+          ],
+          [
+            "6",
+            "28"
+          ],
+          [
+            "8",
+            "24"
+          ],
+          [
+            "10",
+            "20"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0008307
+}

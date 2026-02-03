@@ -1,0 +1,73 @@
+{
+  "page": {
+    "page_number": 378,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let the current C = total E.M.F. - \\nuR"
+      },
+      {
+        "type": "text",
+        "text": "Let D = the denominator, then $D = R + \\nu$ and C is maximum when the denominator is a minimum."
+      },
+      {
+        "type": "text",
+        "text": "Let i.e., external = internal resistance."
+      },
+      {
+        "type": "text",
+        "text": "Example 19.—To find an expression for the time of discharge of an electric condenser of capacity K, discharging through a constant resistance R."
+      },
+      {
+        "type": "text",
+        "text": "Let V = potential difference between the coatings at any time t."
+      },
+      {
+        "type": "text",
+        "text": "Then, by Ohm's law, we have:"
+      },
+      {
+        "type": "text",
+        "text": "$q = K \\cdot V$;"
+      },
+      {
+        "type": "text",
+        "text": "where q is the current given by the rate of diminution of the quantity q and $\\nu = -\\frac{dV}{dt}$."
+      },
+      {
+        "type": "text",
+        "text": "Considering the variables and integrating:"
+      },
+      {
+        "type": "text",
+        "text": "\\[ - \\frac{1}{V} dV = \\frac{R}{K} dt\\]"
+      },
+      {
+        "type": "text",
+        "text": "whence"
+      },
+      {
+        "type": "text",
+        "text": "\\[ V_t = V_0 e^{-\\frac{t}{RC}}\\]"
+      },
+      {
+        "type": "text",
+        "text": "or the time taken to lower the potential from V_0 to V_t is given by:"
+      },
+      {
+        "type": "text",
+        "text": "$V_t = K R \\log V_t$."
+      },
+      {
+        "type": "text",
+        "text": "Example 20.—If R = the electric resistance of a circuit, L is its self-inductance, C = the current flowing and V = the voltage, then"
+      },
+      {
+        "type": "text",
+        "text": "$V = R C + L \\frac{dC}{dt}.$"
+      }
+    ]
+  },
+  "cost": 0.0008354999999999999
+}

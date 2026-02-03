@@ -1,0 +1,54 @@
+{
+  "page": {
+    "page_number": 258,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 1: The following table gives the candle power of an arc lamp for various positions of the lamp: plot the polar diagram."
+      },
+      {
+        "type": "equation",
+        "latex": "\n\\begin{array}{|c|c|}\n\\hline\n\\text{Angle (degrees)} & \\text{Candle Power} \\\\\n\\hline\n0 & 1800 \\\\\n30 & 1420 \\\\\n60 & 1000 \\\\\n90 & 500 \\\\\n120 & 140 \\\\\n150 & 20 \\\\\n180 & 0 \\\\\n\\hline\n\\end{array}\n",
+        "description": "Table showing the candle power of an arc lamp at various angles."
+      },
+      {
+        "type": "text",
+        "text": "In reality we have to plot a curve of polar co-ordinates, the lengths representing the values of the candle power; but since the horizontal axis is specified, we take this as the position of the lamp itself, i.e., where the candle power = 1,800, and the curve is plotted as follows."
+      },
+      {
+        "type": "figure",
+        "caption": "Candle Power of Arc Lamp",
+        "description": "The polar diagram shows the distribution of candle power for various angles, illustrating how candle power decreases as the angle moves away from the horizontal.",
+        "figure_number": 1
+      },
+      {
+        "type": "text",
+        "text": "The Archimedean spiral and the logarithmic or equiangular spiral are two types of spirals important in conic sections and polar coordinates. The equations provide curves which may be easily distinguished from each other by their growth properties."
+      },
+      {
+        "type": "equation",
+        "latex": "r = \\theta",
+        "description": "Equation of the Archimedean spiral in polar coordinates."
+      },
+      {
+        "type": "text",
+        "text": "Fig. 2—Plot the Archimedean spiral $r = 5734 \\theta$ using numerical examples."
+      },
+      {
+        "type": "text",
+        "text": "The measure of the angle must be in radians, but to simplify the plotting we can transform the equation so that values of r (in degrees) may replace θ."
+      },
+      {
+        "type": "equation",
+        "latex": "\\theta = \\frac{5734}{r} \\text{ (degrees)}",
+        "description": "Transformation of the Archimedean spiral for plotting in degrees."
+      },
+      {
+        "type": "text",
+        "text": "Thus —"
+      }
+    ]
+  },
+  "cost": 0.0008936999999999999
+}

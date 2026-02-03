@@ -1,0 +1,78 @@
+{
+  "page": {
+    "page_number": 248,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "(b) The 2nd moment of the strip about AA, which is parallel to NN—"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{NN} = \\frac{1}{3} m R^2 \\quad \\text{(see Example 40)}",
+        "description": "The formula for the second moment of inertia about the axis NN."
+      },
+      {
+        "type": "text",
+        "text": "Hence  \\[ I_{NN} = \\frac{1}{3} m \\left( R + \\frac{r}{2} \\right)^2 - \\int_A y^2 dA = I_{A} + (m \\cdot a^2) \\] "
+      },
+      {
+        "type": "equation",
+        "latex": "I_{NN} = I_{AA} + m \\cdot \\left( \\frac{R + r/2}{2} \\right)^2",
+        "description": "The relationship for the second moment of inertia I_NN."
+      },
+      {
+        "type": "text",
+        "text": "and thus the moment of the strip at AA is:"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AA} = \\frac{1}{12} m (R + r/2)^2 \\quad \\text{[DISREGARD]}",
+        "description": "Moment of the strip at AA."
+      },
+      {
+        "type": "text",
+        "text": "(c) To find I_{FF}, FF being parallel to AA and NN."
+      },
+      {
+        "type": "text",
+        "text": "The distance between FF and NN = \\( R + r/2 \\)."
+      },
+      {
+        "type": "text",
+        "text": "Also it has just been proved that:"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{FF} = I_{NN} + m \\cdot (R + r/2)^2",
+        "description": "The equation showing the relationship between I_FF and I_NN."
+      },
+      {
+        "type": "text",
+        "text": "Fig. 86."
+      },
+      {
+        "type": "text",
+        "text": "Example 42.—Find an expression for the moment of inertia of a large pulley wheel of outside radius R and thickness of rim t."
+      },
+      {
+        "type": "text",
+        "text": "Neglect the ends as shown."
+      },
+      {
+        "type": "equation",
+        "latex": "t = R - r",
+        "description": "The relationship defining r in terms of R and t."
+      },
+      {
+        "type": "text",
+        "text": "Let r = inside radius of wheel, i.e., r = R - t."
+      },
+      {
+        "type": "text",
+        "text": "Hence, from the result of Example 40, we know that the moment of inertia of the wheel as solid \\( \\frac{2}{5} m R^2 \\) for t >> r."
+      }
+    ]
+  },
+  "cost": 0.0009260999999999999
+}

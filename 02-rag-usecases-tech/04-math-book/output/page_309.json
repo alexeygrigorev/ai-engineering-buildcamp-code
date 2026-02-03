@@ -1,0 +1,71 @@
+{
+  "page": {
+    "page_number": 292,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Example 22. A pin-jointed column, initially bent to a curve of cosines, has a vertical load W applied to it. Find an expression for the deflection at any point."
+      },
+      {
+        "type": "text",
+        "text": "Given that the equation of the initial bent form is"
+      },
+      {
+        "type": "equation",
+        "latex": "y_1 = A \\cos(\\theta)\\quad (1)  \n\ny \\text{ being the deflection at distance } x \\text{ from the centre of the column, which is of length } l.",
+        "description": "The initial form of the column's equation, describing its curvature."
+      },
+      {
+        "type": "text",
+        "text": "This equation being obtained from a consideration of the bending moment at distance x from the origin."
+      },
+      {
+        "type": "equation",
+        "latex": "M = EI \\frac{d^2y}{dx^2}",
+        "description": "The relationship between the bending moment (M), modulus of elasticity (E), and moment of inertia (I)."
+      },
+      {
+        "type": "text",
+        "text": "Now, as shown on p. 283, the solution of the equation"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\sin(\\theta) \\left( \\frac{PAW}{EI \\sqrt{ET + A}} \\right)",
+        "description": "The solution for deflection based on applied load and material properties."
+      },
+      {
+        "type": "text",
+        "text": "To find the particular result, let the solution of the equation"
+      },
+      {
+        "type": "equation",
+        "latex": "D + H = T \\quad (2)",
+        "description": "A relation defining the variables involved in the problem."
+      },
+      {
+        "type": "text",
+        "text": "Rewriting the equation as"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{D + H}{A} = T \\quad (3)",
+        "description": "An alternative representation of equation (2) for clarity."
+      },
+      {
+        "type": "text",
+        "text": "so that"
+      },
+      {
+        "type": "equation",
+        "latex": "y = B \\sin\\left( \\frac{PAW}{EI \\sqrt{ET + A}} \\right) + C \\sqrt{ET + A}",
+        "description": "Final expression for deflection incorporating all variables."
+      },
+      {
+        "type": "text",
+        "text": "Combining the two results"
+      }
+    ]
+  },
+  "cost": 0.0008804999999999999
+}

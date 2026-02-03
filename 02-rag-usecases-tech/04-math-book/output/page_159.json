@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 142,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "It is now possible to give the proof of this rule."
+      },
+      {
+        "type": "text",
+        "text": "Let us deal with a portion of the full area to be measured, such as ABCD in Fig. 35. Let the area AB = \\(c\\). Let us repeat the curve DBC be \\(y = f(x)\\) so that DBC is a portion of some surface."
+      },
+      {
+        "type": "text",
+        "text": "We can assume that the origin is at F, and therefore the abscissae of D, B, C and A are \\(x_0, x_1, x_2\\) and \\(x_3\\) respectively."
+      },
+      {
+        "type": "text",
+        "text": "Hence  \\(A = y_1 = (A + B + C + D) = A - B + C \\Rightarrow A = \\frac{ \\int_{x_0}^{x_1}(f(x) + f(x_1))dx}{2}\\)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Now the area ABCD = } \\int_{x_0}^{x_1} y dx = \\int_{x_0}^{x_1} f(x) dx",
+        "description": "This equation represents the area under the curve from \\(x_0\\) to \\(x_1\\)."
+      },
+      {
+        "type": "text",
+        "text": "The dimensions of the figure can be outlined as follows."
+      },
+      {
+        "type": "text",
+        "text": "Imagine another strip of total width \\(2\\) added to the right of the current width. Since the width is also varying, there must be an even number of width across the section."
+      },
+      {
+        "type": "text",
+        "text": "Then if \\(G\\) divides the strip L and K."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Area of BLK}",
+        "description": "This denotes an area variable within the strip."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Area of ALD}",
+        "description": "This denotes another segment area within the strip."
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{If a strip of width = } 2 \\Rightarrow \\text{Area = } \\int_{x}^{y} dy = (y^2 - y_1^2) + (y^2 - y_2^2) = \\frac{1}{2}(y^2) + (A + B)(y_2 + y_1)",
+        "description": "This represents the cumulative area contribution of the varying strip lengths."
+      }
+    ]
+  },
+  "cost": 0.0009212999999999999
+}

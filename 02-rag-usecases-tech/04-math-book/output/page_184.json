@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 167,
+    "header": "FURTHER METHODS OF INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "which is of the form $\\int_0^1 \\sin^{n} \\theta d\\theta = \\dfrac{n-1}{n} \\int_0^1 \\sin^{n-2} \\theta d\\theta$ for $n$ being an odd integer."
+      },
+      {
+        "type": "text",
+        "text": "Similarly, $\\int_0^1 \\sin^{n} 2\\theta d\\theta = \\dfrac{1}{2}\\int_0^1 \\sin^{n-2} 2\\theta d\\theta$ for $n$ being an odd integer."
+      },
+      {
+        "type": "text",
+        "text": "Summarising our results"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^1 \\sin^{n} \\theta d\\theta = \\begin{cases} \\dfrac{(n-1)(n-3) \\cdots (2)}{n(n-2)(n-4) \\cdots (1)} \\pi, & \\text{if } n \\text{ is an even integer.} \\\\ \\dfrac{(n-1)(n-3) \\cdots (1)}{n(n-2)(n-4) \\cdots (2)} , & \\text{if } n \\text{ is an odd integer.} \\end{cases}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Example 28. Find the value of $\\int_0^{\\pi} \\sin^{n} \\theta d\\theta$."
+      },
+      {
+        "type": "text",
+        "text": "Here $n$ is an even integer."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^{\\pi} \\sin^{n} \\theta d\\theta = \\dfrac{(n-1)(n-3) \\cdots (2)}{n(n-2)(n-4) \\cdots (1)} \\pi",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Example 29. Evaluate $\\int_0^{\\pi} \\cos^{n} \\theta d\\theta$."
+      },
+      {
+        "type": "text",
+        "text": "Here $n$ is an odd integer."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_0^{\\pi} \\cos^{n} \\theta d\\theta = 0",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Example 30. The expression $\\sqrt{1 - \\sin^{2} \\theta} = \\cos \\theta$ gives the theoretical thrust on a plane moving through air. Evaluate this."
+      },
+      {
+        "type": "text",
+        "text": "If $v$ is written in place of $u$."
+      }
+    ]
+  },
+  "cost": 0.0010263
+}

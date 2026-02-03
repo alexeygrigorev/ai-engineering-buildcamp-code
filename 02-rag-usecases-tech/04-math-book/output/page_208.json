@@ -1,0 +1,52 @@
+{
+  "page": {
+    "page_number": 191,
+    "header": "ROOT MEAN SQUARE VALUES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 9.— Suppose that an alternating electric current at any time $t$ follows the sine law, i.e.,\n\n$$ I = C \\sin qt $$\n\nwhere $I$ is the instantaneous value of the current at any time $t$, and $C$ is the maximum value of the current."
+      },
+      {
+        "type": "text",
+        "text": "Find the R.M.S. value of the current."
+      },
+      {
+        "type": "text",
+        "text": "In the above example, the determination of the R.M.S. value implies that the first square of the function at various times must be calculated, then the mean value of these squares found, and finally the square root of the average extracted."
+      },
+      {
+        "type": "text",
+        "text": "To start the study of the R.M.S. value, let us note that:\n\n$$ I = C \\sin qt $$"
+      },
+      {
+        "type": "figure",
+        "caption": "R.M.S. Value of an Alternating Current.",
+        "description": "The figure illustrates the function $I = C \\sin qt$ plotted over one complete period of the sine wave. The squares of the instantaneous values are shown, demonstrating how they vary with time.",
+        "figure_number": 4
+      },
+      {
+        "type": "equation",
+        "latex": "C = \\sqrt{ \\frac{1}{T} \\int_0^{T} I^2 \\, dt } = \\sqrt{ \\frac{C^2}{2} } = \\frac{C}{\\sqrt{2}}",
+        "description": "The equation for the root mean square value of the current, derived from the integration over one complete period."
+      },
+      {
+        "type": "text",
+        "text": "where $T$ is the period of the wave. The R.M.S. value of the alternating current given by the sine law can be observed."
+      },
+      {
+        "type": "text",
+        "text": "The wave completes one full cycle for every $2\\pi$ radians or each period is given by:\n\n$$ T = \\frac{2\\pi}{q} $$\n\nThus, in this case, when calculating the R.M.S. value, it is immaterial whether the full or half period of the simple curve is used."
+      },
+      {
+        "type": "text",
+        "text": "In the next example, we will here particularly concerned the square of the current's value, demonstrating how it leads to the average when computed over a period."
+      },
+      {
+        "type": "text",
+        "text": "It is also to note that the integration may be performed either over the range 0 to $T$ or 0 to $\\frac{T}{2}$."
+      }
+    ]
+  },
+  "cost": 0.0009170999999999999
+}

@@ -1,0 +1,51 @@
+{
+  "page": {
+    "page_number": 90,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "the value or values of the I.V. which make the derivative zero; the actual maximum or minimum values of the function being found by the substitution of the particular values of the I.V. in the expression for the function."
+      },
+      {
+        "type": "text",
+        "text": "The result, stated in a concise form, is: To find the value of the I.V. which makes the function a maximum or minimum, differentiating the function, equate to zero and solve."
+      },
+      {
+        "type": "text",
+        "text": "The full merit of the method can be best appreciated by the discussion of a somewhat standard problem before proceeding to a more practical nature."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 1."
+      },
+      {
+        "type": "text",
+        "text": "To find the values of the I.V. which give the extremes for the function x = x² − 3x + 2, subject to a minimum value."
+      },
+      {
+        "type": "text",
+        "text": "Thus, we can see that from the graphical aspect."
+      },
+      {
+        "type": "text",
+        "text": "Let the first of the primitive curve y = x³ − 3x² − 36x + 5 (See Fig. 25), the table of values for which is shown."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 25: Graph of the primitive curve showing the values of the derivative.",
+        "description": "The graph demonstrates the behavior of the function and its derivative. The curve has points where the slope changes, indicating potential maximum and minimum points.",
+        "figure_number": 25
+      },
+      {
+        "type": "text",
+        "text": "By two turning points, we see that when the primitive curve has a turning value, the value of dy/dx = 0."
+      },
+      {
+        "type": "text",
+        "text": "Thus, for values of x between −3 and −2 the slope of the primitive is negative; when x = −2 the slope is zero, and from x = −2 to +2 the slope is positive."
+      }
+    ]
+  },
+  "cost": 0.0008402999999999999
+}

@@ -1,0 +1,41 @@
+{
+  "page": {
+    "page_number": 83,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "If $z$ is a function of $x$ and $y$, i.e., $z = f(x, y)$, the total differential $dz$ is obtained from the partial differentials $dx$ and $dy$ by the use of the following relation:"
+      },
+      {
+        "type": "equation",
+        "latex": "dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "The reason for this is more clearly seen if we work from the fundamental idea of $x$, $y$, and introduce the actually measurable quantities like $x$ and $y$."
+      },
+      {
+        "type": "figure",
+        "caption": "[UNRECOGNIZED TEXT]",
+        "description": "The figure illustrates the relationship between the changes in the variables $x$ and $y$ and how these affect the change in $z$. It shows a point $P$ on a surface and the path of movement to a new position $Q$.",
+        "figure_number": 21
+      },
+      {
+        "type": "text",
+        "text": "Thus:"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\text{change in } y \\text{ due to the change in } x",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "The change in $z$ due to a change in $x$ can be measured by the product of the change in $x$ multiplied by the rate at which $z$ is changing with regard to $x$; and that fact can be better illustrated by referring to a diagram (Fig. 21)."
+      }
+    ]
+  },
+  "cost": 0.0008588999999999999
+}

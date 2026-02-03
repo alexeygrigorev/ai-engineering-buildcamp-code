@@ -1,0 +1,28 @@
+{
+  "page": {
+    "page_number": 89,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "of the graphic treatment, the algebraic method is introduced, but it should be remembered that its application is not so universal as that of the solution by plotting. \n\nThe other method of algebraic method can be simply explained by the following manner:\n\nThe slope of a curve measures the rate of change of the ordinate with regard to the abscissa; and hence, when the slope of the "
+      },
+      {
+        "type": "figure",
+        "caption": "Maximum and Minimum Values",
+        "description": "This figure illustrates the turning points of a function, indicating where the first derivative is zero and identifying maximum and minimum values. The turning points are highlighted, showing their significance in understanding the behavior of the function.",
+        "figure_number": 22
+      },
+      {
+        "type": "text",
+        "text": "curve is zero, the rate of change of the function is zero, and the function must have either a maximum or a minimum.  \n\nIt has already been pointed out that the slope of a curve is otherwise defined as the derivative or the differential coefficient of the function; therefore the function has a turning point wherever its derivative is zero.\n\nTherefore, to find maximum or minimum values of a function we must first determine the derivative of the function, and then find "
+      },
+      {
+        "type": "equation",
+        "latex": "y = 12x^2 - 12x + 4",
+        "description": "This equation represents a quadratic function derived from finding the first derivative. It is used to analyze the behavior of the function at its turning points."
+      }
+    ]
+  },
+  "cost": 0.0007874999999999999
+}

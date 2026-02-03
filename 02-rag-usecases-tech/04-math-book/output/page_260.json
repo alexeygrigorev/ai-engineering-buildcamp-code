@@ -1,0 +1,64 @@
+{
+  "page": {
+    "page_number": 243,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Theorem of Perpendicular Axes. We require to find a relation between the moment of inertia about a plane and passing through O, such being spoken of as a polar second moment."
+      },
+      {
+        "type": "text",
+        "text": "To distinguish between the moment of inertia about an axis in the paper, we shall adopt the notation for the former and $I_{ox}$ or $I_{oy}$ as the case may be, for the latter."
+      },
+      {
+        "type": "text",
+        "text": "Consider a small element of mass $dm$ at $P$ (Fig. 80)."
+      },
+      {
+        "type": "text",
+        "text": "Then for it the moment of inertia about the x-axis is:"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{x} = \rho r^2 + \text{total I} = I_{oy} + \text{total I}.",
+        "description": "This equation relates the moment of inertia $I_{x}$ to the contributions from the y-axis and other components."
+      },
+      {
+        "type": "text",
+        "text": "If it is assumed that the moments of inertia about the perpendicular axes in the area are known, we can fix these by adding the moment contributions through each of the perpendicular axes."
+      },
+      {
+        "type": "text",
+        "text": "We proceed to find the relation between the Moment of Inertia about a Point and a Solid Body and the Moments of Inertia about any two mutually Perpendicular Axes in that Point."
+      },
+      {
+        "type": "text",
+        "text": "Consider a small element of mass $dm$ placed at the point P, with coordinates (x,y)."
+      },
+      {
+        "type": "text",
+        "text": "Then: $I$ = PS = $P$N = $M$^2 = $P$N + $P$M , hence $I = r^2 + r^2 = 2I$."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \rho r^2 + \text{other terms}",
+        "description": "This equation provides a general expression for the moment of inertia in terms of mass density and radius."
+      },
+      {
+        "type": "text",
+        "text": "Now, looking at the element $dm$:  $I = m \times (I_{ox} + I_{oy})$."
+      },
+      {
+        "type": "text",
+        "text": "In like manner for the element $dm$ at $P$: $I = m \times (I_{ox} + I_{oy}) + \text{additional terms}."
+      },
+      {
+        "type": "equation",
+        "latex": "I_{total} = bm \times (I_{ox} + I_{oy})",
+        "description": "This equation summarizes the total moment of inertia as a function of the individual moments about perpendicular axes."
+      }
+    ]
+  },
+  "cost": 0.0009303
+}

@@ -1,0 +1,83 @@
+{
+  "page": {
+    "page_number": 242,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Dealing with the strip indicated—"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AB} = \\rho b y^3,",
+        "description": "Moment of inertia of the strip."
+      },
+      {
+        "type": "text",
+        "text": "Therefore, the total IAB is"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AB} = \\rho b \\int_{0}^{h} y^3 dy",
+        "description": "Total moment about N shown."
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AB} = \\rho b \\cdot \\frac{h^4}{4} = \\frac{\\rho b h^4}{4}",
+        "description": "Calculated value for moment of inertia."
+      },
+      {
+        "type": "text",
+        "text": "And since "
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AB} = I_{NN} + md^2",
+        "description": "Relation to the moment about any axis."
+      },
+      {
+        "type": "text",
+        "text": "Hence—"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AB} = I_{NN} + m a^2",
+        "description": "Final relation for the moment of inertia."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 79: Inertia about an axis through the center of mass.",
+        "description": "The figure shows a diagram representing the inertia about an axis that passes parallel to the axis given, with mass distribution visualized.",
+        "figure_number": 79
+      },
+      {
+        "type": "text",
+        "text": "inertia about an axis through the C.G. parallel to the axis given, and this is the product of the mass with the square of the distance between the two axes."
+      },
+      {
+        "type": "equation",
+        "latex": "m = \\rho b h",
+        "description": "Mass of the strip."
+      },
+      {
+        "type": "text",
+        "text": "Since "
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AB} = 47 \\text{ mm} = 12.4 \\text{ and (between AB and NN axes)}",
+        "description": "Value relation for moments of inertia."
+      },
+      {
+        "type": "equation",
+        "latex": "I_{NN} = I_{AB} - 47 \\cdot (12.4)^2 = 12.3",
+        "description": "Calculated moment about the NN axis."
+      },
+      {
+        "type": "text",
+        "text": "and this relation is represented by Fig. 79, which suggests a graphic method of finding \\(k_{\\text{as}}\\) is known."
+      }
+    ]
+  },
+  "cost": 0.0008960999999999999
+}

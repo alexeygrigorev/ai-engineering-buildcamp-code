@@ -1,0 +1,71 @@
+{
+  "page": {
+    "page_number": 46,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Referring to the figure ACB, tan \\theta = \\frac{x}{h} = \\frac{21}{x}."
+      },
+      {
+        "type": "text",
+        "text": "And thus, x² = 21x."
+      },
+      {
+        "type": "text",
+        "text": "Again, (PR)² = 20² + 21² = 841."
+      },
+      {
+        "type": "text",
+        "text": "Thus the maximum bending moment \"M\" at a distance of 12=4.7 ft from the right-hand end is given by."
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\frac{(42\\times 96)}{12} = 336.",
+        "description": "Calculation of the maximum bending moment in the beam."
+      },
+      {
+        "type": "text",
+        "text": "Hence the maximum moment is 336 ft-tons."
+      },
+      {
+        "type": "text",
+        "text": "Exercises - On the Lengths of the Sub-tangent and Sub-normal: also Beam Problems."
+      },
+      {
+        "type": "text",
+        "text": "1. Find the lengths of the sub-tangent and sub-tangent of the curve."
+      },
+      {
+        "type": "text",
+        "text": "If y = x², where x = 1, find the slope of the curve in 1."
+      },
+      {
+        "type": "text",
+        "text": "2. A quadrature has the radius of 3 ft and a rise of 8 ft. At what point is the tangent at the end?"
+      },
+      {
+        "type": "text",
+        "text": "3. The equation of the tangent to the curve y = \\frac{1}{x} is  y - 2 = 450."
+      },
+      {
+        "type": "text",
+        "text": "In Exercise 5, consider X is at a distance along the Shining Floor, and the Shining Floor forms an angle of θ with a horizontal run."
+      },
+      {
+        "type": "text",
+        "text": "The beam is supported at both ends, and loaded continuously with w per ft."
+      },
+      {
+        "type": "equation",
+        "latex": "V = \\frac{wL}{2} \\quad \\text{and} \\quad R = \\frac{wl^2}{12} ",
+        "description": "Equations related to beam supported at both ends."
+      },
+      {
+        "type": "text",
+        "text": "where \\displaystyle L = (length of the beam)."
+      }
+    ]
+  },
+  "cost": 0.0008762999999999999
+}

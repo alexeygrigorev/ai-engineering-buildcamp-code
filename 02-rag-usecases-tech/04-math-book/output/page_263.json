@@ -1,0 +1,36 @@
+{
+  "page": {
+    "page_number": 246,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let $I_{NN}$ of the flange = $I_{NN}^F = I_{NN}^F + A_{F} \times (G,Y)$ (A being the area of the flange)\n\n= $I_{NN}^F = 122.6 + (1/3 \\times 6) \\times 9.25 = 122.6 + 94$ = $206.6$. \n\nHence $I_{NN}$ of the web = $I_{NN}^W = I_{NN}^W + A_{W} \\times (G,Y)$ (A is the area of the web)\n\n= $I_{NN}^W = 206.6$. \n\n\nHence the total $I_{NN}$ of the section = $206.6 + 545 = 7.51 \text{ in}$. \n\nExample 40. — Find the polar and zonal moments of a circular disc radius $R$; and also the moment of inertia about a diameter.\n\nConsider a ring of area $dA$ (see Fig. 84). Then $I_{O}$ of the annulus —  \n\n= $\\text{the total } I_{O} = I_{O} + I_{O} = 0 + 0 + I_{O} + I_{O} =...$"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{O} = I_{O} + I_{O} = 0 + 0 + I_{O} + I_{O} = ...",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Now,\n\n$\\text{To find the respective radii –}$\n\n$A_{O} = I_{O} = ...$"
+      },
+      {
+        "type": "equation",
+        "latex": "A_{O} = I_{O} = ...",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Also\n\n$A_{O} \\times R = I_{O} \\times \\pi R^4$"
+      },
+      {
+        "type": "equation",
+        "latex": "A_{O} \\times R = I_{O} \\times \\pi R^4",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      }
+    ]
+  },
+  "cost": 0.0009375
+}

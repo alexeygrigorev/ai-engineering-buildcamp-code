@@ -1,0 +1,59 @@
+{
+  "page": {
+    "page_number": 36,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Now if $h$ is taken sufficiently small, $h^4$ is negligible in comparison with $3h^3$, and thus we have the equation of the curve $y = f(x)$, but the ordinates must be measured to the old vertical scale divided by $h$."
+      },
+      {
+        "type": "text",
+        "text": "We may now consider the case of the primitive $y = f(x)$ by adopting the notation of the previous illustrations."
+      },
+      {
+        "type": "equation",
+        "latex": "y_1 = f(x) + h^1 f'(x) + h^2 \\frac{f''(x)}{2} + h^3 \\frac{f'''(x)}{6} + \\cdots ",
+        "description": "The Taylor series expansion around point $x$."
+      },
+      {
+        "type": "text",
+        "text": "Write $\\left( x + h \\right)$ in place of $x$, and then ..."
+      },
+      {
+        "type": "equation",
+        "latex": "y = f\\left(x + h \\right) = f(x) + h f'(x) + \\frac{h^2 f''(x)}{2} + \\frac{h^3 f'''(x)}{6} + \\cdots ",
+        "description": "Expressing $y$ in terms of $x + h$, using Taylor series."
+      },
+      {
+        "type": "text",
+        "text": "Let $n = 1 + \\varepsilon$ containing $h$ as a factor."
+      },
+      {
+        "type": "text",
+        "text": "Hence if $h$ is made very small... "
+      },
+      {
+        "type": "text",
+        "text": "Exercises 2.1:  Find from first principles the differential of the following."
+      },
+      {
+        "type": "text",
+        "text": "1. Find the slope of the curve $y = x^3$."
+      },
+      {
+        "type": "text",
+        "text": "2. By actual computations and by differentiation."
+      },
+      {
+        "type": "text",
+        "text": "3. Differentiate with respect to the height $h$."
+      },
+      {
+        "type": "text",
+        "text": "4. $3h^2$,  $2h$, $7h^3$, $1.9h$, $h^0$."
+      }
+    ]
+  },
+  "cost": 0.0008709
+}

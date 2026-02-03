@@ -1,0 +1,44 @@
+{
+  "page": {
+    "page_number": 265,
+    "header": "POLAR COORDINATES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "about one-half scale; and set out a polar diagram as indicated, making OA = 4, OB = 2, and OC = 6. Join the extremities of these to obtain, with the first three sides, the figure described ABCDA. Measure the area of this figure by means of a planimeter; in this case the area was found to be 423 sq. ins."
+      },
+      {
+        "type": "text",
+        "text": "Now the area of the figure = \u0002 A = \u0002 \\int_0^{\\pi/2} r^2 \\, d\\theta, or 2 \\times \\frac{1}{2} \\int_0^{\\pi/2} |C| \\, d|C|, so that if we divide the area by the range in r, the mean value of the squares is determined."
+      },
+      {
+        "type": "text",
+        "text": "In this case the range of r = 16 \\times 4^2 = 135.5 for 4 units, and thus 1 sq. in. = 16 sq. units."
+      },
+      {
+        "type": "equation",
+        "latex": "M.S. = \\frac{135.5}{4} = 34.65,",
+        "description": "Mean Square value calculated for the area."
+      },
+      {
+        "type": "text",
+        "text": "and hence R.M.S. = \\sqrt{\\frac{8}{6}} = 6.98."
+      },
+      {
+        "type": "text",
+        "text": "The rule for the area of a figure, viz., \\int_A r^2 \\, d|r|, may be usefully employed to find the height of the centroid of an area above a certain base."
+      },
+      {
+        "type": "text",
+        "text": "Example 5. Find the height above the base OX of the centroid of the irregular area OABX [Fig. 100]."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 100—Centroid of Irregular Area by Polar Diagram.",
+        "description": "The figure illustrates the polar diagram used to find the centroid of an irregular area, showing various segments and measurements.",
+        "figure_number": 100
+      }
+    ]
+  },
+  "cost": 0.0008660999999999999
+}

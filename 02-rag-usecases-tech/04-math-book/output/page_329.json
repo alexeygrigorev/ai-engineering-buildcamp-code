@@ -1,0 +1,49 @@
+{
+  "page": {
+    "page_number": 312,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Let $m$, and $n$, be the end fixing couples; then to keep the system in equilibrium it is necessary to introduce equal and opposite forces P (Fig. 111)."
+      },
+      {
+        "type": "text",
+        "text": "Now, \n\n$C_1 = 0$ (taking $m = 0$) \n\nand also, taking $n = 0$."
+      },
+      {
+        "type": "text",
+        "text": "Integrating again,"
+      },
+      {
+        "type": "text",
+        "text": "Now $E_y = m_{1} \frac{d^2y}{dx^2} - m_{2} \frac{d^2y}{dx^2} + C_{C1}.$"
+      },
+      {
+        "type": "equation",
+        "latex": "E_y = m_1 \\frac{d^2y}{dx^2} - m_2 \\frac{d^2y}{dx^2} + C_{C1}",
+        "description": "The equation relating bending moment, curvature, and constants during integration."
+      },
+      {
+        "type": "text",
+        "text": "Now taking \n\n$\\int (m_{1}  - m_{2}) dx = C_2$."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int (m_{1} - m_{2}) dx = C_2",
+        "description": "Integration of the difference in bending moments."
+      },
+      {
+        "type": "text",
+        "text": "From equations (1) and (2) the values of $m$ and $P$ (and hence $m$) may be found, the integration being graphical (except in a few cases); and it must be emphasised that the integration must be performed most accurately."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 111: Diagram illustrating the bending moment in the system under the action of forces.",
+        "description": "The figure depicts the bending moment in a beam system under applied forces, illustrating the relationship between forces, moments, and deflection.",
+        "figure_number": 111
+      }
+    ]
+  },
+  "cost": 0.0008468999999999998
+}

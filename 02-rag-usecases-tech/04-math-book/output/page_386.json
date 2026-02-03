@@ -1,0 +1,46 @@
+{
+  "page": {
+    "page_number": 369,
+    "header": "THE SOLUTION OF SPHERICAL TRIANGLES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "and logᵃ A = 1⁄2(log sin 54° + log sin 32°) − log sin 38°."
+      },
+      {
+        "type": "equation",
+        "latex": "A = 1⁄2\\left(\\log\\sin54^{\\circ}+\\log\\sin32^{\\circ}\\right)−\\log\\sin38^{\\circ}.",
+        "description": "The formula showing the relationship between angle A and the logarithms of the sine values of angles in triangle ABC."
+      },
+      {
+        "type": "text",
+        "text": "thus A = 14° 31′."
+      },
+      {
+        "type": "text",
+        "text": "Exercises 25—On the Solution of Spherical Triangles."
+      },
+      {
+        "type": "text",
+        "text": "In each of the following cases, solve the spherical triangle ABC, given:"
+      },
+      {
+        "type": "text",
+        "text": "1. A = 72° 31′, B = 48° 13′, C = 85° 9′, and find also the value of B by the graphic method explained on p. 36."
+      },
+      {
+        "type": "text",
+        "text": "2. If the sun's altitude is 19° 26′ 16′′ N, and its zenith distance is 71° 33′ 44′′ S, find the latitude of the place of observation."
+      },
+      {
+        "type": "text",
+        "text": "3. Given a spherical triangle of radius 3,960 miles, find the area of the triangle in square miles."
+      },
+      {
+        "type": "text",
+        "text": "4. If the semidiameter of the sun is 32′ 15′′, find the latitude of the place and also the hour angle."
+      }
+    ]
+  },
+  "cost": 0.0008726999999999999
+}

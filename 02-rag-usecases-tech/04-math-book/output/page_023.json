@@ -1,0 +1,39 @@
+{
+  "page": {
+    "page_number": 1,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "(3) As s changes from 5 to 12\n\n 8v = 15 - 14 = 1\n 8s = 12 - 5 = 7  \n\n  v = \\frac{1}{8} = \\frac{1}{7}  \n\nIt must be noted that the 0 has been taken from the numerator and denominator of the fraction."
+      },
+      {
+        "type": "text",
+        "text": "In this formula (1), \\( v = \\frac{1}{8} \\) as s changes from 0 to 5, needs further qualification. From the physical standpoint we cannot say that the change in the velocity for each increment of s is \\( \\frac{1}{8} \\) ft. per sec. at all times without certainty; this is known as a change from 0 to 5 ft, the average rate of change of velocity over these four seconds is 0.5 ft/sec. Supposing the change of velocity to be continuous over the period, the value of \\( v \\) as generally obtained would be the actual rate of change of velocity at the instant, which is not taken in the problem considered."
+      },
+      {
+        "type": "text",
+        "text": "It is used to tabulate the values of the ordinal quantities and their averages when dealing with the contrary the average values of the series are taken in the middle of the respective periods."
+      },
+      {
+        "type": "table",
+        "caption": "Table of average and actual rates of change of velocity.",
+        "columns": [
+          "Rate Type",
+          "Value (units)"
+        ],
+        "rows": [
+          [
+            "Average Rate of Change of Velocity",
+            "[VALUE NOT AVAILABLE]"
+          ],
+          [
+            "Actual Rate of Change of Velocity",
+            "[VALUE NOT AVAILABLE]"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0008169
+}

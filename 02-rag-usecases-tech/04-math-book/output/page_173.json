@@ -1,0 +1,21 @@
+{
+  "page": {
+    "page_number": 156,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 17—To find $\\int \\sin x \\, dx$.  \nLet  \n$\\int \\sin x \\, dx = -\\cos x + C$.  \nThen  \n\\begin{align*}  \n\\int \\sin x \\, dx &= -\\cos x + C.  \n\\end{align*}  \n"
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 18—Find $\\int \\sin(\\beta + \\delta) \\, d(\\beta + \\delta)$.  \n"
+      },
+      {
+        "type": "text",
+        "text": "Using the substitution  \n$u = \\beta + \\delta$  \nwe have  \n"
+      }
+    ]
+  },
+  "cost": 0.0007005
+}

@@ -1,0 +1,66 @@
+{
+  "page": {
+    "page_number": 35,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Now the curve ODE is the curve MN shifted back a distance of h horizontal units, and hence its equation is $y = 2\\left(x + \\frac{h}{2}\\right)^2$ since for x we must now write $x + \\frac{h}{2}$."
+      },
+      {
+        "type": "text",
+        "text": "Thus the equation of curve ODE is:"
+      },
+      {
+        "type": "equation",
+        "latex": "y = 2x^2 + 2hx + h^2",
+        "description": "This equation shows the curve ODE in terms of x and h."
+      },
+      {
+        "type": "text",
+        "text": "or the equation of the curve y = mx  is that of the slope curve of the curve $y = 2\\left(x - \\frac{h}{2}\\right)^2$ prepared that the ordinates are read to a certain scale; this scale being the original vertical scale divided by h expressed in horizontal units."
+      },
+      {
+        "type": "text",
+        "text": "Hence the curve ODE is the slope curve OAB."
+      },
+      {
+        "type": "text",
+        "text": "Before discussing the general case, let us take the case of the primitive with equation $y = x^2$. If the curve be shifted forward an amount h, the equation of the new ordinates is"
+      },
+      {
+        "type": "equation",
+        "latex": "y = (x - h)^2",
+        "description": "This equation represents the ordinates after shifting the curve."
+      },
+      {
+        "type": "text",
+        "text": "and the equation of the curve giving the differences of the ordinates is"
+      },
+      {
+        "type": "equation",
+        "latex": "y_1 - y_1' = (x - h)^2 - (x - h)^2",
+        "description": "This illustrates the difference in ordinates after shifting."
+      },
+      {
+        "type": "text",
+        "text": "By shifting this curve 2 units to the left we change its equation, by writing $(x + 2)$ in place of x, into the form:"
+      },
+      {
+        "type": "equation",
+        "latex": "y = (x + 2)^2",
+        "description": "This shows the equation of the curve after the leftward shift."
+      },
+      {
+        "type": "text",
+        "text": "Dividing by h, we obtain:"
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{1}{h}(x + 2)^2",
+        "description": "This shows the equation normalized by h."
+      }
+    ]
+  },
+  "cost": 0.0008918999999999999
+}

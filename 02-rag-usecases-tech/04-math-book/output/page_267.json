@@ -1,0 +1,43 @@
+{
+  "page": {
+    "page_number": 250,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Maxwell's model is a very convenient form of compound vibrator, and is utilized to determine the modulus of rigidity of the system to which it is supported. It constitutes essentially of a tube along which weights may be moved from one section to another, the movement being a definite amplitude."
+      },
+      {
+        "type": "text",
+        "text": "Referring to Fig. 88."
+      },
+      {
+        "type": "text",
+        "text": "Let  \n        $m_1$ = the mass of each of the movable weights  \n        $m_2$ = the mass of each of the fixed weights."
+      },
+      {
+        "type": "text",
+        "text": "Then the time period $T$ of oscillations is measured when the movable weights are placed as shown, and it can be proved that the modulus of rigidity $G$ may be related to the modulus of rigidity through the moment of inertia under the conditions of conditions."
+      },
+      {
+        "type": "text",
+        "text": "Thus, since $m_1$ is shifted from the position $A$ to $B$ due to the change of the C.G. of $I_1$ from a distance $d$ relative to the axis of oscillation for $I_1$ when $m_1$ is unaltered."
+      },
+      {
+        "type": "text",
+        "text": "If this means the length of $I_1$ is altered, let us assume a quantity for $I_2$ considering the changes due to $m_1$ being altered again, the two masses  \n        $I_1 = m_1[l^2]$  \n        $I_2 = (m_1 - m_2)l^2 + m_2(16R^2)$."
+      },
+      {
+        "type": "text",
+        "text": "Example 43—Find the moment of inertia of a sphere of radius $R$ about its diameter."
+      },
+      {
+        "type": "figure",
+        "caption": "[FIGURE NOT AVAILABLE]",
+        "description": "Figure illustrating the physical setup of the masses in the context, showing how they are positioned for measuring oscillation and their effects.",
+        "figure_number": 88
+      }
+    ]
+  },
+  "cost": 0.0008606999999999998
+}

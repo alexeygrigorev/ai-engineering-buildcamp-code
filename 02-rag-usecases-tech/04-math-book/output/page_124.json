@@ -1,0 +1,34 @@
+{
+  "page": {
+    "page_number": 107,
+    "header": "APPLICATIONS OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Correction of Small Corrections. — Differentiation finds another application in the estimation of small corrections."
+      },
+      {
+        "type": "text",
+        "text": "Thus an experiment might be carried out, certain readings being taken, and results closed for a final reading. If there is potentially some slight error in the readings and it is required to find the consequent error in the calculated result, we may proceed to find that error by means of differentiation."
+      },
+      {
+        "type": "text",
+        "text": "Suppose we have two quantities A and B connected with one another through a relation K = f(A, B). If A is slightly inaccurate, then for a small change in A given by the amount a, the corresponding change in B given with regard to B, E, e, if A changes is as A has B and is B = 1%. Then we can also express the relation otherwise."
+      },
+      {
+        "type": "text",
+        "text": "Suppose that a reading, involving A and B is subject to an error, and we want to find the measured value of x = 4 – 8A, e = the measured value of A, and OA (Fig. 26) is given as x = 100%. This causes an error in the relation with a slight change verified as being correct. Then relative, we see that:[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{dy}{dA} \\cdot \\frac{dA}{dx} + \\frac{dy}{dB} \\cdot \\frac{dB}{dx}",
+        "description": "This equation represents the total derivative of y with respect to x, considering the contributions from changes in A and B."
+      },
+      {
+        "type": "text",
+        "text": "Example 13. — In the measurement of the diameter of a shaft, while the actual diameter was 4 ins., an error of 2% was made; what was the consequent error in the weight?"
+      }
+    ]
+  },
+  "cost": 0.00109875
+}

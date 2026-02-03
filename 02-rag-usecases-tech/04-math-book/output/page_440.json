@@ -1,0 +1,17 @@
+{
+  "page": {
+    "page_number": 1,
+    "header": "University of Toronto Library",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "DO NOT REMOVE THE CARD FROM THIS POCKET"
+      },
+      {
+        "type": "text",
+        "text": "Acme Library Card Pocket\nUnder Pub. \"Rat. Index File\"\nMade by LIBRARY BUREAU"
+      }
+    ]
+  },
+  "cost": 0.0006302999999999999
+}

@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 245,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "By symmetry it will be seen that \\( I_{N} = \\frac{A \\times B}{12} \\) \n"
+      },
+      {
+        "type": "text",
+        "text": "(b) To find \\( I_{AB} \\): \n"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AB} = \\frac{A B^{2}}{12} \n\\text{The distance AB and } N_{1} N_{2} are: }\nN_{1} N_{2} = I_{S} \\cdot \\frac{I_{AB}}{I_{N}} = \\frac{I_{N}}{N_{1} N_{2}} \n ",
+        "description": "Formula for calculating the moment of inertia considering the distances AB and N1 N2."
+      },
+      {
+        "type": "text",
+        "text": "\\( I_{AB} \\) is larger than \\( I_{N} \\), as would be expected, for the effective radius must be greater if the plate swings about A than if it swings about N_{1}N_{2}.\n"
+      },
+      {
+        "type": "text",
+        "text": "In like manner: \n"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{AD} = \\frac{A B^{3}}{3} \n",
+        "description": "Formula for calculating the moment of inertia IAD."
+      },
+      {
+        "type": "text",
+        "text": "\\( I_{D}\\) = \\( \\frac{A}{3} \\) (Ex. Example 25, p. 220). \n"
+      },
+      {
+        "type": "text",
+        "text": "The rule for the moment of inertia of a rectangle is required very frequently, since many sections can be broken up into rectangles. \n"
+      },
+      {
+        "type": "text",
+        "text": "Example 39—To find \\( I_{N} \\) of the section from AB (cf. Example 25, p. 220).\nDealing with the flange: \n"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{N} = I_{N1} + I_{N2} = \\frac{A \\cdot 6 \\cdot 8^{3}}{12} - 122 \n",
+        "description": "Formula for the moment of inertia I_N of the section from AB."
+      },
+      {
+        "type": "text",
+        "text": "Hence by the parallel axis theorem: \n"
+      },
+      {
+        "type": "equation",
+        "latex": "d = 6 \\cdot \\left( 8^{3} \\right) \n",
+        "description": "Formula involving the distance d in relation to the dimensions of the section."
+      }
+    ]
+  },
+  "cost": 0.0009230999999999998
+}

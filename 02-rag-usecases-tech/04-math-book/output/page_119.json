@@ -1,0 +1,84 @@
+{
+  "page": {
+    "page_number": 102,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Similarly"
+      },
+      {
+        "type": "text",
+        "text": "Both and must be equated to zero, so that"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = 0,",
+        "description": "Deriving the condition for maximum or minimum values."
+      },
+      {
+        "type": "text",
+        "text": "To solve for and "
+      },
+      {
+        "type": "equation",
+        "latex": "y = \\frac{M}{2}",
+        "description": "Substituting into the equation."
+      },
+      {
+        "type": "text",
+        "text": "Substituting in (2) gives:"
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\frac{xy}{2}",
+        "description": "Expressing M in terms of x and y."
+      },
+      {
+        "type": "text",
+        "text": "As for , taking "
+      },
+      {
+        "type": "equation",
+        "latex": "M = \\frac{3}{2}",
+        "description": "Condition for maximum M."
+      },
+      {
+        "type": "text",
+        "text": "The work done by a series motor in time t is given by:"
+      },
+      {
+        "type": "equation",
+        "latex": "W = VIt",
+        "description": "Formula for work done."
+      },
+      {
+        "type": "text",
+        "text": "where "
+      },
+      {
+        "type": "equation",
+        "latex": "R = \\text{resistance}",
+        "description": "Resistance in the circuit."
+      },
+      {
+        "type": "text",
+        "text": "The electrical efficiency is "
+      },
+      {
+        "type": "equation",
+        "latex": "(Efficiency) = \\frac{W}{Q}",
+        "description": "Efficiency calculation."
+      },
+      {
+        "type": "text",
+        "text": "Find the efficiency when the motor runs that the greatest rate of doing useful work is reached."
+      },
+      {
+        "type": "text",
+        "text": "In Nos. 6 to 8 find values of x which give turning values to M, stating the nature of these turning values."
+      }
+    ]
+  },
+  "cost": 0.0008240999999999999
+}

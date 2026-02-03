@@ -1,0 +1,54 @@
+{
+  "page": {
+    "page_number": 214,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "A result is found on which the centroid of the area is dependent, this is called the centroid vertical. \n\nTo find the actual position of the centroid from where it is drawn, such a horizontal line, the intersection of which with the centroid vertical is the centroid.\n\nThe height of the centroid above OX must be found; this being denoted by $y$."
+      },
+      {
+        "type": "text",
+        "text": "To find $y$, the whole mass of the strip $PQMN$ may be assigned to $R$, its mid-point, because the strip is uniform and hence the moment of the strip $PQMN$ about OX is:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{m}{\\rho} y = \\frac{1}{2} \\frac{b}{h} y^2  x.",
+        "description": "This equation relates the moment of the strip to its mass and height."
+      },
+      {
+        "type": "text",
+        "text": "Hence  \n\n$y = \\frac{\\sum \\text{masses}}{\\text{total masses}}$."
+      },
+      {
+        "type": "text",
+        "text": "As in previous cases, the integration may be algebraic, this being when $y$ is stated in terms of $x$, whereby a curve or values of $y$ are obtained."
+      },
+      {
+        "type": "text",
+        "text": "Suppose we have a curve, and we desire to find $Y$."
+      },
+      {
+        "type": "text",
+        "text": "The numerator and the denominator must be found separately."
+      },
+      {
+        "type": "text",
+        "text": "For a specific value of $x$, which determines the area of the strip, we calculate $Y_d$, which is the desired value of $Y$."
+      },
+      {
+        "type": "text",
+        "text": "If however, $Y$ is already in the required form, substitute it into the equations."
+      },
+      {
+        "type": "text",
+        "text": "The value of $Y$ can then most easily be calculated, via values of $y$, these being obtained by multiplication together of corresponding values of $x$, and these values of $Y$ are pivoted to a base of $x$."
+      },
+      {
+        "type": "text",
+        "text": "In summary, the values of $Y$ can be determined using the numerator, and obtaining the other value of $x$, and finally, division of the one by the other fixes the value of $x$."
+      }
+    ]
+  },
+  "cost": 0.0008960999999999999
+}

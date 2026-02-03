@@ -1,0 +1,55 @@
+{
+  "page": {
+    "page_number": 106,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "40. If we let $w = f(x,y)$ where $x$ and $y$ are constants, find the value of $x$ that makes $w$ a maximum."
+      },
+      {
+        "type": "text",
+        "text": "41. If $T_1$ and $T_2$ are the tight, slack and centrifugal tensions respectively in a belt drive having the radius $r$ and $v$ speed of the belt in feet per sec, then"
+      },
+      {
+        "type": "equation",
+        "latex": "T_1 \\cdot T_2 = \\frac{\\mu \\cdot w}{r} \\cdot e^{\\mu \\cdot \\theta}",
+        "description": "This equation relates the tensions in the belt to the angle of contact and coefficient of friction."
+      },
+      {
+        "type": "text",
+        "text": "where $T_1$ is the maximum permissible tension in the belt, $T_2$ is the minimum tension in the belt, $\theta$ is the angle of contact, $\theta = 180^{\\circ}$ when the belt is flat, and $\\mu$ is the coefficient of friction."
+      },
+      {
+        "type": "text",
+        "text": "The values of $T_n$ so that $T_1 = 70 + 54$ find the value of $T_2$."
+      },
+      {
+        "type": "text",
+        "text": "The next problem uses a specific torque formula and finds the velocities from distinct values."
+      },
+      {
+        "type": "text",
+        "text": "42. The following relates to a crank that connects to a line of stroke:"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{sin \\theta}{R + r} = \\frac{v}{g}",
+        "description": "This denotes the ratio of the sine of the angle to the radius in terms of velocity."
+      },
+      {
+        "type": "text",
+        "text": "in which expression $\\theta$ is the only variable."
+      },
+      {
+        "type": "text",
+        "text": "Also state this value in terms of the crank radius and find the velocity of the maximum value for (given):"
+      },
+      {
+        "type": "text",
+        "text": "where the length of crank to the line of stroke is 8, find the values of 0 degrees or 360 degrees that make the velocity a maximum."
+      }
+    ]
+  },
+  "cost": 0.0008751
+}

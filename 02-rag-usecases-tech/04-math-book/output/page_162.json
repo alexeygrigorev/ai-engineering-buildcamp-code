@@ -1,0 +1,37 @@
+{
+  "page": {
+    "page_number": 145,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "From Dietric's experiments we have the following relations—"
+      },
+      {
+        "type": "text",
+        "text": "\n\n\\( I = s \\) = specific volume of liquid ammonia\n\\n\\( P = \\) specific heat of liquid ammonia"
+      },
+      {
+        "type": "text",
+        "text": "\n\nfor temperatures above 32° F, I = \\( \\frac{C}{T^3} + 0.001756(\\theta - 32) \\)\n\nFind \\( s \\) when \\( \\theta = 45° F. \\)"
+      },
+      {
+        "type": "text",
+        "text": "\n\n31. If \\( Q = \\frac{T_b}{\\frac{1}{s_p}-\\frac{1}{s_a}} \\), Q being the leakage of fluid past a well-fitting plug, find \\( Q \\)."
+      },
+      {
+        "type": "text",
+        "text": "\n\n32. The total amperage conductors per pole due to the three windings in a railway motor = \\( 2C \\sqrt{\\frac{I}{\\delta}} \\).\n\nEvaluate this integral."
+      },
+      {
+        "type": "text",
+        "text": "\n\n33. For a viscous fluid flowing through a narrow cylindrical tube of radius \\( r \\), the quantity \\( Q \\) is given by the formula—\\n\\( Q = \\frac{\\mu\\pi}{r^2}\\frac{\\Delta P}{L} \\), where \\( \\mu \\) is the coefficient of viscosity."
+      },
+      {
+        "type": "text",
+        "text": "Find the value of \\( Q \\)."
+      }
+    ]
+  },
+  "cost": 0.0008036999999999999
+}

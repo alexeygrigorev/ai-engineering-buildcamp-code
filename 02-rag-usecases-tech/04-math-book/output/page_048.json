@@ -1,0 +1,58 @@
+{
+  "page": {
+    "page_number": 31,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "by discussing the simple case $y = 5x^2 + 17$ (a binomial or two-term polynomial). The curves $y = 5x^2$ and $y = 5x^2 + 17$ are seen plotted in Fig. 8, and an examination shows that the lower curve is the former moved vertically an amount equal to 17 vertical units. Thus, their slopes at corresponding points are the same and consequently, their slopes at corresponding points are the same."
+      },
+      {
+        "type": "text",
+        "text": "If a tangent is drawn to each curve at the point for which $x = 2.5$, the slope of each tangent is measured as $25, \text{ i.e., } 25;$ and"
+      },
+      {
+        "type": "text",
+        "text": "subsequently the diagram informs us that the tangent 17 makes no difference to the slope."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dx^2} = 25 \\left(\\frac{d}{dx}(5x^2 + 17)\\right)",
+        "description": "The second derivative of $y$ with respect to $x$."
+      },
+      {
+        "type": "text",
+        "text": "Thus,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dx^2} = 5 \\cdot 2 = 10",
+        "description": "The second derivative calculation when differentiating the first term."
+      },
+      {
+        "type": "text",
+        "text": "Now, by differentiating $5x^2 + 17$ term by term, we have –"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d}{dx}(5x^2 + 17) = 10x,",
+        "description": "The first derivative of $y$."
+      },
+      {
+        "type": "text",
+        "text": "since 17 is a constant and does not in any way depend upon $x$, and therefore its rate of change must be zero."
+      },
+      {
+        "type": "text",
+        "text": "It is seen that in this simple example it is a perfectly logical procedure to differentiate term by term and add the results; and the procedure could be equally well applied to all many-term expressions."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 8: Graphical representation of the functions $y = 5x^2$ and $y = 5x^2 + 17$ with tangent lines at $x = 2.5$.",
+        "description": "The figure shows the curves of $y = 5x^2$ and $y = 5x^2 + 17$, highlighted with their tangents at $x = 2.5$. The slopes of both tangents at this point are equal to $25$, illustrating that the vertical shift of $17$ does not affect the slope.",
+        "figure_number": 8
+      }
+    ]
+  },
+  "cost": 0.0009513
+}

@@ -1,0 +1,13 @@
+{
+  "page": {
+    "page_number": 384,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The actual spherical excess is\n\n$E = \\left( \\frac{73^{\\circ}47'35'' + 67^{\\circ}56'57'' + 51^{\\circ}15'28''}{180^{\\circ}} \\right)$.\n\nThere is thus $E$ to be divided among the angles, according to the respective weights; and these weights are in the proportion\n\n$\\frac{1}{250}, \\frac{1}{200}, \\frac{1}{150}$.\n\nThe sum of the weights being $250$. \n\nHence the corrections to the angles are: $\\rho = 219^{\\circ}12'18'', \\sigma = 250^{\\circ} + 26 = 250^{\\circ} 26'18'', \\tau = 39^{\\circ}17'47''$ and, as these corrections bring about the spherical excess greater than we should take the next highest value. \n\nThese corrections are $875, 555, and 890$. This consequently gives the true angles as $E = 75^{\\circ}12'47'', \\sigma = 75^{\\circ}20'47'', \\tau = 75^{\\circ}20'47''$.\n\nExample 1: A set of observations by a land surveyor were made by the last rest. Compare the two results from the point of accuracy, and find the most probable value of the angle.\n\nThe area of the set A is $76^{\\circ}40'31''$ and A.M. of set B is $76^{\\circ}51'58''$."
+      }
+    ]
+  },
+  "cost": 0.0008300999999999998
+}

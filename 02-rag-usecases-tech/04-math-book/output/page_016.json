@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 13,
+    "header": "CONTENTS",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "CHAPTER IX"
+      },
+      {
+        "type": "text",
+        "text": "SIMPLE DIFFERENTIAL EQUATIONS"
+      },
+      {
+        "type": "text",
+        "text": "Differential equations, definition and classification—Types: I. given as a function of $y$; II. given as a function of $y$: General linear equations of the first order: $y' = f(x,y)$—Use of the operator $D$—Useful theorems involving the operator $D$."
+      },
+      {
+        "type": "section_heading",
+        "title": "APPLICATIONS OF THE CALCULUS X"
+      },
+      {
+        "type": "text",
+        "text": "Examples in the application of differential equations. Efficiency of engineering on the Rankine cycle—Efficiency of engineering on the Brayton cycle—Applications in beams. Examples on applied elasticity—Examples on torsional stress in beams. Examples on applied elasticity—Examples on prismatic beams. Examples on rectangular plates."
+      },
+      {
+        "type": "section_heading",
+        "title": "CHAPTER XI"
+      },
+      {
+        "type": "text",
+        "text": "HARMONIC ANALYSIS"
+      },
+      {
+        "type": "text",
+        "text": "Fourier series—Analysis of a periodic function–Harrison's graphic method."
+      },
+      {
+        "type": "section_heading",
+        "title": "THE SOLUTION OF SPHERICAL TRIANGLES"
+      },
+      {
+        "type": "text",
+        "text": "Spherical triangles—Solution of spherical triangles—Sine theorem—Cosine theorem—Napier's rules for solving spherical triangles—Applications in geometric analysis—Graphic solution of a spherical triangle."
+      },
+      {
+        "type": "section_heading",
+        "title": "CHAPTER XII"
+      },
+      {
+        "type": "text",
+        "text": "MATHEMATICAL PROBABILITY AND THEORY OF LEAST SQUARES"
+      },
+      {
+        "type": "text",
+        "text": "Statistics—Exclusive events—Probability of the happening of events—Probability of error—Theorem of least squares—Error of the arithmetic mean—Weight of observation."
+      }
+    ]
+  },
+  "cost": 0.0008180999999999999
+}

@@ -1,0 +1,49 @@
+{
+  "page": {
+    "page_number": 1,
+    "header": "The Directly-Useful D.U. Technical Series",
+    "blocks": [
+      {
+        "type": "section_heading",
+        "title": "Mathematics for Engineers"
+      },
+      {
+        "type": "text",
+        "text": "PART II"
+      },
+      {
+        "type": "text",
+        "text": "by"
+      },
+      {
+        "type": "text",
+        "text": "W. N. ROSE"
+      },
+      {
+        "type": "text",
+        "text": "B.Sc. Eng. (Lond.)"
+      },
+      {
+        "type": "text",
+        "text": "Late Lecturer in Engineering Mathematics at the University of London Goldsmiths' College Teacher of Mathematics, Borough Polytechnic Institute"
+      },
+      {
+        "type": "text",
+        "text": "LONDON:"
+      },
+      {
+        "type": "text",
+        "text": "CHAPMAN & HALL, LTD."
+      },
+      {
+        "type": "text",
+        "text": "11 HENRIETTA STREET, W.C.2"
+      },
+      {
+        "type": "text",
+        "text": "1920"
+      }
+    ]
+  },
+  "cost": 0.0006915
+}

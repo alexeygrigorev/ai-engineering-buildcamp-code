@@ -1,0 +1,53 @@
+{
+  "page": {
+    "page_number": 378,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To test whether this is the least, let us suppose that the most general errors are: 1. 2. 5. 1. 5. 2. 5."
+      },
+      {
+        "type": "text",
+        "text": "$\\square \\; 2 + 3 + 4 + 5 + 6 + 7 = 27$"
+      },
+      {
+        "type": "text",
+        "text": "Similarly, if we regard $\\frac{1}{\\sigma^{2}}$ as the most probable value, $2$ does not exceed $5.2 - 5.$"
+      },
+      {
+        "type": "text",
+        "text": "To find the Probable Error of the Arithmetic Mean..."
+      },
+      {
+        "type": "text",
+        "text": "Now, the probability that an error lies within the range $-\\epsilon$ to $\\epsilon$ is given by... \n\n$P(E) = \\frac{2}{N} \\left(\\frac{1}{\\sigma_{x}}\\right) e^{-\\frac{x^2}{2 \\sigma^{2}}}$"
+      },
+      {
+        "type": "text",
+        "text": "(for $x = \\frac{1}{N} \\sum_{i=1}^{N} x_{i}$, and the limits are how those for $x$.)"
+      },
+      {
+        "type": "text",
+        "text": "There must be some connection between the amount of error and the means of measurement, etc., between these two, and this we must find now."
+      },
+      {
+        "type": "text",
+        "text": "We see from this formula that the value of this integral is to be...  \n\n$A = \frac{1}{2\\sigma^{2}}$"
+      },
+      {
+        "type": "text",
+        "text": "and thus, if $\\epsilon$ is small we perform the integration by... \n\nWe can now find probability tables giving the values of the integral $\\int_{-\\epsilon}^{\\epsilon} e^{-\\frac{x^2}{2\\sigma^2}} dx$."
+      },
+      {
+        "type": "text",
+        "text": "4. Transactions of the Royal Society of Edinburgh, Vol. xxxvi. For the present..."
+      },
+      {
+        "type": "text",
+        "text": "[UNRECOGNIZED TEXT]"
+      }
+    ]
+  },
+  "cost": 0.0008726999999999999
+}

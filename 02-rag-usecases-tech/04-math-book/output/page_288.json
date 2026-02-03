@@ -1,0 +1,65 @@
+{
+  "page": {
+    "page_number": 277,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Type 1—$y = y(x)$ as a function of $x$.—With the solution of such simple forms we have already become familiar, for the equation concerning the bending moment varies depending on the beam with the distance of those sections from some fixed point of this character."
+      },
+      {
+        "type": "text",
+        "text": "Consider the case of a simply supported beam carrying a load $W$ at the center."
+      },
+      {
+        "type": "text",
+        "text": "\\[ \\frac{d^2y}{dx^2} = -\\frac{W}{EI} \\] Is of the type under consideration."
+      },
+      {
+        "type": "text",
+        "text": "Evidently this equation can be solved by integration throughout, attention being paid to the constants which are necessarily introduced. Expressing in algebraic form,"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dx^2} = f(x) \\Rightarrow \\frac{dy}{dx} = \\int f(x) dx + C_1 \\Rightarrow y = \\int \\left( \\int f(x) dx + C_1 \\right) dx + C_2.",
+        "description": "This equation details the relationship between the second derivative of $y$ with respect to $x$ and a function $f(x)$, which is integrated to find the first derivative, and then integrated again to find $y$."
+      },
+      {
+        "type": "text",
+        "text": "Example 1.—If $f(x) = 12x^2 - 5$ when $x = 1$, find an expression for $y$ in terms of $x$."
+      },
+      {
+        "type": "text",
+        "text": "This equation is of the type which we are now considering."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int(12x^2 - 5)dx = 4x^3 - 5x + C.",
+        "description": "This integral represents the first antiderivative of the function $12x^2 - 5$."
+      },
+      {
+        "type": "text",
+        "text": "Integrating"
+      },
+      {
+        "type": "text",
+        "text": "the value of $C$ must now be determined since $y$ when $x = 1$ is 20."
+      },
+      {
+        "type": "equation",
+        "latex": "C = 20 - (4(1)^3 - 5(1)) = 20 - (4 - 5) = 20 + 1 = 21.",
+        "description": "This equation calculates the constant $C$ by substituting $x=1$ into the integrated expression."
+      },
+      {
+        "type": "text",
+        "text": "Hence"
+      },
+      {
+        "type": "equation",
+        "latex": "y = 4x^3 - 5x + 21.",
+        "description": "This is the final expression for $y$ in terms of $x$."
+      }
+    ]
+  },
+  "cost": 0.0009446999999999999
+}

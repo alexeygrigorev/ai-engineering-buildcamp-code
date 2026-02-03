@@ -1,0 +1,60 @@
+{
+  "page": {
+    "page_number": 49,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Referring to the last example, note that the power of e is exactly the same after differentiation as before; the factor e multiplies the I.V. in the original function, and therefore it occurs as a constant multiplier after differentiation; also the constant factors remain."
+      },
+      {
+        "type": "section_heading",
+        "title": "Example 16:"
+      },
+      {
+        "type": "text",
+        "text": "If C₁ = C₂ = C and C₁ and C₂ are electrical capacities, then there is a rate of change of the circuit and t is a time, thus the time rate of change of the circuit is given by"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dC}{dt} = \\frac{C}{R}",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "i.e., the rate of decrease of the current when the impressed E.M.F. is removed is proportional to the current at that time."
+      },
+      {
+        "type": "text",
+        "text": "Before further evaluating the example, take the case where R = 15 Ω, C = 18.75 μF, t = 1.5 s, and I = 4.5 A."
+      },
+      {
+        "type": "text",
+        "text": "Then the following equations are derived:"
+      },
+      {
+        "type": "equation",
+        "latex": "R = 6.4 \\text{ ohms} \\quad \\text{and} \\quad C = 15479 \\text{ ampere seconds}.",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      },
+      {
+        "type": "text",
+        "text": "Per second, whereas the actual current is only 2 A."
+      },
+      {
+        "type": "text",
+        "text": "The expressions of e and c are partial forms of the more general exponential forms and are used to differentiate which may be represented by either of two methods:"
+      },
+      {
+        "type": "section_heading",
+        "title": "(a) Using logarithm from principles in Part I, p. 470, the expansion for e^x is given, viz:"
+      },
+      {
+        "type": "equation",
+        "latex": "e^x = 1 + \\frac{x \\log a}{12} + \\frac{x^2 \\log a^2}{12}.",
+        "description": "[DESCRIPTION NOT AVAILABLE]"
+      }
+    ]
+  },
+  "cost": 0.0009494999999999998
+}

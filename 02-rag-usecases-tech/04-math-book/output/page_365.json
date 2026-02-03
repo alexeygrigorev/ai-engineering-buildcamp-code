@@ -1,0 +1,52 @@
+{
+  "page": {
+    "page_number": 348,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Draw a new line with the principal axes; number these lines as \u0000, as shown in the figure. Along line set a distance equal to $y_2$ from line $x_2$, and from those points, it drops perpendiculars onto the two other principal axes, calling the points where they touch $A_1$ and $A_2$, respectively."
+      },
+      {
+        "type": "text",
+        "text": "Now to find $A_1$ and $A_2$."
+      },
+      {
+        "type": "text",
+        "text": "Let $A_1 = (x_1,y_1)=(x_1, y_0 + h) - (x_1, y_0 + h)$ where $A_1 = (y_2 + y_1)$ and $r = 45^\text{o}$."
+      },
+      {
+        "type": "equation",
+        "latex": "A_1 = (y_2 - y_1)\\cos 45^\\text{o} = (\\frac{y_2}{\\sqrt{2}}, \\frac{y_1}{\\sqrt{2}})\\text{.",
+        "description": "The equation represents the distances calculated using the cosine of the angle."
+      },
+      {
+        "type": "text",
+        "text": "And can be read from the figure and the values of $A_1$ and $A_2$, are calculated as follows."
+      },
+      {
+        "type": "text",
+        "text": "We have:"
+      },
+      {
+        "type": "table",
+        "caption": "Values of $A_1$ and $A_2$",
+        "columns": [
+          "Variable",
+          "Value"
+        ],
+        "rows": [
+          [
+            "$y_1$",
+            "13"
+          ],
+          [
+            "$y_2$",
+            "7"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.00098595
+}

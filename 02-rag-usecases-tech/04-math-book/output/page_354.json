@@ -1,0 +1,48 @@
+{
+  "page": {
+    "page_number": 337,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Example 34. A triangular plate is placed with its base along the S.W.S.L., the plate being vertical. Find the depth of the centre of pressure below the surface."
+      },
+      {
+        "type": "text",
+        "text": "For this section, I about S.W.S.L. = 1/3 b h."
+      },
+      {
+        "type": "text",
+        "text": "and thus"
+      },
+      {
+        "type": "equation",
+        "latex": "H = \\frac{1}{3} \\frac{b}{h}",
+        "description": "This equation relates the depth of the centre of pressure to the dimensions of the triangular plate."
+      },
+      {
+        "type": "text",
+        "text": "Example 35. A circular plate has its upper edge along the S.W.S.L. Find the depth of its Centre of Pressure below the surface."
+      },
+      {
+        "type": "text",
+        "text": "For a circle, a: about diam. = d."
+      },
+      {
+        "type": "equation",
+        "latex": "H = \\frac{d}{2}",
+        "description": "This equation gives the depth of the centre of pressure for a circular plate."
+      },
+      {
+        "type": "text",
+        "text": "and hence, by the parallel axis theorem,"
+      },
+      {
+        "type": "equation",
+        "latex": "H = H' + \\frac{d}{2}",
+        "description": "This equation adjusts the depth for the circular plate using the parallel axis theorem."
+      }
+    ]
+  },
+  "cost": 0.0007652999999999999
+}

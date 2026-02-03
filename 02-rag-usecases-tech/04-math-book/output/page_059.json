@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 42,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Now regard $r$ as constant, but $x$ variable."
+      },
+      {
+        "type": "equation",
+        "latex": "dw = P_y dy + P_x dx",
+        "description": "This equation expresses the change in $w$ in terms of changes in $y$ and $x$."
+      },
+      {
+        "type": "text",
+        "text": "and, expressing the two results in the form of a ratio—"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = \\frac{P_y}{P_x}",
+        "description": "This equation relates the changes in $y$ and $x$ through partial derivatives."
+      },
+      {
+        "type": "section_heading",
+        "title": "Lengths of Sub-tangents and Sub-normals of Curves."
+      },
+      {
+        "type": "text",
+        "text": "The projection of the tangent to a curve on the axis of $x$ is known as the sub-tangent, in the case where the curve is above the axis; and the projection of the normal on the $x$ axis is called the sub-normal."
+      },
+      {
+        "type": "text",
+        "text": "The slope of a curve at any point, measured by the slope of its tangent at that point, is given by the value of $\\frac{dy}{dx}$, or if $\\alpha$ is the inclination of the tangent to the $x$ axis—"
+      },
+      {
+        "type": "equation",
+        "latex": "tan \\alpha = \\frac{dy}{dx}",
+        "description": "This equation relates the slope of the tangent to the angle of inclination."
+      },
+      {
+        "type": "text",
+        "text": "In Fig. 11..."
+      },
+      {
+        "type": "text",
+        "text": "But AT = $PA$ and PA = $dy$"
+      },
+      {
+        "type": "equation",
+        "latex": "AT = P_y dy",
+        "description": "This equation expresses the relationship of segments in the figure for sub-tangent."
+      },
+      {
+        "type": "text",
+        "text": "and hence the length of the sub-tangent..."
+      }
+    ]
+  },
+  "cost": 0.0008366999999999999
+}

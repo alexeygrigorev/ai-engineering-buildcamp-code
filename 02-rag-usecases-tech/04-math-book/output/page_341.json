@@ -1,0 +1,45 @@
+{
+  "page": {
+    "page_number": 324,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To find the tension T at any point\n\n$T = \\frac{w}{(\\sin(\\theta))^2}$,\n\nwhere $w = weight$ and $\\theta = angle$."
+      },
+      {
+        "type": "text",
+        "text": "Thus the formula given by the chain is that for which the equation is\n\n$Y = \\frac{C}{(C^{2})^{1/2}}$, the equation of the catenary."
+      },
+      {
+        "type": "text",
+        "text": "The length of arc is given by $s = \\frac{1}{2} \\int (1 + (\\frac{dy}{dx})^2)^{1/2}dx$, and the tension at any point corresponds to the product of the coordinate at this point and the key part of the function."
+      },
+      {
+        "type": "text",
+        "text": "Fig. 118 shows the catenary for a cable weighing 3 $lbs.$ per foot, and the tension at any point can be understood in linear terms of the mechanics involved."
+      },
+      {
+        "type": "text",
+        "text": "Example 23—To find the time of oscillation of a compound pendulum swinging through small arcs.\n\nLet I be the moment of inertia of the pendulum about an axis through the point of suspension (Fig. 119), and let h be the distance from this axis to the center of mass of the system."
+      },
+      {
+        "type": "text",
+        "text": "The moment of inertia concerning the angular acceleration, relates: \n\n$\\text{(Compare the rolling version of inertia: force = mass \\times acceleration.)}$"
+      },
+      {
+        "type": "text",
+        "text": "Now the angular velocity and angular acceleration include a coupling aspect in this system."
+      },
+      {
+        "type": "text",
+        "text": "This coupling action is expressed by $h = l \\sin(\\theta)$, as is seen in the figure."
+      },
+      {
+        "type": "text",
+        "text": "since $θ$ is supposed to be small, and consequently $\\sin(\\theta) \\approx \\theta$."
+      }
+    ]
+  },
+  "cost": 0.0008546999999999999
+}

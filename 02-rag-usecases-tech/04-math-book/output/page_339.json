@@ -1,0 +1,47 @@
+{
+  "page": {
+    "page_number": 322,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To integrate the left-hand side, let u = c 2 + x 2 \nthen  \ndu = 2x dx  \nThus, by integration of equation (1),  \n  \n  \nNow at the point A (Fig. 1.36) we have: y = 0."
+      },
+      {
+        "type": "text",
+        "text": "Squaring  \ns 2 = c 2 + x 2 \nBut as proved above  \nc 2 = s 2 - y 2 - z c \n\nSeparating the variables  \ndu = dy. \n"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{1}{\\sqrt{\\frac{(\\log \\left( e^{c} \\right) + C_{0})}{{y}}}} = \\int ds = log \\left( \\frac{y}{(\\log \\left( e^{c} \\right) + C_{0})} \\right) + C_{1}.",
+        "description": "This equation represents the integration involving logarithmic relationships."
+      },
+      {
+        "type": "text",
+        "text": "Integrating and this integral is of the type discussed on p. 151; the result being  \nlog \\left( \\frac{y}{\\log \\left( e^{c} \\right) + C_{0}} \\right) + C_{1}."
+      },
+      {
+        "type": "text",
+        "text": "Thus  \n\ny = 0 when  y = 0, being measured from the vertical axis through A, and thus  \n\\log \\left( \\frac{e^{c}}{C_{0}} \\right) + C_{0} = 0."
+      },
+      {
+        "type": "text",
+        "text": "Thus  \n\nc 2 = c 2 - 2 c(y + z) = 0."
+      },
+      {
+        "type": "text",
+        "text": "Isolating the surd  \ns 2 - c 2 = (y + z) + c 2."
+      },
+      {
+        "type": "equation",
+        "latex": "c^{2} = (y + z)^{2} = y^{2} + 2yz + z^{2},",
+        "description": "This equation shows the relationship between c, y, and z."
+      },
+      {
+        "type": "text",
+        "text": "Squaring  \n\nc 2 = 2 c(y + z) = 0."
+      }
+    ]
+  },
+  "cost": 0.0009104999999999999
+}

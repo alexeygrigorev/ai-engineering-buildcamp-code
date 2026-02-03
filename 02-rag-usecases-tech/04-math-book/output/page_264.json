@@ -1,0 +1,58 @@
+{
+  "page": {
+    "page_number": 247,
+    "header": "MOMENT OF INERTIA",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To find the swing radius about a tangent—"
+      },
+      {
+        "type": "equation",
+        "latex": "I_{xx} = \\frac{1}{4} R^{4} * \\frac{1}{3} \\rho L R^{2} = \\frac{1}{12} R^{4} L.\\,",
+        "description": "Moment of inertia calculation for a right circular cylinder."
+      },
+      {
+        "type": "text",
+        "text": "Example 41—To find the moment of inertia of a right circular cylinder of length L and radius R, about various axes."
+      },
+      {
+        "type": "figure",
+        "caption": "Fig. 58—",
+        "description": "Illustration showing the right circular cylinder and the relevant axes around which the moment of inertia is calculated.",
+        "figure_number": 58
+      },
+      {
+        "type": "text",
+        "text": "(a) About the axis of the cylinder."
+      },
+      {
+        "type": "text",
+        "text": "(b) About an axis through the C. of G. perpendicular to the axis of the cylinder."
+      },
+      {
+        "type": "text",
+        "text": "(c) About an axis parallel to that in (b), but through one end."
+      },
+      {
+        "type": "text",
+        "text": "The moment of inertia is obtained from Example 40."
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\pi R^{2} L \\rho \\cdot \\frac{R^{2}}{2} = \\frac{1}{2} \\pi R^{4} \\rho L.",
+        "description": "Total moment and result for the axis."
+      },
+      {
+        "type": "text",
+        "text": "Hence the total and moment about the axis—"
+      },
+      {
+        "type": "equation",
+        "latex": "I = \\frac{1}{2} \\pi R^{4} \\rho L \\quad \\text{where } m = \\text{mass of the cylinder.",
+        "description": "Mass calculation linked to the moment of inertia."
+      }
+    ]
+  },
+  "cost": 0.0008300999999999998
+}

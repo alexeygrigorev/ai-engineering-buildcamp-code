@@ -1,0 +1,57 @@
+{
+  "page": {
+    "page_number": 76,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "To determine \\( \\frac{dy}{dx} \\) and \\( \\frac{d y}{d r} \\) it is first necessary to find the value of \\( \\frac{dV}{d r} \\): to do this let \\( P = y \\) and \\( r = z. \\)"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dV}{d r} = W \\frac{dP}{d r} + G\\frac{dQ}{d r} + [DESCRIPTION NOT AVAILABLE] = [UNRECOGNIZED TEXT]",
+        "description": "The expression for the derivative of volume with respect to r, involving variables P, Q, and W."
+      },
+      {
+        "type": "text",
+        "text": "Thus, \\( g = \\frac{dV}{d r} + G \\frac{dQ}{d r} + [UNRECOGNIZED TEXT] \\) and, if we assume \\( W \\) constant, we have \\( \\frac{dV}{d r} = \\frac{d[UNRECOGNIZED TEXT]}{d r}. \\) Thus, differentiating both sides of the original equation with respect to \\( v, \\) we have from this equation."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d\\left( V + 2Q + W \\right)}{d r} = \\frac{d(\\cdots)}{d r}",
+        "description": "Differentiation of the volume with respect to the variable r."
+      },
+      {
+        "type": "text",
+        "text": "Substituting the numerical values: "
+      },
+      {
+        "type": "equation",
+        "latex": "d = 2 \\times 6 \\times 80",
+        "description": "Calculation of a numerical expression involving dimensions."
+      },
+      {
+        "type": "equation",
+        "latex": "T = 4 + 8 + 2 \\times \\frac{L}{l}",
+        "description": "An expression involving T in terms of other variables."
+      },
+      {
+        "type": "text",
+        "text": "and therefore \\( T = 16. \\)  "
+      },
+      {
+        "type": "text",
+        "text": "Differentiation of Inverse Trigonometric Functions."
+      },
+      {
+        "type": "text",
+        "text": "Since inverse trigonometric functions occur frequently in the study of the Integral Calculus, it is necessary to demonstrate the rules of differentiation and their importance in the later stages of the work, the results now to be deduced should be carefully studied."
+      },
+      {
+        "type": "text",
+        "text": "The meaning of an inverse trigonometric function has already been explained (see Part 1, p. 297), so that a reminder only is necessary."
+      }
+    ]
+  },
+  "cost": 0.0009314999999999998
+}

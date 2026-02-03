@@ -1,0 +1,30 @@
+{
+  "page": {
+    "page_number": 328,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Assuming the volumetric strain to be the same everywhere,\n\n$$ z_{ly} + z_{l} = z_{l} $$\n\nwhere $z_{ly}$ is the circumferential strain, and thus $z_{l}$ is the superficial strain, and $z_{l}$ is the radial strain, then it follows that\n\n$$ \\frac{\\partial z_{ly}}{\\partial \\theta} + \\frac{\\partial z_{l}}{\\partial r} = 0. $$\n\ni.e.,\n\n$$ z_{l} = \\text{Constant} = 3A (say). $$"
+      },
+      {
+        "type": "text",
+        "text": "Now\n\n$$ 2q = \\frac{\\partial z_{l}}{\\partial p} $$\n\nSo,\n\n$$ 2q = \\frac{-dp}{dz} $$\n\nSeparating the variables and integrating,\n\n$$ - \\int{ \\frac{1}{C} \\; dz} = - \\log{3} + \\log{(A + p)}. $$"
+      },
+      {
+        "type": "text",
+        "text": "whence\n\n$$ (A + p) = C_{y} $$\n\nAlso,\n\n$$ 2q = 3A + 2B \\log{C_{y}} $$\n\ni.e.,\n\n$$ B = p + A. $$"
+      },
+      {
+        "type": "equation",
+        "latex": "\\text{Euler's Formula for Loaded Struts.}",
+        "description": "Euler's formula describes the buckling load for a strut of length L and moment of inertia I."
+      },
+      {
+        "type": "text",
+        "text": "Applying the ordinary rule\n\n$$ M = \\frac{P L^2}{4 G}. $$"
+      }
+    ]
+  },
+  "cost": 0.0008330999999999999
+}

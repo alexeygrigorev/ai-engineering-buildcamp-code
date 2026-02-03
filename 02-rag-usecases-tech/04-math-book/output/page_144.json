@@ -1,0 +1,30 @@
+{
+  "page": {
+    "page_number": 127,
+    "header": "INTEGRATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The principle of the instrument is not difficult to understand, and can be explained in a very few words."
+      },
+      {
+        "type": "text",
+        "text": "The pole is at P, and the tops of the mid-ordinates are projected to the vertical through G by the horizontals like BG; parallels are then drawn to the line of the pendule E, the motion being continuous."
+      },
+      {
+        "type": "text",
+        "text": "The vertical distance can be varied as desired, by altering the position of the bracket carrying the pin P along the horizontal arm; and if an extremely small polar distance is found to be advisable, the pin H may be utilized instead of G."
+      },
+      {
+        "type": "text",
+        "text": "Rules for Integration of Simpler Functions. — Since integration is the reverse of differentiation, many functions can be integrated by reversing the order of the steps in differentiation."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C \\, , \\quad n \\neq -1",
+        "description": "This formula provides the integral of powers of x, where n is any real number except -1."
+      }
+    ]
+  },
+  "cost": 0.0007461
+}

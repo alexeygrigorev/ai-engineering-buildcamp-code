@@ -1,0 +1,46 @@
+{
+  "page": {
+    "page_number": 311,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The maximum deflection is thus\n$y_{max} = \\frac{qL^4}{8EI} \\left( \\frac{228 - 064 - 423}{423} \\right)$"
+      },
+      {
+        "type": "text",
+        "text": "To find C the point of inflection or contraflexure is obtained by setting:\n$\\frac{d^2y}{dx^2} = 0$ if $x = 0$ or $x = L$."
+      },
+      {
+        "type": "text",
+        "text": "Example 11:- A beam is fixed at one end and supported at the other, the loading and the section both varying. Find the equation of the deflected form."
+      },
+      {
+        "type": "text",
+        "text": "Let $m$ = bending moment at a point distant $x$ from $B$ if the beam is simply supported, and let $P$ be the force of the fixing couple. (See Fig. 10.)"
+      },
+      {
+        "type": "text",
+        "text": "The equation being written in this form since $m$ is now a variable."
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\frac{M}{EI} = P \\int dy + C_1 \\quad (1)",
+        "description": "This equation relates the bending moment $M$ and deflection $y$, integrating with respect to position along the beam."
+      },
+      {
+        "type": "text",
+        "text": "i. e., $C_1$ can be found, for the two integrals may be evaluated.\nBy integrating (1):"
+      },
+      {
+        "type": "text",
+        "text": "$\\int 0 = C$ and so assume $C = 0$."
+      },
+      {
+        "type": "text",
+        "text": "But $P$ may vary.\nThe integrations must be performed graphically and with extreme care, or otherwise very serious errors ensue."
+      }
+    ]
+  },
+  "cost": 0.0008300999999999998
+}

@@ -1,0 +1,35 @@
+{
+  "page": {
+    "page_number": 261,
+    "header": "POLAR CO-ORDINATES",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Use of Polar Co-ordinates for the Determination of Areas. Polar co-ordinates may be usefully employed to find areas of certain figures.\nIt is stated in the previous work on mensuration that"
+      },
+      {
+        "type": "text",
+        "text": "Let P and O (Fig. 96) be the two points (x, y) and (x + r cos θ, y + r sin θ) and consider one another.\nThen, since r and θ are variables, the area POQ is"
+      },
+      {
+        "type": "equation",
+        "latex": "Area \\ POQ \\approx \\frac{1}{2} \\times r^2 \\frac{d\\theta}{dt}",
+        "description": "This equation approximates the area of the sector POQ in polar coordinates."
+      },
+      {
+        "type": "text",
+        "text": "and the total area AOB = \\int_{\\theta_1}^{\\theta_2} \\frac{1}{2} r^2 \\, d\\theta approximately.\n\nFor the evaluation of this integral, the working can be either graphic or algebraic, according to the data manner in which the relation between r and θ is stated.\n\nAs a simple example, let us take the case of a circle of radius a. The area of the circle was found at an earlier stage (see p. 249), by establishing the relationship between r and θ."
+      },
+      {
+        "type": "equation",
+        "latex": "r = a \\sin \\theta",
+        "description": "This equation describes the relationship of r with angle θ to represent a circle."
+      },
+      {
+        "type": "text",
+        "text": "When evaluated, it was found necessary to make the substitution \\theta = \\sin^{-1}\\left( \\frac{x}{a} \\right), the change thus being from rectangular to polar coordinates."
+      }
+    ]
+  },
+  "cost": 0.0008240999999999999
+}

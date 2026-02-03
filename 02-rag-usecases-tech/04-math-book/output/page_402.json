@@ -1,0 +1,75 @@
+{
+  "page": {
+    "page_number": 385,
+    "header": "MATHEMATICAL PROBABILITY",
+    "blocks": [
+      {
+        "type": "table",
+        "caption": "Residual Errors and their Squares",
+        "columns": [
+          "Chain",
+          "Residual Errors",
+          "Residual Errors Squared"
+        ],
+        "rows": [
+          [
+            "6 chains",
+            "3.1",
+            "9.61"
+          ],
+          [
+            "8 chains",
+            "1.5",
+            "2.25"
+          ],
+          [
+            "9 chains",
+            "0.3",
+            "0.09"
+          ],
+          [
+            "10 chains",
+            "-0.9",
+            "0.81"
+          ],
+          [
+            "12 chains",
+            "-1.4",
+            "1.96"
+          ],
+          [
+            "15 chains",
+            "3.2",
+            "10.24"
+          ],
+          [
+            "5 chains",
+            "1.7",
+            "2.89"
+          ],
+          [
+            "4 chains",
+            "1.5",
+            "2.25"
+          ],
+          [
+            "2 chains",
+            "0.7",
+            "0.49"
+          ],
+          [
+            "7 chains",
+            "-2.1",
+            "4.41"
+          ],
+          [
+            "11 chains",
+            "-0.6",
+            "0.36"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007028999999999999
+}

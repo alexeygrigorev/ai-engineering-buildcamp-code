@@ -1,0 +1,26 @@
+{
+  "page": {
+    "page_number": 299,
+    "header": "SIMPLE DIFFERENTIAL EQUATIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "33. A circular shaft weighing  lbs. per foot, rotates at  radians per second, and is subjected to an ending compressive force F. The deflection y can be found from the equation"
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{d^2y}{dx^2} + \\frac{EI}{F} \\frac{dy}{dx} = -p\\n",
+        "description": "This equation describes the relationship between deflection, compressive force, and moment of inertia."
+      },
+      {
+        "type": "text",
+        "text": "Solve this equation for y."
+      },
+      {
+        "type": "text",
+        "text": "34. An equation relating to the theory of the stability of an aeroplane is"
+      }
+    ]
+  },
+  "cost": 0.0006908999999999999
+}

@@ -1,0 +1,40 @@
+{
+  "page": {
+    "page_number": 188,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "10. Find the mean value of \\( p \\), when \\( p \\leq 550 \\), for the range of \\( n \\) from 0 to 10."
+      },
+      {
+        "type": "text",
+        "text": "11. The illumination \\( I \\) (foot candles) at a point is produced by a light source placed \\( 2 \\) feet above the ground, and at \\( d \\) feet from the foot of the lamp is given by: \\( I = \\frac{C}{d^2} \\). Find the mean value of \\( C \\) when \\( C \\) ranges from \\( 0 \\) to \\( 100 \\)."
+      },
+      {
+        "type": "text",
+        "text": "12. Find the mean value of 5 in \\( 6 x 220 \\) for \\( 1 \\leq n \\leq 10 \\)."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure showing the values of the side thrust on the piston of the 1600 lb. hydraulic press. The side thrusts are denoted by angles A, B, and C.",
+        "description": "The figure illustrates how the angles (A, B, C) relate to the side thrusts acting on the piston and the impact of these forces in a hydraulic press system. It visually conveys the relationships between these components as they affect the operation of the press.",
+        "figure_number": 11
+      },
+      {
+        "type": "text",
+        "text": "Plot these values, determine the mean value, and therefore determine the mean side thrust for each current may be measured by the heat effect."
+      },
+      {
+        "type": "equation",
+        "latex": "H = C R I ^ 2 \\quad \\text{where } C \\text{ is the heat unit } H.",
+        "description": "This equation relates the heat effect \\( H \\) to the current \\( I \\) and resistance \\( R \\), providing a formula for calculating the heat generated in a given electrical circuit."
+      },
+      {
+        "type": "text",
+        "text": "It shall be seen that \\( H \\) or \\( C ^3 \\) are the measuring instruments used to obtain the root of the mean value of this heating effect, i.e., the square root of the."
+      }
+    ]
+  },
+  "cost": 0.0008793
+}

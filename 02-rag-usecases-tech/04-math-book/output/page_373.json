@@ -1,0 +1,37 @@
+{
+  "page": {
+    "page_number": 356,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "spherical triangle (shown cross hatched).  The length BA would be expressed by the magnitude of the angle BOA."
+      },
+      {
+        "type": "text",
+        "text": "A spherical triangle, as shown in Fig. 134, O being the centre of the sphere. The arc AB is proportional to the angle AOB, and therefore, instead of speaking of AB as a length, it is quite legitimate to represent it by 𝓪 ◯𝓫."
+      },
+      {
+        "type": "text",
+        "text": "𝓪 would stand for ∠ AOB, b for ∠ AOC, and c for ∠ COB. As regards the angles of the triangle, the angle between CA and AB has its measure equal to the angle between the tangents AD and AE. Spherical triangles are therefore defined in terms of plane triangles."
+      },
+      {
+        "type": "text",
+        "text": "Fig. 133 shows the sphere and the spherical triangle for the angles A, B, and C, and the figure illustrates the spherical triangle for ∠ AOC, ∠ AOB and ∠ COB. The sum of the angles is always greater than 180° and less than 540°, and the excess over the right angle of the triangle is called the ‘spherical excess’."
+      },
+      {
+        "type": "figure",
+        "caption": "Small Circle",
+        "description": "Illustration of a small circle on a sphere, indicating the concept of spherical triangles within spherical geometry.",
+        "figure_number": 133
+      },
+      {
+        "type": "figure",
+        "caption": "Great Circle",
+        "description": "Illustration demonstrating properties of spherical triangles, including the relationships between angles and sides on the sphere.",
+        "figure_number": 134
+      }
+    ]
+  },
+  "cost": 0.0008042999999999999
+}

@@ -1,0 +1,34 @@
+{
+  "page": {
+    "page_number": 194,
+    "header": "MATHEMATICS FOR ENGINEERS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Volume $V$ of the small portion of the solid is $A_2$ and the total volume of the solid is the sum of all such small volumes, i.e., $V = \text{sm} \times A_2$. If the length $l$ is diminished until infinitely small, $A_2 = A$ and hence."
+      },
+      {
+        "type": "equation",
+        "latex": "V = \\int A \\: dl",
+        "description": "This equation represents the volume as the integral of the area over the length."
+      },
+      {
+        "type": "text",
+        "text": "Comparing this with the formula giving the area of a closed figure, viz., $A = \\int y \\, dx$, it is seen to be of the same form, and it is made identical if $A$ involves a function of $y$ (i.e., areas must be plotted vertically)."
+      },
+      {
+        "type": "text",
+        "text": "When values of $A$ and $l$ are given the curve should be drawn and integrated by any of the available methods; and if it is performed numerically, the following points should be observed. First, the method of uniform volume represented by rectangles must be derived from a consideration of the scales of various quantities. Also, the numerical representation of these areas must be accurately specified; for example, if $l$ represents $1 \text{ sq. in.}$ and $A$ represents the area representing cubic feet of volume. To take a numeric example: let $l = 15 \text{ ft.}$ length, and $r = 5 \text{ ft.}$ radius."
+      },
+      {
+        "type": "text",
+        "text": "The area of the solid is given by the summation over this volume. The area as found by the summation must now consider these refinements: the example, the radius $r$ varies as $l$. If $r = 5$ then the area is: $r = 5 + \\frac{3}{l}$ for $l \\leq 3$. The area can vary for each portion of this length."
+      },
+      {
+        "type": "text",
+        "text": "Example 11. – The cross-section of a certain body is always equal to $\\left( 5r^2 \\right) = \\pi r^2$, where $r$ is the distance of the section from one end. If the length of the body is $l$, find its volume."
+      }
+    ]
+  },
+  "cost": 0.0009020999999999999
+}

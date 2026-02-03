@@ -1,0 +1,46 @@
+{
+  "page": {
+    "page_number": 333,
+    "header": "APPLICATIONS OF THE CALCULUS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Hence the moment of the friction force\n\n$$M = r_{w} \times F_{w} = r_{w} \times b_{w}.$$"
+      },
+      {
+        "type": "text",
+        "text": "Example 29.— To find an expression for the moment of the friction force for a Schiele Pivot."
+      },
+      {
+        "type": "text",
+        "text": "Assume that the pressure is the same all over the rubbing surface, that the wear is uniform and that the number of revolutions is proportional to the pressure $p$ and to the speed $v$."
+      },
+      {
+        "type": "text",
+        "text": "Referring to Fig. 125, let $b$ = length of the curve = $2\theta r_{w}$, and thus $x = p_{x}$ or $b = K \times p_{x}$."
+      },
+      {
+        "type": "text",
+        "text": "Let: \n\n$M = \\text{moment}$ \n\nand  $K = K_{w}$."
+      },
+      {
+        "type": "text",
+        "text": "Hence, \\( \\frac{d}{dx} (b) = K \\cdot p_{x} \\implies \\text{hence} \\ M =  K \times K_{w} \\;}."
+      },
+      {
+        "type": "text",
+        "text": "To find the moment of the friction force, we have:"
+      },
+      {
+        "type": "equation",
+        "latex": "M = r_{w} b = r_{w} \\frac{b}{s_{w}}.",
+        "description": "Expression for the moment of the friction force."
+      },
+      {
+        "type": "text",
+        "text": "Hence the total moment of the friction force is\n\n$$M = \\frac{\\rho}{(R_{w} - R_{x})}.$$"
+      }
+    ]
+  },
+  "cost": 0.0008198999999999999
+}

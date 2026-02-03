@@ -1,0 +1,26 @@
+{
+  "page": {
+    "page_number": 81,
+    "header": "ADDITIONAL RULES OF DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "and the actual height up this vertical is fixed by the value of $y$. If $y$ is kept constant while $x$ varies, then the normal procedure is to make a projection on a horizontal plane, and if all points are joined we have what is known as a contour line. Therefore, if one of the quantities is constant our work is confined to one plane; but we have already seen that when dealing with a plane, the rate of change of one quantity with respect to another must be given by the same relationship as a marginal change to a partial derivative.\n\nTo illustrate by reference to a diagram (Fig. 20). \n\nThe point P on the surface is fixed by its co-ordinates $x, y$, and $\frac{\text{d}z}{\text{d}x}$. If $x$ is kept constant, the point must be on the plane LTN. The slope of the curve LT is given by the angle PMN, whilst the curve LR (where $z$ is constant) and this is shown by the marginal derivative by $z = c$; and we have that the partial derivative may be written as: \n$$\frac{\text{d}y}{\text{d}x} = -\tan \text{PMN}$$\nthereby being negative, is a decrease. \n\nSimilarly, the slope of one curve KPH"
+      },
+      {
+        "type": "text",
+        "text": " is defined by an equation, the partial derivative is obtained directly. \n\nFind:  \n\n$$\frac{\text{d}z}{\text{d}x}$$  \n\nfrom  \n\n$$z = 12xy - 6y^2 - 12y + 4$$\n\nwhen $y$ is constant, treating $y$ as a constant in the ordinary way, but treating $y$ as a variable when $x$ changes."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{\\partial z}{\\partial x} = 12y",
+        "description": "Partial derivative of z with respect to x when y is kept constant."
+      },
+      {
+        "type": "text",
+        "text": "Therefore, from the equation, we can understand that the rate of change of $z$ with respect to $x$ is $12y$. If we consider this in terms of the graph, as $x$ varies, the height $z$ increases linearly with the constant factor of 12 scaled by $y$. This indicates a linear relationship between $x$ and $z$ in the context of the defined surface."
+      }
+    ]
+  },
+  "cost": 0.0009332999999999999
+}

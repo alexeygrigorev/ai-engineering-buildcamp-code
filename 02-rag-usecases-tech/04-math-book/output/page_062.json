@@ -1,0 +1,50 @@
+{
+  "page": {
+    "page_number": 45,
+    "header": "DIFFERENTIATION OF FUNCTIONS",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "The load of 3's tons produces reactions of $\\frac{21}{4}$ tons at A, and $\\frac{3}{4}$ tons at B, where $E = 3.06$ and $R = 44$ tons. Thus the bending moment at B is given by"
+      },
+      {
+        "type": "equation",
+        "latex": "M_B = 21 - 3\\cdot 6 = 3\\cdot 8\\cdot \\frac{3}{4} = 12.75.",
+        "description": "This equation calculates the bending moment at point B due to the reactions at A and B."
+      },
+      {
+        "type": "text",
+        "text": "The diagram ADB to the corresponding ordinates of ACB, the maximum bending moment produces a point where the condition can readily be found for $\frac{dy}{dx} = 0$."
+      },
+      {
+        "type": "text",
+        "text": "The equation of the curve ADB is $y = 20 x - \\frac{4}{7} x^4$, and the slope of the curve is given by the value of dy."
+      },
+      {
+        "type": "equation",
+        "latex": "\\frac{dy}{dx} = 20 - \\frac{4}{7} \\cdot 4x^3",
+        "description": "This equation represents the derivative of the curve ADB, indicating the slope calculation."
+      },
+      {
+        "type": "text",
+        "text": "If now $x = 4\\frac{7}{4}$, then $\\tan{\\theta} = \\frac{dy}{dx} = 20 - 48."
+      },
+      {
+        "type": "equation",
+        "latex": "tan{\\theta} = 4 - 48 ; tan{\\theta} = -44",
+        "description": "This equation calculates the tangent of the angle based on the slope."
+      },
+      {
+        "type": "text",
+        "text": "Thus, the angle of inclination becomes roughly given by this result."
+      },
+      {
+        "type": "figure",
+        "caption": "Figure 13: The moment diagram showing the reactions at points A and B and the bending moment along the curve.",
+        "description": "The figure illustrates the bending moment diagram, depicting the relationship between the applied loads and the resulting bending moments across the beam.",
+        "figure_number": 13
+      }
+    ]
+  },
+  "cost": 0.0008756999999999999
+}

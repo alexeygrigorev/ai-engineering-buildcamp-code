@@ -1,0 +1,61 @@
+{
+  "page": {
+    "page_number": 15,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "This method can be still further simplified by the use of tracing paper, thus: - Place the tracing paper over the diagram and trace the curve ABC upon it; move the tracing paper very carefully forward the requisite amount, viz., h, and with the fingers take the various differences between the ordinates, such as a'b', c'd'."
+      },
+      {
+        "type": "figure",
+        "caption": "Variation of Temperature for Primary and Secondary Coils.",
+        "description": "This figure illustrates the relationship between time and temperature, showing the variation over a specific interval. The curve indicates how temperature changes over time, with specific points labeled for clarity.",
+        "figure_number": 3
+      },
+      {
+        "type": "text",
+        "text": "Examples on the use of these two methods now follow."
+      },
+      {
+        "type": "text",
+        "text": "Example 2. The temperature of the field coils of a motor was measured at various times during the passage of a strong current, with the following results:"
+      },
+      {
+        "type": "table",
+        "caption": "Temperature Data",
+        "columns": [
+          "Time (s)",
+          "Temperature (°C)"
+        ],
+        "rows": [
+          [
+            "0",
+            "25"
+          ],
+          [
+            "1",
+            "30"
+          ],
+          [
+            "2",
+            "35"
+          ],
+          [
+            "3",
+            "40"
+          ],
+          [
+            "4",
+            "45"
+          ],
+          [
+            "5",
+            "50"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.0007508999999999999
+}

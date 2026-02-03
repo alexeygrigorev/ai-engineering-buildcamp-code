@@ -1,0 +1,53 @@
+{
+  "page": {
+    "page_number": 9,
+    "header": "INTRODUCTION TO DIFFERENTIATION",
+    "blocks": [
+      {
+        "type": "text",
+        "text": "Again, an actual velocity is an average velocity over an extremely small interval of time and, in other words, an actual velocity is the limiting value of an average velocity."
+      },
+      {
+        "type": "text",
+        "text": "For example, at the end of the second, we have:"
+      },
+      {
+        "type": "table",
+        "caption": "Average Velocity Calculations",
+        "columns": [
+          "Time (s)",
+          "Displacement (m)",
+          "Average Velocity (m/s)"
+        ],
+        "rows": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "3",
+            "3"
+          ],
+          [
+            "2",
+            "12",
+            "6"
+          ],
+          [
+            "3",
+            "27",
+            "9"
+          ],
+          [
+            "4",
+            "48",
+            "12"
+          ]
+        ]
+      }
+    ]
+  },
+  "cost": 0.00089835
+}

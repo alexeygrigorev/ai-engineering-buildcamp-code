@@ -1,0 +1,47 @@
+{
+  "page": {
+    "page_number": 139,
+    "header": null,
+    "blocks": [
+      {
+        "type": "text",
+        "text": "\n\n\n\n"
+      },
+      {
+        "type": "text",
+        "text": "INTEGRATION\n\n\n\n"
+      },
+      {
+        "type": "text",
+        "text": "Method of Determining the Values of Definite Integrals.\n\nWe may regard the area of a figure as the limit of the integral between two areas, \n thus, all the areas to the left of, say, one particular boundary.\n\nHence for a definite integral, we can write:\n\n\n\n"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int_{a}^{b} f(x) \\, dx = \\lim_{n \\to \\infty} \\sum_{i=1}^{n} f(x_i) \\Delta x_i",
+        "description": "This equation represents the definition of a definite integral as the limit of a Riemann sum."
+      },
+      {
+        "type": "text",
+        "text": "The value of this integral when\\ C = 0 is\n\n\\ \\ \\ \\ \\ \\ 3x^3 + C\n\nis an arbitrary constant, but if C we give a definite value, it becomes finite and usable.\n\nIf \\ a\\ and \\ b\\ are limits we will have the following…. \n"
+      },
+      {
+        "type": "equation",
+        "latex": "\\int \\left( 64 - x^2 \\right) \\, dx = 64 x - \\frac{x^3}{3} + C",
+        "description": "This is the antiderivative of the function $64 - x^2$. "
+      },
+      {
+        "type": "text",
+        "text": "The value of this integral when \\ x = 2 \\ and \\ x = 4 is  \n\nC = 8  \nC = 8 / 3  \n\nThe constant being the same in the two cases.\n"
+      },
+      {
+        "type": "text",
+        "text": "The difference \\ (64 - x^2) \\  \n\nwhere the areas beneath this curve, the x-axis and the coordinates through \\ x = 2 \\ and \\ x = 4  are 8 and 8 / 3  units.  \n\nIt will be noticed that C vanishes; and hence the ending with definite integrals it is usual to omit it altogether. "
+      },
+      {
+        "type": "text",
+        "text": "\n\n\n\n"
+      }
+    ]
+  },
+  "cost": 0.0008828999999999999
+}
