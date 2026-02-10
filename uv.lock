@@ -44,7 +44,7 @@ requires-dist = [
     { name = "google-genai", specifier = ">=1.61.0" },
     { name = "jaxn", specifier = "==0.0.4" },
     { name = "jupyter", specifier = ">=1.1.1" },
-    { name = "minsearch", specifier = ">=0.0.7" },
+    { name = "minsearch", specifier = "==0.0.9" },
     { name = "openai", specifier = ">=2.15.0" },
     { name = "pillow", specifier = ">=12.1.0" },
     { name = "pymupdf", specifier = ">=1.26.7" },
@@ -1260,16 +1260,16 @@ wheels = [
 
 [[package]]
 name = "minsearch"
-version = "0.0.7"
+version = "0.0.9"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "scikit-learn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/de/6f/c4f2a1cb5f79e70441fbc5508bf68e7ab6aa1a55026065123bbb965806f6/minsearch-0.0.7.tar.gz", hash = "sha256:842bbdf10cc2edb3fa0cd0a3e553191f1e21834a9d9887817b42b2ade9503bfe", size = 97625, upload-time = "2025-10-04T08:18:23.778Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/24/17/2c1634dc78dae8bf5bddeaa78f1fc7b7f70e877835f181e6cf794b9dde8f/minsearch-0.0.9.tar.gz", hash = "sha256:68e36536605b0beaa90cfa0bf6632276ae26627fac5a8d8c17f642875066b064", size = 133209, upload-time = "2026-02-10T18:41:39.774Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/23/49/8c9da0e7f5f22cdc369e2420c6dae92cf1e13ec5fa662af10d15918591a7/minsearch-0.0.7-py3-none-any.whl", hash = "sha256:5657d10c698f58070e5cb3fc5b03218570de8e5a463dbbde05ee82ff8074e1b4", size = 11572, upload-time = "2025-10-04T08:18:22.579Z" },
+    { url = "https://files.pythonhosted.org/packages/37/e8/91178a16a9a33eea7729b97c759025d5eea6a1a852f7d4228b7a87c2c0cd/minsearch-0.0.9-py3-none-any.whl", hash = "sha256:80cfbb8016a61be87c9228c94551b35f967bf2970bd6c965746c71322ed2abcb", size = 32630, upload-time = "2026-02-10T18:41:37.131Z" },
 ]
 
 [[package]]

@@ -12,7 +12,7 @@ dependencies = [
     "google-genai>=1.61.0",
     "jaxn==0.0.4",
     "jupyter>=1.1.1",
-    "minsearch>=0.0.7",
+    "minsearch==0.0.9",
     "openai>=2.15.0",
     "pillow>=12.1.0",
     "pymupdf>=1.26.7",
