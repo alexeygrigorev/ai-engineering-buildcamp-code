@@ -31,6 +31,7 @@ dependencies = [
     { name = "requests" },
     { name = "sentence-transformers" },
     { name = "sqlitesearch" },
+    { name = "toyaikit" },
     { name = "youtube-transcript-api" },
 ]
 
@@ -52,6 +53,7 @@ requires-dist = [
     { name = "requests", specifier = ">=2.32.5" },
     { name = "sentence-transformers", specifier = ">=5.2.2" },
     { name = "sqlitesearch", specifier = ">=0.0.2" },
+    { name = "toyaikit", specifier = ">=0.0.9" },
     { name = "youtube-transcript-api", specifier = ">=1.2.4" },
 ]
 
@@ -576,6 +578,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/d5/7d/5df2650c57d47c57232af5ef4b4fdbff182070421e405e0d62c6cdbfaa87/fsspec-2026.1.0.tar.gz", hash = "sha256:e987cb0496a0d81bba3a9d1cee62922fb395e7d4c3b575e57f547953334fe07b", size = 310496, upload-time = "2026-01-09T15:21:35.562Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/01/c9/97cc5aae1648dcb851958a3ddf73ccd7dbe5650d95203ecb4d7720b4cdbf/fsspec-2026.1.0-py3-none-any.whl", hash = "sha256:cb76aa913c2285a3b49bdd5fc55b1d7c708d7208126b60f2eb8194fe1b4cbdcc", size = 201838, upload-time = "2026-01-09T15:21:34.041Z" },
+]
+
+[[package]]
+name = "genai-prices"
+version = "0.0.52"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "httpx" },
+    { name = "pydantic" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/8e/87/bdc11c1671e3a3fe701c3c4aaae4aa2bb7a84a6bb1812dfb5693c87d3872/genai_prices-0.0.52.tar.gz", hash = "sha256:0df7420b555fa3a48d09e5c7802ba35b5dfa9fd49b0c3bb2c150c59060d83f52", size = 58364, upload-time = "2026-01-28T12:07:49.386Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/35/33/6316b4907a0bffc1bcc99074c7e2d01184fdfeee401c864146a40d55ad10/genai_prices-0.0.52-py3-none-any.whl", hash = "sha256:639e7a2ae7eddf5710febb9779b9c9e31ff5acf464b4eb1f6018798ea642e6d3", size = 60937, upload-time = "2026-01-28T12:07:47.921Z" },
 ]
 
 [[package]]
@@ -2633,6 +2648,22 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/0c/1a/d7592328d037d36f2d2462f4bc1fbb383eec9278bc786c1b111cbbd44cfa/tornado-6.5.4-cp39-abi3-win32.whl", hash = "sha256:1768110f2411d5cd281bac0a090f707223ce77fd110424361092859e089b38d1", size = 446481, upload-time = "2025-12-15T19:21:00.008Z" },
     { url = "https://files.pythonhosted.org/packages/d6/6d/c69be695a0a64fd37a97db12355a035a6d90f79067a3cf936ec2b1dc38cd/tornado-6.5.4-cp39-abi3-win_amd64.whl", hash = "sha256:fa07d31e0cd85c60713f2b995da613588aa03e1303d75705dca6af8babc18ddc", size = 446886, upload-time = "2025-12-15T19:21:01.287Z" },
     { url = "https://files.pythonhosted.org/packages/50/49/8dc3fd90902f70084bd2cd059d576ddb4f8bb44c2c7c0e33a11422acb17e/tornado-6.5.4-cp39-abi3-win_arm64.whl", hash = "sha256:053e6e16701eb6cbe641f308f4c1a9541f91b6261991160391bfc342e8a551a1", size = 445910, upload-time = "2025-12-15T19:21:02.571Z" },
+]
+
+[[package]]
+name = "toyaikit"
+version = "0.0.9"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "anthropic" },
+    { name = "genai-prices" },
+    { name = "ipython" },
+    { name = "mistune" },
+    { name = "openai" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/52/1a/4c3c2c444a3f51baf3cf99d02e2772dd02665faa9ed185b8898efb1d210f/toyaikit-0.0.9.tar.gz", hash = "sha256:24dd173a10b9d0f79417ed20ab4128a47b062ae44bd14f63d10705510bc89061", size = 209551, upload-time = "2026-01-05T11:44:19.477Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/be/23/ab792f622f4758cf81f3bb3485cd6559d4b1401cb2be06f16830541355d5/toyaikit-0.0.9-py3-none-any.whl", hash = "sha256:dfca6a84b993acc92e37d6c5fb1d973777be24f19bd3f1ef2ba985bad3608f18", size = 23719, upload-time = "2026-01-05T11:44:17.238Z" },
 ]
 
 [[package]]
