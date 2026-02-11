@@ -15,6 +15,7 @@ dependencies = [
     "minsearch==0.0.9",
     "openai>=2.15.0",
     "pillow>=12.1.0",
+    "pydantic-ai>=1.55.0",
     "pymupdf>=1.26.7",
     "python-dotenv>=1.2.1",
     "python-frontmatter>=1.1.0",
