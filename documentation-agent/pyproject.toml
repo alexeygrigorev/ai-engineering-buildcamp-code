@@ -1,0 +1,13 @@
+[project]
+name = "documentation-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gitsource>=0.0.4",
+    "minsearch>=0.0.9",
+    "openai>=2.21.0",
+    "pydantic-ai>=1.59.0",
+    "python-dotenv>=1.2.1",
+]
