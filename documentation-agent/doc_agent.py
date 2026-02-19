@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
 from pydantic_ai import Agent, AgentRunResult
+from pydantic_ai.run import AgentRun
+from pydantic_ai._agent_graph import ModelRequestNode, CallToolsNode
 from pydantic_ai.messages import FunctionToolCallEvent
 
 from tools import SearchTools
@@ -40,12 +42,42 @@ Additional notes:
 """.strip()
 
 
+SIMPLE_INSTRUCTIONS = """
+You're a documentation assistant.
+
+Answer the user question using only the documentation knowledge base.
+
+Make 3 iterations:
+
+1) First iteration:
+   - Perform one search using the search tool to identify potentially relevant documents.
+
+2) Second iteration:
+   - Analyze the results from the previous search.
+   - Based on the filenames or documents returned, perform:
+       - Up to 2 additional search queries to refine or expand coverage, and
+       - One or more get_file calls to retrieve the full content of the most relevant documents.
+
+3) Third iteration:
+   - Analyze the retrieved document contents from get_file.
+   - Synthesize the information from these documents into a final answer to the user.
+
+IMPORTANT:
+- Use only facts found in the documentation knowledge base.
+- Do not introduce outside knowledge or assumptions.
+- If the answer cannot be found in the retrieved documents, clearly inform the user.
+
+Additional notes:
+- The knowledge base is entirely about Evidently, so you do not need to include the word "evidently" in search queries.
+- Prefer retrieving and analyzing full documents (via get_file) before producing the final answer.
+""".strip()
+
 
 @dataclass
 class DocumentationAgentConfig:
-    model = 'openai:gpt-4o-mini'
-    name = 'search'
-    instructions = DEFAULT_INSTRUCTIONS
+    model: str = 'openai:gpt-4o-mini'
+    name: str = 'search'
+    instructions: str = SIMPLE_INSTRUCTIONS
 
 
 def create_agent(
@@ -91,7 +123,7 @@ async def run_agent(
         user_prompt: str,
         message_history=None
     ) -> AgentRunResult:
-    callback = NamedCallback(agent) 
+    callback = NamedCallback(agent)
 
     if message_history is None:
         message_history = []
@@ -105,6 +137,42 @@ async def run_agent(
     return result
 
 
+async def print_stream_node(node: ModelRequestNode, agent_run: AgentRun):
+    async with node.stream(agent_run.ctx) as stream:
+        async for text in stream.stream_text(delta=True):
+            print(text, end='', flush=True)
+    print()
 
 
+async def print_tool_calls(node: CallToolsNode, agent_run: AgentRun, agent_name: str):
+    async with node.stream(agent_run.ctx) as events:
+        async for event in events:
+            if isinstance(event, FunctionToolCallEvent):
+                tool_name = event.part.tool_name
+                args = event.part.args
+                print(f"TOOL CALL ({agent_name}): {tool_name}({args})")
+
+
+async def run_agent_stream(
+        agent: Agent,
+        user_prompt: str,
+        message_history=None
+    ):
+
+    if message_history is None:
+        message_history = []
+
+    async with agent.iter(
+        user_prompt,
+        message_history=message_history
+    ) as agent_run:
+        async for node in agent_run:
+            if Agent.is_user_prompt_node(node):
+                print(f"USER PROMPT ({agent.name}): {node.user_prompt}")
+            elif Agent.is_model_request_node(node):
+                await print_stream_node(node, agent_run)
+            elif Agent.is_call_tools_node(node):
+                await print_tool_calls(node, agent_run, agent.name)
+
+        return agent_run
 
