@@ -210,5 +210,5 @@ async def run_agent_stream(
             elif Agent.is_call_tools_node(node):
                 await print_tool_calls(node, agent_run, agent.name)
 
-        return agent_run
+        return agent_run.result
 
