@@ -1,11 +1,14 @@
+from typing import Any, Dict
 from dataclasses import dataclass
 
 from pydantic_ai import Agent, AgentRunResult
 from pydantic_ai.run import AgentRun
 from pydantic_ai._agent_graph import ModelRequestNode, CallToolsNode
 from pydantic_ai.messages import FunctionToolCallEvent
+from jaxn import JSONParserHandler, StreamingJSONParser
 
 from tools import SearchTools
+from models import RAGResponse
 
 
 DEFAULT_INSTRUCTIONS = """
@@ -131,16 +134,48 @@ async def run_agent(
     result = await agent.run(
         user_prompt,
         event_stream_handler=callback,
-        message_history=message_history
+        message_history=message_history,
+        output_type=RAGResponse
     )
 
     return result
 
 
+
+class RAGResponseHandler(JSONParserHandler):
+    def on_value_chunk(self, path: str, field_name: str, chunk: str) -> None:
+        if path == '' and field_name == 'answer':
+            print(chunk, end='', flush=True)
+
+    def on_field_end(self, path: str, field_name: str, value: str, parsed_value: Any = None) -> None:
+        if path == '' and field_name == 'answer_type':
+            print('\nanswer type:', value)
+
+    def on_array_item_end(self, path: str, field_name: str, item: Dict[str, Any] = None) -> None:
+        if field_name == 'followup_questions':
+            print('follow up question:', item)
+
+
 async def print_stream_node(node: ModelRequestNode, agent_run: AgentRun):
+    args_so_far = ""
+
+    parser = StreamingJSONParser(RAGResponseHandler())
+
     async with node.stream(agent_run.ctx) as stream:
-        async for text in stream.stream_text(delta=True):
-            print(text, end='', flush=True)
+        async for response in stream.stream_responses():
+            for part in response.parts:
+                if part.part_kind != 'tool-call':
+                    continue
+                if part.tool_name != 'final_result':
+                    continue
+
+                args_new = part.args
+                args_new_chunk = args_new[len(args_so_far):]
+                args_so_far = args_new
+
+                parser.parse_incremental(args_new_chunk)
+
+
     print()
 
 
@@ -164,7 +199,8 @@ async def run_agent_stream(
 
     async with agent.iter(
         user_prompt,
-        message_history=message_history
+        message_history=message_history,
+        output_type=RAGResponse
     ) as agent_run:
         async for node in agent_run:
             if Agent.is_user_prompt_node(node):

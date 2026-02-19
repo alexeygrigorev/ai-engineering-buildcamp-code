@@ -46,6 +46,22 @@ async def run_qna(agent: Agent):
         messages.extend(result.new_messages())
 
 
+async def run_agent_question_blocking():
+    user_prompt = "LLM as a judge"
+    print(f"Running agent with question: {user_prompt}...")
+
+    tools = create_documentation_tools_cached()
+    agent_config = DocumentationAgentConfig(
+        instructions=DEFAULT_INSTRUCTIONS
+    )
+
+    agent = create_agent(agent_config, tools)
+
+    result = await run_agent(agent, user_prompt)
+    print_messages(result.new_messages())
+    print(result.output)
+
+
 async def run_agent_question():
     user_prompt = "LLM as a judge"
     print(f"Running agent with question: {user_prompt}...")

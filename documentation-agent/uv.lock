@@ -503,6 +503,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "gitsource" },
+    { name = "jaxn" },
     { name = "minsearch" },
     { name = "openai" },
     { name = "pydantic-ai" },
@@ -512,6 +513,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "gitsource", specifier = ">=0.0.4" },
+    { name = "jaxn", specifier = ">=0.0.5" },
     { name = "minsearch", specifier = ">=0.0.9" },
     { name = "openai", specifier = ">=2.21.0" },
     { name = "pydantic-ai", specifier = ">=1.59.0" },
@@ -1052,6 +1054,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/0f/27/056e0638a86749374d6f57d0b0db39f29509cce9313cf91bdc0ac4d91084/jaraco_functools-4.4.0.tar.gz", hash = "sha256:da21933b0417b89515562656547a77b4931f98176eb173644c0d35032a33d6bb", size = 19943, upload-time = "2025-12-21T09:29:43.6Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fd/c4/813bb09f0985cb21e959f21f2464169eca882656849adf727ac7bb7e1767/jaraco_functools-4.4.0-py3-none-any.whl", hash = "sha256:9eec1e36f45c818d9bf307c8948eb03b2b56cd44087b3cdc989abca1f20b9176", size = 10481, upload-time = "2025-12-21T09:29:42.27Z" },
+]
+
+[[package]]
+name = "jaxn"
+version = "0.0.5"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/86/61/580621525bd1035ecaf20b56a3f215142758d5079f7e5695905ecfc4a30e/jaxn-0.0.5.tar.gz", hash = "sha256:c896d88023c5f6af9b650587b370528f8aae567874031bf4769a3fe58e1749d2", size = 79575, upload-time = "2026-02-19T12:53:02.288Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/5c/3f/48e405eca9e810d1f3101fede5f44f52613cb44d48593b2ca497514ab788/jaxn-0.0.5-py3-none-any.whl", hash = "sha256:477ccc282260e235f26fd2c88eb6a4899f0a15d95bcb71b669fb273093660a57", size = 13392, upload-time = "2026-02-19T12:53:00.586Z" },
 ]
 
 [[package]]
