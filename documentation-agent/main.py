@@ -51,9 +51,7 @@ async def run_agent_question_blocking():
     print(f"Running agent with question: {user_prompt}...")
 
     tools = create_documentation_tools_cached()
-    agent_config = DocumentationAgentConfig(
-        instructions=DEFAULT_INSTRUCTIONS
-    )
+    agent_config = DocumentationAgentConfig()
 
     agent = create_agent(agent_config, tools)
 
@@ -67,9 +65,7 @@ async def run_agent_question():
     print(f"Running agent with question: {user_prompt}...")
 
     tools = create_documentation_tools_cached()
-    agent_config = DocumentationAgentConfig(
-        instructions=DEFAULT_INSTRUCTIONS
-    )
+    agent_config = DocumentationAgentConfig()
 
     agent = create_agent(agent_config, tools)
 

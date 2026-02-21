@@ -6,7 +6,7 @@ from jaxn import JSONParserHandler, StreamingJSONParser
 from pydantic_ai import Agent
 from pydantic_ai.messages import FunctionToolCallEvent
 
-from doc_agent import DocumentationAgentConfig, create_agent, SIMPLE_INSTRUCTIONS
+from doc_agent import DocumentationAgentConfig, create_agent
 from models import RAGResponse
 from tools import create_documentation_tools_cached
 
@@ -85,6 +85,28 @@ st.markdown(
 .badge-found  { border-color: #f78166; color: #ffa198; }
 .badge-found-yes { border-color: #3fb950; color: #56d364; }
 
+/* References section */
+.references-label {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #c9d1d9;
+    margin: 1rem 0 0.5rem 0;
+}
+.reference-item {
+    font-size: 0.85rem;
+    color: #8b949e;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+}
+.reference-item a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+.reference-item a:hover {
+    text-decoration: underline;
+}
+
 /* Follow-up section */
 .followup-label {
     font-size: 0.78rem;
@@ -110,7 +132,7 @@ if "pending_followup" not in st.session_state:
 @st.cache_resource(show_spinner=False)
 def load_agent():
     tools = create_documentation_tools_cached()
-    config = DocumentationAgentConfig(instructions=SIMPLE_INSTRUCTIONS)
+    config = DocumentationAgentConfig()
     agent = create_agent(config, tools)
     return agent
 
@@ -158,6 +180,18 @@ def render_metadata(meta: dict) -> str:
     )
 
 
+def render_references(references: list[dict]) -> str:
+    if not references:
+        return ""
+    html = '<div class="references-label">📚 References</div>'
+    for ref in references:
+        file_name = ref.get("file_name", ref.get("file_path", "unknown"))
+        explanation = ref.get("explanation", "")
+        url = GITHUB_BASE + file_name
+        html += f'<div class="reference-item">📄 <a href="{url}" target="_blank">{file_name}</a> — {explanation}</div>'
+    return html
+
+
 def activity_html_for_tool(tool_name: str, args_str: str) -> str:
     """Format a single tool call as an HTML activity line."""
     try:
@@ -182,11 +216,13 @@ def activity_html_for_tool(tool_name: str, args_str: str) -> str:
 class UIStreamHandler(JSONParserHandler):
     """Captures streaming JSON chunks for the answer field."""
 
-    def __init__(self, text_placeholder):
+    def __init__(self, text_placeholder, ref_placeholder=None):
         self._placeholder = text_placeholder
+        self._ref_placeholder = ref_placeholder
         self._answer_so_far = ""
         self.metadata = {}
         self.followup_questions = []
+        self.references = []
 
     def on_value_chunk(self, path: str, field_name: str, chunk: str) -> None:
         if path == "" and field_name == "answer":
@@ -213,6 +249,10 @@ class UIStreamHandler(JSONParserHandler):
     def on_array_item_end(self, path: str, field_name: str, item=None) -> None:
         if field_name == "followup_questions" and item is not None:
             self.followup_questions.append(item)
+        elif field_name == "references" and item is not None:
+            self.references.append(item)
+            if self._ref_placeholder:
+                self._ref_placeholder.markdown(render_references(self.references), unsafe_allow_html=True)
 
     @property
     def answer(self) -> str:
@@ -222,11 +262,12 @@ class UIStreamHandler(JSONParserHandler):
 async def run_streaming(user_prompt: str, message_history: list, activities_ref: list):
     """
     Run the agent with streaming.
-    Returns (answer, metadata_dict, followup_questions, new_messages).
+    Returns (answer, metadata_dict, followup_questions, references, new_messages, act_list).
     """
     answer = ""
     metadata = {}
     followup_questions = []
+    references = []
     new_messages = []
 
     # We need a placeholder for streaming text — we create it in the caller
@@ -237,6 +278,7 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
     # Placeholders injected from outside via closure
     text_ph = activities_ref[0]  # text placeholder for the answer
     act_ph = activities_ref[1]  # placeholder for activity panel
+    ref_ph = activities_ref[2] if len(activities_ref) > 2 else None
     act_list = []  # accumulates activity items
 
     def _update_activities(status: str):
@@ -244,7 +286,7 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
 
     _update_activities("Thinking…")
 
-    parser = StreamingJSONParser(UIStreamHandler(text_ph))
+    parser = StreamingJSONParser(UIStreamHandler(text_ph, ref_ph))
     handler = parser.handler  # type: UIStreamHandler
 
     args_so_far = ""
@@ -292,8 +334,9 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
     answer = handler.answer
     metadata = handler.metadata
     followup_questions = handler.followup_questions
+    references = handler.references
 
-    return answer, metadata, followup_questions, new_messages, act_list
+    return answer, metadata, followup_questions, references, new_messages, act_list
 
 
 # ── Render existing chat history ─────────────────────────────────────────────
@@ -308,6 +351,9 @@ for idx, msg in enumerate(st.session_state.messages):
                 )
         st.markdown(msg["content"])
         if msg["role"] == "assistant":
+            # References below the answer
+            if msg.get("references"):
+                st.markdown(render_references(msg["references"]), unsafe_allow_html=True)
             # Metadata below the answer
             if msg.get("meta"):
                 st.markdown(render_metadata(msg["meta"]), unsafe_allow_html=True)
@@ -356,13 +402,14 @@ if prompt:
     with st.chat_message("assistant"):
         act_placeholder = st.empty()  # activity panel
         answer_placeholder = st.empty()  # streaming answer
+        ref_placeholder = st.empty()  # references panel
 
         # Run the agent
-        answer, metadata, followup_questions, new_messages, act_list = asyncio.run(
+        answer, metadata, followup_questions, references, new_messages, act_list = asyncio.run(
             run_streaming(
                 prompt,
                 st.session_state.agent_messages,
-                [answer_placeholder, act_placeholder],
+                [answer_placeholder, act_placeholder, ref_placeholder],
             )
         )
 
@@ -377,6 +424,7 @@ if prompt:
             "role": "assistant",
             "content": answer,
             "activities": act_list,
+            "references": references,
             "meta": metadata,
             "followup_questions": followup_questions,
         }
