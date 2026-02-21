@@ -13,6 +13,7 @@ from doc_agent import (
 from jaxn import JSONParserHandler
 
 from tests.utils import collect_tools, ToolCall
+from tests.cost_tracker import capture_usage
 
 
 @pytest.fixture(scope="module")
@@ -34,7 +35,15 @@ def agent():
 
 async def run_agent_test(agent, user_prompt, message_history=None):
     runner = AgentStreamRunner(agent, JSONParserHandler())
-    return await runner.run(user_prompt, message_history)
+    result = await runner.run(user_prompt, message_history)
+
+    provider = agent.model.system
+    model_name = agent.model.model_name
+    model = f'{provider}:{model_name}'
+
+    capture_usage(model, result)
+    return result
+
 
 
 @pytest.mark.asyncio
