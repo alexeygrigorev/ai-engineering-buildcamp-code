@@ -1,3 +1,4 @@
+from collections import defaultdict
 from pydantic_ai import RunUsage
 
 
@@ -14,9 +15,9 @@ def calculate_cost(model_name, input_tokens, output_tokens):
     return input_cost + output_cost
 
 
-from collections import defaultdict
 
 usages = defaultdict(RunUsage)
+
 
 def capture_usage(model, result):
     usages[model] += result.usage()
