@@ -11,8 +11,11 @@ from models import RAGResponse
 from tools import create_documentation_tools_cached
 
 import dotenv
+import logfire
 
 dotenv.load_dotenv()
+logfire.configure()
+logfire.instrument_pydantic_ai()
 
 
 GITHUB_BASE = "https://github.com/evidentlyai/docs/blob/main/"

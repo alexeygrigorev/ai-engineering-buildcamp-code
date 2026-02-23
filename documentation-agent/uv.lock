@@ -529,6 +529,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "gitsource" },
     { name = "jaxn" },
+    { name = "logfire" },
     { name = "minsearch" },
     { name = "openai" },
     { name = "pydantic-ai" },
@@ -547,6 +548,7 @@ dev = [
 requires-dist = [
     { name = "gitsource", specifier = ">=0.0.4" },
     { name = "jaxn", specifier = ">=0.0.5" },
+    { name = "logfire", specifier = ">=4.24.0" },
     { name = "minsearch", specifier = ">=0.0.9" },
     { name = "openai", specifier = ">=2.21.0" },
     { name = "pydantic-ai", specifier = ">=1.59.0" },
