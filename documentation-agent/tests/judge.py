@@ -78,6 +78,8 @@ async def assert_criteria(result, criteria):
         tool_calls='\n'.join([str(tc) for tc in tool_calls])
     )
 
+    print(judge_user_prompt)
+
     judge_result = await judge_agent.run(judge_user_prompt)
 
     model = get_model_name(judge_agent)

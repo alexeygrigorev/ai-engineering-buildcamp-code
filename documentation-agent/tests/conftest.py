@@ -1,4 +1,8 @@
 
+import dotenv
+dotenv.load_dotenv()
+
+
 from tests.cost_tracker import display_total_usage
 
 def pytest_sessionfinish(session, exitstatus):
