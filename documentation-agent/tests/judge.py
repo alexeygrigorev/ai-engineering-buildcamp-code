@@ -69,7 +69,7 @@ Tool calls:
 async def assert_criteria(result, criteria):
     messages = result.new_messages()
     tool_calls = collect_tools(messages)
-    output = result.output.model_dump_json()
+    output = str(result.output)
 
     judge_agent = create_judge_agent()
     judge_user_prompt = judge_user_prompt_template.format(

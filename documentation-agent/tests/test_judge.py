@@ -37,7 +37,7 @@ async def test_ambiguous_term_judge(agent):
     ])
 
 
-@pytest.mark.skip(reason="gpt-4o-mini copies code from docs verbatim, ignoring formatting instructions")
+@pytest.mark.skip(reason="gpt-4o-mini judge hallucinates code formatting violations")
 @pytest.mark.asyncio
 async def test_code_formatting(agent):
     user_prompt = "how to use LLM as a judge"
@@ -45,9 +45,8 @@ async def test_code_formatting(agent):
 
     await assert_criteria(result, [
         "code examples use 4-space indentation",
-        "function/constructor calls with multiple keyword arguments place each argument on its own line",
-        "keyword arguments in function calls have no spaces around '=' (e.g. provider=\"openai\", not provider = \"openai\")",
-        "normal variable assignments still use spaces around '=' (e.g. llm_eval = LLMEval(...))",
+        "function/constructor calls with 2 or more keyword arguments (name=value) place each argument on its own line with a hanging indent. This rule does NOT apply to positional arguments like pd.DataFrame(data, columns=columns).",
+        "keyword arguments INSIDE function calls have no spaces around '=' (e.g. provider=\"openai\", not provider = \"openai\")",
     ])
 
 

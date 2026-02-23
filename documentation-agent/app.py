@@ -132,7 +132,11 @@ if "pending_followup" not in st.session_state:
 @st.cache_resource(show_spinner=False)
 def load_agent():
     tools = create_documentation_tools_cached()
-    config = DocumentationAgentConfig()
+    config = DocumentationAgentConfig(
+        # model="openai:gpt-5.2"
+        # model="anthropic:claude-sonnet-4-6"
+        model="openai:gpt-4o-mini"
+    )
     agent = create_agent(config, tools)
     return agent
 
