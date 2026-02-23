@@ -129,6 +129,9 @@ if "agent_messages" not in st.session_state:
     st.session_state.agent_messages = []  # pydantic-ai message history
 if "pending_followup" not in st.session_state:
     st.session_state.pending_followup = None
+if "logfire_context" not in st.session_state:
+    with logfire.span('streamlit_session'):
+        st.session_state.logfire_context = logfire.get_context()
 
 
 # ── Load agent (cached per session) ─────────────────────────────────────────
@@ -157,6 +160,8 @@ with st.sidebar:
         st.session_state.messages = []
         st.session_state.agent_messages = []
         st.session_state.pending_followup = None
+        with logfire.span('streamlit_session'):
+            st.session_state.logfire_context = logfire.get_context()
         st.rerun()
 
 
@@ -411,14 +416,15 @@ if prompt:
         answer_placeholder = st.empty()  # streaming answer
         ref_placeholder = st.empty()  # references panel
 
-        # Run the agent
-        answer, metadata, followup_questions, references, new_messages, act_list = asyncio.run(
-            run_streaming(
-                prompt,
-                st.session_state.agent_messages,
-                [answer_placeholder, act_placeholder, ref_placeholder],
+        with logfire.attach_context(st.session_state.logfire_context):
+            # Run the agent        
+            answer, metadata, followup_questions, references, new_messages, act_list = asyncio.run(
+                run_streaming(
+                    prompt,
+                    st.session_state.agent_messages,
+                    [answer_placeholder, act_placeholder, ref_placeholder],
+                )
             )
-        )
 
         # Render final metadata
         if metadata:
