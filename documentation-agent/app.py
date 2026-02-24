@@ -116,6 +116,27 @@ st.markdown(
     color: #8b949e;
     margin-bottom: 0.3rem;
 }
+
+/* Feedback buttons styling - more specific selector to avoid collisions */
+div[data-testid="column"] .stButton button:has(div:contains("👍")),
+div[data-testid="column"] .stButton button:has(div:contains("👎")) {
+    border-radius: 20px !important;
+    padding: 0px 8px !important;
+    min-height: 24px !important;
+    height: 24px !important;
+    line-height: 24px !important;
+    background: #21262d !important;
+    border: 1px solid #30363d !important;
+    color: #c9d1d9 !important;
+    font-size: 0.8rem !important;
+    margin-top: 5px !important;
+}
+div[data-testid="column"] .stButton button:has(div:contains("👍")):hover,
+div[data-testid="column"] .stButton button:has(div:contains("👎")):hover {
+    border-color: #58a6ff !important;
+    color: #58a6ff !important;
+    background: #30363d !important;
+}
 </style>
 """,
     unsafe_allow_html=True,
@@ -184,7 +205,7 @@ def render_metadata(meta: dict) -> str:
     found_str = "Found: Yes" if found else "Found: No"
 
     return (
-        f'<div class="meta-row">'
+        f'<div class="meta-row" style="display: flex; align-items: center; gap: 0.5rem;">'
         f'<span class="badge badge-type">🏷 {answer_type}</span>'
         f'<span class="badge badge-conf">🎯 {conf_str}</span>'
         f'<span class="badge {found_cls}">{found_str}</span>'
@@ -366,9 +387,22 @@ for idx, msg in enumerate(st.session_state.messages):
             # References below the answer
             if msg.get("references"):
                 st.markdown(render_references(msg["references"]), unsafe_allow_html=True)
-            # Metadata below the answer
-            if msg.get("meta"):
-                st.markdown(render_metadata(msg["meta"]), unsafe_allow_html=True)
+            # Metadata and Feedback below the answer
+            meta_col, feedback_col = st.columns([0.8, 0.2])
+            with meta_col:
+                if msg.get("meta"):
+                    st.markdown(render_metadata(msg["meta"]), unsafe_allow_html=True)
+
+            with feedback_col:
+                f1, f2 = st.columns(2)
+                if f1.button("👍", key=f"upvote_{idx}"):
+                    with logfire.attach_context(st.session_state.logfire_context):
+                        logfire.info("user_feedback", feedback=1)
+                    st.toast("Thanks for the feedback!", icon="👍")
+                if f2.button("👎", key=f"downvote_{idx}"):
+                    with logfire.attach_context(st.session_state.logfire_context):
+                        logfire.info("user_feedback", feedback=-1)
+                    st.toast("Thanks for the feedback!", icon="👎")
 
 
 # ── Follow-up buttons (only for last assistant message) ─────────────────────
@@ -386,6 +420,8 @@ if last_followups and st.session_state.pending_followup is None:
     cols = st.columns(len(last_followups))
     for col, q in zip(cols, last_followups):
         if col.button(q, key=f"followup_{q[:40]}"):
+            with logfire.attach_context(st.session_state.logfire_context):
+                logfire.info("followup_question_clicked", question=q)
             st.session_state.pending_followup = q
             st.rerun()
 
@@ -426,9 +462,22 @@ if prompt:
                 )
             )
 
-        # Render final metadata
+        # Render final metadata and feedback
         if metadata:
-            st.markdown(render_metadata(metadata), unsafe_allow_html=True)
+            meta_col, feedback_col = st.columns([0.8, 0.2])
+            with meta_col:
+                st.markdown(render_metadata(metadata), unsafe_allow_html=True)
+            with feedback_col:
+                f1, f2 = st.columns(2)
+                cur_idx = len(st.session_state.messages)
+                if f1.button("👍", key=f"upvote_live"):
+                    with logfire.attach_context(st.session_state.logfire_context):
+                        logfire.info("user_feedback", feedback=1)
+                    st.toast("Thanks for the feedback!", icon="👍")
+                if f2.button("👎", key=f"downvote_live"):
+                    with logfire.attach_context(st.session_state.logfire_context):
+                        logfire.info("user_feedback", feedback=-1)
+                    st.toast("Thanks for the feedback!", icon="👎")
 
     # Persist to session
     st.session_state.agent_messages.extend(new_messages)
