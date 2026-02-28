@@ -388,12 +388,8 @@ for idx, msg in enumerate(st.session_state.messages):
             with feedback_col:
                 f1, f2 = st.columns(2)
                 if f1.button("👍", key=f"upvote_{idx}"):
-                    with logfire.attach_context(st.session_state.logfire_context):
-                        logfire.info("user_feedback", feedback=1)
                     st.toast("Thanks for the feedback!", icon="👍")
                 if f2.button("👎", key=f"downvote_{idx}"):
-                    with logfire.attach_context(st.session_state.logfire_context):
-                        logfire.info("user_feedback", feedback=-1)
                     st.toast("Thanks for the feedback!", icon="👎")
 
 
