@@ -1,6 +1,8 @@
 import asyncio
 import json
 
+from time import time
+
 import streamlit as st
 from jaxn import JSONParserHandler, StreamingJSONParser
 from pydantic_ai import Agent
@@ -10,9 +12,15 @@ from doc_agent import DocumentationAgentConfig, create_agent
 from models import RAGResponse
 from tools import create_documentation_tools_cached
 
+from logs.service import NoOpStorage, MonitoringService
+
 import dotenv
 
 dotenv.load_dotenv()
+
+
+monitoring_storage = NoOpStorage()
+monitoring_service = MonitoringService(monitoring_storage)
 
 
 GITHUB_BASE = "https://github.com/evidentlyai/docs/blob/main/"
@@ -175,6 +183,7 @@ with st.sidebar:
         st.session_state.messages = []
         st.session_state.agent_messages = []
         st.session_state.pending_followup = None
+        monitoring_service.restart_session()
         st.rerun()
 
 
@@ -316,6 +325,10 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
 
     args_so_far = ""
 
+    start_time = time()
+    captured_first_token = False
+    time_to_first_token = float('nan')
+
     async with agent.iter(
         user_prompt,
         message_history=message_history,
@@ -330,9 +343,13 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
                             if part.part_kind != "tool-call":
                                 continue
                             if part.tool_name == "final_result":
-                                new_chunk = part.args[len(args_so_far) :]
+                                if not captured_first_token:
+                                    time_to_first_token = time() - start_time
+                                    captured_first_token = True
+                                new_chunk = part.args[len(args_so_far):]
                                 args_so_far = part.args
                                 parser.parse_incremental(new_chunk)
+
                             # Skip other tool calls here — args are incomplete
                             # during streaming; they are handled in CallToolsNode.
 
@@ -353,6 +370,16 @@ async def run_streaming(user_prompt: str, message_history: list, activities_ref:
                                 _update_activities("Thinking…")
 
         new_messages = agent_run.result.new_messages() if agent_run.result else []
+
+    end_time = time()
+    execution_time = end_time - start_time
+
+    monitoring_service.log_agent_run(
+        agent,
+        agent_run.result,
+        execution_time,
+        time_to_first_token
+    )
 
     _update_activities("Done ✓")
 
@@ -389,8 +416,10 @@ for idx, msg in enumerate(st.session_state.messages):
                 f1, f2 = st.columns(2)
                 if f1.button("👍", key=f"upvote_{idx}"):
                     st.toast("Thanks for the feedback!", icon="👍")
+                    monitoring_service.log_event("feedback", {"feedback": "+1"})
                 if f2.button("👎", key=f"downvote_{idx}"):
                     st.toast("Thanks for the feedback!", icon="👎")
+                    monitoring_service.log_event("feedback", {"feedback": "-1"})
 
 
 # ── Follow-up buttons (only for last assistant message) ─────────────────────
@@ -408,8 +437,7 @@ if last_followups and st.session_state.pending_followup is None:
     cols = st.columns(len(last_followups))
     for col, q in zip(cols, last_followups):
         if col.button(q, key=f"followup_{q[:40]}"):
-            with logfire.attach_context(st.session_state.logfire_context):
-                logfire.info("followup_question_clicked", question=q)
+            monitoring_service.log_event("followup_clicked", {"question": q})
             st.session_state.pending_followup = q
             st.rerun()
 
@@ -456,15 +484,12 @@ if prompt:
                 st.markdown(render_metadata(metadata), unsafe_allow_html=True)
             with feedback_col:
                 f1, f2 = st.columns(2)
-                cur_idx = len(st.session_state.messages)
                 if f1.button("👍", key=f"upvote_live"):
-                    with logfire.attach_context(st.session_state.logfire_context):
-                        logfire.info("user_feedback", feedback=1)
                     st.toast("Thanks for the feedback!", icon="👍")
+                    monitoring_service.log_event("feedback", {"feedback": "+1"})
                 if f2.button("👎", key=f"downvote_live"):
-                    with logfire.attach_context(st.session_state.logfire_context):
-                        logfire.info("user_feedback", feedback=-1)
                     st.toast("Thanks for the feedback!", icon="👎")
+                    monitoring_service.log_event("feedback", {"feedback": "-1"})
 
     # Persist to session
     st.session_state.agent_messages.extend(new_messages)
