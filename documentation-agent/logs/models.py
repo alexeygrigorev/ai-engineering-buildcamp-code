@@ -1,5 +1,5 @@
 from time import time
-from typing import Generic, TypeVar
+from typing import Generic, Optional, TypeVar
 from dataclasses import dataclass
 
 from pydantic import BaseModel
@@ -35,6 +35,7 @@ class LogEvent:
     timestamp: float
     event_type: str
     event_data: dict
+
 
 
 def create_log_record(

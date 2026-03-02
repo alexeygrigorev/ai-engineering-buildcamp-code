@@ -1,8 +1,6 @@
 from uuid import uuid4
 from time import time
-
 from pydantic_ai import Agent, AgentRunResult
-
 from logs.models import LogRecord, LogEvent, create_log_record, T
 
 
@@ -20,6 +18,7 @@ class NoOpStorage(Storage):
 
     def save_event(self, event: LogEvent):
         print(f'not saving event {event}...')
+
 
 
 class MonitoringService:

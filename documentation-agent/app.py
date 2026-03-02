@@ -12,14 +12,15 @@ from doc_agent import DocumentationAgentConfig, create_agent
 from models import RAGResponse
 from tools import create_documentation_tools_cached
 
-from logs.service import NoOpStorage, MonitoringService
+from logs.service import MonitoringService
+from logs.sql import SQLiteStorage
 
 import dotenv
 
 dotenv.load_dotenv()
 
 
-monitoring_storage = NoOpStorage()
+monitoring_storage = SQLiteStorage()
 monitoring_service = MonitoringService(monitoring_storage)
 
 
