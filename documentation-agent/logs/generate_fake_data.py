@@ -11,12 +11,14 @@ Usage:
 
 import argparse
 import json
+import os
 import random
 import time
 from uuid import uuid4
 
 from logs.models import AgentInfo, LogEvent, LogRecord
-from logs.sql import SQLiteStorage
+from logs.sql import get_storage
+from logs.service import Storage
 from pydantic_ai.messages import (
     ModelRequest,
     ModelResponse,
@@ -247,7 +249,7 @@ def generate_fake_evaluation(session_id: str) -> dict:
 # ── Session simulation ────────────────────────────────────────────────────────
 
 
-def simulate_session(storage: SQLiteStorage, rate: float, verbose: bool = True):
+def simulate_session(storage: Storage, rate: float, verbose: bool = True):
     """
     Simulate a single user session:
     1. User asks a question  → LogRecord
@@ -318,8 +320,7 @@ def main():
     parser.add_argument(
         "--db",
         type=str,
-        default="db/logs.db",
-        help="Path to the SQLite database (default: db/logs.db)",
+        help="Path to the database (defaults to DATABASE_URL or db/logs.db)",
     )
     parser.add_argument(
         "--quiet",
@@ -328,7 +329,14 @@ def main():
     )
     args = parser.parse_args()
 
-    storage = SQLiteStorage(db_path=args.db)
+    if args.db:
+        os.environ["DATABASE_URL"] = args.db
+    
+    # If still not set, default to SQLite
+    if not os.getenv("DATABASE_URL"):
+        os.environ["DATABASE_URL"] = "db/logs.db"
+
+    storage = get_storage()
     verbose = not args.quiet
     session_count = 0
 

@@ -83,7 +83,9 @@ if st.sidebar.button("🔄 Refresh"):
 
 # ── Load data ─────────────────────────────────────────────────────────────────
 
-storage = SQLiteStorage()
+from logs.sql import get_storage
+
+storage = get_storage()
 logs = storage.load_logs(period=period)
 events = storage.load_events(period=period)
 

@@ -9,6 +9,7 @@ dependencies = [
     "jaxn>=0.0.5",
     "minsearch>=0.0.9",
     "openai>=2.21.0",
+    "psycopg2-binary>=2.9.11",
     "pydantic-ai>=1.59.0",
     "python-dotenv>=1.2.1",
     "ruff>=0.15.4",

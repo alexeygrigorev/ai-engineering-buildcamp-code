@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 from typing import Optional, Any, List, Union, Tuple
 from sqlalchemy import create_engine, Float, Integer, String, select
@@ -54,10 +55,9 @@ class LogEventRow(Base):
     event_data: Mapped[Optional[str]] = mapped_column(String)  # JSON dict
 
 
-class SQLiteStorage(Storage):
-    def __init__(self, db_path: str = "db/logs.db"):
-        Path(db_path).parent.mkdir(parents=True, exist_ok=True)
-        self.engine = create_engine(f"sqlite:///{db_path}")
+class SQLStorage(Storage):
+    def __init__(self, engine):
+        self.engine = engine
         Base.metadata.create_all(self.engine)
 
         from logs.loaders import SQLLogLoader
@@ -122,3 +122,25 @@ class SQLiteStorage(Storage):
         period: Optional[Union[str, Tuple[Optional[float], Optional[float]]]] = None,
     ) -> List[LogEvent]:
         return self.loader.load_events(event_type=event_type, period=period)
+
+
+class SQLiteStorage(SQLStorage):
+    def __init__(self, db_path: str = "db/logs.db"):
+        Path(db_path).parent.mkdir(parents=True, exist_ok=True)
+        engine = create_engine(f"sqlite:///{db_path}")
+        super().__init__(engine)
+
+
+class PostgresStorage(SQLStorage):
+    def __init__(self, url: str):
+        engine = create_engine(url)
+        super().__init__(engine)
+
+
+def get_storage() -> Storage:
+    database_url = os.getenv("DATABASE_URL")
+    if database_url and database_url.startswith("postgresql"):
+        return PostgresStorage(database_url)
+    
+    db_path = os.getenv("SQLITE_DB_PATH", "db/logs.db")
+    return SQLiteStorage(db_path)

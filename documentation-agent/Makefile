@@ -16,7 +16,16 @@ tests-judge:
 	uv run pytest tests/test_judge.py -n 4
 
 fake-data:
-	uv run python -m logs.generate_fake_data --rate 2
+	DATABASE_URL="postgresql://alexey:admin@localhost:5432/logs" uv run python -m logs.generate_fake_data --rate 2 $(ARGS)
+
+fake-data-sqlite:
+	uv run python -m logs.generate_fake_data --rate 2 --db db/logs.db $(ARGS)
+
+fake-data-docker:
+	docker compose exec streamlit-app uv run python -m logs.generate_fake_data --rate 2 $(ARGS)
+
+diag-db:
+	docker compose exec streamlit-app uv run python diag_db.py
 
 online-judge:
 	uv run python -m logs.judge.main

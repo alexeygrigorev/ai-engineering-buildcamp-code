@@ -1,0 +1,52 @@
+services:
+  postgres:
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: alexey
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: logs
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  streamlit-app:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+    environment:
+      - DATABASE_URL=postgresql://alexey:admin@postgres:5432/logs
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    command: uv run streamlit run app.py --server.port 8501 --server.address 0.0.0.0
+    depends_on:
+      - postgres
+
+  streamlit-dashboard:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8502:8502"
+    environment:
+      - DATABASE_URL=postgresql://alexey:admin@postgres:5432/logs
+    command: uv run streamlit run dashboard.py --server.port 8502 --server.address 0.0.0.0
+    depends_on:
+      - postgres
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - grafana_data:/var/lib/grafana
+
+volumes:
+  postgres_data:
+  grafana_data:

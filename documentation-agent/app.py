@@ -13,14 +13,14 @@ from models import RAGResponse
 from tools import create_documentation_tools_cached
 
 from logs.service import MonitoringService
-from logs.sql import SQLiteStorage
+from logs.sql import get_storage
 
 import dotenv
 
 dotenv.load_dotenv()
 
 
-monitoring_storage = SQLiteStorage()
+monitoring_storage = get_storage()
 monitoring_service = MonitoringService(monitoring_storage)
 
 
