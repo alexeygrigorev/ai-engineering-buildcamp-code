@@ -99,12 +99,18 @@ for l in logs:
 
 # Set of sessions that have feedback events
 sessions_with_feedback: dict[str, list[int]] = {}
+# Dictionary to store evaluation data by session
+evaluations_by_session: dict[str, dict] = {}
+
 for e in events:
     if e.event_type == "user_feedback":
         val = e.event_data.get("feedback", e.event_data.get("value", 0))
         sessions_with_feedback.setdefault(e.session_id, []).append(
             1 if val > 0 else -1
         )
+    elif e.event_type == "evaluation":
+        # We store the latest evaluation for each session
+        evaluations_by_session[e.session_id] = e.event_data
 
 # Build full logs DataFrame
 if logs:
@@ -132,6 +138,8 @@ if logs:
                 "feedback_negative": any(
                     v < 0 for v in sessions_with_feedback.get(l.session_id, [])
                 ),
+                "eval_score": evaluations_by_session.get(l.session_id, {}).get("overall_score"),
+                "eval_cost": evaluations_by_session.get(l.session_id, {}).get("cost", 0.0),
             }
             for i, l in enumerate(logs)
         ]
@@ -152,8 +160,26 @@ if events:
             for e in events
         ]
     ).sort_values("timestamp", ascending=False).reset_index(drop=True)
+    
+    # Pre-process evaluations for charting
+    eval_rows = []
+    for e in events:
+        if e.event_type == "evaluation":
+            data = e.event_data
+            row = {
+                "timestamp": datetime.fromtimestamp(e.timestamp),
+                "session_id": e.session_id,
+                "overall_score": data.get("overall_score", 0),
+                "cost": data.get("cost", 0),
+            }
+            # Flatten criteria
+            for crit in data.get("criteria", []):
+                row[f"crit_{crit['name']}"] = crit.get("score", 0)
+            eval_rows.append(row)
+    df_evals = pd.DataFrame(eval_rows) if eval_rows else pd.DataFrame()
 else:
     df_events = pd.DataFrame()
+    df_evals = pd.DataFrame()
 
 
 # ── Conversation renderer ─────────────────────────────────────────────────────
@@ -318,13 +344,38 @@ def render_session(session_id: str):
                 st.markdown("**Tools:** " + " · ".join(f"`{t}`" for t in ai.tools))
             st.markdown("---")
             
+            # Show evaluation if available
+            eval_data = evaluations_by_session.get(session_id)
+            if eval_data and i == len(session_logs) - 1:
+                with st.expander("⭐ **Judge Evaluation**", expanded=True):
+                    sc1, sc2, sc3 = st.columns([1, 1, 1])
+                    score = eval_data.get('overall_score', 0)
+                    color = "green" if score > 0.8 else "orange" if score > 0.5 else "red"
+                    sc1.metric("Overall Score", f"{score*100:.0f}%", delta=None)
+                    sc2.metric("Eval Cost", f"${eval_data.get('cost', 0):.4f}")
+                    
+                    st.markdown(f"**Summary:** {eval_data.get('summary', 'No summary')}")
+                    
+                    # Criteria table
+                    criteria = eval_data.get('criteria', [])
+                    if criteria:
+                        crit_df = pd.DataFrame(criteria)
+                        # Format criteria table
+                        crit_df['status'] = crit_df['passed'].apply(lambda x: "✅" if x else "❌")
+                        crit_df = crit_df[['status', 'name', 'score', 'reasoning']]
+                        st.table(crit_df)
+                    
+                    if eval_data.get('improvement_suggestions'):
+                        st.info(f"💡 **Suggestions:** {eval_data['improvement_suggestions']}")
+                st.markdown("---")
+            
             render_conversation(log_record.messages, final_output=log_record.output)
 
 
 # ── Tabs ──────────────────────────────────────────────────────────────────────
 
-tab_overview, tab_logs, tab_events, tab_session = st.tabs(
-    ["📊 Overview", "📋 Logs", "🔔 Events", "🔬 Session Explorer"]
+tab_overview, tab_logs, tab_events, tab_evals, tab_session = st.tabs(
+    ["📊 Overview", "📋 Logs", "🔔 Events", "📉 Evaluations", "🔬 Session Explorer"]
 )
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -342,6 +393,21 @@ with tab_overview:
         c4.metric("🛠 Tool Calls", int(df_logs["tool_calls"].sum()))
         c5.metric("⏱ Avg Exec Time", f"{df_logs['execution_time'].mean():.2f}s")
         c6.metric("⚡ Avg TTFT", f"{df_logs['ttft'].mean():.2f}s")
+
+        # Evaluation metrics row
+        st.divider()
+        st.subheader("🤖 Automated Evaluations")
+        e1, e2, e3, e4, _ = st.columns([1, 1, 1, 1, 2])
+        eval_logs = df_logs[df_logs["eval_score"].notnull()]
+        if not eval_logs.empty:
+            avg_score = eval_logs["eval_score"].mean()
+            total_eval_cost = eval_logs["eval_cost"].sum()
+            e1.metric("⭐ Avg Eval Score", f"{avg_score:.2f}")
+            e2.metric("📊 Evaluated", f"{len(eval_logs)} sessions")
+            e3.metric("📈 Coverage", f"{len(eval_logs)/len(df_logs)*100:.0f}%")
+            e4.metric("💸 Eval Cost", f"${total_eval_cost:.4f}")
+        else:
+            st.info("No evaluations found for this period.")
 
         st.divider()
         st.subheader("By model")
@@ -412,21 +478,30 @@ with tab_logs:
         st.caption(f"Showing {len(df_filtered)} of {len(df_logs)} log records")
 
         # ── Table with View buttons ────────────────────────────────────────
-        header = st.columns([2, 2, 2, 1, 1, 1, 1, 1])
-        for h, label in zip(header, ["Timestamp", "Session", "Model", "Tokens", "Cost", "Exec (s)", "Tools", ""]):
+        header = st.columns([2, 1.5, 1.5, 1, 1, 1, 1, 1, 1])
+        for h, label in zip(header, ["Timestamp", "Session", "Model", "Tokens", "Cost", "Exec", "Tools", "Eval", ""]):
             h.markdown(f"**{label}**")
         st.divider()
 
         for _, row in df_filtered.iterrows():
-            cols = st.columns([2, 2, 2, 1, 1, 1, 1, 1])
+            cols = st.columns([2, 1.5, 1.5, 1, 1, 1, 1, 1, 1])
             cols[0].caption(row["timestamp"].strftime("%m-%d %H:%M:%S"))
             cols[1].caption(row["session_id"][:12] + "…")
             cols[2].caption(row["model"].split(":")[-1])
             cols[3].caption(f"{int(row['total_tokens']):,}")
             cols[4].caption(f"${row['cost']:.4f}")
-            cols[5].caption(f"{row['execution_time']:.2f}")
+            cols[5].caption(f"{row['execution_time']:.2f}s")
             cols[6].caption(str(int(row["tool_calls"])))
-            if cols[7].button("�", key=f"view_{row['_idx']}_{row['session_id'][:8]}"):
+            
+            # Eval Score column
+            score = row["eval_score"]
+            if score is not None:
+                color = "green" if score > 0.8 else "orange" if score > 0.5 else "red"
+                cols[7].markdown(f":{color}[**{score:.2f}**]")
+            else:
+                cols[7].caption("—")
+
+            if cols[8].button("🔬", key=f"view_{row['_idx']}_{row['session_id'][:8]}"):
                 st.session_state["selected_session_id"] = row["session_id"]
                 st.toast("✅ Session loaded — open the **Session Explorer** tab", icon="🔬")
 
@@ -486,6 +561,77 @@ with tab_events:
             use_container_width=True,
             hide_index=True,
         )
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# TAB 4 — Evaluations
+# ─────────────────────────────────────────────────────────────────────────────
+with tab_evals:
+    if df_evals.empty:
+        st.info("No evaluations found for the selected period.")
+    else:
+        st.subheader("🤖 Automated Evaluation Quality Trends")
+        
+        # Summary metrics
+        m1, m2, m3, m4 = st.columns(4)
+        m1.metric("Avg Quality Score", f"{df_evals['overall_score'].mean()*100:.1f}%")
+        m2.metric("Evaluations Count", len(df_evals))
+        m3.metric("Total Eval Cost", f"${df_evals['cost'].sum():.4f}")
+        m4.metric("Success Rate (Score > 0.8)", f"{(df_evals['overall_score'] > 0.8).mean()*100:.0f}%")
+        
+        st.divider()
+        
+        # Charts row
+        c1, c2 = st.columns(2)
+        
+        with c1:
+            st.markdown("**Overall Score Distribution**")
+            # Create a histogram using pandas/streamlit
+            hist_df = df_evals['overall_score'].round(1).value_counts().sort_index().reset_index()
+            hist_df.columns = ['score', 'count']
+            st.bar_chart(hist_df.set_index('score'))
+            
+        with c2:
+            st.markdown("**Criteria Performance**")
+            # Average score per criteria
+            crit_cols = [c for c in df_evals.columns if c.startswith("crit_")]
+            if crit_cols:
+                avg_crit = df_evals[crit_cols].mean().reset_index()
+                avg_crit.columns = ['Criterion', 'Average Score']
+                avg_crit['Criterion'] = avg_crit['Criterion'].str.replace("crit_", "")
+                st.bar_chart(avg_crit.set_index('Criterion'))
+            else:
+                st.caption("No individual criteria data available.")
+        
+        st.divider()
+        st.subheader("📋 Recent Evaluations")
+        
+        # Table of evaluations with view buttons
+        eval_display = df_evals.copy()
+        eval_display = eval_display.sort_values("timestamp", ascending=False)
+        
+        header = st.columns([2, 3, 1, 1, 1])
+        header[0].markdown("**Timestamp**")
+        header[1].markdown("**Session ID**")
+        header[2].markdown("**Score**")
+        header[3].markdown("**Cost**")
+        header[4].markdown("")
+        
+        for idx, row in eval_display.head(20).iterrows():
+            cols = st.columns([2, 3, 1, 1, 1])
+            cols[0].caption(row["timestamp"].strftime("%m-%d %H:%M:%S"))
+            cols[1].caption(row["session_id"])
+            
+            score = row["overall_score"]
+            color = "green" if score > 0.8 else "orange" if score > 0.5 else "red"
+            cols[2].markdown(f":{color}[**{score:.2f}**]")
+            cols[3].caption(f"${row['cost']:.4f}")
+            
+            if cols[4].button("🔬 View", key=f"eval_view_{idx}_{row['session_id'][:8]}"):
+                st.session_state["selected_session_id"] = row["session_id"]
+                st.toast("✅ Session loaded — switching to Explorer", icon="🔬")
+                # We can't easily switch tabs from code in Streamlit without query params or a complex session state, 
+                # but setting the ID is enough for the user to click over.
 
 
 # ─────────────────────────────────────────────────────────────────────────────

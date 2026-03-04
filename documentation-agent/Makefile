@@ -1,4 +1,4 @@
-.PHONY: tests run streamlit dashboard fake-data
+.PHONY: tests run streamlit dashboard fake-data online-judge
 
 run:
 	uv run python main.py
@@ -17,3 +17,6 @@ tests-judge:
 
 fake-data:
 	uv run python -m logs.generate_fake_data --rate 2
+
+online-judge:
+	uv run python -m logs.judge.main

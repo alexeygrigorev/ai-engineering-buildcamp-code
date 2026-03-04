@@ -59,6 +59,7 @@ FOLLOW_UPS = [
 ]
 
 ANSWER_TYPES = ["how-to", "explanation", "troubleshooting", "comparison", "reference"]
+CRITERIA_NAMES = ["relevance", "completeness", "groundedness", "reference_quality", "tool_usage", "confidence_calibration", "self_check_consistency"]
 
 DOC_FILES = [
     "docs/monitoring/custom-metrics.md",
@@ -216,6 +217,33 @@ def generate_event(session_id: str, event_type: str, event_data: dict) -> LogEve
     )
 
 
+def generate_fake_evaluation(session_id: str) -> dict:
+    """Generate a realistic evaluation event data dict."""
+    criteria = []
+    total_score = 0
+    for name in CRITERIA_NAMES:
+        passed = random.random() > 0.15
+        score = round(random.uniform(0.7, 1.0) if passed else random.uniform(0.2, 0.6), 2)
+        criteria.append({
+            "name": name,
+            "passed": passed,
+            "score": score,
+            "reasoning": f"Sample reasoning for {name} criterion."
+        })
+        total_score += score
+    
+    overall_score = round(total_score / len(CRITERIA_NAMES), 2)
+    
+    return {
+        "session_id": session_id,
+        "overall_score": overall_score,
+        "criteria": criteria,
+        "summary": "This is a fake evaluation generated for testing the dashboard.",
+        "improvement_suggestions": "Consider providing more direct code examples." if overall_score < 0.8 else None,
+        "cost": round(random.uniform(0.002, 0.008), 6)
+    }
+
+
 # ── Session simulation ────────────────────────────────────────────────────────
 
 
@@ -261,6 +289,11 @@ def simulate_session(storage: SQLiteStorage, rate: float, verbose: bool = True):
     if random.random() > 0.4:
         feedback_value = random.choices([1, -1], weights=[0.75, 0.25])[0]
         emit_event("user_feedback", {"feedback": feedback_value})
+    
+    # Generate an evaluation for most sessions
+    if random.random() > 0.1:
+        eval_data = generate_fake_evaluation(session_id)
+        emit_event("evaluation", eval_data)
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
