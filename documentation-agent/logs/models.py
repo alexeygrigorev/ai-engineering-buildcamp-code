@@ -37,13 +37,12 @@ class LogEvent:
     event_data: dict
 
 
-
 def create_log_record(
     session_id: str,
     agent: Agent,
     run_result: AgentRunResult[T],
     execution_time: float,
-    time_to_first_token: float
+    time_to_first_token: float,
 ) -> LogRecord[T]:
     tools = []
 
@@ -52,13 +51,13 @@ def create_log_record(
 
     provider = agent.model.system
     model_name = agent.model.model_name
-    model = f'{provider}:{model_name}'
+    model = f"{provider}:{model_name}"
 
     agent_info = AgentInfo(
         name=agent.name,
-        instructions='\n'.join(agent._instructions),
+        instructions="\n".join(agent._instructions),
         model=model,
-        tools=tools
+        tools=tools,
     )
 
     return LogRecord(
@@ -69,5 +68,5 @@ def create_log_record(
         usage=run_result.usage(),
         output=run_result.output,
         execution_time=execution_time,
-        time_to_first_token=time_to_first_token
+        time_to_first_token=time_to_first_token,
     )

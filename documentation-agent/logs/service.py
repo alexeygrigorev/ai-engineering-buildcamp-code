@@ -1,5 +1,6 @@
 from uuid import uuid4
 from time import time
+from typing import Optional, List, Union, Tuple
 from pydantic_ai import Agent, AgentRunResult
 from logs.models import LogRecord, LogEvent, create_log_record, T
 
@@ -11,14 +12,26 @@ class Storage:
     def save_event(self, event: LogEvent):
         pass
 
+    def load_logs(
+        self,
+        period: Optional[Union[str, Tuple[Optional[float], Optional[float]]]] = None,
+    ) -> List[LogRecord]:
+        return []
+
+    def load_events(
+        self,
+        event_type: Optional[str] = None,
+        period: Optional[Union[str, Tuple[Optional[float], Optional[float]]]] = None,
+    ) -> List[LogEvent]:
+        return []
+
 
 class NoOpStorage(Storage):
     def save_log(self, log_record: LogRecord):
-        print(f'not saving {log_record}...')
+        print(f"not saving {log_record}...")
 
     def save_event(self, event: LogEvent):
-        print(f'not saving event {event}...')
-
+        print(f"not saving event {event}...")
 
 
 class MonitoringService:
@@ -29,18 +42,15 @@ class MonitoringService:
     def restart_session(self):
         self.session_id = str(uuid4())
 
-    def log_agent_run(self,
+    def log_agent_run(
+        self,
         agent: Agent,
         run_result: AgentRunResult[T],
         execution_time: float,
-        time_to_first_token: float
+        time_to_first_token: float,
     ):
         log_record = create_log_record(
-            self.session_id,
-            agent,
-            run_result,
-            execution_time,
-            time_to_first_token
+            self.session_id, agent, run_result, execution_time, time_to_first_token
         )
         self.storage.save_log(log_record)
 
@@ -49,6 +59,20 @@ class MonitoringService:
             session_id=self.session_id,
             timestamp=time(),
             event_type=event_type,
-            event_data=event_data
+            event_data=event_data,
         )
         self.storage.save_event(event)
+
+    def load_logs(
+        self,
+        period: Optional[Union[str, Tuple[Optional[float], Optional[float]]]] = None,
+    ) -> List[LogRecord]:
+        return self.storage.load_logs(period=period)
+
+    def load_events(
+        self,
+        event_type: Optional[str] = None,
+        period: Optional[Union[str, Tuple[Optional[float], Optional[float]]]] = None,
+    ) -> List[LogEvent]:
+        return self.storage.load_events(event_type=event_type, period=period)
+
