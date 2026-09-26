@@ -87,13 +87,15 @@ WHERE trace_id = '...' AND span_name LIKE 'chat%'
 ORDER BY start_timestamp ASC
 ```
 
-### `agent run` spans (per-agent-run)
+### `invoke_agent` spans (per-agent-run)
 ```sql
 SELECT
     attributes->'pydantic_ai.all_messages' as all_messages
 FROM records
-WHERE trace_id = '...' AND span_name = 'agent run'
+WHERE trace_id = '...' AND span_name LIKE 'invoke_agent %'
 ```
+
+(On older PydanticAI versions this span was called `agent run`.)
 
 Both store messages in OTel format (not PydanticAI native format).
 

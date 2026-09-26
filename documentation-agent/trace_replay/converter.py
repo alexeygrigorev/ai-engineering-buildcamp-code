@@ -44,7 +44,7 @@ def fetch_trace(trace_id: str, client: object) -> TraceData:
             attributes->>'gen_ai.usage.output_tokens' as output_tokens
         FROM records
         WHERE trace_id = '{trace_id}'
-          AND span_name = 'agent run'
+          AND (span_name = 'agent run' OR span_name LIKE 'invoke_agent %')
         ORDER BY start_timestamp DESC
         LIMIT 1
         """
@@ -88,7 +88,7 @@ def fetch_traces(trace_ids: list[str], client: object) -> dict[str, TraceData]:
             attributes->>'gen_ai.usage.output_tokens' as output_tokens
         FROM records
         WHERE trace_id IN ({ids_csv})
-          AND span_name = 'agent run'
+          AND (span_name = 'agent run' OR span_name LIKE 'invoke_agent %')
         ORDER BY start_timestamp DESC
         """
     )
